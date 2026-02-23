@@ -1,12 +1,7 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import { remark } from "remark";
-import remarkGfm from "remark-gfm";
-import remarkRehype from "remark-rehype";
-import rehypeSlug from "rehype-slug";
-import rehypeHighlight from "rehype-highlight";
-import rehypeStringify from "rehype-stringify";
+import { markdownToHtml } from "./markdown";
 import type { BlogPost } from "./types";
 
 const BLOG_DIR = path.join(process.cwd(), "src/content/blog");
@@ -41,14 +36,7 @@ export async function getPost(
   const fileContent = fs.readFileSync(filePath, "utf-8");
   const { data, content } = matter(fileContent);
 
-  const processed = await remark()
-    .use(remarkGfm)
-    .use(remarkRehype)
-    .use(rehypeSlug)
-    .use(rehypeHighlight, { detect: true })
-    .use(rehypeStringify)
-    .process(content);
-  const contentHtml = processed.toString();
+  const contentHtml = await markdownToHtml(content);
 
   const post: BlogPost = {
     slug,
