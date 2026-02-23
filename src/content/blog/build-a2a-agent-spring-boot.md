@@ -1,36 +1,21 @@
 ---
 title: "How to Build an A2A Agent with Spring Boot"
-description: "Step-by-step tutorial to build an A2A-compliant agent in Java using Spring Boot, Spring AI, and the spring-ai-a2a library. From project setup to deployment with working code."
-date: "2026-02-22"
-readingTime: 11
+description: "Build an A2A-compliant agent in Java with Spring Boot, Spring AI, and spring-ai-a2a. Project setup, tool binding, agent executor, remote agent consumption, and Docker deployment."
+date: "2026-02-19"
+readingTime: 10
 tags: ["a2a", "spring-boot", "tutorial", "java"]
 relatedStacks: ["spring-boot-stack"]
 ---
 
-The A2A protocol is not limited to Python. The **Spring AI A2A** library brings full A2A server support to the Java ecosystem, letting you expose any Spring AI agent as an A2A-compliant service with auto-configuration, tool support, and JSON-RPC endpoints — all with the conventions Spring Boot developers expect.
+The **Spring AI A2A** library brings full A2A server support to Java. Auto-configuration, `@Tool` annotation support, JSON-RPC endpoints — all wired up with standard Spring Boot conventions. Drop in the dependency, define a few beans, and your Spring AI agent speaks A2A.
 
-This tutorial walks you through building a Java-based A2A agent from project initialization to deployment.
+We are building a weather assistant agent with tool-calling support, testing it over A2A, and adding remote agent consumption.
 
-## What You'll Build
+## Create the project
 
-A **weather assistant agent** that provides current weather information and forecasts. The agent will:
+You need Java 17+ (21 recommended) and Maven 3.8+.
 
-- Expose an Agent Card at a configurable endpoint
-- Accept A2A tasks via JSON-RPC (`message/send`)
-- Use Spring AI tools for weather data retrieval
-- Run as a standard Spring Boot application
-
-## Prerequisites
-
-- Java 17 or higher (21 recommended)
-- Maven 3.8 or higher
-- An OpenAI API key (or another Spring AI-supported provider)
-- Basic familiarity with Spring Boot and Spring AI
-- curl for testing
-
-## Step 1: Create the Project
-
-Use Spring Initializr or create a Maven project manually. Here is the minimal `pom.xml`:
+`pom.xml`:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -99,9 +84,9 @@ Use Spring Initializr or create a Maven project manually. Here is the minimal `p
 </project>
 ```
 
-## Step 2: Configure Application Properties
+## Configure application properties
 
-Create `src/main/resources/application.yml`:
+`src/main/resources/application.yml`:
 
 ```yaml
 spring:
@@ -128,11 +113,9 @@ a2a:
     max-pool-size: 50
 ```
 
-The `spring.ai.a2a.server.enabled: true` flag activates the A2A auto-configuration. The context path `/a2a` means the JSON-RPC endpoint will be at `http://localhost:8080/a2a` and the Agent Card at `http://localhost:8080/a2a/card`.
+`spring.ai.a2a.server.enabled: true` activates auto-configuration. The `/a2a` context path means the JSON-RPC endpoint lives at `http://localhost:8080/a2a` and the card at `http://localhost:8080/a2a/card`.
 
-## Step 3: Create the Tools Service
-
-Spring AI uses the `@Tool` annotation to define functions the LLM can call. Create a weather tools service:
+## Create the tools service
 
 ```java
 package com.example.weatheragent;
@@ -191,11 +174,9 @@ public class WeatherTools {
 }
 ```
 
-Each `@Tool` method becomes a function the LLM can invoke during a conversation. The descriptions help the LLM decide when to call each tool.
+Each `@Tool` method becomes an LLM-callable function. The `description` and `@ToolParam` annotations give the LLM enough context to decide when and how to call each tool.
 
-## Step 4: Define the Agent Card Bean
-
-Create a configuration class that defines the Agent Card metadata:
+## Define the Agent Card
 
 ```java
 package com.example.weatheragent;
@@ -275,9 +256,9 @@ public class AgentCardConfig {
 }
 ```
 
-## Step 5: Implement the Agent Executor
+## Implement the AgentExecutor
 
-The `AgentExecutor` is the bridge between the A2A protocol layer and your Spring AI logic. Create an executor bean:
+This is the core piece — the bridge between the A2A protocol layer and your Spring AI logic. The executor receives A2A messages, passes them to the `ChatClient`, and returns the response:
 
 ```java
 package com.example.weatheragent;
@@ -319,9 +300,9 @@ public class AgentExecutorConfig {
 }
 ```
 
-The `DefaultAgentExecutor` handles the A2A task lifecycle. The lambda receives each incoming A2A message, passes it to the `ChatClient`, and returns the response. The `ChatClient` automatically invokes the weather tools when the LLM decides it needs weather data.
+`DefaultAgentExecutor` handles the A2A task lifecycle. The lambda extracts text from the incoming A2A message, calls the `ChatClient` (which invokes tools as needed), and returns the result. The `ChatClient` has `weatherTools` registered, so the LLM can call any `@Tool` method during processing.
 
-## Step 6: Create the Application Entry Point
+## Application entry point
 
 ```java
 package com.example.weatheragent;
@@ -338,9 +319,7 @@ public class WeatherAgentApplication {
 }
 ```
 
-## Step 7: Build and Run
-
-Set your API key and start the application:
+## Build and run
 
 ```bash
 export OPENAI_API_KEY="your-api-key-here"
@@ -348,21 +327,13 @@ mvn clean package -DskipTests
 mvn spring-boot:run
 ```
 
-You should see Spring Boot start up with the A2A endpoint registered.
-
-## Step 8: Verify the Agent Card
-
-Fetch the Agent Card:
+## Verify the Agent Card
 
 ```bash
 curl -s http://localhost:8080/a2a/card | python -m json.tool
 ```
 
-You should see the full Agent Card with the name, description, skills, and capabilities you defined in the configuration.
-
-## Step 9: Test with curl
-
-Send a weather request via A2A:
+## Test with curl
 
 ```bash
 curl -X POST http://localhost:8080/a2a \
@@ -385,11 +356,11 @@ curl -X POST http://localhost:8080/a2a \
   }'
 ```
 
-The agent will use the `getCurrentWeather` and `getWeatherForecast` tools, then return a formatted response as an A2A task artifact.
+The agent calls `getCurrentWeather` and `getWeatherForecast`, then returns the formatted response as an A2A task artifact.
 
-## Step 10: Consume a Remote A2A Agent
+## Consume a remote A2A agent
 
-To call another A2A agent from your Spring Boot application, use the A2A Java SDK client. Create a tool that delegates to a remote agent:
+Use the A2A Java SDK client to call other A2A agents. Wrap it as a Spring AI tool so the LLM can delegate tasks:
 
 ```java
 package com.example.weatheragent;
@@ -441,11 +412,9 @@ public class RemoteAgentTools {
 }
 ```
 
-Register this tool service alongside your weather tools so the LLM can delegate travel-related questions to the remote agent while handling weather questions locally.
+Register this alongside `WeatherTools` so the LLM can handle weather locally and delegate travel questions to the remote agent.
 
-## Project Structure
-
-Here is the final project layout:
+## Project structure
 
 ```
 weather-agent/
@@ -463,14 +432,14 @@ weather-agent/
 
 ## Deployment
 
-Package as a standard Spring Boot JAR and deploy:
+Standard Spring Boot JAR:
 
 ```bash
 mvn clean package
 java -jar target/weather-agent-0.1.0.jar
 ```
 
-For containerized deployments:
+Docker:
 
 ```dockerfile
 FROM eclipse-temurin:17-jre
@@ -485,8 +454,4 @@ docker build -t weather-agent .
 docker run -p 8080:8080 -e OPENAI_API_KEY="your-key" weather-agent
 ```
 
-Update the `url` in your Agent Card bean to reflect the production domain before deploying.
-
-## Next Steps
-
-You now have a Spring Boot A2A agent that integrates with the Java ecosystem. For curated Java agent stacks and enterprise-ready configurations, check out [the Spring Boot stack](/stacks/spring-boot-stack) on StackA2A.
+Update the `url` in your Agent Card bean to the production domain before deploying.

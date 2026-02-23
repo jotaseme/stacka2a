@@ -6,7 +6,6 @@
   "category": "framework",
   "agents": [
     "a2a-sample-crewai",
-    "a2a-crewai-hf",
     "opencrew"
   ],
   "difficulty": "intermediate",

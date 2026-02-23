@@ -11,30 +11,30 @@ export function AgentCard({ agent }: AgentCardProps) {
   return (
     <Link
       href={`/agents/${agent.slug}`}
-      className="group flex flex-col gap-3 rounded-2xl border border-border bg-background p-5 transition-all hover:border-accent/30 hover:shadow-sm"
+      className="card-hover group flex flex-col gap-3 rounded-2xl border border-border bg-surface-elevated p-5 transition-all hover:border-accent/30"
     >
       <div className="flex items-start justify-between gap-2">
         <div className="min-w-0 flex-1">
           <h3 className="truncate font-semibold text-text-primary group-hover:text-accent transition-colors">
             {agent.name}
           </h3>
-          <p className="text-xs text-text-secondary">{agent.provider.name}</p>
+          <p className="text-xs text-text-tertiary">{agent.provider.name}</p>
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 shrink-0">
           <QualityScoreBadge agent={agent} size="sm" />
-          <Badge variant="outline">{agent.category}</Badge>
         </div>
       </div>
       <p className="line-clamp-2 text-sm text-text-secondary leading-relaxed">
         {agent.description}
       </p>
-      <div className="flex flex-wrap items-center gap-2 text-xs text-text-secondary">
+      <div className="flex flex-wrap items-center gap-1.5 text-xs text-text-secondary">
         {agent.githubStars > 0 && (
-          <span className="inline-flex items-center gap-1">
+          <span className="inline-flex items-center gap-1 text-text-tertiary">
             <StarIcon />
             {agent.githubStars.toLocaleString()}
           </span>
         )}
+        <Badge variant="outline">{agent.category}</Badge>
         {agent.framework !== "custom" && (
           <Badge variant="outline">{agent.framework}</Badge>
         )}

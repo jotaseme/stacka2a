@@ -7,7 +7,7 @@
     "url": "https://github.com/aws-samples"
   },
   "repository": "https://github.com/aws-samples/sample-agentic-frameworks-on-aws",
-  "category": "utility",
+  "category": "infrastructure",
   "tags": [
     "agentic-ai",
     "arize-phoenix",

@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getAllStacks, getAllAgents } from "@/lib/data";
+import { getAllStacks, getAllAgents, getAgentCategories, getAgentFrameworks, getAgentLanguages } from "@/lib/data";
 import { getAllPosts } from "@/lib/blog";
 
 const BASE_URL = "https://stacka2a.dev";
@@ -18,6 +18,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/tools/agent-card-validator`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/tools/agent-discovery`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/tools/sdk-playground`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/learn`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE_URL}/faq`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.6 },
+    { url: `${BASE_URL}/submit-agent`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.5 },
   ];
 
   const agentPages: MetadataRoute.Sitemap = agents.map((agent) => ({
@@ -63,5 +66,35 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  return [...staticPages, ...agentPages, ...stackPages, ...blogPages, ...comparePages.slice(0, 100)];
+  const categoryPages: MetadataRoute.Sitemap = getAgentCategories().map((cat) => ({
+    url: `${BASE_URL}/agents/category/${cat}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.8,
+  }));
+
+  const frameworkPages: MetadataRoute.Sitemap = getAgentFrameworks().map((fw) => ({
+    url: `${BASE_URL}/agents/framework/${fw}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.8,
+  }));
+
+  const languagePages: MetadataRoute.Sitemap = getAgentLanguages().map((lang) => ({
+    url: `${BASE_URL}/agents/language/${lang}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.8,
+  }));
+
+  return [
+    ...staticPages,
+    ...agentPages,
+    ...stackPages,
+    ...blogPages,
+    ...categoryPages,
+    ...frameworkPages,
+    ...languagePages,
+    ...comparePages.slice(0, 100),
+  ];
 }

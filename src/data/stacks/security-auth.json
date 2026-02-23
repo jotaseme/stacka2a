@@ -9,7 +9,10 @@
     "a2a-sample-magic-8-ball-security",
     "a2a-agents-secure-verification-poc",
     "a2a-sample-signing-and-verifying",
-    "secure-rag-multi-agent"
+    "secure-rag-multi-agent",
+    "a2a-scanner",
+    "ziran",
+    "capiscio-sdk-python"
   ],
   "difficulty": "advanced",
   "blogPost": "secure-a2a-agents-oauth2"

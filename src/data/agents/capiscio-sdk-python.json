@@ -7,7 +7,7 @@
     "url": "https://github.com/capiscio"
   },
   "repository": "https://github.com/capiscio/capiscio-sdk-python",
-  "category": "security",
+  "category": "security-auth",
   "tags": [
     "agent-to-agent",
     "ai-agents",

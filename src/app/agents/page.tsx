@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "A2A Agents Directory",
   description:
     "Browse 250+ A2A protocol agents with quality scores, capability badges, and connection code for Python, TypeScript, Java, Go, and C#.",
+  alternates: { canonical: "https://stacka2a.dev/agents" },
 };
 
 export default function AgentsPage() {
@@ -15,9 +16,12 @@ export default function AgentsPage() {
   const languages = getAgentLanguages();
 
   return (
-    <div className="mx-auto max-w-5xl px-6 py-12">
-      <div className="flex flex-col gap-2 mb-8">
-        <h1 className="text-3xl font-bold tracking-tight text-text-primary">
+    <div className="mx-auto max-w-5xl px-6 py-16">
+      <div className="flex flex-col gap-2 mb-10 animate-fade-up">
+        <p className="text-xs font-semibold uppercase tracking-widest text-accent">
+          Directory
+        </p>
+        <h1 className="text-3xl font-bold tracking-tight text-text-primary sm:text-4xl">
           A2A Agents
         </h1>
         <p className="text-text-secondary">

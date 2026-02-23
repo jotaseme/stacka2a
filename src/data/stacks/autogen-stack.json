@@ -5,7 +5,7 @@
   "icon": "zap",
   "category": "framework",
   "agents": [
-    "a2a-sample-ag2",
+    "ag2",
     "a2a-sample-any-agent-adversarial-multiagent"
   ],
   "difficulty": "advanced"

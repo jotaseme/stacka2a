@@ -45,7 +45,7 @@ export default function Home() {
   const frameworks = new Set(allAgents.filter((a) => a.framework !== "custom").map((a) => a.framework));
 
   const stats = [
-    { value: allAgents.length, label: "A2A agents indexed" },
+    { value: allAgents.length, label: "Agents indexed" },
     { value: allStacks.length, label: "Curated stacks" },
     { value: categories.size, label: "Categories" },
     { value: frameworks.size, label: "Frameworks" },
@@ -58,39 +58,54 @@ export default function Home() {
 
       {/* Featured Stacks */}
       <section className="mx-auto w-full max-w-5xl px-6 py-16">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="text-2xl font-bold tracking-tight text-text-primary">
-            Popular Stacks
-          </h2>
+        <div className="flex items-end justify-between mb-8">
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-widest text-accent mb-1">
+              Curated
+            </p>
+            <h2 className="font-bold text-2xl tracking-tight text-text-primary sm:text-3xl">
+              Popular Stacks
+            </h2>
+          </div>
           <Link
             href="/stacks"
-            className="text-sm font-medium text-accent hover:opacity-80 transition-opacity"
+            className="text-sm font-medium text-text-secondary hover:text-accent transition-colors"
           >
             View all &rarr;
           </Link>
         </div>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {featured.map((stack) =>
-            stack ? <StackCard key={stack.slug} stack={stack} /> : null
+          {featured.map((stack, i) =>
+            stack ? (
+              <div key={stack.slug} className={`animate-fade-up stagger-${i + 1}`}>
+                <StackCard stack={stack} />
+              </div>
+            ) : null
           )}
         </div>
       </section>
 
       {/* Why Curated */}
-      <section className="bg-surface/50 border-y border-border">
-        <div className="mx-auto max-w-5xl px-6 py-16">
-          <h2 className="text-2xl font-bold tracking-tight text-text-primary text-center mb-3">
-            Why StackA2A?
-          </h2>
-          <p className="text-center text-text-secondary mb-10 max-w-xl mx-auto">
-            The A2A ecosystem is growing fast. Most directories are bare lists.
-            We go deeper — scoring quality, testing capabilities, generating
-            connection code.
-          </p>
+      <section className="relative border-y border-border">
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-surface/80 to-background" />
+        <div className="relative mx-auto max-w-5xl px-6 py-20">
+          <div className="text-center mb-12">
+            <p className="text-xs font-semibold uppercase tracking-widest text-accent mb-1">
+              Why us
+            </p>
+            <h2 className="font-bold text-2xl tracking-tight text-text-primary sm:text-3xl mb-3">
+              Why StackA2A?
+            </h2>
+            <p className="text-text-secondary max-w-xl mx-auto leading-relaxed">
+              The A2A ecosystem is growing fast. Most directories are bare lists.
+              We go deeper — scoring quality, testing capabilities, generating
+              connection code.
+            </p>
+          </div>
           <div className="grid gap-8 sm:grid-cols-3">
-            {whyCurated.map((item) => (
-              <div key={item.title} className="flex flex-col gap-3">
-                <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-accent/10 text-accent">
+            {whyCurated.map((item, i) => (
+              <div key={item.title} className={`animate-fade-up stagger-${i + 1} flex flex-col gap-4 rounded-2xl border border-border bg-surface-elevated p-6`}>
+                <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-accent/10 text-accent">
                   <item.icon />
                 </span>
                 <h3 className="text-lg font-semibold text-text-primary">
@@ -109,20 +124,24 @@ export default function Home() {
       <StatsSection stats={stats} />
 
       {/* Bottom CTA */}
-      <section className="border-t border-border bg-surface/50">
-        <div className="mx-auto flex max-w-3xl flex-col items-center gap-4 px-6 py-16 text-center">
-          <h2 className="text-2xl font-bold tracking-tight text-text-primary">
+      <section className="border-t border-border">
+        <div className="relative mx-auto flex max-w-3xl flex-col items-center gap-5 px-6 py-20 text-center">
+          <div className="pointer-events-none absolute inset-0 -z-10">
+            <div className="absolute bottom-0 left-1/2 -translate-x-1/2 h-[300px] w-[600px] rounded-full bg-accent/5 blur-3xl" />
+          </div>
+          <h2 className="font-bold text-2xl tracking-tight text-text-primary sm:text-3xl">
             Ready to discover A2A agents?
           </h2>
-          <p className="text-text-secondary">
+          <p className="text-text-secondary max-w-md leading-relaxed">
             Browse quality-scored agents and connect them to your applications
             in seconds.
           </p>
           <Link
             href="/agents"
-            className="rounded-xl bg-accent px-6 py-2.5 text-sm font-medium text-white transition-colors hover:bg-accent-hover"
+            className="group rounded-xl bg-accent px-7 py-3 text-sm font-semibold text-white transition-all hover:bg-accent-hover hover:shadow-lg hover:shadow-accent/20"
           >
             Browse Agents
+            <span className="ml-1.5 inline-block transition-transform group-hover:translate-x-0.5">&rarr;</span>
           </Link>
         </div>
       </section>

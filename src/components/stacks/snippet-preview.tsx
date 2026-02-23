@@ -33,14 +33,14 @@ export function SnippetPreview({ agent }: SnippetPreviewProps) {
   return (
     <div className="flex flex-col gap-3">
       {/* SDK Tabs */}
-      <div className="flex gap-1 rounded-xl bg-surface p-1">
+      <div className="flex gap-1 rounded-xl bg-surface border border-border p-1">
         {sdks.map((sdk) => (
           <button
             key={sdk.id}
             onClick={() => setActiveSdk(sdk.id)}
             className={`flex-1 rounded-lg px-3 py-1.5 text-xs font-medium transition-all ${
               activeSdk === sdk.id
-                ? "bg-background text-text-primary shadow-sm"
+                ? "bg-surface-elevated text-text-primary shadow-sm"
                 : "text-text-secondary hover:text-text-primary"
             }`}
           >
@@ -56,12 +56,12 @@ export function SnippetPreview({ agent }: SnippetPreviewProps) {
       </div>
 
       {/* Code snippet */}
-      <div className="relative rounded-xl bg-code-bg border border-[#2a2a2a] overflow-hidden">
-        <div className="flex items-center justify-between border-b border-[#2a2a2a] px-4 py-2">
-          <span className="text-xs text-code-text/50">{language}</span>
+      <div className="relative rounded-xl bg-code-bg border border-[#2a2a3e] overflow-hidden">
+        <div className="flex items-center justify-between border-b border-[#2a2a3e] px-4 py-2">
+          <span className="text-xs text-code-text/40 font-mono">{language}</span>
           <button
             onClick={handleCopy}
-            className="text-xs text-code-text/50 hover:text-code-text transition-colors"
+            className="text-xs text-code-text/40 hover:text-code-text transition-colors font-medium"
           >
             {copied ? "Copied!" : "Copy"}
           </button>

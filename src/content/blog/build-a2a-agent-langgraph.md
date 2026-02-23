@@ -1,35 +1,19 @@
 ---
 title: "How to Build an A2A Agent with LangGraph"
-description: "Step-by-step tutorial to build an A2A-compliant agent using LangGraph. Set up a state graph, expose it via the A2A endpoint, and test inter-agent communication."
-date: "2026-02-22"
-readingTime: 10
+description: "Build an A2A-compliant agent using LangGraph. State graph setup, automatic A2A endpoint exposure, streaming, multi-turn conversations, and agent-to-agent communication."
+date: "2026-02-14"
+readingTime: 8
 tags: ["a2a", "langgraph", "tutorial", "python"]
 relatedStacks: ["langgraph-stack"]
 ---
 
-**LangGraph** provides native A2A support through its platform server. Every LangGraph assistant automatically gets an A2A endpoint at `/a2a/{assistant_id}`, with an auto-generated Agent Card that other agents can discover. This makes LangGraph one of the most straightforward ways to build agents that participate in the A2A ecosystem.
+**LangGraph gives you A2A for free.** Every LangGraph assistant automatically gets an A2A endpoint at `/a2a/{assistant_id}` with an auto-generated Agent Card. No adapter layer, no protocol wiring. Define your state graph, start the platform server, and your agent is discoverable and callable by any A2A client.
 
-This tutorial walks you through building a LangGraph agent from scratch, exposing it via A2A, and testing it with both curl and a remote consumer agent.
+We are building a data analysis agent with tool-calling support, then testing it over A2A with curl and a consumer script.
 
-## What You'll Build
+## Install dependencies
 
-A **data analysis agent** that can process questions about datasets, generate insights, and return structured results. The agent will:
-
-- Run as a LangGraph state graph with tool-calling support
-- Expose an A2A endpoint with automatic Agent Card generation
-- Handle both synchronous and streaming A2A requests
-- Maintain conversation context across multi-turn A2A interactions
-
-## Prerequisites
-
-- Python 3.10 or higher
-- An OpenAI API key (or any LangChain-compatible LLM provider)
-- Familiarity with LangChain and graph-based agent patterns
-- pip or uv package manager
-
-## Step 1: Install Dependencies
-
-Create a project and install LangGraph with A2A support:
+You need Python 3.10+ and an OpenAI API key (or any LangChain-compatible provider).
 
 ```bash
 mkdir data-analysis-agent && cd data-analysis-agent
@@ -38,15 +22,13 @@ source .venv/bin/activate
 pip install "langgraph-api>=0.4.21" langgraph langchain-openai
 ```
 
-Set your API key:
-
 ```bash
 export OPENAI_API_KEY="your-api-key-here"
 ```
 
-## Step 2: Define the State Graph
+## Define the state graph
 
-LangGraph agents are built as state graphs — directed graphs where nodes represent processing steps and edges define the flow. Create a file called `agent.py`:
+LangGraph agents are directed state graphs — nodes are processing steps, edges define control flow. Create `agent.py`:
 
 ```python
 # agent.py
@@ -170,11 +152,11 @@ graph_builder.add_edge("tools", "agent")
 graph = graph_builder.compile()
 ```
 
-This graph follows the standard ReAct pattern: the agent node calls the LLM, which may decide to invoke tools. If tools are called, the results feed back into the agent for a final response.
+Standard ReAct pattern: agent calls the LLM, LLM optionally invokes tools, tool results feed back for a final response.
 
-## Step 3: Configure LangGraph Server
+## Configure the LangGraph server
 
-Create a `langgraph.json` configuration file in your project root:
+Create `langgraph.json` in your project root:
 
 ```json
 {
@@ -185,27 +167,21 @@ Create a `langgraph.json` configuration file in your project root:
 }
 ```
 
-This tells the LangGraph server where to find your graph and what assistant ID to assign it. The A2A endpoint will be available at `/a2a/data_analyst`.
+The assistant ID `data_analyst` becomes the A2A endpoint path: `/a2a/data_analyst`.
 
-## Step 4: Run the LangGraph Server
-
-Start the development server:
+## Start the server
 
 ```bash
 langgraph dev
 ```
 
-The server will start on `http://localhost:2024` by default. You should see output confirming the server is ready and the A2A endpoint is active.
+Starts on `http://localhost:2024` by default. The A2A endpoint is immediately active.
 
-## Step 5: Verify the Agent Card
-
-Fetch the auto-generated Agent Card:
+## Verify the Agent Card
 
 ```bash
 curl -s "http://localhost:2024/.well-known/agent-card.json?assistant_id=data_analyst" | python -m json.tool
 ```
-
-The response will describe your agent's capabilities:
 
 ```json
 {
@@ -223,9 +199,7 @@ The response will describe your agent's capabilities:
 }
 ```
 
-## Step 6: Test with message/send
-
-Send a synchronous request to the A2A endpoint:
+## Test with message/send
 
 ```bash
 curl -X POST http://localhost:2024/a2a/data_analyst \
@@ -248,11 +222,9 @@ curl -X POST http://localhost:2024/a2a/data_analyst \
   }'
 ```
 
-The agent will use the `calculate_statistics` tool and return results in the A2A task format.
+The agent uses `calculate_statistics` and returns results in the A2A task format.
 
-## Step 7: Test Streaming
-
-For real-time responses, use the `message/stream` method:
+## Test streaming
 
 ```bash
 curl -X POST http://localhost:2024/a2a/data_analyst \
@@ -276,11 +248,11 @@ curl -X POST http://localhost:2024/a2a/data_analyst \
   }'
 ```
 
-You will see SSE events stream back as the agent processes the request, including intermediate tool calls and the final response.
+SSE events stream back including intermediate tool calls and the final response.
 
-## Step 8: Multi-Turn Conversations
+## Multi-turn conversations
 
-A2A supports multi-turn conversations using `contextId` and `taskId`. After your first request, the response includes these IDs. Include them in subsequent requests to maintain conversation context:
+A2A supports multi-turn via `contextId` and `taskId`. After your first request, the response includes these IDs. Include them in follow-up requests:
 
 ```bash
 curl -X POST http://localhost:2024/a2a/data_analyst \
@@ -305,11 +277,11 @@ curl -X POST http://localhost:2024/a2a/data_analyst \
   }'
 ```
 
-LangGraph maps `contextId` to its internal `thread_id`, so the agent has full access to the conversation history from the first request.
+LangGraph maps `contextId` to its internal `thread_id`, so conversation history carries over automatically.
 
-## Step 9: Consuming the Agent from Another Agent
+## Consume from another agent
 
-To connect your LangGraph agent to another A2A agent, you can use the A2A Python SDK as a client. Here is a minimal consumer:
+A minimal A2A client using `httpx`:
 
 ```python
 # consumer.py
@@ -348,39 +320,19 @@ if __name__ == "__main__":
     print(json.dumps(result, indent=2))
 ```
 
-Run it while your LangGraph server is running:
-
 ```bash
 python consumer.py
 ```
 
-## Step 10: Disabling A2A
-
-If you need to disable the A2A endpoint for a specific deployment, set the flag in `langgraph.json`:
-
-```json
-{
-  "dependencies": ["."],
-  "graphs": {
-    "data_analyst": "./agent.py:graph"
-  },
-  "http": {
-    "disable_a2a": true
-  }
-}
-```
+> To disable A2A on a deployment, set `"http": {"disable_a2a": true}` in `langgraph.json`.
 
 ## Deployment
 
-For production, deploy your LangGraph agent using the LangGraph CLI:
+Build and run with the LangGraph CLI:
 
 ```bash
 langgraph build -t my-agent:latest
 langgraph up
 ```
 
-This creates a Docker container with your agent and all dependencies. The A2A endpoint will be available at the same path, and you should update your Agent Card's `url` field to reflect the production domain.
-
-## Next Steps
-
-You now have a LangGraph agent that speaks A2A. For curated agent stacks and pre-built configurations using LangGraph, explore [the LangGraph stack](/stacks/langgraph-stack) on StackA2A.
+This creates a Docker container with your agent. The A2A endpoint is available at the same path — update the Agent Card `url` to your production domain.

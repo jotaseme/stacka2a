@@ -1,0 +1,15 @@
+{
+  "slug": "pydantic-ai-stack",
+  "name": "Pydantic AI Agents",
+  "description": "A2A agents built with PydanticAI and FastA2A for type-safe, production-grade agent servers with minimal boilerplate.",
+  "icon": "sparkles",
+  "category": "framework",
+  "agents": [
+    "pydantic-fasta2a",
+    "code-agent",
+    "data-agent",
+    "research-agent",
+    "planning-agent"
+  ],
+  "difficulty": "intermediate"
+}

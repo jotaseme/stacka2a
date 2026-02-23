@@ -1,35 +1,19 @@
 ---
 title: "How to Build an A2A Agent with Google ADK"
-description: "Step-by-step tutorial to build, expose, and test an A2A-compliant agent using Google's Agent Development Kit (ADK). From installation to deployment with working code examples."
-date: "2026-02-22"
-readingTime: 10
+description: "Build, expose, and test an A2A-compliant agent using Google's Agent Development Kit. Working code from agent definition to consumer agent."
+date: "2026-02-12"
+readingTime: 8
 tags: ["a2a", "google-adk", "tutorial", "python"]
 relatedStacks: ["google-adk-stack"]
 ---
 
-Google's **Agent Development Kit (ADK)** is the fastest way to build an A2A-compliant agent. The ADK provides a `to_a2a()` function that takes your existing agent and exposes it as a fully functional A2A server — complete with auto-generated Agent Card, JSON-RPC endpoints, and streaming support.
+Google's **Agent Development Kit (ADK)** ships a `to_a2a()` function that wraps any ADK agent into a full A2A server — Agent Card, JSON-RPC endpoints, SSE streaming. One function call, zero boilerplate.
 
-This tutorial walks you through building a working A2A agent from scratch, testing it locally, and verifying it with curl.
+We are building a research assistant agent, exposing it over A2A, and wiring up a second agent that consumes it.
 
-## What You'll Build
+## Install Google ADK
 
-A **research assistant agent** that can summarize topics, answer questions, and provide structured analysis. The agent will:
-
-- Expose an Agent Card at `/.well-known/agent-card.json`
-- Accept tasks via the A2A `message/send` and `message/stream` endpoints
-- Support streaming responses via SSE
-- Be testable with curl and the ADK web UI
-
-## Prerequisites
-
-- Python 3.12 or higher (3.13 recommended)
-- A Google AI API key (for Gemini) or another supported LLM provider
-- Basic familiarity with Python async programming
-- pip or uv package manager
-
-## Step 1: Install Google ADK
-
-Create a new project directory and install the ADK with A2A support:
+You need Python 3.12+ and a Google AI API key for Gemini.
 
 ```bash
 mkdir research-agent && cd research-agent
@@ -38,17 +22,11 @@ source .venv/bin/activate
 pip install "google-adk[a2a]"
 ```
 
-The `[a2a]` extra installs the A2A Python SDK and the dependencies needed to expose your agent as an A2A server.
-
-Set your API key as an environment variable:
-
 ```bash
 export GOOGLE_API_KEY="your-api-key-here"
 ```
 
-## Step 2: Create the Agent
-
-Create a file called `agent.py` with your agent definition. The ADK uses a declarative approach where you define your agent's model, instructions, and tools:
+## Define the agent
 
 ```python
 # agent.py
@@ -70,11 +48,9 @@ Keep responses focused and concise — aim for 200-400 words unless more detail 
 )
 ```
 
-The `name` and `description` fields are important — the ADK uses them to auto-generate the Agent Card that other agents and clients will use to discover your agent.
+The `name` and `description` feed directly into the auto-generated Agent Card.
 
-## Step 3: Expose the Agent via A2A
-
-Now add the A2A exposure. The `to_a2a()` function wraps your agent in an ASGI application that implements the full A2A protocol:
+## Expose via A2A
 
 ```python
 # agent.py
@@ -100,39 +76,19 @@ Keep responses focused and concise — aim for 200-400 words unless more detail 
 a2a_app = to_a2a(research_agent, port=8001)
 ```
 
-That single `to_a2a()` call does the heavy lifting. It:
+`to_a2a()` returns a uvicorn-compatible ASGI app. It generates the Agent Card from your agent metadata, creates JSON-RPC handlers for `message/send` and `message/stream`, and serves the card at `/.well-known/agent-card.json`.
 
-- Generates an Agent Card from your agent's name, description, and capabilities
-- Creates JSON-RPC handlers for `message/send` and `message/stream`
-- Serves the Agent Card at `/.well-known/agent-card.json`
-- Returns a uvicorn-compatible ASGI application
-
-## Step 4: Run the Agent Server
-
-Start the agent with uvicorn:
+## Run the server
 
 ```bash
 uvicorn agent:a2a_app --host localhost --port 8001
 ```
 
-You should see output like:
-
-```
-INFO:     Started server process
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-INFO:     Uvicorn running on http://localhost:8001
-```
-
-## Step 5: Verify the Agent Card
-
-In a separate terminal, fetch the auto-generated Agent Card:
+## Verify the Agent Card
 
 ```bash
 curl -s http://localhost:8001/.well-known/agent-card.json | python -m json.tool
 ```
-
-You should see a JSON response like:
 
 ```json
 {
@@ -156,11 +112,7 @@ You should see a JSON response like:
 }
 ```
 
-The ADK auto-extracts the skills and metadata from your agent definition. You can customize this later.
-
-## Step 6: Test with curl
-
-Send a task to your agent using the A2A `message/send` JSON-RPC method:
+## Test with curl
 
 ```bash
 curl -X POST http://localhost:8001/ \
@@ -183,7 +135,7 @@ curl -X POST http://localhost:8001/ \
   }'
 ```
 
-The response will include a task object with the agent's output:
+Response:
 
 ```json
 {
@@ -208,9 +160,7 @@ The response will include a task object with the agent's output:
 }
 ```
 
-## Step 7: Test Streaming
-
-To test streaming via SSE, use the `message/stream` method:
+## Test streaming
 
 ```bash
 curl -X POST http://localhost:8001/ \
@@ -234,11 +184,11 @@ curl -X POST http://localhost:8001/ \
   }'
 ```
 
-You will see SSE events streamed back as the agent generates its response, with each event containing a partial update to the task.
+SSE events stream back as the agent generates its response, each containing a partial task update.
 
-## Step 8: Customize the Agent Card
+## Customize the Agent Card
 
-The auto-generated card works for development, but production agents should have a customized card with detailed skill descriptions and examples. Pass a custom `AgentCard` to `to_a2a()`:
+The auto-generated card works for development. For production, pass a custom `AgentCard` with explicit skills and examples:
 
 ```python
 from a2a.types import AgentCard, AgentSkill, AgentCapabilities
@@ -282,9 +232,11 @@ custom_card = AgentCard(
 a2a_app = to_a2a(research_agent, port=8001, agent_card=custom_card)
 ```
 
-## Step 9: Add Tools to the Agent
+Custom skills with `examples` and `tags` make your agent discoverable by other agents that match tasks to skills programmatically.
 
-ADK agents become more powerful with tools. Here is an example adding a simple tool that the agent can call:
+## Add tools
+
+ADK converts Python functions with type hints and docstrings into LLM-callable tools automatically:
 
 ```python
 from google.adk import Agent
@@ -311,11 +263,11 @@ research_agent = Agent(
 )
 ```
 
-The ADK automatically converts Python functions with type hints and docstrings into tools that the LLM can call. The tool's parameters, types, and descriptions are all extracted from the function signature and docstring.
+Parameters, types, and descriptions are extracted from the function signature and docstring. No schema definition needed.
 
-## Step 10: Create a Consumer Agent
+## Create a consumer agent
 
-To test agent-to-agent communication, create a second agent that consumes your research agent using `RemoteA2aAgent`:
+This is where A2A pays off. A second agent can consume your research agent using `RemoteA2aAgent` — no HTTP client code, no response parsing:
 
 ```python
 # consumer.py
@@ -337,17 +289,17 @@ coordinator = Agent(
 )
 ```
 
-Run this consumer agent with the ADK web UI:
+Run it with the ADK web UI:
 
 ```bash
 adk web .
 ```
 
-Then open `http://localhost:8000` to interact with the coordinator, which will delegate research tasks to your remote A2A agent running on port 8001.
+Open `http://localhost:8000`. The coordinator delegates research to your A2A agent on port 8001 transparently.
 
 ## Deployment
 
-For production deployment, you can run the agent behind any ASGI-compatible server. A typical setup with gunicorn:
+Run behind any ASGI server. With gunicorn:
 
 ```bash
 pip install gunicorn uvicorn
@@ -355,8 +307,4 @@ gunicorn agent:a2a_app -w 4 -k uvicorn.workers.UvicornWorker \
   --bind 0.0.0.0:8001
 ```
 
-Make sure to update the `url` in your Agent Card to reflect your production domain.
-
-## Next Steps
-
-You now have a working A2A agent built with Google ADK. To explore curated agents and production-ready stacks built on ADK, check out [the Google ADK stack](/stacks/google-adk-stack) on StackA2A.
+Update the `url` in your Agent Card to the production domain.

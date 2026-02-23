@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAllAgents, getAgent, getStacksForAgent } from "@/lib/data";
 import { AgentDetail } from "@/components/agents/agent-detail";
+import { Breadcrumbs } from "@/components/ui/breadcrumbs";
 import { fetchReadme } from "@/lib/github";
 import { markdownToHtml } from "@/lib/markdown";
 
@@ -21,6 +22,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: `${agent.name} — A2A Agent`,
     description: agent.description,
+    alternates: { canonical: `https://stacka2a.dev/agents/${slug}` },
   };
 }
 
@@ -64,6 +66,13 @@ export default async function AgentPage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <div className="mx-auto max-w-3xl px-6 pt-8">
+        <Breadcrumbs items={[
+          { label: "Home", href: "/" },
+          { label: "Agents", href: "/agents" },
+          { label: agent.name },
+        ]} />
+      </div>
       <AgentDetail agent={agent} stacks={stacks} readmeHtml={readmeHtml} />
     </>
   );

@@ -1,0 +1,35 @@
+{
+  "slug": "trpc-a2a-go",
+  "name": "tRPC A2A Go",
+  "description": "Go implementation for A2A (Agent2Agent) protocol by Tencent's tRPC group. Includes JWT/API Key/OAuth2 auth, streaming, and Redis task store.",
+  "provider": {
+    "name": "trpc-group",
+    "url": "https://github.com/trpc-group"
+  },
+  "repository": "https://github.com/trpc-group/trpc-a2a-go",
+  "category": "utility",
+  "tags": [
+    "go",
+    "a2a-sdk",
+    "tencent",
+    "grpc"
+  ],
+  "framework": "custom",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 221,
+  "lastUpdated": "2026-02-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "agentstack-healthcare",
+  "name": "AgentStack HealthcareAgent",
+  "description": "Multi-agent healthcare system on IBM's Agent Stack. Features a HealthcareAgent (orchestrator), PolicyAgent (insurance coverage from PDF), ProviderAgent (doctor lookup via MCP), and ResearchAgent (web health research). Agents communicate via the A2A protocol.",
+  "provider": { "name": "sandijean90", "url": "https://github.com/sandijean90" },
+  "repository": "https://github.com/sandijean90/AgentStack-HealthcareAgent",
+  "category": "healthcare",
+  "tags": [
+    "healthcare",
+    "multi-agent",
+    "insurance",
+    "medical",
+    "ibm-agent-stack"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [
+    { "id": "insurance-coverage", "name": "Insurance Coverage Analysis", "description": "Analyze insurance policy documents to determine coverage eligibility.", "tags": ["insurance", "pdf-analysis"] },
+    { "id": "doctor-lookup", "name": "Doctor Lookup", "description": "Find healthcare providers via MCP-powered directory search.", "tags": ["healthcare", "mcp"] },
+    { "id": "health-research", "name": "Health Research", "description": "Research health topics and medical information from web sources.", "tags": ["research", "medical"] },
+    { "id": "patient-assistance", "name": "Patient Assistance", "description": "Orchestrate multi-agent workflows for patient health inquiries.", "tags": ["orchestration", "patient-care"] }
+  ],
+  "capabilities": { "streaming": false, "pushNotifications": false, "multiTurn": false },
+  "authType": "none",
+  "githubStars": 28,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT",
+  "sdks": ["python"]
+}

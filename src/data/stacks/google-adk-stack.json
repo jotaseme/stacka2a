@@ -5,7 +5,6 @@
   "icon": "robot",
   "category": "framework",
   "agents": [
-    "adk-a2a",
     "a2a-sample-adk-expense-reimbursement",
     "a2a-sample-adk-facts",
     "a2a-sample-birthday-planner-adk",

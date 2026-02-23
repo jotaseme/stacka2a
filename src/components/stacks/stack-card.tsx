@@ -10,18 +10,18 @@ export function StackCard({ stack }: StackCardProps) {
   return (
     <Link
       href={`/stacks/${stack.slug}`}
-      className="group flex flex-col gap-3 rounded-2xl border border-border bg-background p-5 transition-all hover:border-accent/30 hover:shadow-sm"
+      className="card-hover group flex flex-col gap-3 rounded-2xl border border-border bg-surface-elevated p-5 transition-all hover:border-accent/30"
     >
       <div className="flex items-start justify-between gap-2">
         <div className="flex items-center gap-3">
-          <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-accent-soft text-lg">
+          <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-accent/8 text-lg">
             {getStackEmoji(stack.icon)}
           </span>
           <div>
             <h3 className="font-semibold text-text-primary group-hover:text-accent transition-colors">
               {stack.name}
             </h3>
-            <p className="text-xs text-text-secondary">
+            <p className="text-xs text-text-tertiary">
               {stack.agents.length} agents
             </p>
           </div>

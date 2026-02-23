@@ -13,15 +13,15 @@ export function QualityScoreBadge({ agent, size = "sm" }: QualityScoreBadgeProps
 
   const color =
     rounded >= 70
-      ? "bg-emerald-50 text-emerald-700"
+      ? "bg-emerald-50 text-emerald-700 border-emerald-200"
       : rounded >= 40
-        ? "bg-amber-50 text-amber-700"
-        : "bg-red-50 text-red-700";
+        ? "bg-amber-50 text-amber-700 border-amber-200"
+        : "bg-stone-50 text-stone-500 border-stone-200";
 
   return (
     <span
       className={cn(
-        "inline-flex items-center font-semibold tabular-nums",
+        "inline-flex items-center font-bold tabular-nums border",
         size === "sm" && "rounded-md px-1.5 py-0.5 text-xs",
         size === "lg" && "rounded-lg px-2.5 py-1 text-sm",
         color

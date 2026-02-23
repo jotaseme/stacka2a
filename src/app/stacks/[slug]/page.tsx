@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAllStacks, getStackWithAgents } from "@/lib/data";
 import { StackDetail } from "@/components/stacks/stack-detail";
+import { Breadcrumbs } from "@/components/ui/breadcrumbs";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -19,6 +20,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: data.stack.name,
     description: data.stack.description,
+    alternates: { canonical: `https://stacka2a.dev/stacks/${slug}` },
   };
 }
 
@@ -58,6 +60,13 @@ export default async function StackPage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <div className="mx-auto max-w-3xl px-6 pt-8">
+        <Breadcrumbs items={[
+          { label: "Home", href: "/" },
+          { label: "Stacks", href: "/stacks" },
+          { label: data.stack.name },
+        ]} />
+      </div>
       <StackDetail stack={data.stack} agents={data.agents} />
     </>
   );

@@ -69,52 +69,101 @@ const categoryLabels: Record<string, string> = {
   "security-auth": "Security & Auth",
   utility: "Utility",
   finance: "Finance",
+  orchestration: "Orchestration",
+  "content-creation": "Content Creation",
+  communication: "Communication",
 };
+
+function ScoreIndicator({ score }: { score: number }) {
+  const color =
+    score >= 70
+      ? "text-emerald-600 bg-emerald-50 border-emerald-200"
+      : score >= 50
+        ? "text-amber-600 bg-amber-50 border-amber-200"
+        : "text-stone-500 bg-stone-50 border-stone-200";
+
+  return (
+    <span className={`inline-flex items-center justify-center rounded-full border px-2 py-0.5 text-xs font-bold tabular-nums ${color}`}>
+      {score}
+    </span>
+  );
+}
 
 export default function ComparePage() {
   const groups = getTopComparisons();
 
   return (
-    <div className="mx-auto max-w-5xl px-6 py-12">
-      <div className="mb-10 flex flex-col gap-2">
-        <h1 className="text-3xl font-bold tracking-tight text-text-primary">
-          Compare A2A Agents
+    <div className="mx-auto max-w-5xl px-6 py-16">
+      {/* Page header */}
+      <div className="mb-12 animate-fade-up">
+        <p className="text-xs font-semibold uppercase tracking-widest text-accent mb-3">
+          Compare
+        </p>
+        <h1 className="text-4xl font-bold tracking-tight text-text-primary sm:text-5xl">
+          Agent vs Agent
         </h1>
-        <p className="text-text-secondary">
-          Side-by-side comparisons of top agents in each category.
+        <p className="mt-3 max-w-lg text-text-secondary leading-relaxed">
+          Side-by-side comparisons of the top-scoring agents in each category.
+          Pick a matchup to see the full breakdown.
         </p>
       </div>
 
-      <div className="flex flex-col gap-10">
-        {groups.map((group) => (
-          <section key={group.category}>
-            <h2 className="mb-4 text-lg font-semibold text-text-primary">
-              {categoryLabels[group.category] || group.category}
-            </h2>
+      {/* Category groups */}
+      <div className="flex flex-col gap-12">
+        {groups.map((group, gi) => (
+          <section
+            key={group.category}
+            className={`animate-fade-up stagger-${Math.min(gi + 1, 6)}`}
+          >
+            <div className="mb-4 flex items-center gap-3">
+              <h2 className="text-sm font-semibold uppercase tracking-wider text-text-secondary">
+                {categoryLabels[group.category] || group.category}
+              </h2>
+              <div className="h-px flex-1 bg-border" />
+            </div>
+
             <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {group.pairs.map(({ a, b, scoreA, scoreB }) => (
                 <Link
                   key={`${a.slug}-vs-${b.slug}`}
                   href={`/compare/${a.slug}-vs-${b.slug}`}
-                  className="group flex items-center gap-3 rounded-xl border border-border bg-white p-4 transition-all hover:border-accent/30 hover:shadow-sm"
+                  className="card-hover group relative flex flex-col rounded-2xl border border-border bg-surface-elevated p-5 transition-all hover:border-accent/30"
                 >
-                  <div className="flex min-w-0 flex-1 flex-col gap-1">
-                    <span className="truncate text-sm font-medium text-text-primary group-hover:text-accent">
-                      {a.name}
-                    </span>
-                    <span className="text-xs text-text-secondary">
-                      Score: {scoreA}
-                    </span>
+                  {/* Agent A */}
+                  <div className="flex items-center justify-between gap-2">
+                    <div className="min-w-0 flex-1">
+                      <p className="truncate text-sm font-semibold text-text-primary group-hover:text-accent transition-colors">
+                        {a.name}
+                      </p>
+                      <p className="text-xs text-text-tertiary mt-0.5">{a.provider.name}</p>
+                    </div>
+                    <ScoreIndicator score={scoreA} />
                   </div>
-                  <span className="shrink-0 rounded-md bg-surface px-2 py-0.5 text-xs font-semibold text-text-secondary">
-                    vs
-                  </span>
-                  <div className="flex min-w-0 flex-1 flex-col items-end gap-1">
-                    <span className="truncate text-sm font-medium text-text-primary group-hover:text-accent">
-                      {b.name}
+
+                  {/* Divider */}
+                  <div className="my-3 flex items-center gap-2">
+                    <div className="h-px flex-1 bg-border" />
+                    <span className="rounded-md bg-surface px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-text-tertiary">
+                      vs
                     </span>
-                    <span className="text-xs text-text-secondary">
-                      Score: {scoreB}
+                    <div className="h-px flex-1 bg-border" />
+                  </div>
+
+                  {/* Agent B */}
+                  <div className="flex items-center justify-between gap-2">
+                    <div className="min-w-0 flex-1">
+                      <p className="truncate text-sm font-semibold text-text-primary group-hover:text-accent transition-colors">
+                        {b.name}
+                      </p>
+                      <p className="text-xs text-text-tertiary mt-0.5">{b.provider.name}</p>
+                    </div>
+                    <ScoreIndicator score={scoreB} />
+                  </div>
+
+                  {/* Arrow hint */}
+                  <div className="mt-3 flex items-center justify-end">
+                    <span className="text-xs text-text-tertiary group-hover:text-accent transition-colors">
+                      View comparison &rarr;
                     </span>
                   </div>
                 </Link>

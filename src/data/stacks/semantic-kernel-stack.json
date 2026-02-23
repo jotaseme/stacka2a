@@ -1,0 +1,14 @@
+{
+  "slug": "semantic-kernel-stack",
+  "name": "Semantic Kernel / .NET Agents",
+  "description": "A2A agents built with Microsoft's Semantic Kernel for enterprise .NET and cross-platform deployments.",
+  "icon": "building",
+  "category": "framework",
+  "agents": [
+    "a2a-semantic-kernel-dotnet",
+    "agent2agent",
+    "a2a-sample-semantickernel",
+    "semantic-kernel-agent-a2a-protocol-example"
+  ],
+  "difficulty": "advanced"
+}

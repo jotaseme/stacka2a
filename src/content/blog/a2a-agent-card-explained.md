@@ -1,58 +1,35 @@
 ---
-title: "A2A Agent Cards Explained: Discovery, Structure & Best Practices"
-description: "Agent Cards are the foundation of A2A agent discovery. Learn their JSON structure, where they live, how capabilities and skills work, and best practices for production deployments."
-date: "2026-02-22"
-readingTime: 9
+title: "A2A Agent Cards: Structure, Discovery, and Production Tips"
+description: "Agent Cards are JSON metadata that make A2A agent discovery work. Here's their full structure, how discovery flows, and what to get right before deploying one."
+date: "2026-02-01"
+readingTime: 7
 tags: ["a2a", "agent-card", "discovery", "guide"]
 relatedStacks: ["google-adk-stack"]
 ---
 
-Every A2A agent needs to answer a fundamental question: **what can you do?** Agent Cards are how they answer it. They are the discovery mechanism that makes the entire A2A protocol work — a JSON document that acts as a machine-readable resume for your agent.
+Every A2A agent needs to answer one question: **what can you do?** Agent Cards are how they answer it — a JSON document at a well-known URL that acts as a machine-readable resume. Without one, your agent is a black box. With one, any client or orchestrator can discover your agent's skills, understand its input/output formats, and know how to authenticate before sending a single task.
 
-Without Agent Cards, agents are black boxes. With them, any client or orchestrator can discover your agent's skills, understand its input/output formats, and know how to authenticate before sending a single task.
+## Where they live
 
-## What You'll Learn
-
-- What Agent Cards are and why they matter
-- The complete JSON structure with every field explained
-- Where Agent Cards are hosted and how discovery works
-- Skills and capabilities definitions
-- Best practices for production-quality Agent Cards
-
-## Prerequisites
-
-- Basic understanding of JSON and HTTP
-- Familiarity with the A2A protocol concepts (see [What Is the A2A Protocol?](/blog/what-is-a2a-protocol))
-
-## What Is an Agent Card?
-
-An Agent Card is a JSON metadata document published by an A2A server. It describes everything a client needs to know to interact with that agent: identity, capabilities, skills, endpoint URL, and authentication requirements.
-
-Think of it as a combination of an OpenAPI spec and a service registry entry, but purpose-built for AI agents. When a client wants to discover what agents are available and what they can do, it fetches their Agent Cards.
-
-The A2A specification defines the Agent Card as the primary mechanism for **agent discovery** — the process by which clients find and evaluate agents before sending them work.
-
-## Where Agent Cards Live
-
-Following RFC 8615 for well-known URIs, Agent Cards are served at a standardized path:
+Agent Cards follow RFC 8615 and are served at a standardized path:
 
 ```
 https://your-agent-domain.com/.well-known/agent-card.json
 ```
 
-This convention means any client can discover any agent by simply making an HTTP GET request to this well-known URL. No service registry, no DNS tricks, no configuration file — just a predictable URL path.
+Any client discovers any agent by hitting this URL. No service registry, no DNS tricks, no configuration file. Just a predictable path and an HTTP GET.
 
 ```bash
 curl https://your-agent.example.com/.well-known/agent-card.json
 ```
 
-The response should return `Content-Type: application/json` with the full Agent Card document.
+The response should return `Content-Type: application/json` with the full card.
 
-For agents that require authentication to reveal their full capabilities, the A2A spec supports an **extended Agent Card** pattern. The public card at `/.well-known/agent-card.json` contains basic information, while authenticated requests return additional skills and capabilities that are not publicly visible.
+For agents with sensitive capabilities, A2A supports an **extended Agent Card** pattern: the public card at the well-known URL contains basic info, while authenticated requests return additional private skills. Set `extendedAgentCard: true` in capabilities to signal this.
 
-## The Complete Agent Card Structure
+## Full structure
 
-Here is a fully annotated Agent Card showing every major field:
+Here's a complete Agent Card with every major field:
 
 ```json
 {
@@ -109,25 +86,19 @@ Here is a fully annotated Agent Card showing every major field:
 }
 ```
 
-Let's break down each section.
-
-## Core Identity Fields
-
-The top-level fields establish who your agent is:
+## Core identity fields
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `name` | string | Yes | Human-readable name for the agent |
+| `name` | string | Yes | Human-readable name |
 | `description` | string | Yes | What the agent does, in plain language |
-| `version` | string | Yes | Semantic version of the agent |
-| `url` | string | Yes | The endpoint where A2A requests are sent |
-| `provider` | object | No | Organization and contact details |
+| `version` | string | Yes | Semantic version |
+| `url` | string | Yes | The endpoint where A2A JSON-RPC requests are sent (not the Agent Card URL) |
+| `provider` | object | No | Organization and contact info |
 
-The `url` field is critical — it tells clients where to send JSON-RPC requests (`message/send`, `message/stream`, `tasks/get`). This is not the Agent Card URL; it is the agent's service endpoint.
+The `url` field is where clients send `message/send`, `message/stream`, and `tasks/get` requests. Don't confuse it with the well-known path where the card itself is served.
 
 ## Capabilities
-
-The `capabilities` object declares which optional A2A features the agent supports:
 
 ```json
 {
@@ -139,15 +110,15 @@ The `capabilities` object declares which optional A2A features the agent support
 }
 ```
 
-- **`streaming`**: Whether the agent supports the `message/stream` method using Server-Sent Events (SSE). If `false`, clients must use `message/send` and wait for a complete response.
-- **`pushNotifications`**: Whether the agent can send webhook callbacks for long-running tasks instead of requiring the client to poll.
-- **`extendedAgentCard`**: Whether an authenticated request to the Agent Card URL returns additional private skills and capabilities not visible in the public card.
+- **`streaming`** — supports `message/stream` via SSE. If `false`, clients must use `message/send` and wait for a complete response.
+- **`pushNotifications`** — can send webhook callbacks for long-running tasks instead of requiring clients to poll.
+- **`extendedAgentCard`** — authenticated requests to the card URL return additional private skills.
 
-Only declare capabilities you actually support. A client that tries to stream against a non-streaming agent will get errors.
+Only declare what you actually support. A client that tries to stream against a non-streaming agent will get errors.
 
 ## Skills
 
-Skills are the most important part of the Agent Card. Each skill represents a discrete capability the agent can perform:
+Skills are the most important part of the card. Each one represents a discrete capability:
 
 ```json
 {
@@ -163,18 +134,16 @@ Skills are the most important part of the Agent Card. Each skill represents a di
 }
 ```
 
-Key fields for each skill:
+- **`id`** — unique within this agent, kebab-case
+- **`name`** — human-readable
+- **`description`** — be specific here. Orchestrators use this to decide whether to route tasks to your agent. "Handles code stuff" won't cut it.
+- **`tags`** — keywords for categorization and search
+- **`examples`** — sample prompts showing valid inputs. Both humans and LLM-based orchestrators use these to understand how to interact with the skill.
+- **`inputModes`/`outputModes`** — MIME types. Falls back to the agent-level defaults if omitted.
 
-- **`id`**: Unique identifier within this agent. Use kebab-case.
-- **`name`**: Human-readable skill name.
-- **`description`**: Detailed description of what the skill does. Be specific — orchestrators use this to decide whether to route tasks to your agent.
-- **`tags`**: Keywords for categorization and search. Keep them relevant.
-- **`examples`**: Sample prompts or messages that demonstrate valid inputs. These help both humans and LLM-based orchestrators understand how to use the skill.
-- **`inputModes`/`outputModes`**: MIME types this skill accepts and produces. If omitted, the agent's `defaultInputModes` and `defaultOutputModes` are used.
+## Authentication
 
-## Authentication and Security
-
-The `securitySchemes` and `security` fields follow the OpenAPI pattern for declaring authentication requirements:
+The `securitySchemes` and `security` fields follow the OpenAPI pattern:
 
 ```json
 {
@@ -191,26 +160,16 @@ The `securitySchemes` and `security` fields follow the OpenAPI pattern for decla
 }
 ```
 
-Supported security scheme types include:
+Supported types: `apiKey` (header/query/cookie), `http` (Basic, Bearer), `oauth2` (client credentials, auth code, etc.), `openIdConnect`, and `mutualTLS`. The top-level `security` array sets the default; individual skills can override it.
 
-- **API Key** (`apiKey`) — key in header, query, or cookie
-- **HTTP Auth** (`http`) — Basic, Bearer, or other HTTP auth schemes
-- **OAuth2** (`oauth2`) — client credentials, authorization code, and other OAuth2 flows
-- **OpenID Connect** (`openIdConnect`) — discovery-based OIDC
-- **Mutual TLS** (`mutualTLS`) — certificate-based authentication
+## Discovery flow in practice
 
-The `security` array at the top level defines the default authentication requirement. Individual skills can override this if needed.
+1. Client knows an agent's domain (e.g., `code-review.example.com`)
+2. GET request to `/.well-known/agent-card.json`
+3. Parse the card, evaluate skills, check auth requirements
+4. If the skills match the task, authenticate and send a `message/send` or `message/stream` request to the `url` in the card
 
-## Agent Card Discovery in Practice
-
-Here is how a typical discovery flow works:
-
-1. A client or orchestrator knows an agent's domain (e.g., `code-review.example.com`).
-2. It sends a GET request to `https://code-review.example.com/.well-known/agent-card.json`.
-3. It parses the response and evaluates the agent's skills, capabilities, and auth requirements.
-4. If the agent's skills match the task at hand, the client authenticates (if required) and sends a `message/send` or `message/stream` request to the `url` specified in the card.
-
-For programmatic discovery, you can fetch and parse an Agent Card with a few lines of code:
+Programmatically:
 
 ```python
 import httpx
@@ -228,53 +187,15 @@ print(f"Agent: {card['name']}")
 print(f"Skills: {[s['name'] for s in card['skills']]}")
 ```
 
-## Best Practices
+## Production checklist
 
-### Write Descriptions for Machines and Humans
-
-Your Agent Card will be read by both LLM-based orchestrators and human developers. Write skill descriptions that are specific and action-oriented:
-
-```json
-// Bad: vague, unhelpful
-{ "description": "Handles code stuff" }
-
-// Good: specific, actionable
-{ "description": "Reviews Python, JavaScript, and Go code for security vulnerabilities including SQL injection, XSS, and hardcoded credentials. Returns findings with severity levels and fix suggestions." }
-```
-
-### Version Your Agent Card
-
-Use semantic versioning and increment it when you add, remove, or change skills. Clients may cache your Agent Card, and version changes signal that they should re-fetch.
-
-### Provide Meaningful Examples
-
-The `examples` field is not decorative. Orchestrators that use LLMs to route tasks rely on these examples to understand what inputs your agent expects:
-
-```json
-{
-  "examples": [
-    "Review this Express.js middleware for authentication bypasses",
-    "Scan the following React component for XSS vulnerabilities",
-    "Check this SQL query builder for injection risks"
-  ]
-}
-```
-
-### Be Honest About Capabilities
-
-Do not declare `streaming: true` if your agent returns everything in a single response. Do not list skills your agent handles poorly. Overrepresenting capabilities leads to failed tasks and poor reputation in multi-agent systems.
-
-### Use Specific Input/Output Modes
-
-Default to `text/plain` for simple agents, but declare `application/json` if your agent can handle structured input or returns structured output. This helps clients format requests correctly.
-
-### Keep the Public Card Minimal
-
-If your agent has sensitive or internal-only skills, use the extended Agent Card pattern. Set `extendedAgentCard: true` and return additional skills only to authenticated requests. The public card should contain enough information for discovery without exposing internal capabilities.
-
-### Validate Your Agent Card
-
-Before deploying, validate your Agent Card against the A2A JSON schema. Malformed cards will cause discovery failures. You can use the A2A Python SDK's built-in validation:
+- **Write descriptions for machines _and_ humans.** Orchestrators parse your descriptions to make routing decisions. Be specific and action-oriented: "Reviews Python, JavaScript, and Go code for security vulnerabilities including SQL injection, XSS, and hardcoded credentials" beats "Handles code security."
+- **Version your card.** Use semver, increment when skills change. Clients may cache your card and use version to decide when to re-fetch.
+- **Make examples count.** The `examples` field isn't decorative. LLM-based orchestrators rely on them to understand valid inputs. Include 2-3 real examples per skill.
+- **Don't lie about capabilities.** If you declare `streaming: true`, actually support SSE. Overrepresenting capabilities leads to failed tasks and broken integrations.
+- **Declare input/output modes explicitly.** Default to `text/plain` for simple agents, add `application/json` if you handle structured data. This helps clients format requests correctly.
+- **Keep the public card minimal.** If you have internal-only skills, use the extended card pattern. The public card should have enough info for discovery without exposing internal capabilities.
+- **Validate before deploying.** Malformed cards break discovery. Use the SDK's built-in validation:
 
 ```python
 from a2a.types import AgentCard
@@ -283,11 +204,9 @@ import json
 with open("agent-card.json") as f:
     card_data = json.load(f)
 
-# This will raise validation errors if the card is malformed
+# Raises validation errors if the card is malformed
 card = AgentCard(**card_data)
 print(f"Valid card: {card.name} v{card.version}")
 ```
 
-## Next Steps
-
-Now that you understand Agent Cards, the next step is to build an agent that serves one. Check out [the Google ADK stack](/stacks/google-adk-stack) on StackA2A for a curated set of agents and tools that implement the A2A protocol, including agents that publish production-quality Agent Cards.
+See also: [What Is A2A](/blog/what-is-a2a-protocol) for protocol fundamentals, or the [Google ADK stack](/stacks/google-adk-stack) for agents with production-quality cards.

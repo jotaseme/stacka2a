@@ -1,0 +1,35 @@
+{
+  "slug": "python-a2a",
+  "name": "Python A2A",
+  "description": "Python A2A is a powerful, easy-to-use library for implementing Google's Agent-to-Agent (A2A) protocol. It enables seamless communication between AI agents, creating interoperable agent ecosystems that can collaborate to solve complex problems.",
+  "provider": {
+    "name": "themanojdesai",
+    "url": "https://github.com/themanojdesai"
+  },
+  "repository": "https://github.com/themanojdesai/python-a2a",
+  "category": "utility",
+  "tags": [
+    "a2a-sdk",
+    "python",
+    "agent-communication",
+    "mcp"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 980,
+  "lastUpdated": "2026-02-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

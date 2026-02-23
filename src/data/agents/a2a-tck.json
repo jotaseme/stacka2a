@@ -1,0 +1,35 @@
+{
+  "slug": "a2a-tck",
+  "name": "A2A TCK (Test Compatibility Kit)",
+  "description": "Official Technology Compatibility Kit for A2A protocol. Comprehensive test suite for v0.3.0 compliance with multi-transport testing (JSON-RPC, gRPC, REST) and compliance reporting.",
+  "provider": {
+    "name": "A2A Project",
+    "url": "https://github.com/a2aproject"
+  },
+  "repository": "https://github.com/a2aproject/a2a-tck",
+  "category": "utility",
+  "tags": [
+    "official",
+    "testing",
+    "compliance",
+    "tck"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 31,
+  "lastUpdated": "2026-02-23",
+  "official": true,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

@@ -68,19 +68,19 @@ export function AgentList({ agents, categories, frameworks, languages }: AgentLi
   return (
     <div className="flex flex-col gap-6">
       {/* Search & Sort */}
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-3 animate-fade-up stagger-1">
         <div className="flex gap-3">
           <input
             type="text"
             placeholder="Search agents..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="flex-1 rounded-xl border border-border bg-background px-4 py-2.5 text-sm text-text-primary placeholder:text-text-secondary focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent"
+            className="flex-1 rounded-xl border border-border bg-surface-elevated px-4 py-2.5 text-sm text-text-primary placeholder:text-text-tertiary focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/10 transition-shadow"
           />
           <select
             value={sortBy}
             onChange={(e) => setSortBy(e.target.value as SortOption)}
-            className="rounded-xl border border-border bg-background px-3 py-2.5 text-sm text-text-secondary focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent"
+            className="rounded-xl border border-border bg-surface-elevated px-3 py-2.5 text-sm text-text-secondary focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/10 transition-shadow"
           >
             {Object.entries(sortLabels).map(([value, label]) => (
               <option key={value} value={value}>
@@ -91,13 +91,13 @@ export function AgentList({ agents, categories, frameworks, languages }: AgentLi
         </div>
 
         {/* Category filters */}
-        <div className="flex flex-wrap gap-1">
+        <div className="flex flex-wrap gap-1.5">
           <button
             onClick={() => setActiveCategory(null)}
             className={`rounded-lg px-3 py-1.5 text-xs font-medium transition-all ${
               activeCategory === null
-                ? "bg-accent text-white"
-                : "bg-surface text-text-secondary hover:text-text-primary"
+                ? "bg-accent text-white shadow-sm"
+                : "bg-surface border border-border text-text-secondary hover:text-text-primary hover:border-accent/30"
             }`}
           >
             All
@@ -108,8 +108,8 @@ export function AgentList({ agents, categories, frameworks, languages }: AgentLi
               onClick={() => setActiveCategory(activeCategory === cat ? null : cat)}
               className={`rounded-lg px-3 py-1.5 text-xs font-medium transition-all ${
                 activeCategory === cat
-                  ? "bg-accent text-white"
-                  : "bg-surface text-text-secondary hover:text-text-primary"
+                  ? "bg-accent text-white shadow-sm"
+                  : "bg-surface border border-border text-text-secondary hover:text-text-primary hover:border-accent/30"
               }`}
             >
               {cat}
@@ -118,14 +118,14 @@ export function AgentList({ agents, categories, frameworks, languages }: AgentLi
         </div>
 
         {/* Framework filters */}
-        <div className="flex flex-wrap gap-1">
-          <span className="flex items-center px-2 text-xs text-text-secondary">Framework:</span>
+        <div className="flex flex-wrap gap-1.5 items-center">
+          <span className="text-xs text-text-tertiary font-medium mr-1">Framework:</span>
           <button
             onClick={() => setActiveFramework(null)}
             className={`rounded-lg px-2.5 py-1 text-xs font-medium transition-all ${
               activeFramework === null
                 ? "bg-accent/10 text-accent"
-                : "bg-surface text-text-secondary hover:text-text-primary"
+                : "text-text-secondary hover:text-text-primary"
             }`}
           >
             All
@@ -137,7 +137,7 @@ export function AgentList({ agents, categories, frameworks, languages }: AgentLi
               className={`rounded-lg px-2.5 py-1 text-xs font-medium transition-all ${
                 activeFramework === fw
                   ? "bg-accent/10 text-accent"
-                  : "bg-surface text-text-secondary hover:text-text-primary"
+                  : "text-text-secondary hover:text-text-primary"
               }`}
             >
               {fw}
@@ -146,14 +146,14 @@ export function AgentList({ agents, categories, frameworks, languages }: AgentLi
         </div>
 
         {/* Language filters */}
-        <div className="flex flex-wrap gap-1">
-          <span className="flex items-center px-2 text-xs text-text-secondary">Language:</span>
+        <div className="flex flex-wrap gap-1.5 items-center">
+          <span className="text-xs text-text-tertiary font-medium mr-1">Language:</span>
           <button
             onClick={() => setActiveLanguage(null)}
             className={`rounded-lg px-2.5 py-1 text-xs font-medium transition-all ${
               activeLanguage === null
                 ? "bg-accent/10 text-accent"
-                : "bg-surface text-text-secondary hover:text-text-primary"
+                : "text-text-secondary hover:text-text-primary"
             }`}
           >
             All
@@ -165,7 +165,7 @@ export function AgentList({ agents, categories, frameworks, languages }: AgentLi
               className={`rounded-lg px-2.5 py-1 text-xs font-medium transition-all ${
                 activeLanguage === lang
                   ? "bg-accent/10 text-accent"
-                  : "bg-surface text-text-secondary hover:text-text-primary"
+                  : "text-text-secondary hover:text-text-primary"
               }`}
             >
               {lang}
@@ -175,7 +175,7 @@ export function AgentList({ agents, categories, frameworks, languages }: AgentLi
       </div>
 
       {/* Results count */}
-      <p className="text-sm text-text-secondary">
+      <p className="text-sm text-text-tertiary">
         {filtered.length} agent{filtered.length !== 1 ? "s" : ""}
       </p>
 
@@ -186,7 +186,7 @@ export function AgentList({ agents, categories, frameworks, languages }: AgentLi
         ))}
       </div>
       {filtered.length === 0 && (
-        <p className="py-12 text-center text-text-secondary">
+        <p className="py-16 text-center text-text-secondary">
           No agents found matching your search.
         </p>
       )}

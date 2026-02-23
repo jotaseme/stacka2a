@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getAllAgents, getAgent } from "@/lib/data";
 import { AgentComparison } from "@/components/agents/agent-comparison";
+import { Breadcrumbs } from "@/components/ui/breadcrumbs";
 import type { A2AAgent } from "@/lib/types";
 
 interface PageProps {
@@ -68,8 +69,17 @@ export default async function ComparePage({ params }: PageProps) {
 
   if (agents.length < 2) notFound();
 
+  const names = agents.map((a) => a.name);
+
   return (
     <>
+      <div className="mx-auto max-w-5xl px-6 pt-8">
+        <Breadcrumbs items={[
+          { label: "Home", href: "/" },
+          { label: "Compare", href: "/compare" },
+          { label: names.join(" vs ") },
+        ]} />
+      </div>
       <AgentComparison agents={agents} />
       <script
         type="application/ld+json"

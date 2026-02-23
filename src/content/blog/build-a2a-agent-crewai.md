@@ -1,35 +1,19 @@
 ---
 title: "How to Build an A2A Agent with CrewAI"
-description: "Step-by-step tutorial to build an A2A-compliant agent with CrewAI. Set up a crew, expose it as an A2A server, connect remote agents as clients, and deploy."
-date: "2026-02-22"
-readingTime: 10
+description: "Build an A2A agent with CrewAI that works as both server and client. Expose a crew via A2A, connect to remote agents, handle auth, and run bidirectional agents."
+date: "2026-02-16"
+readingTime: 9
 tags: ["a2a", "crewai", "tutorial", "python"]
 relatedStacks: ["crewai-stack"]
 ---
 
-**CrewAI** treats the A2A protocol as a first-class feature. With built-in `A2AServerConfig` and `A2AClientConfig`, you can expose any CrewAI agent as an A2A server or connect it to remote A2A agents as a client — or both at the same time. No adapter code, no boilerplate wrappers.
+**CrewAI does both sides of A2A natively.** `A2AServerConfig` exposes any agent as an A2A server. `A2AClientConfig` connects it to remote A2A agents as a client. Same agent, both directions, no adapter code. Most frameworks give you one or the other — CrewAI gives you both in the same `a2a` parameter.
 
-This tutorial builds a working CrewAI agent that acts as both an A2A server (accepting tasks from other agents) and an A2A client (delegating tasks to remote specialists).
+We are building a content creation agent that accepts tasks over A2A and delegates research to a remote specialist.
 
-## What You'll Build
+## Install CrewAI
 
-A **content creation agent** that can write blog posts, social media copy, and email sequences. It will:
-
-- Accept tasks from any A2A client via `A2AServerConfig`
-- Delegate research tasks to a remote agent via `A2AClientConfig`
-- Support multiple authentication methods
-- Handle multi-turn conversations with remote agents
-
-## Prerequisites
-
-- Python 3.10 or higher
-- An OpenAI API key (or any LLM provider supported by CrewAI)
-- Basic familiarity with CrewAI concepts (Agents, Tasks, Crews)
-- pip or uv package manager
-
-## Step 1: Install CrewAI with A2A Support
-
-Create a project and install CrewAI with the A2A extra:
+You need Python 3.10+ and an OpenAI API key (or any CrewAI-supported provider).
 
 ```bash
 mkdir content-agent && cd content-agent
@@ -38,17 +22,11 @@ source .venv/bin/activate
 pip install 'crewai[a2a]'
 ```
 
-The `[a2a]` extra pulls in the A2A SDK and all dependencies needed for server and client functionality.
-
-Set your API key:
-
 ```bash
 export OPENAI_API_KEY="your-api-key-here"
 ```
 
-## Step 2: Define the Agent
-
-Create a file called `agent.py` with a CrewAI agent configured as an A2A server:
+## Define the agent as an A2A server
 
 ```python
 # agent.py
@@ -75,11 +53,9 @@ writer = Agent(
 )
 ```
 
-The `A2AServerConfig` tells CrewAI to expose this agent as an A2A-compliant server. When the crew starts, it will serve an Agent Card at `/.well-known/agent-card.json` and accept tasks via JSON-RPC.
+`A2AServerConfig` tells CrewAI to serve an Agent Card at `/.well-known/agent-card.json` and accept tasks via JSON-RPC when the crew starts.
 
-## Step 3: Define Tasks and Crew
-
-Wrap the agent in a task and crew:
+## Define tasks and crew
 
 ```python
 # agent.py (continued)
@@ -107,9 +83,7 @@ content_crew = Crew(
 )
 ```
 
-## Step 4: Run the A2A Server
-
-Start the crew with A2A server mode enabled:
+## Run the A2A server
 
 ```python
 # server.py
@@ -123,23 +97,15 @@ if __name__ == "__main__":
 python server.py
 ```
 
-The server will start and expose:
-- Agent Card at `http://localhost:8000/.well-known/agent-card.json`
-- A2A endpoint at `http://localhost:8000/` for JSON-RPC requests
+Agent Card at `http://localhost:8000/.well-known/agent-card.json`. A2A endpoint at `http://localhost:8000/`.
 
-## Step 5: Test the Agent Card
-
-Verify the Agent Card is being served:
+## Test the Agent Card
 
 ```bash
 curl -s http://localhost:8000/.well-known/agent-card.json | python -m json.tool
 ```
 
-The response will include the agent's role, capabilities, and skills derived from your crew definition.
-
-## Step 6: Test with curl
-
-Send a content creation request via A2A:
+## Test with curl
 
 ```bash
 curl -X POST http://localhost:8000/ \
@@ -162,9 +128,9 @@ curl -X POST http://localhost:8000/ \
   }'
 ```
 
-## Step 7: Build a Client Agent
+## Build a client agent
 
-Now create a second agent that delegates tasks to your content server. This is where CrewAI's A2A client support shines — you just point `A2AClientConfig` at the remote agent's card URL:
+Point `A2AClientConfig` at a remote agent's card URL. CrewAI fetches the card, reads the skills, and the LLM routes tasks automatically:
 
 ```python
 # client.py
@@ -210,11 +176,11 @@ if __name__ == "__main__":
     print(result)
 ```
 
-When this crew runs, the coordinator agent's LLM will see the remote content writer's capabilities (from its Agent Card) and automatically delegate writing tasks to it via A2A.
+The coordinator's LLM sees the remote writer's capabilities from its Agent Card and delegates writing tasks over A2A.
 
-## Step 8: Connect Multiple Remote Agents
+## Connect multiple remote agents
 
-CrewAI supports connecting a single agent to multiple A2A endpoints. The LLM chooses which remote agent to delegate to based on skill matching:
+Pass a list. The LLM picks the right agent based on skill matching:
 
 ```python
 coordinator = Agent(
@@ -239,11 +205,37 @@ coordinator = Agent(
 )
 ```
 
-Each remote agent's skills are fetched from its Agent Card. The LLM reads these descriptions and routes tasks accordingly — no manual routing logic needed.
+No manual routing logic. Each agent's skills are fetched from its card, and the LLM reads those descriptions to decide where to send each task.
 
-## Step 9: Add Authentication
+## Bidirectional agent
 
-For production deployments, you will need authentication between agents. CrewAI supports several auth methods out of the box.
+This is where CrewAI's A2A model really shines. A single agent can be both server and client — accepting tasks from upstream while delegating subtasks downstream:
+
+```python
+from crewai.a2a import A2AClientConfig, A2AServerConfig
+
+editor = Agent(
+    role="Content Editor",
+    goal="Edit and refine content, delegating research when needed",
+    backstory="Senior editor who reviews drafts and fact-checks claims",
+    llm="gpt-4o",
+    a2a=[
+        # Accept tasks from upstream agents
+        A2AServerConfig(url="https://editor.example.com"),
+        # Delegate research to a remote agent
+        A2AClientConfig(
+            endpoint="https://research.example.com/.well-known/agent-card.json",
+            timeout=120,
+        ),
+    ],
+)
+```
+
+This is the building block for real multi-agent topologies. An orchestrator sends work to the editor over A2A, the editor sends fact-checking tasks to a research agent over A2A, and results flow back up. Each agent is independently deployable and replaceable.
+
+## Authentication
+
+Three auth methods out of the box.
 
 **Bearer Token:**
 
@@ -308,69 +300,31 @@ coordinator = Agent(
 )
 ```
 
-## Step 10: Bidirectional Agent
+## Error handling
 
-An agent can be both a server and a client simultaneously. This is useful for agents that accept tasks from upstream orchestrators while delegating subtasks to downstream specialists:
-
-```python
-from crewai.a2a import A2AClientConfig, A2AServerConfig
-
-editor = Agent(
-    role="Content Editor",
-    goal="Edit and refine content, delegating research when needed",
-    backstory="Senior editor who reviews drafts and fact-checks claims",
-    llm="gpt-4o",
-    a2a=[
-        # Accept tasks from upstream agents
-        A2AServerConfig(url="https://editor.example.com"),
-        # Delegate research to a remote agent
-        A2AClientConfig(
-            endpoint="https://research.example.com/.well-known/agent-card.json",
-            timeout=120,
-        ),
-    ],
-)
-```
-
-## Error Handling
-
-CrewAI provides two modes for handling remote agent failures:
-
-**Fail-fast (default):** Raises an error immediately if the remote agent is unreachable.
+Two modes for remote agent failures:
 
 ```python
+# Fail-fast (default) — raises immediately if remote is unreachable
 a2a=A2AClientConfig(
     endpoint="https://agent.example.com/.well-known/agent-card.json",
-    fail_fast=True,  # default
+    fail_fast=True,
 )
-```
 
-**Graceful degradation:** Reports the failure to the LLM, which can adapt by handling the task internally or trying another agent.
-
-```python
+# Graceful degradation — reports failure to the LLM, which can adapt
 a2a=A2AClientConfig(
     endpoint="https://agent.example.com/.well-known/agent-card.json",
     fail_fast=False,
 )
 ```
 
-Use `fail_fast=False` in production when you have multiple remote agents and want the system to keep functioning even if one goes down.
+Use `fail_fast=False` in production when you have multiple remote agents and want the system to keep functioning if one goes down.
 
 ## Deployment
 
-For production, run your CrewAI A2A server behind a reverse proxy with HTTPS:
-
 ```bash
-# Use gunicorn for production
 pip install gunicorn
 gunicorn server:app --bind 0.0.0.0:8000 --workers 4
 ```
 
-Make sure to:
-1. Update the `url` in `A2AServerConfig` to your production domain
-2. Configure authentication on the server side
-3. Set environment variables for API keys and secrets (never hardcode credentials)
-
-## Next Steps
-
-You now have a CrewAI agent that can participate in the A2A ecosystem as both a server and a client. For curated agent configurations and production-ready CrewAI stacks, check out [the CrewAI stack](/stacks/crewai-stack) on StackA2A.
+Update the `url` in `A2AServerConfig` to your production domain. Set API keys via environment variables.

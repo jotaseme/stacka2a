@@ -1,34 +1,21 @@
 ---
 title: "A2A Agent Discovery: Security Best Practices"
-description: "How to secure the A2A agent discovery process. Covers Agent Card validation, HTTPS enforcement, capability verification, rate limiting, and trust levels for production deployments."
+description: "Securing A2A agent discovery in production: Agent Card validation, HTTPS enforcement, trust tiers, rate limiting, and a real deployment checklist."
 date: "2026-02-22"
-readingTime: 8
+readingTime: 7
 tags: ["a2a", "security", "discovery", "best-practices"]
 relatedStacks: ["security-auth"]
 ---
 
-Agent discovery is the front door of the A2A protocol. Before any task is executed, a client fetches the agent's card from `/.well-known/agent-card.json` to understand what the agent can do and how to authenticate. If that discovery process is compromised, everything downstream is compromised too.
-
-This guide covers the security considerations you should address when discovering and connecting to A2A agents in production.
-
-## How Agent Discovery Works
-
-The A2A discovery flow is straightforward:
-
-1. A client knows (or is given) an agent's base URL
-2. The client fetches `https://agent.example.com/.well-known/agent-card.json`
-3. The Agent Card describes the agent's name, capabilities, skills, auth requirements, and endpoint URL
-4. The client validates the card and starts sending tasks
-
-Each step introduces security considerations.
+Agent discovery is the front door of A2A. A client fetches `/.well-known/agent-card.json`, learns how to authenticate, and starts sending tasks. If discovery is compromised, everything downstream is compromised.
 
 ## Agent Card Validation
 
-An Agent Card is a JSON document that your client will use to configure how it talks to an agent. Treat it like untrusted input, because it is.
+An Agent Card is a JSON document your client uses to configure how it talks to an agent. Treat it as untrusted input, because it is.
 
 ### Schema Validation
 
-Always validate the Agent Card against the A2A schema before using it. A malformed or maliciously crafted card could cause unexpected behavior in your client.
+Validate every Agent Card before using it. A malformed or maliciously crafted card will cause unexpected behavior in your client.
 
 ```python
 from pydantic import BaseModel, HttpUrl, validator
@@ -72,8 +59,6 @@ class AgentCard(BaseModel):
 
 ### Required Checks
 
-At minimum, validate these properties:
-
 | Check | Why | Action on Failure |
 |-------|-----|-------------------|
 | URL uses HTTPS | Prevents MITM attacks | Reject the agent |
@@ -85,7 +70,7 @@ At minimum, validate these properties:
 
 ### Domain Matching
 
-The Agent Card URL should match the domain you fetched it from. If you fetch a card from `https://agent.example.com/.well-known/agent-card.json` and the card says its URL is `https://evil.example.com`, reject it.
+The Agent Card URL must match the domain you fetched it from. If you fetch a card from `https://agent.example.com` and the card says its URL is `https://evil.example.com`, reject it immediately.
 
 ```python
 from urllib.parse import urlparse
@@ -97,21 +82,13 @@ def validate_card_origin(card_url: str, fetched_from: str) -> bool:
     return card_domain == fetch_domain
 ```
 
-This prevents a class of attacks where a compromised agent redirects traffic to a malicious endpoint.
+This blocks redirect attacks where a compromised agent sends traffic to a malicious endpoint.
 
 ## HTTPS Enforcement
 
-Every A2A interaction in production should happen over HTTPS. No exceptions.
+Every A2A interaction in production happens over HTTPS. No exceptions.
 
-### Why HTTP is Dangerous for A2A
-
-- **Agent Cards over HTTP** can be tampered with by a network attacker who modifies the skills, endpoint URL, or security requirements
-- **Tasks over HTTP** expose the full request and response, including any sensitive data in the message
-- **Tokens over HTTP** are visible to anyone on the network path
-
-### Implementation
-
-Configure your A2A client to reject non-HTTPS URLs:
+Agent Cards over HTTP can be tampered with mid-flight -- an attacker modifies the skills, endpoint URL, or security requirements. Tasks over HTTP expose the full request and response. Tokens over HTTP are visible to anyone on the network path.
 
 ```python
 class SecureA2AClient:
@@ -138,17 +115,11 @@ class SecureA2AClient:
         return card
 ```
 
-### Certificate Validation
-
-Do not disable TLS certificate validation, even in development. Use tools like `mkcert` to generate valid local certificates instead. Disabling verification in development leads to it being disabled in production through configuration drift.
+Do not disable TLS certificate validation, even in development. Use `mkcert` to generate valid local certificates. Disabling verification in dev leads to it being disabled in production through configuration drift. Every time.
 
 ## Capability Verification
 
-After validating the Agent Card, verify that the agent's claimed capabilities match what you expect.
-
-### Skill Verification
-
-Before delegating a task to an agent, check that it advertises the skill you need:
+After validating the card, verify that the agent actually supports what you need.
 
 ```python
 def agent_supports_skill(card: AgentCard, required_skill_id: str) -> bool:
@@ -166,9 +137,7 @@ def agent_supports_input_mode(card: AgentCard, skill_id: str, mime_type: str) ->
     return False
 ```
 
-### Capability Probing
-
-Do not assume that an agent's claimed capabilities are accurate. An agent that claims to support streaming might not actually implement it correctly. Use defensive programming:
+Don't assume claimed capabilities are accurate. An agent that says it supports streaming might not. Code defensively:
 
 ```python
 async def send_with_fallback(client, card, message):
@@ -184,17 +153,9 @@ async def send_with_fallback(client, card, message):
 
 ## Rate Limiting
 
-Both the discovery endpoint and the task endpoints need rate limiting.
+Both discovery and task endpoints need rate limiting.
 
-### Discovery Endpoint Rate Limiting
-
-The `/.well-known/agent-card.json` endpoint is public by design. Without rate limiting, an attacker can:
-
-- Enumerate all your agents by scanning URLs
-- Cause resource exhaustion through rapid polling
-- Map your agent infrastructure for reconnaissance
-
-Implement rate limiting at the infrastructure level:
+The `/.well-known/agent-card.json` endpoint is public by design. Without rate limiting, an attacker can enumerate your agents, cause resource exhaustion, or map your infrastructure for reconnaissance.
 
 ```nginx
 # Nginx rate limiting for agent card discovery
@@ -205,8 +166,6 @@ location /.well-known/agent-card.json {
     proxy_pass http://agent-backend;
 }
 ```
-
-### Task Endpoint Rate Limiting
 
 Rate limit task submissions per authenticated client:
 
@@ -237,18 +196,14 @@ class RateLimiter:
 
 ## Trust Levels
 
-Not all agents deserve the same level of trust. Implement a trust hierarchy.
+Not all agents deserve the same level of trust. Build a trust hierarchy and enforce it.
 
-### Trust Tiers
-
-| Tier | Description | Requirements | Access |
-|------|-------------|--------------|--------|
-| **Internal** | Agents you own and operate | mTLS + OAuth2, same network | Full access |
-| **Partner** | Agents from trusted organizations | OAuth2 + IP allowlist | Scoped access |
-| **Public** | Agents discovered from registries | OAuth2 + strict validation | Read-only, sandboxed |
-| **Unknown** | Agents with no verifiable identity | Rejected | No access |
-
-### Implementing Trust Verification
+| Tier | Requirements | Access |
+|------|-------------|--------|
+| **Internal** | mTLS + OAuth2, same network | Full access |
+| **Partner** | OAuth2 + IP allowlist | Scoped access |
+| **Public** | OAuth2 + strict validation | Read-only, sandboxed |
+| **Unknown** | No verifiable identity | Rejected |
 
 ```python
 from enum import Enum
@@ -287,55 +242,35 @@ class TrustEvaluator:
         return actions[trust_level]
 ```
 
-### Data Sensitivity Classification
+### Data Sensitivity
 
-Different data requires different trust levels:
+Match data classification to trust levels:
 
-- **Public data** (product catalogs, documentation) can be sent to public agents
-- **Internal data** (sales figures, roadmaps) should only go to internal or partner agents
-- **Sensitive data** (PII, financial records, credentials) should only go to internal agents with audit logging
+- **Public data** (product catalogs, docs) -- can go to public agents
+- **Internal data** (sales figures, roadmaps) -- internal or partner agents only
+- **Sensitive data** (PII, financial records, credentials) -- internal agents only, with audit logging
 
-Build this classification into your coordinator agent so it automatically restricts which downstream agents can receive sensitive data.
+Build this into your coordinator agent so it automatically restricts which downstream agents receive sensitive data.
 
 ## Registry Security
 
-If you use an agent registry (a centralized directory of agents), additional concerns apply:
+If you use an agent registry, three things matter:
 
-### Registry Integrity
+- **Pin the registry URL** in your configuration. Don't allow dynamic registry discovery. Only trust registries served over HTTPS with valid certificates.
+- **Verify agent identity independently.** A registry listing doesn't prove anything. Fetch the Agent Card directly from the agent's URL, compare it with the registry listing, and log any discrepancies.
+- **Watch for registry poisoning.** An attacker who compromises a registry can inject malicious agent listings. Maintain an allowlist of trusted domains. Monitor for new listings that resemble your internal agents (typosquatting).
 
-- Only trust registries served over HTTPS with valid certificates
-- Pin the registry URL in your configuration; do not allow dynamic registry discovery
-- Cache registry responses and validate changes incrementally
+## Deployment Runbook
 
-### Agent Identity Verification
+Before any A2A agent goes to production, walk through this:
 
-A registry listing does not guarantee that an agent is who it claims to be. Verify independently:
-
-1. Fetch the Agent Card directly from the agent's URL (not from the registry cache)
-2. Compare the directly-fetched card with the registry listing
-3. If they differ, trust the directly-fetched card but log the discrepancy
-
-### Registry Poisoning
-
-An attacker who compromises a registry can inject malicious agent listings. Mitigations:
-
-- Use registries that require cryptographic signing of agent listings
-- Maintain an allowlist of trusted agent domains
-- Monitor for new agent listings that resemble your internal agents (typosquatting)
-
-## Security Checklist
-
-Before connecting to any A2A agent in production:
-
-- [ ] Agent Card fetched over HTTPS with valid certificate
-- [ ] Agent Card URL matches the discovery domain
-- [ ] Agent Card passes schema validation
-- [ ] Security schemes are present and supported
-- [ ] Required skills are advertised
-- [ ] Trust level has been evaluated
-- [ ] Rate limiting is configured for both discovery and task endpoints
-- [ ] Data sensitivity classification is applied
-- [ ] Auth tokens are obtained and validated
-- [ ] Audit logging is enabled for all agent interactions
-
-Explore the full [Security & Auth stack](/stacks/security-auth) on StackA2A to find agents and reference implementations for securing your A2A deployment.
+1. Agent Card is served over HTTPS with a valid certificate
+2. Agent Card URL matches the discovery domain -- no redirects to unexpected hosts
+3. Agent Card passes schema validation (use the Pydantic model above or equivalent)
+4. Security schemes are present. If an agent has no auth, it doesn't go to production
+5. Required skills are advertised and verified
+6. Trust level is evaluated and enforced -- internal, partner, public, or rejected
+7. Rate limiting is live on both `/.well-known/agent-card.json` and task endpoints
+8. Data sensitivity classification is applied -- you know what data goes where
+9. Auth tokens are obtained and validated on every request
+10. Audit logging captures all agent interactions -- who called what, when, with what result

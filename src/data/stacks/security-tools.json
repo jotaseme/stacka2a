@@ -1,0 +1,18 @@
+{
+  "slug": "security-tools",
+  "name": "Security & Scanning Tools",
+  "description": "A2A agents and tools for vulnerability scanning, security verification, threat detection, and secure agent communication.",
+  "icon": "shield",
+  "category": "use-case",
+  "agents": [
+    "a2a-scanner",
+    "ziran",
+    "a2a-vulnerability-scanner",
+    "a2a-agents-secure-verification-poc",
+    "capiscio-sdk-python",
+    "a2a-sample-signing-and-verifying",
+    "agentup"
+  ],
+  "difficulty": "advanced",
+  "blogPost": "secure-a2a-agents-oauth2"
+}

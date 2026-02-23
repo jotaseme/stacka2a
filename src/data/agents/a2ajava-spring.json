@@ -1,0 +1,35 @@
+{
+  "slug": "a2ajava-spring",
+  "name": "A2A Java (Spring Boot)",
+  "description": "Pure Java implementation of Google A2A protocol. Integrate your Spring Boot Java applications with A2A protocol, includes client and server both. Any agent built with a2ajava will also be exposed as MCP tool automatically.",
+  "provider": {
+    "name": "vishalmysore",
+    "url": "https://github.com/vishalmysore"
+  },
+  "repository": "https://github.com/vishalmysore/a2ajava",
+  "category": "utility",
+  "tags": [
+    "java",
+    "spring-boot",
+    "a2a-sdk",
+    "mcp"
+  ],
+  "framework": "spring-boot",
+  "language": "java",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 94,
+  "lastUpdated": "2026-02-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

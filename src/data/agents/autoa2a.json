@@ -1,0 +1,35 @@
+{
+  "slug": "autoa2a",
+  "name": "AutoA2A",
+  "description": "Easily convert agents and orchestrators from existing agent frameworks (CrewAI, LangGraph, LlamaIndex, OpenAI) to A2A servers. Like Vercel for A2A agents.",
+  "provider": {
+    "name": "NapthaAI",
+    "url": "https://github.com/NapthaAI"
+  },
+  "repository": "https://github.com/NapthaAI/autoa2a",
+  "category": "utility",
+  "tags": [
+    "converter",
+    "cli",
+    "a2a-server",
+    "framework-agnostic"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 58,
+  "lastUpdated": "2026-02-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

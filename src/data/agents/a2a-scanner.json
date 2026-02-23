@@ -7,7 +7,7 @@
     "url": "https://github.com/cisco-ai-defense"
   },
   "repository": "https://github.com/cisco-ai-defense/a2a-scanner",
-  "category": "security",
+  "category": "security-auth",
   "tags": [
     "a2a-server",
     "agent-security",
