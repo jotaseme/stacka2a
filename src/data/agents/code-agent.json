@@ -16,8 +16,8 @@
     "pydantic-ai",
     "modal"
   ],
-  "framework": "custom",
-  "language": "unknown",
+  "framework": "pydantic-ai",
+  "language": "python",
   "skills": [
     {
       "id": "code-generation",

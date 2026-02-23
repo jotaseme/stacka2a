@@ -7,7 +7,7 @@
     "url": "https://github.com/a2aproject"
   },
   "repository": "https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/a2a-mcp-without-framework",
-  "category": "general",
+  "category": "utility",
   "tags": [
     "official-sample",
     "python"

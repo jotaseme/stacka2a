@@ -21,7 +21,7 @@
     "java"
   ],
   "framework": "custom",
-  "language": "unknown",
+  "language": "java",
   "skills": [],
   "capabilities": {
     "streaming": false,

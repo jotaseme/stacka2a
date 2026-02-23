@@ -19,7 +19,7 @@
     "mcp-server"
   ],
   "framework": "langgraph",
-  "language": "unknown",
+  "language": "python",
   "skills": [],
   "capabilities": {
     "streaming": false,

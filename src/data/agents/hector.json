@@ -17,7 +17,7 @@
     "golang"
   ],
   "framework": "custom",
-  "language": "unknown",
+  "language": "go",
   "skills": [],
   "capabilities": {
     "streaming": false,

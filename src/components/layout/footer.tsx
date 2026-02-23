@@ -30,7 +30,7 @@ export function Footer() {
           </p>
           <span className="inline-flex items-center gap-1.5 rounded-full bg-accent-soft px-3 py-1 text-xs font-medium text-accent">
             <span className="inline-block h-1.5 w-1.5 rounded-full bg-accent" />
-            350+ A2A agents indexed
+            250+ A2A agents indexed
           </span>
         </div>
       </div>

@@ -21,7 +21,7 @@
     "newlife"
   ],
   "framework": "custom",
-  "language": "unknown",
+  "language": "kotlin",
   "skills": [],
   "capabilities": {
     "streaming": false,

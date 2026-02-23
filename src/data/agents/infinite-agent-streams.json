@@ -14,7 +14,7 @@
     "mcp-tools",
     "openai-agent-sdk"
   ],
-  "framework": "custom",
+  "framework": "openai-agents",
   "language": "python",
   "skills": [],
   "capabilities": {
