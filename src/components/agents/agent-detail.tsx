@@ -2,20 +2,24 @@ import Link from "next/link";
 import type { A2AAgent, Stack } from "@/lib/types";
 import { Badge } from "@/components/ui/badge";
 import { QualityScoreBadge } from "./quality-score-badge";
-import { SnippetPreview } from "@/components/stacks/snippet-preview";
+import { QualityBreakdown } from "./quality-breakdown";
+import { generateGettingStarted } from "@/lib/getting-started";
 
 interface AgentDetailProps {
   agent: A2AAgent;
   stacks: Stack[];
+  readmeHtml: string | null;
 }
 
-export function AgentDetail({ agent, stacks }: AgentDetailProps) {
+export function AgentDetail({ agent, stacks, readmeHtml }: AgentDetailProps) {
+  const steps = generateGettingStarted(agent);
+
   return (
-    <div className="mx-auto max-w-3xl px-6 py-12">
+    <div className="mx-auto max-w-3xl px-6 py-16">
       <div className="flex flex-col gap-8">
         {/* Header */}
-        <div className="flex flex-col gap-4">
-          <div className="flex items-center gap-2">
+        <div className="flex flex-col gap-4 animate-fade-up">
+          <div className="flex flex-wrap items-center gap-2">
             <Badge variant="outline">{agent.category}</Badge>
             {agent.official && <Badge variant="default">Official</Badge>}
             {agent.framework !== "custom" && (
@@ -26,7 +30,7 @@ export function AgentDetail({ agent, stacks }: AgentDetailProps) {
             )}
           </div>
           <div className="flex items-center gap-4">
-            <h1 className="text-3xl font-bold tracking-tight text-text-primary">
+            <h1 className="text-3xl font-bold tracking-tight text-text-primary sm:text-4xl">
               {agent.name}
             </h1>
             <QualityScoreBadge agent={agent} size="lg" />
@@ -38,12 +42,12 @@ export function AgentDetail({ agent, stacks }: AgentDetailProps) {
                 href={agent.provider.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-text-primary underline decoration-accent underline-offset-2"
+                className="text-text-primary underline decoration-accent underline-offset-2 hover:decoration-accent-hover transition-colors"
               >
                 {agent.provider.name}
               </a>
             ) : (
-              agent.provider.name
+              <span className="text-text-primary font-medium">{agent.provider.name}</span>
             )}
           </p>
           <p className="text-lg leading-relaxed text-text-secondary">
@@ -65,9 +69,53 @@ export function AgentDetail({ agent, stacks }: AgentDetailProps) {
           </div>
         </div>
 
+        {/* Quality Score Breakdown */}
+        <section className="animate-fade-up stagger-1">
+          <QualityBreakdown agent={agent} />
+        </section>
+
+        {/* Getting Started */}
+        <section className="flex flex-col gap-3 animate-fade-up stagger-2">
+          <h2 className="text-lg font-semibold text-text-primary">
+            Getting Started
+          </h2>
+          <div className="flex flex-col gap-2">
+            <StepBlock step={1} label="Clone the repository" command={steps.clone} />
+            <StepBlock step={2} label="Navigate to the project" command={steps.navigate} />
+            <StepBlock step={3} label="Install dependencies" command={steps.install} />
+            <StepBlock step={4} label="Run the agent" command={steps.run} />
+          </div>
+          {steps.hostedEndpoint && (
+            <p className="text-sm text-text-secondary mt-2">
+              Or connect to the hosted endpoint:{" "}
+              <a
+                href={steps.hostedEndpoint}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent hover:text-accent-hover underline underline-offset-2"
+              >
+                {steps.hostedEndpoint}
+              </a>
+            </p>
+          )}
+        </section>
+
+        {/* README */}
+        {readmeHtml && (
+          <section className="flex flex-col gap-3 animate-fade-up stagger-3">
+            <h2 className="text-lg font-semibold text-text-primary">
+              README
+            </h2>
+            <div
+              className="blog-prose prose prose-slate max-w-none rounded-xl border border-border bg-surface-elevated p-6"
+              dangerouslySetInnerHTML={{ __html: readmeHtml }}
+            />
+          </section>
+        )}
+
         {/* Capabilities */}
-        <section className="flex flex-col gap-3">
-          <h2 className="text-xl font-semibold text-text-primary">
+        <section className="flex flex-col gap-3 animate-fade-up stagger-4">
+          <h2 className="text-lg font-semibold text-text-primary">
             Capabilities
           </h2>
           <div className="flex flex-wrap gap-2">
@@ -80,15 +128,15 @@ export function AgentDetail({ agent, stacks }: AgentDetailProps) {
 
         {/* Skills */}
         {agent.skills.length > 0 && (
-          <section className="flex flex-col gap-3">
-            <h2 className="text-xl font-semibold text-text-primary">
+          <section className="flex flex-col gap-3 animate-fade-up stagger-5">
+            <h2 className="text-lg font-semibold text-text-primary">
               Skills ({agent.skills.length})
             </h2>
             <div className="flex flex-col gap-2">
               {agent.skills.map((skill) => (
                 <div
                   key={skill.id}
-                  className="rounded-xl border border-border p-4"
+                  className="rounded-xl border border-border bg-surface-elevated p-4"
                 >
                   <h3 className="font-medium text-text-primary">{skill.name}</h3>
                   {skill.description && (
@@ -122,18 +170,10 @@ export function AgentDetail({ agent, stacks }: AgentDetailProps) {
           </div>
         )}
 
-        {/* Connection Snippets */}
-        <section className="flex flex-col gap-3">
-          <h2 className="text-xl font-semibold text-text-primary">
-            Quick Connect
-          </h2>
-          <SnippetPreview agent={agent} />
-        </section>
-
         {/* Part of these stacks */}
         {stacks.length > 0 && (
-          <section className="flex flex-col gap-3">
-            <h2 className="text-xl font-semibold text-text-primary">
+          <section className="flex flex-col gap-3 animate-fade-up">
+            <h2 className="text-lg font-semibold text-text-primary">
               Part of these stacks
             </h2>
             <div className="flex flex-wrap gap-2">
@@ -141,7 +181,7 @@ export function AgentDetail({ agent, stacks }: AgentDetailProps) {
                 <Link
                   key={stack.slug}
                   href={`/stacks/${stack.slug}`}
-                  className="rounded-xl border border-border px-4 py-2 text-sm font-medium text-text-primary transition-colors hover:border-accent/30 hover:bg-accent-soft"
+                  className="card-hover rounded-xl border border-border bg-surface-elevated px-4 py-2 text-sm font-medium text-text-primary transition-all hover:border-accent/30 hover:text-accent"
                 >
                   {stack.name}
                 </Link>
@@ -179,16 +219,43 @@ export function AgentDetail({ agent, stacks }: AgentDetailProps) {
   );
 }
 
+/* ─── Sub-components ─── */
+
+function StepBlock({
+  step,
+  label,
+  command,
+}: {
+  step: number;
+  label: string;
+  command: string;
+}) {
+  return (
+    <div className="rounded-xl border border-border bg-surface-elevated p-4">
+      <div className="flex items-center gap-2 mb-2">
+        <span className="flex h-5 w-5 items-center justify-center rounded-full bg-accent/10 text-xs font-bold text-accent">
+          {step}
+        </span>
+        <span className="text-sm font-medium text-text-primary">{label}</span>
+      </div>
+      <div className="rounded-lg bg-code-bg px-3 py-2 font-mono text-sm text-code-text">
+        <span className="text-accent select-none">$ </span>
+        {command}
+      </div>
+    </div>
+  );
+}
+
 function CapabilityBadge({ label, enabled }: { label: string; enabled: boolean }) {
   return (
     <span
-      className={`inline-flex items-center gap-1.5 rounded-md px-2 py-0.5 text-xs font-medium ${
+      className={`inline-flex items-center gap-1.5 rounded-md px-2.5 py-1 text-xs font-medium ${
         enabled
-          ? "bg-emerald-50 text-emerald-700"
-          : "bg-zinc-100 text-zinc-400"
+          ? "bg-emerald-50 text-emerald-700 border border-emerald-200"
+          : "bg-stone-50 text-stone-400 border border-stone-200"
       }`}
     >
-      <span className={`h-1.5 w-1.5 rounded-full ${enabled ? "bg-emerald-500" : "bg-zinc-300"}`} />
+      <span className={`h-1.5 w-1.5 rounded-full ${enabled ? "bg-emerald-500" : "bg-stone-300"}`} />
       {label}
     </span>
   );

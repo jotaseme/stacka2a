@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAllAgents, getAgent, getStacksForAgent } from "@/lib/data";
 import { AgentDetail } from "@/components/agents/agent-detail";
+import { fetchReadme } from "@/lib/github";
+import { markdownToHtml } from "@/lib/markdown";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -28,6 +30,12 @@ export default async function AgentPage({ params }: PageProps) {
   if (!agent) notFound();
 
   const stacks = getStacksForAgent(slug);
+
+  // Fetch README from GitHub (returns null on failure)
+  const readmeMarkdown = await fetchReadme(agent.repository);
+  const readmeHtml = readmeMarkdown
+    ? await markdownToHtml(readmeMarkdown)
+    : null;
 
   const jsonLd = [
     {
@@ -56,7 +64,7 @@ export default async function AgentPage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <AgentDetail agent={agent} stacks={stacks} />
+      <AgentDetail agent={agent} stacks={stacks} readmeHtml={readmeHtml} />
     </>
   );
 }
