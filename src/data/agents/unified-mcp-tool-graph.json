@@ -1,7 +1,7 @@
 {
   "slug": "unified-mcp-tool-graph",
   "name": "Unified MCP Tool Graph",
-  "description": "Instead of dumping 1000+ tools into a model’s prompt and expecting it to choose wisely, the Unified MCP Tool Graph equips your LLM with structure, clarity, and relevance.  It fixes tool confusion, prevents infinite loops, and enables modular, intelligent agent workflows.",
+  "description": "Unified MCP Tool Graph providing structure and relevance to prevent tool confusion in workflows",
   "provider": {
     "name": "pratikjadhav2726",
     "url": "https://github.com/pratikjadhav2726"

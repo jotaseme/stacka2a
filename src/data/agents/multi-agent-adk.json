@@ -1,7 +1,7 @@
 {
   "slug": "multi-agent-adk",
   "name": "Multi Agent ADK",
-  "description": "A multi-agent e-commerce system built with Google ADK and MCP. Features microservice architecture with A2A protocol communication, enabling customer consultation, real-time inventory lookup, and automated order processing.",
+  "description": "Multi-agent e-commerce on Google ADK with A2A protocol for consultation, inventory, and order automation",
   "provider": {
     "name": "TrongNV2003",
     "url": "https://github.com/TrongNV2003"

@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const data = getStackWithAgents(slug);
   if (!data) return {};
   return {
-    title: data.stack.name,
+    title: `${data.stack.name} — A2A Agent Stack`,
     description: data.stack.description,
     alternates: { canonical: `https://stacka2a.dev/stacks/${slug}` },
   };

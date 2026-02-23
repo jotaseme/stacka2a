@@ -12,5 +12,11 @@
     "general-data"
   ],
   "difficulty": "intermediate",
-  "blogPost": "best-a2a-agents-data-analytics"
+  "blogPost": "best-a2a-agents-data-analytics",
+  "agentNotes": {
+    "a2a-sample-analytics": "Official Python sample demonstrating data analysis and reporting workflows",
+    "langchain-data-agent": "NL2SQL agent converting English questions into SQL queries with LangGraph",
+    "data-agent": "PydanticAI agent for data processing, visualization, and statistical analysis",
+    "a2a-sample-mindsdb": "Integrates MindsDB for AI-powered database queries and predictions"
+  }
 }

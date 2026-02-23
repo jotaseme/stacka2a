@@ -3,9 +3,9 @@ import Link from "next/link";
 import { getAllPosts } from "@/lib/blog";
 
 export const metadata: Metadata = {
-  title: "Blog",
+  title: "A2A Protocol Blog — Guides, Tutorials & Best Practices",
   description:
-    "Guides, tutorials, and best practices for A2A protocol agents, frameworks, and multi-agent systems.",
+    "Technical guides, framework tutorials, and best practices for building with the A2A protocol. From beginner to production.",
   alternates: { canonical: "https://stacka2a.dev/blog" },
 };
 

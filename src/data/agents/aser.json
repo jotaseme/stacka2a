@@ -1,7 +1,7 @@
 {
   "slug": "aser",
   "name": "Aser",
-  "description": "Aser is a lightweight, self-assembling AI Agent frame.",
+  "description": "Lightweight self-assembling AI agent framework with A2A protocol support and modularity",
   "provider": {
     "name": "AmeNetwork",
     "url": "https://github.com/AmeNetwork"

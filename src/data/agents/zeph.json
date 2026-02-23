@@ -1,7 +1,7 @@
 {
   "slug": "zeph",
   "name": "Zeph",
-  "description": " Lightweight AI agent runtime in Rust — hybrid inference (Ollama, Claude, OpenAI, HuggingFace), multi-model orchestration, skill-based tool use with self-learning, semantic memory via Qdrant, code RAG with   tree-sitter, MCP client, A2A protocol. CLI + Telegram + TUI",
+  "description": "Rust AI agent runtime with hybrid inference, multi-model orchestration, and A2A protocol support",
   "provider": {
     "name": "bug-ops",
     "url": "https://github.com/bug-ops"

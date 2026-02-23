@@ -1,7 +1,7 @@
 {
   "slug": "refrax",
   "name": "Refrax",
-  "description": "Command-Line Agentic Refactoring of Java Code",
+  "description": "CLI tool for agentic Java code refactoring using AI agents and A2A protocol integration",
   "provider": {
     "name": "cqfn",
     "url": "https://github.com/cqfn"

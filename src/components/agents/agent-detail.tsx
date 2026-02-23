@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { A2AAgent, Stack } from "@/lib/types";
+import type { A2AAgent, Stack, BlogPost } from "@/lib/types";
 import { Badge } from "@/components/ui/badge";
 import { QualityScoreBadge } from "./quality-score-badge";
 import { QualityBreakdown } from "./quality-breakdown";
@@ -9,9 +9,10 @@ interface AgentDetailProps {
   agent: A2AAgent;
   stacks: Stack[];
   readmeHtml: string | null;
+  relatedPosts?: BlogPost[];
 }
 
-export function AgentDetail({ agent, stacks, readmeHtml }: AgentDetailProps) {
+export function AgentDetail({ agent, stacks, readmeHtml, relatedPosts = [] }: AgentDetailProps) {
   const steps = generateGettingStarted(agent);
 
   return (
@@ -184,6 +185,27 @@ export function AgentDetail({ agent, stacks, readmeHtml }: AgentDetailProps) {
                   className="card-hover rounded-xl border border-border bg-surface-elevated px-4 py-2 text-sm font-medium text-text-primary transition-all hover:border-accent/30 hover:text-accent"
                 >
                   {stack.name}
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Related Articles */}
+        {relatedPosts.length > 0 && (
+          <section className="flex flex-col gap-3 animate-fade-up">
+            <h2 className="text-lg font-semibold text-text-primary">
+              Related Articles
+            </h2>
+            <div className="flex flex-col gap-2">
+              {relatedPosts.map((post) => (
+                <Link
+                  key={post.slug}
+                  href={`/blog/${post.slug}`}
+                  className="card-hover flex items-center justify-between rounded-xl border border-border bg-surface-elevated px-4 py-3 transition-all hover:border-accent/30"
+                >
+                  <span className="text-sm font-medium text-text-primary">{post.title}</span>
+                  <span className="text-xs text-text-tertiary shrink-0 ml-3">{post.readingTime} min</span>
                 </Link>
               ))}
             </div>

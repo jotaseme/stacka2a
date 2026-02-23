@@ -1,7 +1,7 @@
 {
   "slug": "handler",
   "name": "Handler",
-  "description": "A2A Protocol client and developer toolkit.",
+  "description": "Complete A2A protocol client and developer toolkit for building agent integrations",
   "provider": {
     "name": "alDuncanson",
     "url": "https://github.com/alDuncanson"

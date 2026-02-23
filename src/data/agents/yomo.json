@@ -1,7 +1,7 @@
 {
   "slug": "yomo",
   "name": "Yomo",
-  "description": "🦖 Serverless AI Agent Framework with Geo-distributed Edge AI Infra.",
+  "description": "Serverless AI agent framework with geo-distributed edge infrastructure using Go and QUIC",
   "provider": {
     "name": "yomorun",
     "url": "https://github.com/yomorun"

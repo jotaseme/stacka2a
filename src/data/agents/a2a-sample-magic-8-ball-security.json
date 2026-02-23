@@ -1,7 +1,7 @@
 {
   "slug": "a2a-sample-magic-8-ball-security",
   "name": "Magic 8 Ball Security (Official Sample)",
-  "description": "Official A2A java sample agent: Magic 8 Ball Security",
+  "description": "Official A2A Java sample: Magic 8 Ball agent demonstrating security best practices",
   "provider": {
     "name": "A2A Project",
     "url": "https://github.com/a2aproject"

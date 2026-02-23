@@ -1,7 +1,7 @@
 {
   "slug": "coin-railz",
   "name": "Coin Railz",
-  "description": "Multi-chain x402 micropayment infrastructure for AI agents. 33 pay-per-call API services for crypto analytics, trading signals, security audits, real estate, banking, and market intelligence. Pay with USDC on Base chain - prices from $0.10 to $10.00 per request.",
+  "description": "Multi-chain x402 micropayment infrastructure with 33 API services for crypto analytics and payments",
   "provider": {
     "name": "Kellogg Holdings LLC",
     "url": "https://coinrailz.com"

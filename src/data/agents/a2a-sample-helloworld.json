@@ -1,7 +1,7 @@
 {
   "slug": "a2a-sample-helloworld",
   "name": "Helloworld (Official Sample)",
-  "description": "Official A2A python sample agent: Helloworld",
+  "description": "Official A2A Python sample: Hello World agent for learning A2A protocol fundamentals",
   "provider": {
     "name": "A2A Project",
     "url": "https://github.com/a2aproject"

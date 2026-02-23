@@ -1,7 +1,7 @@
 {
   "slug": "a2a-payments",
   "name": "A2A Payments",
-  "description": "🦪💰 Framework-agnostic A2A payment system with SHIB on Polygon. Works with LangChain, AWS Bedrock, OpenClaw, AutoGen. Trustless escrow, negotiation, reputation. 9,416x cheaper than traditional escrow.",
+  "description": "Framework-agnostic A2A payment system with SHIB on Polygon featuring trustless escrow and reputation",
   "provider": {
     "name": "marcus20232023",
     "url": "https://github.com/marcus20232023"

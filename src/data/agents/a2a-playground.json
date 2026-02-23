@@ -1,7 +1,7 @@
 {
   "slug": "a2a-playground",
   "name": "A2A Playground",
-  "description": "A local CLI that serves a Vue UI and proxies to an A2A (Agent-to-Agent) agent. Use it to test and interact with A2A agents in your browser. Supports both gRPC and JSON-RPC transports.",
+  "description": "Local CLI with Vue UI for testing A2A agents in your browser. Supports gRPC and JSON-RPC transports",
   "provider": {
     "name": "alis-exchange",
     "url": "https://github.com/alis-exchange"

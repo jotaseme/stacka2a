@@ -1,7 +1,7 @@
 {
   "slug": "consensus-ai",
   "name": "Consensus.Ai",
-  "description": "Where AI disagrees before users suffer",
+  "description": "AI consensus system where agents debate decisions before users commit using A2A protocol",
   "provider": {
     "name": "Adidem23",
     "url": "https://github.com/Adidem23"

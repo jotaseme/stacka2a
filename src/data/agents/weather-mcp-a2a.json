@@ -1,7 +1,7 @@
 {
   "slug": "weather-mcp-a2a",
   "name": "Weather MCP A2A",
-  "description": "MCP-based agentic AI system enabling LLMs to fetch and reason over real-time global weather data using standardized tool invocation. Built with MCP Server/Client, Llama 3, and external APIs to deliver low-latency, hallucination-free weather intelligence through protocol-driven workflows.",
+  "description": "MCP-based AI system for real-time weather data with Llama 3 and standardized tool invocation",
   "provider": {
     "name": "Ratnesh-181998",
     "url": "https://github.com/Ratnesh-181998"

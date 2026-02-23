@@ -1,7 +1,7 @@
 {
   "slug": "a2a-sample-a2a-mcp",
   "name": "A2A MCP (Official Sample)",
-  "description": "Official A2A python sample agent: A2A MCP",
+  "description": "Official A2A Python sample: MCP integration bridging Model Context Protocol with A2A",
   "provider": {
     "name": "A2A Project",
     "url": "https://github.com/a2aproject"

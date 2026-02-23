@@ -1,7 +1,7 @@
 {
   "slug": "iam-bobs-brain",
   "name": "Iam Bobs Brain",
-  "description": "General-purpose enterprise orchestrator on Google ADK + Vertex AI Agent Engine. Multi-agent system with risk tiers (R0-R4), policy gates, evidence bundles, and Mission Spec v1 workflows.",
+  "description": "Enterprise orchestrator on Google ADK and Vertex AI with multi-agent risk tiers and policy-driven workflows",
   "provider": {
     "name": "intent-solutions-io",
     "url": "https://github.com/intent-solutions-io"

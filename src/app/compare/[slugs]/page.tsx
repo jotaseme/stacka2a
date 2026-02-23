@@ -84,24 +84,39 @@ export default async function ComparePage({ params }: PageProps) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              {
-                "@type": "ListItem",
-                position: 1,
-                name: "Home",
-                item: "https://stacka2a.dev",
-              },
-              {
-                "@type": "ListItem",
-                position: 2,
-                name: "Compare",
-                item: `https://stacka2a.dev/compare/${slugs}`,
-              },
-            ],
-          }),
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              itemListElement: [
+                {
+                  "@type": "ListItem",
+                  position: 1,
+                  name: "Home",
+                  item: "https://stacka2a.dev",
+                },
+                {
+                  "@type": "ListItem",
+                  position: 2,
+                  name: "Compare",
+                  item: "https://stacka2a.dev/compare",
+                },
+                {
+                  "@type": "ListItem",
+                  position: 3,
+                  name: names.join(" vs "),
+                },
+              ],
+            },
+            ...agents.map((agent) => ({
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              name: agent.name,
+              description: agent.description,
+              applicationCategory: "DeveloperApplication",
+              url: `https://stacka2a.dev/agents/${agent.slug}`,
+            })),
+          ]),
         }}
       />
     </>

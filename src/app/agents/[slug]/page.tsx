@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getAllAgents, getAgent, getStacksForAgent } from "@/lib/data";
+import { getAllAgents, getAgent, getStacksForAgent, getPostsForAgent } from "@/lib/data";
 import { AgentDetail } from "@/components/agents/agent-detail";
 import { Breadcrumbs } from "@/components/ui/breadcrumbs";
 import { fetchReadme } from "@/lib/github";
@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const agent = getAgent(slug);
   if (!agent) return {};
   return {
-    title: `${agent.name} — A2A Agent`,
+    title: `${agent.name} — A2A Agent Review`,
     description: agent.description,
     alternates: { canonical: `https://stacka2a.dev/agents/${slug}` },
   };
@@ -32,6 +32,7 @@ export default async function AgentPage({ params }: PageProps) {
   if (!agent) notFound();
 
   const stacks = getStacksForAgent(slug);
+  const relatedPosts = getPostsForAgent(slug);
 
   // Fetch README from GitHub (returns null on failure)
   const readmeMarkdown = await fetchReadme(agent.repository);
@@ -73,7 +74,7 @@ export default async function AgentPage({ params }: PageProps) {
           { label: agent.name },
         ]} />
       </div>
-      <AgentDetail agent={agent} stacks={stacks} readmeHtml={readmeHtml} />
+      <AgentDetail agent={agent} stacks={stacks} readmeHtml={readmeHtml} relatedPosts={relatedPosts} />
     </>
   );
 }

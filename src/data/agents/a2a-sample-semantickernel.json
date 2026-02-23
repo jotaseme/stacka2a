@@ -1,7 +1,7 @@
 {
   "slug": "a2a-sample-semantickernel",
   "name": "Semantickernel (Official Sample)",
-  "description": "Official A2A python sample agent: Semantickernel",
+  "description": "Official A2A Python sample: Semantic Kernel agent for enterprise AI orchestration",
   "provider": {
     "name": "A2A Project",
     "url": "https://github.com/a2aproject"

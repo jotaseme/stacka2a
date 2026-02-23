@@ -15,5 +15,15 @@
     "capiscio-sdk-python"
   ],
   "difficulty": "advanced",
-  "blogPost": "secure-a2a-agents-oauth2"
+  "blogPost": "secure-a2a-agents-oauth2",
+  "agentNotes": {
+    "a2a-sample-headless-agent-auth": "Official sample for headless authentication without user interaction",
+    "a2a-sample-magic-8-ball-security": "Java example demonstrating secure agent communication patterns",
+    "a2a-agents-secure-verification-poc": "Formal verification ensuring agent behavior meets security specifications",
+    "a2a-sample-signing-and-verifying": "Cryptographic signing and verification for trusted agent messages",
+    "secure-rag-multi-agent": "RAG with JWT security and role-based access control",
+    "a2a-scanner": "Scans agents for threats and security policy violations",
+    "ziran": "Red team agent uncovering vulnerabilities through adversarial testing",
+    "capiscio-sdk-python": "Always-on runtime security middleware for production deployments"
+  }
 }

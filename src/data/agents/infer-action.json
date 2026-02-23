@@ -1,7 +1,7 @@
 {
   "slug": "infer-action",
   "name": "Infer Action",
-  "description": "Github action for the Infer CLI",
+  "description": "GitHub Action for automated code inference using Infer CLI with A2A agent integration",
   "provider": {
     "name": "inference-gateway",
     "url": "https://github.com/inference-gateway"

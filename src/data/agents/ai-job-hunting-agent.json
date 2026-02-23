@@ -1,7 +1,7 @@
 {
   "slug": "ai-job-hunting-agent",
   "name": "Ai Job Hunting Agent",
-  "description": "Checks for jobs continuously (24×7) on a schedule you control  Parses job descriptions, extracts skills & keywords, and scores matches to your preferences  Sends notifications (Email + Telegram bot supported in MVP)  Generates tailored, job‑specific CVs (Markdown → optional PDF via Pandoc)",
+  "description": "24/7 job hunting agent with skill matching, notifications, and tailored CV generation using A2A",
   "provider": {
     "name": "vivek7557",
     "url": "https://github.com/vivek7557"

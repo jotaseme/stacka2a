@@ -8,5 +8,9 @@
     "ag2",
     "a2a-sample-any-agent-adversarial-multiagent"
   ],
-  "difficulty": "advanced"
+  "difficulty": "advanced",
+  "agentNotes": {
+    "ag2": "Microsoft AgentOS with native A2aAgentServer and A2aRemoteAgent classes",
+    "a2a-sample-any-agent-adversarial-multiagent": "Official sample demonstrating adversarial multi-agent debates"
+  }
 }

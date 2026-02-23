@@ -1,7 +1,7 @@
 {
   "slug": "a2a-mqtt",
   "name": "A2A MQTT",
-  "description": "Agent to agent protocol using MQTT",
+  "description": "Implement A2A protocol over MQTT for distributed agent communication and messaging",
   "provider": {
     "name": "JonathanGrocott",
     "url": "https://github.com/JonathanGrocott"

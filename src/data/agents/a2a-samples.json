@@ -1,7 +1,7 @@
 {
   "slug": "a2a-samples",
   "name": "A2A Samples",
-  "description": "Samples using the Agent2Agent (A2A) Protocol",
+  "description": "Official A2A protocol samples in Python and Java demonstrating agent communication patterns",
   "provider": {
     "name": "a2aproject",
     "url": "https://github.com/a2aproject"

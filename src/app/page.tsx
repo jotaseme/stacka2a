@@ -1,8 +1,24 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { getAllStacks, getAllAgents } from "@/lib/data";
 import { StackCard } from "@/components/stacks/stack-card";
 import { HeroSection } from "@/components/home/hero-section";
 import { StatsSection } from "@/components/home/stats-section";
+
+export const metadata: Metadata = {
+  title: {
+    absolute: "StackA2A — The Best A2A Agents, Scored & Ready to Connect",
+  },
+  description:
+    "Discover 250+ A2A protocol agents with quality scores, connection snippets in 5 languages, and curated stacks. The definitive directory for the Agent-to-Agent ecosystem.",
+  openGraph: {
+    title: "StackA2A — The Best A2A Agents, Scored & Ready to Connect",
+    description:
+      "Discover 250+ A2A protocol agents with quality scores, connection snippets in 5 languages, and curated stacks.",
+    url: "https://stacka2a.dev",
+    type: "website",
+  },
+};
 
 const featuredSlugs = [
   "code-generation",

@@ -1,7 +1,7 @@
 {
   "slug": "a2a-sample-travel-planner-agent",
   "name": "Travel Planner Agent (Official Sample)",
-  "description": "Official A2A python sample agent: Travel Planner Agent",
+  "description": "Official A2A Python sample: travel planning agent for itineraries and booking automation",
   "provider": {
     "name": "A2A Project",
     "url": "https://github.com/a2aproject"

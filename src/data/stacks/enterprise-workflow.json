@@ -12,5 +12,11 @@
     "varna-enterprise"
   ],
   "difficulty": "intermediate",
-  "blogPost": "best-a2a-agents-enterprise"
+  "blogPost": "best-a2a-agents-enterprise",
+  "agentNotes": {
+    "a2a-sample-adk-expense-reimbursement": "Google ADK agent automating expense submission and approval workflows",
+    "a2a-sample-travel-planner-agent": "Plans business travel itineraries and manages booking coordination",
+    "google-calendar-agent": "Go-based agent for scheduling, retrieval, and calendar automation",
+    "a2a-sample-birthday-planner-adk": "ADK orchestration example for event planning and coordination"
+  }
 }

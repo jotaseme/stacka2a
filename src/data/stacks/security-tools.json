@@ -14,5 +14,14 @@
     "agentup"
   ],
   "difficulty": "advanced",
-  "blogPost": "secure-a2a-agents-oauth2"
+  "blogPost": "secure-a2a-agents-oauth2",
+  "agentNotes": {
+    "a2a-scanner": "Cisco tool scanning A2A agents for security threats and vulnerabilities",
+    "ziran": "Advanced penetration testing using trust exploitation and attack methodologies",
+    "a2a-vulnerability-scanner": "Multi-agent system scanning websites with coordinated threat analysis",
+    "a2a-agents-secure-verification-poc": "Formal verification proof-of-concept for LLM agent security",
+    "capiscio-sdk-python": "Runtime security middleware with validation, signatures, and rate limiting",
+    "a2a-sample-signing-and-verifying": "Official sample demonstrating cryptographic message signing patterns",
+    "agentup": "Portable, scalable agent platform with built-in security and auth"
+  }
 }

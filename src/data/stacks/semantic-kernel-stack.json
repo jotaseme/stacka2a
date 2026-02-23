@@ -10,5 +10,11 @@
     "a2a-sample-semantickernel",
     "semantic-kernel-agent-a2a-protocol-example"
   ],
-  "difficulty": "advanced"
+  "difficulty": "advanced",
+  "agentNotes": {
+    "a2a-semantic-kernel-dotnet": "C# integration with dynamic Semantic Kernel functions and repositories",
+    "agent2agent": "Multi-agent proof-of-concept combining Semantic Kernel with Blazor UI",
+    "a2a-sample-semantickernel": "Official Python sample for Semantic Kernel A2A integration",
+    "semantic-kernel-agent-a2a-protocol-example": "C# example with discovery service for enterprise .NET deployments"
+  }
 }

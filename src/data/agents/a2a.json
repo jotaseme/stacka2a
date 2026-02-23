@@ -1,7 +1,7 @@
 {
   "slug": "a2a",
   "name": "A2A",
-  "description": "Azure-native A2A Technology Demonstrator",
+  "description": "Azure-native A2A protocol demonstrator using Dapr, Kafka, and Python for agent coordination",
   "provider": {
     "name": "aymenfurter",
     "url": "https://github.com/aymenfurter"

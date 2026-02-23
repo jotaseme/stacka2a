@@ -9,5 +9,9 @@
     "opencrew"
   ],
   "difficulty": "intermediate",
-  "blogPost": "build-a2a-agent-crewai"
+  "blogPost": "build-a2a-agent-crewai",
+  "agentNotes": {
+    "a2a-sample-crewai": "Official Python sample showcasing CrewAI role-based agent collaboration",
+    "opencrew": "Multi-agent decision-making system with autonomous iteration and team coordination"
+  }
 }

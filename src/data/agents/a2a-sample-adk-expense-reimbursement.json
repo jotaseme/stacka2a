@@ -1,7 +1,7 @@
 {
   "slug": "a2a-sample-adk-expense-reimbursement",
   "name": "Adk Expense Reimbursement (Official Sample)",
-  "description": "Official A2A python sample agent: Adk Expense Reimbursement",
+  "description": "Official A2A Python sample: expense reimbursement agent with Google ADK for finance workflows",
   "provider": {
     "name": "A2A Project",
     "url": "https://github.com/a2aproject"

@@ -1,7 +1,7 @@
 {
   "slug": "a2a-llama-index-file-chat",
   "name": "A2A Llama Index File Chat",
-  "description": "This sample demonstrates a conversational agent built with LlamaIndex Workflows and exposed through the A2A protocol. It showcases file upload and parsing, conversational interactions with support for multi-turn dialogue, streaming responses/updates, and in-line citations.",
+  "description": "LlamaIndex conversational agent with A2A protocol: file parsing, multi-turn dialogue, and streaming",
   "provider": {
     "name": "sing1ee",
     "url": "https://github.com/sing1ee"

@@ -1,7 +1,7 @@
 {
   "slug": "a2a-sample-content-editor",
   "name": "Content Editor (Official Sample)",
-  "description": "Official A2A java sample agent: Content Editor",
+  "description": "Official A2A Java sample: content editing agent with AI-powered writing assistance",
   "provider": {
     "name": "A2A Project",
     "url": "https://github.com/a2aproject"

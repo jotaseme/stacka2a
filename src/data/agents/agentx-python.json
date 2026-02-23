@@ -1,7 +1,7 @@
 {
   "slug": "agentx-python",
   "name": "Agentx Python",
-  "description": "AgentX python SDK. Build multi-agent AI workforce.",
+  "description": "AgentX Python SDK: build multi-agent AI workforce with A2A protocol interoperability",
   "provider": {
     "name": "AgentX-ai",
     "url": "https://github.com/AgentX-ai"

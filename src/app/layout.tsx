@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { DM_Sans, JetBrains_Mono } from "next/font/google";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
@@ -14,6 +14,11 @@ const jetbrainsMono = JetBrains_Mono({
   variable: "--font-mono",
   subsets: ["latin"],
 });
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://stacka2a.dev"),
@@ -63,19 +68,30 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "WebSite",
-              name: "StackA2A",
-              url: "https://stacka2a.dev",
-              description:
-                "Curated directory of A2A protocol agents with quality scores and connection snippets.",
-              potentialAction: {
-                "@type": "SearchAction",
-                target: "https://stacka2a.dev/agents?q={search_term_string}",
-                "query-input": "required name=search_term_string",
+            __html: JSON.stringify([
+              {
+                "@context": "https://schema.org",
+                "@type": "WebSite",
+                name: "StackA2A",
+                url: "https://stacka2a.dev",
+                description:
+                  "Curated directory of A2A protocol agents with quality scores and connection snippets.",
+                potentialAction: {
+                  "@type": "SearchAction",
+                  target: "https://stacka2a.dev/agents?q={search_term_string}",
+                  "query-input": "required name=search_term_string",
+                },
               },
-            }),
+              {
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                name: "StackA2A",
+                url: "https://stacka2a.dev",
+                logo: "https://stacka2a.dev/icon.png",
+                description:
+                  "The definitive directory for A2A (Agent-to-Agent) protocol agents.",
+              },
+            ]),
           }}
         />
         <Header />

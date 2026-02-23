@@ -1,7 +1,7 @@
 {
   "slug": "apflow",
   "name": "Apflow",
-  "description": "The core of `aipflow` is **task orchestration and execution specifications**. It provides a unified task orchestration framework that supports execution of multiple task types. The core is **pure orchestration** with no LLM dependencies - CrewAI support is optional.",
+  "description": "Task orchestration framework with unified execution specs. Pure orchestration without LLM dependencies",
   "provider": {
     "name": "aipartnerup",
     "url": "https://github.com/aipartnerup"

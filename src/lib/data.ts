@@ -76,6 +76,15 @@ export function getAgentsByLanguage(language: string): A2AAgent[] {
   return getAllAgents().filter((a) => a.language === language);
 }
 
+export function getPostsForAgent(agentSlug: string) {
+  // Lazy import to avoid circular dependency
+  const { getAllPosts } = require("./blog");
+  const posts = getAllPosts() as import("./types").BlogPost[];
+  return posts.filter(
+    (post) => post.relatedAgents && post.relatedAgents.includes(agentSlug)
+  );
+}
+
 export const CATEGORY_DISPLAY: Record<string, { label: string; description: string }> = {
   "code-generation": { label: "Code Generation", description: "A2A agents that write, review, and refactor code across languages and frameworks." },
   "data-analytics": { label: "Data & Analytics", description: "A2A agents for data processing, visualization, and analytical workflows." },

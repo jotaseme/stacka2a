@@ -5,7 +5,7 @@ date: "2026-03-30"
 readingTime: 7
 tags: ["a2a", "best-of", "security", "agents"]
 relatedStacks: ["security-auth-stack"]
-relatedAgents: []
+relatedAgents: ["a2a-sample-headless-agent-auth", "a2a-sample-signing-and-verifying", "a2a-sample-magic-8-ball-security"]
 ---
 
 Security is the A2A use case where getting it wrong costs you the most. An agent that hallucinates a vulnerability wastes your time. An agent that misses one costs you a breach. The agents in this space range from genuinely useful reference implementations to thin wrappers around `pip audit`. Here is an honest assessment of each.

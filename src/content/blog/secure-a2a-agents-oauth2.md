@@ -5,6 +5,7 @@ date: "2026-02-20"
 readingTime: 8
 tags: ["a2a", "security", "oauth2", "guide"]
 relatedStacks: ["security-auth"]
+relatedAgents: ["a2a-sample-headless-agent-auth", "a2a-sample-magic-8-ball-security", "a2a-sample-signing-and-verifying"]
 ---
 
 A2A agents are HTTP services. An unprotected agent is an open API. Anyone with the URL can call it, and Agent Cards at `/.well-known/agent-card.json` make that URL trivially discoverable. OAuth2 is how you lock it down.

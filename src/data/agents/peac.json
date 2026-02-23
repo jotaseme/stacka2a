@@ -1,7 +1,7 @@
 {
   "slug": "peac",
   "name": "Peac",
-  "description": "PEAC Protocol: Portable Evidence for Agent Coordination",
+  "description": "PEAC Protocol: portable evidence system for AI agent coordination with A2A integration",
   "provider": {
     "name": "peacprotocol",
     "url": "https://github.com/peacprotocol"

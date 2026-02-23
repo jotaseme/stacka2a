@@ -1,7 +1,7 @@
 {
   "slug": "a2a-sample-adk-cloud-run",
   "name": "Adk Cloud Run (Official Sample)",
-  "description": "Official A2A python sample agent: Adk Cloud Run",
+  "description": "Official A2A Python sample: Google ADK agent deployed on Cloud Run infrastructure",
   "provider": {
     "name": "A2A Project",
     "url": "https://github.com/a2aproject"

@@ -1,7 +1,7 @@
 {
   "slug": "hello-world-agent",
   "name": "Hello World Agent",
-  "description": "A simple A2A agent that responds with 'Hello World' to any request",
+  "description": "Simple Hello World A2A agent for learning protocol basics with minimal implementation",
   "provider": {
     "name": "A2A Registry Team",
     "url": "https://github.com/prassanna-ravishankar/a2a-registry"

@@ -1,7 +1,7 @@
 {
   "slug": "a2a-sample-any-agent-adversarial-multiagent",
   "name": "Any Agent Adversarial Multiagent (Official Sample)",
-  "description": "Official A2A python sample agent: Any Agent Adversarial Multiagent",
+  "description": "Official A2A Python sample: adversarial multi-agent system for debate and consensus building",
   "provider": {
     "name": "A2A Project",
     "url": "https://github.com/a2aproject"

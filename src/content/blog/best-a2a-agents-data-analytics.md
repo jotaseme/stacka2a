@@ -5,6 +5,7 @@ date: "2026-02-10"
 readingTime: 6
 tags: ["a2a", "data-analytics", "best-of"]
 relatedStacks: ["data-analytics"]
+relatedAgents: ["a2a-sample-mindsdb", "a2a-python-currency"]
 ---
 
 The data analytics A2A ecosystem has a few genuinely useful agents and a few that are really just reference implementations wearing a "data analytics" label. This post separates the two.

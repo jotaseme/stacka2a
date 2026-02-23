@@ -27,7 +27,7 @@ export function Header() {
           href="/"
           className="flex items-center gap-2.5 text-lg font-semibold tracking-tight text-text-primary"
         >
-          <Image src={icon} alt="" width={28} height={28} className="size-7" />
+          <Image src={icon} alt="" width={28} height={28} priority className="size-7" />
           <Brand />
         </Link>
 

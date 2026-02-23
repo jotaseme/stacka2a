@@ -11,5 +11,12 @@
     "research-agent",
     "planning-agent"
   ],
-  "difficulty": "intermediate"
+  "difficulty": "intermediate",
+  "agentNotes": {
+    "pydantic-fasta2a": "Core framework converting any PydanticAI agent into A2A server",
+    "code-agent": "Type-safe code generation and review with PydanticAI",
+    "data-agent": "Data analysis and visualization with strict type validation",
+    "research-agent": "Research and information gathering with structured PydanticAI outputs",
+    "planning-agent": "Project planning and workflow optimization with type-safe schemas"
+  }
 }

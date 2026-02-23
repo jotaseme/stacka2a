@@ -5,6 +5,7 @@ date: "2026-02-07"
 readingTime: 7
 tags: ["a2a", "enterprise", "automation", "best-of"]
 relatedStacks: ["enterprise-workflow"]
+relatedAgents: ["a2a-sample-adk-expense-reimbursement", "a2a-sample-travel-planner-agent", "elkar-a2a"]
 ---
 
 Enterprise automation is where A2A makes the most obvious sense. You have discrete business processes -- expenses, travel, scheduling -- that already live in separate systems. A2A gives each one an agent, a standard interface, and the ability to call each other without custom integration work.

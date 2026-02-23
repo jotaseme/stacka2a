@@ -1,7 +1,7 @@
 {
   "slug": "agent-dir",
   "name": "Agent Dir",
-  "description": "push A2A agent cards to Git, get a lightweight agent catalog",
+  "description": "Git-based A2A agent directory: push agent cards and create lightweight agent catalogs",
   "provider": {
     "name": "aymenfurter",
     "url": "https://github.com/aymenfurter"

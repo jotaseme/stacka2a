@@ -11,5 +11,12 @@
     "agentic-rag-a2a-mcp",
     "leaprag"
   ],
-  "difficulty": "intermediate"
+  "difficulty": "intermediate",
+  "agentNotes": {
+    "langgraph-research-agent": "LangGraph multi-agent system with Gemini for comprehensive web research",
+    "research-agent": "PydanticAI agent conducting deep research with multi-source synthesis",
+    "mastervolt-deep-research": "Sophisticated orchestration system with semantic memory for verified research",
+    "agentic-rag-a2a-mcp": "Unified RAG system with document processing and intelligent delegation",
+    "leaprag": "Open-source RAG platform building context-aware, auto-discoverable agents"
+  }
 }

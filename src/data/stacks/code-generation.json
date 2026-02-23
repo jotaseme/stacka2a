@@ -12,5 +12,12 @@
     "langgraph-research-agent"
   ],
   "difficulty": "intermediate",
-  "blogPost": "best-a2a-agents-code-generation"
+  "blogPost": "best-a2a-agents-code-generation",
+  "agentNotes": {
+    "a2a-sample-github-agent": "Official Python sample for GitHub operations and repository management",
+    "code-agent": "PydanticAI agent for code generation, review, and debugging tasks",
+    "a2a-sample-a2a-mcp": "Bridges A2A protocol with Model Context Protocol for enhanced tooling",
+    "a2a-sample-content-editor": "Java-based content editing agent for refining written code documentation",
+    "langgraph-research-agent": "LangGraph multi-agent system with Gemini for deep code research"
+  }
 }

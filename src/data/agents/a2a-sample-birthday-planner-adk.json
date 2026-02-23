@@ -1,7 +1,7 @@
 {
   "slug": "a2a-sample-birthday-planner-adk",
   "name": "Birthday Planner Adk (Official Sample)",
-  "description": "Official A2A python sample agent: Birthday Planner Adk",
+  "description": "Official A2A Python sample: Birthday planning agent using Google ADK for event coordination",
   "provider": {
     "name": "A2A Project",
     "url": "https://github.com/a2aproject"

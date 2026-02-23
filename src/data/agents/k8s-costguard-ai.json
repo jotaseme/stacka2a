@@ -1,7 +1,7 @@
 {
   "slug": "k8s-costguard-ai",
   "name": "K8s CostGuard AI",
-  "description": "Multi-Agent Kubernetes Cost Optimization System",
+  "description": "Multi-agent system for Kubernetes cost optimization using AI and A2A protocol coordination",
   "provider": {
     "name": "TridipDam",
     "url": "https://github.com/TridipDam"

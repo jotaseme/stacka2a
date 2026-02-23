@@ -1,7 +1,7 @@
 {
   "slug": "m2m",
   "name": "M2m",
-  "description": "Machine 2 Machine Protocol, x402 + A2A + MCP",
+  "description": "Machine-to-machine protocol combining x402 payments, A2A, and MCP for agent coordination",
   "provider": {
     "name": "AndreaRettaroli",
     "url": "https://github.com/AndreaRettaroli"

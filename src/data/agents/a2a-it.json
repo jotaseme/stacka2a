@@ -1,7 +1,7 @@
 {
   "slug": "a2a-it",
   "name": "A2A It",
-  "description": "A example A2a Server with Human-In-The-Loop feature.",
+  "description": "A2A server with human-in-the-loop capabilities for collaborative AI agent workflows",
   "provider": {
     "name": "Areo-Joe",
     "url": "https://github.com/Areo-Joe"

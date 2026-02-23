@@ -1,7 +1,7 @@
 {
   "slug": "a2a-sample-adk-facts",
   "name": "Adk Facts (Official Sample)",
-  "description": "Official A2A python sample agent: Adk Facts",
+  "description": "Official A2A Python sample: Google ADK facts agent with knowledge retrieval capabilities",
   "provider": {
     "name": "A2A Project",
     "url": "https://github.com/a2aproject"

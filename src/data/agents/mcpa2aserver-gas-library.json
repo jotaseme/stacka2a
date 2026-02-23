@@ -1,7 +1,7 @@
 {
   "slug": "mcpa2aserver-gas-library",
   "name": "MCPA2Aserver GAS Library",
-  "description": "MCPA2Aserver is a Google Apps Script library designed to consolidate Generative AI protocols into a single server solution. It enables developers to easily build and deploy servers that support both the **Model Context Protocol (MCP)** and the **Agent-to-Agent (A2A)** protocol.",
+  "description": "Google Apps Script library consolidating MCP and A2A protocols into a single server solution",
   "provider": {
     "name": "tanaikech",
     "url": "https://github.com/tanaikech"

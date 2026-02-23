@@ -1,7 +1,7 @@
 {
   "slug": "salesforce-agentforce-a2a-wrapper",
   "name": "Salesforce Agentforce A2A Wrapper",
-  "description": "An example implementation of a financial AI Agent built with Agentforce and made accessible through the A2A protocol. The Heroku backend provides A2A protocol support, and the agent uses Heroku AppLink to perform API invocations.",
+  "description": "Financial AI agent with Salesforce Agentforce and A2A protocol on Heroku with AppLink integration",
   "provider": {
     "name": "mvrzan",
     "url": "https://github.com/mvrzan"

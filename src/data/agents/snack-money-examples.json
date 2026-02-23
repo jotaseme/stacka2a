@@ -1,7 +1,7 @@
 {
   "slug": "snack-money-examples",
   "name": "Snack Money Examples",
-  "description": "Snack Money API examples",
+  "description": "Sample implementations of Snack Money API for agent payments using A2A protocol",
   "provider": {
     "name": "snack-money",
     "url": "https://github.com/snack-money"

@@ -1,7 +1,7 @@
 {
   "slug": "toolprotocol",
   "name": "Toolprotocol",
-  "description": "Multi-protocol transport layer: MCP, A2A, ACP adapters",
+  "description": "Multi-protocol transport layer supporting MCP, A2A, and ACP adapters for unified agents",
   "provider": {
     "name": "jonwraymond",
     "url": "https://github.com/jonwraymond"

@@ -1,7 +1,7 @@
 {
   "slug": "a2a-sample-beeai-chat",
   "name": "Beeai Chat (Official Sample)",
-  "description": "Official A2A python sample agent: Beeai Chat",
+  "description": "Official A2A Python sample: BeeAI conversational agent with multi-turn chat support",
   "provider": {
     "name": "A2A Project",
     "url": "https://github.com/a2aproject"

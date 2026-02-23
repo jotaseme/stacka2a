@@ -11,5 +11,11 @@
     "a2a4j"
   ],
   "difficulty": "advanced",
-  "blogPost": "build-a2a-agent-spring-boot"
+  "blogPost": "build-a2a-agent-spring-boot",
+  "agentNotes": {
+    "a2a-java-sdk-spring": "Comprehensive Java SDK with auto-configuration and Spring AI integration",
+    "a2ajava-spring": "Pure Java A2A implementation with automatic MCP tool exposure",
+    "google-a2a": "Multi-agent orchestration with Spring Boot, Ollama, and parent-child architecture",
+    "a2a4j": "Complete Java implementation with server, client, examples, and starters"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "slug": "semantic-kernel-agent-a2a-protocol-example",
   "name": "Semantic Kernel Agent A2A Protocol Example",
-  "description": "Semantic Kernel A2A protocol and A2A Discovery Service Example",
+  "description": "Semantic Kernel with A2A protocol integration and discovery service example implementation",
   "provider": {
     "name": "Jordiag",
     "url": "https://github.com/Jordiag"

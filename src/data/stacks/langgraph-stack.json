@@ -12,5 +12,12 @@
     "langchain-data-agent"
   ],
   "difficulty": "intermediate",
-  "blogPost": "build-a2a-agent-langgraph"
+  "blogPost": "build-a2a-agent-langgraph",
+  "agentNotes": {
+    "a2a-sample-langgraph": "Official Python sample showcasing LangGraph stateful agent workflows",
+    "a2a-template-langgraph": "Production-ready template for building LangGraph A2A agents",
+    "langgraph-research-agent": "Multi-agent research system with cyclic graph architecture",
+    "a2a-langchain-adapters": "Integrates A2A agents into LangChain/LangGraph with streaming support",
+    "langchain-data-agent": "LangGraph-powered NL2SQL agent for database querying"
+  }
 }

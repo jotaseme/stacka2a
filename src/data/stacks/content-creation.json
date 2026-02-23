@@ -11,5 +11,12 @@
     "a2a-sample-veo-video-gen",
     "a2a-storylab"
   ],
-  "difficulty": "beginner"
+  "difficulty": "beginner",
+  "agentNotes": {
+    "a2a-sample-content-writer": "Java agent generating original written content from prompts",
+    "a2a-sample-content-planner": "Plans content strategy, topics, and editorial calendars",
+    "a2a-sample-content-editor": "Reviews and refines written content for quality and consistency",
+    "a2a-sample-veo-video-gen": "Generates AI videos using Google Veo video generation model",
+    "a2a-storylab": "Multi-agent storytelling system demonstrating collaborative content iteration"
+  }
 }

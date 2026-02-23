@@ -12,5 +12,12 @@
     "multi-agent-adk"
   ],
   "difficulty": "intermediate",
-  "blogPost": "build-a2a-agent-google-adk"
+  "blogPost": "build-a2a-agent-google-adk",
+  "agentNotes": {
+    "a2a-sample-adk-expense-reimbursement": "Enterprise expense automation with ADK workflows and approvals",
+    "a2a-sample-adk-facts": "Simple fact-retrieval agent demonstrating ADK basics",
+    "a2a-sample-birthday-planner-adk": "Event planning orchestration showing ADK coordination capabilities",
+    "a2a-sample-adk-cloud-run": "Production deployment example for ADK agents on Google Cloud Run",
+    "multi-agent-adk": "E-commerce microservices with inventory, consultation, and order agents"
+  }
 }

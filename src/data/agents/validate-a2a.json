@@ -1,7 +1,7 @@
 {
   "slug": "validate-a2a",
   "name": "Validate A2A",
-  "description": "Official CapiscIO GitHub Action to validate A2A (Agent-to-Agent) Agent Cards. Features schema validation, cryptographic verification, and live endpoint testing with 3D quality scoring.",
+  "description": "GitHub Action for A2A agent card validation with schema checks, crypto verification, and endpoint testing",
   "provider": {
     "name": "capiscio",
     "url": "https://github.com/capiscio"

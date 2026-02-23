@@ -1,7 +1,7 @@
 {
   "slug": "a2a-sample-crewai",
   "name": "Crewai (Official Sample)",
-  "description": "Official A2A python sample agent: Crewai",
+  "description": "Official A2A Python sample: CrewAI agent implementation with multi-agent orchestration",
   "provider": {
     "name": "A2A Project",
     "url": "https://github.com/a2aproject"

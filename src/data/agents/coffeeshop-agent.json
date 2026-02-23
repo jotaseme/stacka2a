@@ -1,7 +1,7 @@
 {
   "slug": "coffeeshop-agent",
   "name": "Coffeeshop Agent",
-  "description": ".NET Agents technologies (Microsoft Agent Framework, MCP, A2A, AG-UI)",
+  "description": ".NET agent technologies demo: Microsoft Agent Framework, MCP, A2A, and AG-UI integration",
   "provider": {
     "name": "thangchung",
     "url": "https://github.com/thangchung"

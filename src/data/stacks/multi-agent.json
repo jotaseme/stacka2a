@@ -11,5 +11,11 @@
     "swarm-factory",
     "a2a-sample-airbnb-planner-multiagent"
   ],
-  "difficulty": "advanced"
+  "difficulty": "advanced",
+  "agentNotes": {
+    "a2a-agent-orchestration-system": "LangGraph-based orchestration hub delegating tasks across specialized agents",
+    "multi-agent-adk": "Google ADK e-commerce system with inventory and order agents",
+    "multi-agent-system-google-adk": "Google ADK demonstration of coordinated multi-agent workflows",
+    "a2a-sample-airbnb-planner-multiagent": "Coordinates multiple agents for travel and accommodation planning"
+  }
 }

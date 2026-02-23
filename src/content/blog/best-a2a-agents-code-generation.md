@@ -5,6 +5,7 @@ date: "2026-02-03"
 readingTime: 6
 tags: ["a2a", "code-generation", "best-of", "2026"]
 relatedStacks: ["code-generation"]
+relatedAgents: ["a2a-sample-github-agent", "ag2", "a2a-semantic-kernel-dotnet", "artinet-sdk"]
 ---
 
 A2A gives you something new in the code generation space: agents that can discover each other, talk over HTTP, and slot into a pipeline without glue code. You can have one agent write code, another review it, and a third open the PR. None of them need to know about each other's internals.

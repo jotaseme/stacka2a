@@ -1,7 +1,7 @@
 {
   "slug": "infinite-agent-streams",
   "name": "Infinite Agent Streams",
-  "description": "Recipes for scalable, streaming-first multi-agent systems in cloud. It combines A2A protocol, OpenAI Agents SDK, and Dapr building blocks (PubSub + Virtual Actors) to show how AI agents can stream outputs and coordinate at scale.",
+  "description": "Scalable streaming multi-agent systems with A2A protocol, OpenAI SDK, and Dapr for cloud coordination",
   "provider": {
     "name": "mjunaidca",
     "url": "https://github.com/mjunaidca"

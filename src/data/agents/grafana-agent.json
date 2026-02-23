@@ -1,7 +1,7 @@
 {
   "slug": "grafana-agent",
   "name": "Grafana Agent",
-  "description": "A2A agent server for grafana dashboards automation tasks",
+  "description": "A2A agent server for Grafana dashboard automation and monitoring task orchestration",
   "provider": {
     "name": "inference-gateway",
     "url": "https://github.com/inference-gateway"

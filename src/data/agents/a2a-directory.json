@@ -1,7 +1,7 @@
 {
   "slug": "a2a-directory",
   "name": "A2A Directory",
-  "description": "Agent2Agent (A2A) – AgentCards, Servers, Clients, Docs",
+  "description": "Complete A2A directory with agent cards, servers, clients, and documentation resources",
   "provider": {
     "name": "sing1ee",
     "url": "https://github.com/sing1ee"
