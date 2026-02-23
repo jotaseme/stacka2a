@@ -64,6 +64,11 @@ export async function getPost(
   return { post, contentHtml };
 }
 
+export function getPostBySlug(slug: string): BlogPost | null {
+  const posts = getAllPosts();
+  return posts.find((p) => p.slug === slug) || null;
+}
+
 export function extractHeadings(html: string): { id: string; text: string }[] {
   const regex = /<h2[^>]*id="([^"]*)"[^>]*>(.*?)<\/h2>/gi;
   const headings: { id: string; text: string }[] = [];

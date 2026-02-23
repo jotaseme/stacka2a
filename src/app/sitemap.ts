@@ -37,5 +37,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...agentPages, ...stackPages, ...blogPages];
+  // Compare pages: top agents per category
+  const byCategory = new Map<string, typeof agents>();
+  for (const agent of agents) {
+    const list = byCategory.get(agent.category) || [];
+    list.push(agent);
+    byCategory.set(agent.category, list);
+  }
+  const comparePages: MetadataRoute.Sitemap = [];
+  for (const [, categoryAgents] of byCategory) {
+    const top = categoryAgents.slice(0, 5);
+    for (let i = 0; i < top.length; i++) {
+      for (let j = i + 1; j < top.length; j++) {
+        comparePages.push({
+          url: `${BASE_URL}/compare/${top[i].slug}-vs-${top[j].slug}`,
+          lastModified: new Date(),
+          changeFrequency: "monthly" as const,
+          priority: 0.5,
+        });
+      }
+    }
+  }
+
+  return [...staticPages, ...agentPages, ...stackPages, ...blogPages, ...comparePages.slice(0, 100)];
 }
