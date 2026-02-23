@@ -5,7 +5,7 @@ import { AgentList } from "@/components/agents/agent-list";
 export const metadata: Metadata = {
   title: "A2A Agents Directory",
   description:
-    "Browse 350+ A2A protocol agents with quality scores, capability badges, and connection code for Python, TypeScript, Java, Go, and C#.",
+    "Browse 250+ A2A protocol agents with quality scores, capability badges, and connection code for Python, TypeScript, Java, Go, and C#.",
 };
 
 export default function AgentsPage() {
