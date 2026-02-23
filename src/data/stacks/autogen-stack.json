@@ -1,0 +1,12 @@
+{
+  "slug": "autogen-stack",
+  "name": "AutoGen / AG2 Agents",
+  "description": "A2A agents built with Microsoft's AutoGen (AG2) framework for flexible multi-agent conversations.",
+  "icon": "zap",
+  "category": "framework",
+  "agents": [
+    "a2a-sample-ag2",
+    "a2a-sample-any-agent-adversarial-multiagent"
+  ],
+  "difficulty": "advanced"
+}

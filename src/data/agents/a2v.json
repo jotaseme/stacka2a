@@ -1,0 +1,40 @@
+{
+  "slug": "a2v",
+  "name": "A2V",
+  "description": "A2V: Next-Gen AI Value Compute Protocol.                                                                                 ",
+  "provider": {
+    "name": "Devin-AXIS",
+    "url": "https://github.com/Devin-AXIS"
+  },
+  "repository": "https://github.com/Devin-AXIS/A2V",
+  "category": "general",
+  "tags": [
+    "ai-agent-network",
+    "bnb-chain",
+    "ethereum",
+    "mcp-server",
+    "protocol",
+    "smart-contracts",
+    "token-economy",
+    "web3",
+    "x402-compatible"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "http://a2v.ipollo.ai/",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 1201,
+  "lastUpdated": "2025-11-12",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

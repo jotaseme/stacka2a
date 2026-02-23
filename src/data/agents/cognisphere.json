@@ -1,0 +1,32 @@
+{
+  "slug": "cognisphere",
+  "name": "Cognisphere",
+  "description": "Cognisphere ADK is an AI agent development framework built on Google's Agent Development Kit (ADK) ",
+  "provider": {
+    "name": "IhateCreatingUserNames2",
+    "url": "https://github.com/IhateCreatingUserNames2"
+  },
+  "repository": "https://github.com/IhateCreatingUserNames2/Cognisphere",
+  "category": "general",
+  "tags": [
+    "google-adk",
+    "mcp"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 16,
+  "lastUpdated": "2025-06-06",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "agentum",
+  "name": "Agentum",
+  "description": "An agent playground (without authentication) in a single repo for fastest turn around cycles during experiments.",
+  "provider": {
+    "name": "BulloRosso",
+    "url": "https://github.com/BulloRosso"
+  },
+  "repository": "https://github.com/BulloRosso/agentum",
+  "category": "security",
+  "tags": [
+    "ai",
+    "mcp-client",
+    "mcp-server",
+    "react"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2025-05-05",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

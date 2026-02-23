@@ -1,0 +1,35 @@
+{
+  "slug": "adk",
+  "name": "Adk",
+  "description": "An Agent Development Kit (ADK) allowing for seamless creation of A2A-compatible agents written in Go",
+  "provider": {
+    "name": "inference-gateway",
+    "url": "https://github.com/inference-gateway"
+  },
+  "repository": "https://github.com/inference-gateway/adk",
+  "category": "enterprise",
+  "tags": [
+    "a2a-server",
+    "adk",
+    "enterprise",
+    "inference-gateway",
+    "llm"
+  ],
+  "framework": "google-adk",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 18,
+  "lastUpdated": "2026-01-18",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

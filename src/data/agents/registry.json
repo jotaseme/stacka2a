@@ -1,0 +1,38 @@
+{
+  "slug": "registry",
+  "name": "Registry",
+  "description": "A registry website for hosting the a2a agents that were built using the Inference Gateway ADK",
+  "provider": {
+    "name": "inference-gateway",
+    "url": "https://github.com/inference-gateway"
+  },
+  "repository": "https://github.com/inference-gateway/registry",
+  "category": "enterprise",
+  "tags": [
+    "agents",
+    "container-as-a-service",
+    "containers",
+    "enterprise",
+    "enterprise-ready",
+    "oci",
+    "registry"
+  ],
+  "framework": "google-adk",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "http://registry.inference-gateway.com/",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-12-04",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

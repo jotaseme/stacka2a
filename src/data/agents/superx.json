@@ -1,0 +1,37 @@
+{
+  "slug": "superx",
+  "name": "Superx",
+  "description": " Experimental gateway that unifies agents built on A2A and MCP behind a single, scalable infrastructure.",
+  "provider": {
+    "name": "Alfinjohnson",
+    "url": "https://github.com/Alfinjohnson"
+  },
+  "repository": "https://github.com/Alfinjohnson/superx",
+  "category": "infrastructure",
+  "tags": [
+    "agentic-ai",
+    "elixir",
+    "gateway",
+    "generative-ai",
+    "mcp",
+    "orchestrator"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-10",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

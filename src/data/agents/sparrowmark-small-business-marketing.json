@@ -1,0 +1,51 @@
+{
+  "slug": "sparrowmark-small-business-marketing",
+  "name": "Sparrowmark Small Business Marketing",
+  "description": "A marketing agency that helps small businesses get more customers and keep them happy through various services such as reputation management, search engine optimization, lead generation, and message marketing.",
+  "provider": {
+    "name": "Lifie.ai Hub",
+    "url": "https://hub.lifie.ai"
+  },
+  "repository": "",
+  "category": "search",
+  "tags": [
+    "business",
+    "commerce"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [
+    {
+      "id": "interact",
+      "name": "Interact with Sparrowmark Small Business Marketing",
+      "description": "A marketing agency that helps small businesses get more customers and keep them happy through various services such as reputation management, search engine optimization, lead generation, and message marketing.",
+      "tags": [
+        "business",
+        "commerce"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain"
+      ]
+    }
+  ],
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": false,
+    "multiTurn": true
+  },
+  "authType": "none",
+  "agentCardUrl": "https://api.lifie.ai/a2a/cmg85cclr08h9uat8iy71w42h/agent-card.json",
+  "endpointUrl": "https://hub.lifie.ai/agent/cmg85cclr08h9uat8iy71w42h/sparrowmark-small-business-marketing",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

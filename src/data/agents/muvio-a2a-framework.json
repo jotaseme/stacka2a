@@ -1,0 +1,32 @@
+{
+  "slug": "muvio-a2a-framework",
+  "name": "Muvio A2A Framework",
+  "description": "Muvius is a powerful framework for building and managing AI agents with advanced memory systems and seamless inter-agent communication. It provides a structured approach to creating intelligent agents",
+  "provider": {
+    "name": "muvioai",
+    "url": "https://github.com/muvioai"
+  },
+  "repository": "https://github.com/muvioai/muvio-a2a-framework",
+  "category": "general",
+  "tags": [
+    "a2a-server",
+    "agentic-ai"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-06-05",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

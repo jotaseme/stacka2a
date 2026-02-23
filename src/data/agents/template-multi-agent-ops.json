@@ -1,0 +1,36 @@
+{
+  "slug": "template-multi-agent-ops",
+  "name": "Template Multi Agent Ops",
+  "description": "Multi-agent ops template: A2A protocol + Agent Cards + task delegation + OpenTelemetry observability",
+  "provider": {
+    "name": "cwccie",
+    "url": "https://github.com/cwccie"
+  },
+  "repository": "https://github.com/cwccie/template-multi-agent-ops",
+  "category": "orchestration",
+  "tags": [
+    "ai-ops",
+    "fastapi",
+    "multi-agent",
+    "opentelemetry",
+    "python",
+    "reference-architecture"
+  ],
+  "framework": "fastapi",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

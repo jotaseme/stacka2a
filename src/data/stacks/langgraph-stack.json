@@ -1,0 +1,16 @@
+{
+  "slug": "langgraph-stack",
+  "name": "LangGraph Agents",
+  "description": "A2A agents built with LangGraph for stateful, multi-step workflows with advanced control flow.",
+  "icon": "brain",
+  "category": "framework",
+  "agents": [
+    "a2a-sample-langgraph",
+    "a2a-template-langgraph",
+    "langgraph-research-agent",
+    "a2a-langchain-adapters",
+    "langchain-data-agent"
+  ],
+  "difficulty": "intermediate",
+  "blogPost": "build-a2a-agent-langgraph"
+}

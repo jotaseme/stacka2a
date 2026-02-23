@@ -1,0 +1,32 @@
+{
+  "slug": "a2a-sample-signing-and-verifying",
+  "name": "Signing And Verifying (Official Sample)",
+  "description": "Official A2A python sample agent: Signing And Verifying",
+  "provider": {
+    "name": "A2A Project",
+    "url": "https://github.com/a2aproject"
+  },
+  "repository": "https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/signing_and_verifying",
+  "category": "general",
+  "tags": [
+    "official-sample",
+    "python"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1329,
+  "lastUpdated": "2026-02-22",
+  "official": true,
+  "selfHosted": true,
+  "license": "apache-2.0"
+}

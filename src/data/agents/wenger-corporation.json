@@ -1,0 +1,51 @@
+{
+  "slug": "wenger-corporation",
+  "name": "Wenger Corporation",
+  "description": "Wenger Corporation provides innovative products and solutions for music and theatre education, performing arts, and athletic equipment storage and transport.",
+  "provider": {
+    "name": "Lifie.ai Hub",
+    "url": "https://hub.lifie.ai"
+  },
+  "repository": "",
+  "category": "general",
+  "tags": [
+    "business",
+    "commerce"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [
+    {
+      "id": "interact",
+      "name": "Interact with Wenger Corporation",
+      "description": "Wenger Corporation provides innovative products and solutions for music and theatre education, performing arts, and athletic equipment storage and transport.",
+      "tags": [
+        "business",
+        "commerce"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain"
+      ]
+    }
+  ],
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": false,
+    "multiTurn": true
+  },
+  "authType": "none",
+  "agentCardUrl": "https://api.lifie.ai/a2a/cmg82mbk4004puat8fltijj1f/agent-card.json",
+  "endpointUrl": "https://hub.lifie.ai/agent/cmg82mbk4004puat8fltijj1f/wenger-corporation",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "a2a-electoral-rag",
+  "name": "A2A Electoral Rag",
+  "description": "U.S. governance-inspired coordination strategies in multi-agent AI systems",
+  "provider": {
+    "name": "maxonary",
+    "url": "https://github.com/maxonary"
+  },
+  "repository": "https://github.com/maxonary/a2a-electoral-rag",
+  "category": "orchestration",
+  "tags": [
+    "elections",
+    "multi-agent-systems"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-07-06",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

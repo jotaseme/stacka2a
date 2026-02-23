@@ -1,0 +1,41 @@
+{
+  "slug": "pipelinepilot",
+  "name": "Pipelinepilot",
+  "description": "ADK-based SDR orchestration on Vertex AI Agent Engine. Routes leads through Research, Enrich, and Outreach agents with BYO data provider keys (Clay, Apollo, Clearbit).",
+  "provider": {
+    "name": "jeremylongshore",
+    "url": "https://github.com/jeremylongshore"
+  },
+  "repository": "https://github.com/jeremylongshore/pipelinepilot",
+  "category": "search",
+  "tags": [
+    "agent-engine",
+    "ai-agents",
+    "apollo",
+    "clay",
+    "clearbit",
+    "firestore",
+    "google-adk",
+    "intent-solutions",
+    "lead-enrichment",
+    "sales-development"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://pipelinepilot-prod.web.app",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-01-30",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

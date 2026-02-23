@@ -1,0 +1,41 @@
+{
+  "slug": "idun-agent-platform",
+  "name": "Idun Agent Platform",
+  "description": "🟪 Open source Agent Governance Platform that turns any LangGraph or ADK agent into a production-ready service. Supports: AG-UI, CopilotKit API, OpenTelemetry, MCP, memory, guardrails, SSO, RBAC.",
+  "provider": {
+    "name": "Idun-Group",
+    "url": "https://github.com/Idun-Group"
+  },
+  "repository": "https://github.com/Idun-Group/idun-agent-platform",
+  "category": "general",
+  "tags": [
+    "ag-ui-protocol",
+    "agent-platform",
+    "agentic-ai",
+    "agents",
+    "aiops",
+    "copilotkit",
+    "google-adk",
+    "governance",
+    "guardrails",
+    "langchain"
+  ],
+  "framework": "google-adk",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://idun-group.github.io/idun-agent-platform/",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 101,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "GPL-3.0"
+}

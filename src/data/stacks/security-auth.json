@@ -1,0 +1,16 @@
+{
+  "slug": "security-auth",
+  "name": "Security & Auth",
+  "description": "A2A agents demonstrating authentication, authorization, and secure agent communication patterns.",
+  "icon": "lock",
+  "category": "industry",
+  "agents": [
+    "a2a-sample-headless-agent-auth",
+    "a2a-sample-magic-8-ball-security",
+    "a2a-agents-secure-verification-poc",
+    "a2a-sample-signing-and-verifying",
+    "secure-rag-multi-agent"
+  ],
+  "difficulty": "advanced",
+  "blogPost": "secure-a2a-agents-oauth2"
+}

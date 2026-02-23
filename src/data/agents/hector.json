@@ -1,0 +1,38 @@
+{
+  "slug": "hector",
+  "name": "Hector",
+  "description": "A2A-Native AI Agent Platform written in Go",
+  "provider": {
+    "name": "verikod",
+    "url": "https://github.com/verikod"
+  },
+  "repository": "https://github.com/verikod/hector",
+  "category": "utility",
+  "tags": [
+    "ai",
+    "ai-agent-tools",
+    "ai-agents",
+    "ai-agents-framework",
+    "declarative",
+    "golang"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://gohector.dev",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 50,
+  "lastUpdated": "2026-01-02",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

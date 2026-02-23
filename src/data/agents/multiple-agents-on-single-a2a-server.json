@@ -1,0 +1,36 @@
+{
+  "slug": "multiple-agents-on-single-a2a-server",
+  "name": "Multiple Agents On Single A2A Server",
+  "description": "Run multiple agents on single A2A Server",
+  "provider": {
+    "name": "satendrakumar",
+    "url": "https://github.com/satendrakumar"
+  },
+  "repository": "https://github.com/satendrakumar/multiple-agents-on-single-a2a-server",
+  "category": "orchestration",
+  "tags": [
+    "agentic-ai",
+    "agents",
+    "google-adk",
+    "llm",
+    "python"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://deeplearningdispatch.com/2025/08/16/running-multiple-a2a-agents-on-a-single-server/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 3,
+  "lastUpdated": "2025-08-20",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

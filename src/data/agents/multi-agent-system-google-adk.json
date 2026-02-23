@@ -1,0 +1,34 @@
+{
+  "slug": "multi-agent-system-google-adk",
+  "name": "Multi Agent System Google ADK",
+  "description": "Google-ADK",
+  "provider": {
+    "name": "ambideXtrous9",
+    "url": "https://github.com/ambideXtrous9"
+  },
+  "repository": "https://github.com/ambideXtrous9/Multi-Agent-System-Google-ADK",
+  "category": "orchestration",
+  "tags": [
+    "agents",
+    "google-adk",
+    "mcp",
+    "multiagent-systems"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-11-12",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

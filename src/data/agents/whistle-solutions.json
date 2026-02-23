@@ -1,0 +1,51 @@
+{
+  "slug": "whistle-solutions",
+  "name": "Whistle Solutions",
+  "description": "A B2B firm specializing in providing corporate gifts, catering to various needs with a wide range of products.",
+  "provider": {
+    "name": "Lifie.ai Hub",
+    "url": "https://hub.lifie.ai"
+  },
+  "repository": "",
+  "category": "general",
+  "tags": [
+    "business",
+    "commerce"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [
+    {
+      "id": "interact",
+      "name": "Interact with Whistle Solutions",
+      "description": "A B2B firm specializing in providing corporate gifts, catering to various needs with a wide range of products.",
+      "tags": [
+        "business",
+        "commerce"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain"
+      ]
+    }
+  ],
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": false,
+    "multiTurn": true
+  },
+  "authType": "none",
+  "agentCardUrl": "https://api.lifie.ai/a2a/cmg8253cc005t72iccaj0mrxd/agent-card.json",
+  "endpointUrl": "https://hub.lifie.ai/agent/cmg8253cc005t72iccaj0mrxd/whistle-solutions",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

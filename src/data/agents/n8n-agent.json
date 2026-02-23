@@ -1,0 +1,34 @@
+{
+  "slug": "n8n-agent",
+  "name": "N8n Agent",
+  "description": "A2A agent server specialized in generating and automating n8n workflows",
+  "provider": {
+    "name": "inference-gateway",
+    "url": "https://github.com/inference-gateway"
+  },
+  "repository": "https://github.com/inference-gateway/n8n-agent",
+  "category": "enterprise",
+  "tags": [
+    "a2a-server",
+    "n8n",
+    "workflow-automation"
+  ],
+  "framework": "custom",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://registry.inference-gateway.com/",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2025-10-20",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

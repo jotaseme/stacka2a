@@ -1,0 +1,33 @@
+{
+  "slug": "a2a-gateway",
+  "name": "A2A Gateway",
+  "description": "Open-source gateway and community to make AI agents interoperable using Google's A2A protocol – like Hugging Face, but for agents.",
+  "provider": {
+    "name": "therealpan",
+    "url": "https://github.com/therealpan"
+  },
+  "repository": "https://github.com/therealpan/a2a-gateway",
+  "category": "general",
+  "tags": [
+    "agentic-ai",
+    "ai"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://a2agateway.vercel.app/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 3,
+  "lastUpdated": "2025-05-08",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

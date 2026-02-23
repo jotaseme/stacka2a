@@ -1,0 +1,14 @@
+{
+  "slug": "crewai-stack",
+  "name": "CrewAI Agents",
+  "description": "A2A agents powered by CrewAI for role-based multi-agent collaboration and task delegation.",
+  "icon": "users",
+  "category": "framework",
+  "agents": [
+    "a2a-sample-crewai",
+    "a2a-crewai-hf",
+    "opencrew"
+  ],
+  "difficulty": "intermediate",
+  "blogPost": "build-a2a-agent-crewai"
+}

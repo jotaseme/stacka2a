@@ -1,0 +1,17 @@
+{
+  "slug": "google-adk-stack",
+  "name": "Google ADK Agents",
+  "description": "Best A2A agents built with Google's Agent Development Kit. The official framework for building production-ready agents.",
+  "icon": "robot",
+  "category": "framework",
+  "agents": [
+    "adk-a2a",
+    "a2a-sample-adk-expense-reimbursement",
+    "a2a-sample-adk-facts",
+    "a2a-sample-birthday-planner-adk",
+    "a2a-sample-adk-cloud-run",
+    "multi-agent-adk"
+  ],
+  "difficulty": "intermediate",
+  "blogPost": "build-a2a-agent-google-adk"
+}

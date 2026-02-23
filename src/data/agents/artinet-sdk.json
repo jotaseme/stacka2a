@@ -1,0 +1,42 @@
+{
+  "slug": "artinet-sdk",
+  "name": "Artinet SDK",
+  "description": "Ship Agent2Agent in one line of code.",
+  "provider": {
+    "name": "the-artinet-project",
+    "url": "https://github.com/the-artinet-project"
+  },
+  "repository": "https://github.com/the-artinet-project/artinet-sdk",
+  "category": "code-generation",
+  "tags": [
+    "agent2agent",
+    "agentic",
+    "agentic-ai",
+    "agenticweb",
+    "agents",
+    "ai",
+    "aiagents",
+    "anthropic",
+    "artificial-intelligence",
+    "langchain",
+    "a2a-protocol"
+  ],
+  "framework": "langchain",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://artinet.io/",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 39,
+  "lastUpdated": "2026-02-20",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "ai-mocks",
+  "name": "Ai Mocks",
+  "description": "AI-Mocks is a Kotlin-based mock server toolkit that brings service virtualization to both HTTP/SSE and LLM APIs — think WireMock meets local OpenAI/Anthropic/Gemini/A2A testing, but with real streaming and Server-Sent Events support.",
+  "provider": {
+    "name": "mokksy",
+    "url": "https://github.com/mokksy"
+  },
+  "repository": "https://github.com/mokksy/ai-mocks",
+  "category": "utility",
+  "tags": [
+    "agent-to-agent",
+    "kotlin",
+    "ktor",
+    "ktor-server",
+    "langchain4j",
+    "llm",
+    "mock",
+    "mock-server",
+    "openai-api",
+    "service-virtualization"
+  ],
+  "framework": "langchain",
+  "language": "java",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "http://mokksy.dev/",
+  "sdks": [
+    "java"
+  ],
+  "githubStars": 36,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

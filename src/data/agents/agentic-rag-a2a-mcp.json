@@ -1,0 +1,40 @@
+{
+  "slug": "agentic-rag-a2a-mcp",
+  "name": "Agentic Rag A2A MCP",
+  "description": "A unified AI agent system integrating Retrieval-Augmented Generation (RAG), Agent-to-Agent (A2A) communication, and Model Context Protocol (MCP) for document processing, web search, and intelligent task delegation.",
+  "provider": {
+    "name": "nabojyoti",
+    "url": "https://github.com/nabojyoti"
+  },
+  "repository": "https://github.com/nabojyoti/agentic-rag-a2a-mcp",
+  "category": "search",
+  "tags": [
+    "a2a-mcp",
+    "agent-to-agent",
+    "agentic-ai",
+    "agentic-rag",
+    "ai",
+    "mcp",
+    "model-context-protocol",
+    "multi-agent",
+    "rag",
+    "retrieval-augmented-generation"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-01",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

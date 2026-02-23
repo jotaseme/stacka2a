@@ -1,0 +1,40 @@
+{
+  "slug": "blazor-ai-chat-a2a-mode",
+  "name": "Blazor Ai Chat A2A Mode",
+  "description": "Integrates the DevExpress Blazor AI Chat component with AI agents that conform to the Agent2Agent (A2A) protocol. ",
+  "provider": {
+    "name": "DevExpress-Examples",
+    "url": "https://github.com/DevExpress-Examples"
+  },
+  "repository": "https://github.com/DevExpress-Examples/blazor-ai-chat-a2a-mode",
+  "category": "conversational",
+  "tags": [
+    "ai",
+    "ai-agents",
+    "azure-openai",
+    "azure-openai-service",
+    "blazor",
+    "chat",
+    "chat-application",
+    "csahrp",
+    "devexpress",
+    "dotnet"
+  ],
+  "framework": "custom",
+  "language": "csharp",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "csharp"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-16",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

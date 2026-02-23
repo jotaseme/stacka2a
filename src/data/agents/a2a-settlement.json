@@ -1,0 +1,35 @@
+{
+  "slug": "a2a-settlement",
+  "name": "A2A Settlement",
+  "description": "Economic settlement extension for the A2A protocol — escrow-based token payments for agent-to-agent tasks.",
+  "provider": {
+    "name": "widrss",
+    "url": "https://github.com/widrss"
+  },
+  "repository": "https://github.com/widrss/a2a-settlement",
+  "category": "finance",
+  "tags": [
+    "agent-to-agent",
+    "ai-agents",
+    "micropayments",
+    "settlement"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://github.com/widrss/a2a-settlement/blob/main/SPEC.md",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-20",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

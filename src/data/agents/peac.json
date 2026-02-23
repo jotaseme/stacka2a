@@ -1,0 +1,41 @@
+{
+  "slug": "peac",
+  "name": "Peac",
+  "description": "PEAC Protocol: Portable Evidence for Agent Coordination",
+  "provider": {
+    "name": "peacprotocol",
+    "url": "https://github.com/peacprotocol"
+  },
+  "repository": "https://github.com/peacprotocol/peac",
+  "category": "general",
+  "tags": [
+    "402",
+    "agent-commerce",
+    "aipolicy",
+    "aipref",
+    "aiproof",
+    "evidence",
+    "evidence-based",
+    "http-402",
+    "originary",
+    "peacprotocol"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://www.peacprotocol.org",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 10,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

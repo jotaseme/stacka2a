@@ -1,0 +1,51 @@
+{
+  "slug": "wizworks",
+  "name": "Wizworks",
+  "description": "A coworking space in Noida, Delhi NCR, India offering various facilities and services to its members.",
+  "provider": {
+    "name": "Lifie.ai Hub",
+    "url": "https://hub.lifie.ai"
+  },
+  "repository": "",
+  "category": "general",
+  "tags": [
+    "business",
+    "commerce"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [
+    {
+      "id": "interact",
+      "name": "Interact with Wizworks",
+      "description": "A coworking space in Noida, Delhi NCR, India offering various facilities and services to its members.",
+      "tags": [
+        "business",
+        "commerce"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain"
+      ]
+    }
+  ],
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": false,
+    "multiTurn": true
+  },
+  "authType": "none",
+  "agentCardUrl": "https://api.lifie.ai/a2a/cmg81zo1u00hl12c2mnin0ff8/agent-card.json",
+  "endpointUrl": "https://hub.lifie.ai/agent/cmg81zo1u00hl12c2mnin0ff8/wizworks",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

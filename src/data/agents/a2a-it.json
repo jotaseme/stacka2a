@@ -1,0 +1,35 @@
+{
+  "slug": "a2a-it",
+  "name": "A2A It",
+  "description": "A example A2a Server with Human-In-The-Loop feature.",
+  "provider": {
+    "name": "Areo-Joe",
+    "url": "https://github.com/Areo-Joe"
+  },
+  "repository": "https://github.com/Areo-Joe/a2a-it",
+  "category": "general",
+  "tags": [
+    "agent",
+    "ai",
+    "hitl",
+    "human-in-the-loop"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://a2a-it.vercel.app",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 9,
+  "lastUpdated": "2025-09-10",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

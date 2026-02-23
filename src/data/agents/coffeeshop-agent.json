@@ -1,0 +1,40 @@
+{
+  "slug": "coffeeshop-agent",
+  "name": "Coffeeshop Agent",
+  "description": ".NET Agents technologies (Microsoft Agent Framework, MCP, A2A, AG-UI)",
+  "provider": {
+    "name": "thangchung",
+    "url": "https://github.com/thangchung"
+  },
+  "repository": "https://github.com/thangchung/coffeeshop-agent",
+  "category": "enterprise",
+  "tags": [
+    "ag-ui-protocol",
+    "agent-framework",
+    "agentic-ai",
+    "agents",
+    "ai",
+    "dotnet",
+    "mcp",
+    "microsoft",
+    "microsoft-agent-framework",
+    "multiagent"
+  ],
+  "framework": "custom",
+  "language": "csharp",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "csharp"
+  ],
+  "githubStars": 26,
+  "lastUpdated": "2025-11-28",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

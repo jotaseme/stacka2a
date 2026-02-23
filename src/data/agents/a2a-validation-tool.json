@@ -1,0 +1,39 @@
+{
+  "slug": "a2a-validation-tool",
+  "name": "A2A Validation Tool",
+  "description": "Agent 2 Agent (A2A) Validation tool (a2v) alternative to CLI",
+  "provider": {
+    "name": "llmx-tech",
+    "url": "https://github.com/llmx-tech"
+  },
+  "repository": "https://github.com/llmx-tech/a2a-validation-tool",
+  "category": "utility",
+  "tags": [
+    "a2a-cli",
+    "a2a-ui",
+    "a2v",
+    "agent",
+    "cli",
+    "google",
+    "tools",
+    "validation"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://llmx.de",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 10,
+  "lastUpdated": "2025-05-15",
+  "official": false,
+  "selfHosted": true,
+  "license": "GPL-3.0"
+}

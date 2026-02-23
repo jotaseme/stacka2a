@@ -1,0 +1,42 @@
+{
+  "slug": "weather-mcp-a2a",
+  "name": "Weather MCP A2A",
+  "description": "MCP-based agentic AI system enabling LLMs to fetch and reason over real-time global weather data using standardized tool invocation. Built with MCP Server/Client, Llama 3, and external APIs to deliver low-latency, hallucination-free weather intelligence through protocol-driven workflows.",
+  "provider": {
+    "name": "Ratnesh-181998",
+    "url": "https://github.com/Ratnesh-181998"
+  },
+  "repository": "https://github.com/Ratnesh-181998/weather-mcp-a2a",
+  "category": "data-analytics",
+  "tags": [
+    "agentic-ai",
+    "agents",
+    "aiops",
+    "docker",
+    "groq-api",
+    "groq-integration",
+    "lanchain",
+    "llm-ops",
+    "mcp",
+    "mcp-client",
+    "mcp-server"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://weather-mcp-a2a-agent-to-agent3a95dbsjhgfhd3yussfz3e.streamlit.app/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

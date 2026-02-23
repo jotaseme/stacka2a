@@ -1,0 +1,32 @@
+{
+  "slug": "a2a-sample-veo-video-gen",
+  "name": "Veo Video Gen (Official Sample)",
+  "description": "Official A2A python sample agent: Veo Video Gen",
+  "provider": {
+    "name": "A2A Project",
+    "url": "https://github.com/a2aproject"
+  },
+  "repository": "https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/veo_video_gen",
+  "category": "media-content",
+  "tags": [
+    "official-sample",
+    "python"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1329,
+  "lastUpdated": "2026-02-22",
+  "official": true,
+  "selfHosted": true,
+  "license": "apache-2.0"
+}

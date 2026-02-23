@@ -1,0 +1,40 @@
+{
+  "slug": "mastervolt-deep-research",
+  "name": "Mastervolt Deep Research",
+  "description": "Mastervolt Deep Research is a sophisticated multi-agent orchestration system built on VoltAgent that automates complex research workflows. It combines specialized AI agents, semantic memory, intelligent tooling, and custom web scraping to conduct comprehensive research, verify facts, analyze data, and generate publication-ready reports.",
+  "provider": {
+    "name": "ssdeanx",
+    "url": "https://github.com/ssdeanx"
+  },
+  "repository": "https://github.com/ssdeanx/Mastervolt-Deep-Research",
+  "category": "search",
+  "tags": [
+    "a2a-mcp",
+    "agentic-ai",
+    "ai-agents",
+    "chatbot",
+    "copilot",
+    "deep-learning",
+    "deep-research",
+    "gemini",
+    "google-ai",
+    "mcp"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 4,
+  "lastUpdated": "2026-02-15",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

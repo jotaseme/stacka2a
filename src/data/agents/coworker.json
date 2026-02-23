@@ -1,0 +1,41 @@
+{
+  "slug": "coworker",
+  "name": "Coworker",
+  "description": "Open-source AI agent with MCP UI, app builder, A2A protocol, skills marketplace, and multi-provider chat. Built with Mastra. Alternative to OpenClaw.",
+  "provider": {
+    "name": "Array-Ventures",
+    "url": "https://github.com/Array-Ventures"
+  },
+  "repository": "https://github.com/Array-Ventures/coworker",
+  "category": "conversational",
+  "tags": [
+    "ai-agent",
+    "ai-assistant",
+    "anthropic",
+    "app-builder",
+    "chatbot",
+    "electron",
+    "google-workspace",
+    "inngest",
+    "mastra",
+    "mcp"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://railway.com/deploy/coworker",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-02-21",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

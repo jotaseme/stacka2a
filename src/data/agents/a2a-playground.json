@@ -1,0 +1,33 @@
+{
+  "slug": "a2a-playground",
+  "name": "A2A Playground",
+  "description": "A local CLI that serves a Vue UI and proxies to an A2A (Agent-to-Agent) agent. Use it to test and interact with A2A agents in your browser. Supports both gRPC and JSON-RPC transports.",
+  "provider": {
+    "name": "alis-exchange",
+    "url": "https://github.com/alis-exchange"
+  },
+  "repository": "https://github.com/alis-exchange/a2a-playground",
+  "category": "general",
+  "tags": [
+    "a2a-agent",
+    "a2a-client"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://github.com/alis-exchange/a2a-playground",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-20",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

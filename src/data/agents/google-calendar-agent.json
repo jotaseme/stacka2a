@@ -1,0 +1,38 @@
+{
+  "slug": "google-calendar-agent",
+  "name": "Google Calendar Agent",
+  "description": "A2A agent server enabling Google Calendar scheduling, retrieval, and automation",
+  "provider": {
+    "name": "inference-gateway",
+    "url": "https://github.com/inference-gateway"
+  },
+  "repository": "https://github.com/inference-gateway/google-calendar-agent",
+  "category": "search",
+  "tags": [
+    "calendar",
+    "go",
+    "golang",
+    "google",
+    "google-calendar",
+    "google-calendar-api",
+    "inference-gateway"
+  ],
+  "framework": "custom",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://registry.inference-gateway.com/",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 14,
+  "lastUpdated": "2026-01-27",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

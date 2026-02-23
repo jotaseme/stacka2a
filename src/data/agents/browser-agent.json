@@ -1,0 +1,36 @@
+{
+  "slug": "browser-agent",
+  "name": "Browser Agent",
+  "description": "A2A agent server for browser automation and web testing using Playwright",
+  "provider": {
+    "name": "inference-gateway",
+    "url": "https://github.com/inference-gateway"
+  },
+  "repository": "https://github.com/inference-gateway/browser-agent",
+  "category": "general",
+  "tags": [
+    "a2a-server",
+    "browser",
+    "browser-automation",
+    "golang",
+    "google"
+  ],
+  "framework": "custom",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://registry.inference-gateway.com/",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 3,
+  "lastUpdated": "2026-01-27",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

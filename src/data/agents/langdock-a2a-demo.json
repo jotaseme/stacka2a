@@ -1,0 +1,32 @@
+{
+  "slug": "langdock-a2a-demo",
+  "name": "Langdock A2A Demo",
+  "description": "This is a sample A2A Agent server which wraps the Langdock Agent API",
+  "provider": {
+    "name": "matsjfunke",
+    "url": "https://github.com/matsjfunke"
+  },
+  "repository": "https://github.com/matsjfunke/Langdock-A2A-Demo",
+  "category": "general",
+  "tags": [
+    "a2a-agent",
+    "a2a-server"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-01-30",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

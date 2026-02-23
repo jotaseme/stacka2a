@@ -1,0 +1,35 @@
+{
+  "slug": "a2aptotocal",
+  "name": "A2aptotocal",
+  "description": "Discover, compare, and implement the best agent-to-agent protocols for your AI systems. Enable your AI agents to communicate effectively with our curated protocol directory.",
+  "provider": {
+    "name": "ankittyagi140",
+    "url": "https://github.com/ankittyagi140"
+  },
+  "repository": "https://github.com/ankittyagi140/a2aptotocal",
+  "category": "data-analytics",
+  "tags": [
+    "nextjs",
+    "sql",
+    "supabase",
+    "typescript"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://www.a2aprotocal.com/",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-04-18",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "infinite-agent-streams",
+  "name": "Infinite Agent Streams",
+  "description": "Recipes for scalable, streaming-first multi-agent systems in cloud. It combines A2A protocol, OpenAI Agents SDK, and Dapr building blocks (PubSub + Virtual Actors) to show how AI agents can stream outputs and coordinate at scale.",
+  "provider": {
+    "name": "mjunaidca",
+    "url": "https://github.com/mjunaidca"
+  },
+  "repository": "https://github.com/mjunaidca/infinite-agent-streams",
+  "category": "orchestration",
+  "tags": [
+    "dapr",
+    "event-driven-simulation",
+    "mcp-tools",
+    "openai-agent-sdk"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2025-08-28",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

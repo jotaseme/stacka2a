@@ -1,0 +1,30 @@
+{
+  "slug": "a2a-python-currency",
+  "name": "A2A Python Currency",
+  "description": "Implementing CurrencyAgent with A2A Python SDK",
+  "provider": {
+    "name": "sing1ee",
+    "url": "https://github.com/sing1ee"
+  },
+  "repository": "https://github.com/sing1ee/a2a-python-currency",
+  "category": "general",
+  "tags": [],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://a2aprotocol.ai/blog/a2a-sdk-currency-agent-tutorial",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2025-05-21",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

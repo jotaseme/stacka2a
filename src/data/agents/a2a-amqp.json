@@ -1,0 +1,36 @@
+{
+  "slug": "a2a-amqp",
+  "name": "A2A Amqp",
+  "description": " Production-ready AMQP adapter for A2A protocol enabling distributed task processing, event sourcing with LavinMQ streams, and horizontal worker scaling.",
+  "provider": {
+    "name": "cloudamqp",
+    "url": "https://github.com/cloudamqp"
+  },
+  "repository": "https://github.com/cloudamqp/a2a-amqp",
+  "category": "orchestration",
+  "tags": [
+    "agent-orchestration",
+    "ai-agents",
+    "amqp",
+    "event-driven",
+    "lavinmq",
+    "task-queue"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 3,
+  "lastUpdated": "2025-11-18",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "toolprotocol",
+  "name": "Toolprotocol",
+  "description": "Multi-protocol transport layer: MCP, A2A, ACP adapters",
+  "provider": {
+    "name": "jonwraymond",
+    "url": "https://github.com/jonwraymond"
+  },
+  "repository": "https://github.com/jonwraymond/toolprotocol",
+  "category": "orchestration",
+  "tags": [
+    "agent-tools",
+    "ai-tools",
+    "golang",
+    "grpc",
+    "llm-tools",
+    "mcp",
+    "mcp-protocol",
+    "websocket"
+  ],
+  "framework": "custom",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-06",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

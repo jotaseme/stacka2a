@@ -1,0 +1,35 @@
+{
+  "slug": "capiscio-core",
+  "name": "Capiscio Core",
+  "description": "The Identity Authority and Trust Gateway for the AI Agent economy. Issues and verifies cryptographic TrustBadges to secure cross-cloud Agent-to-Agent (A2A) communication.",
+  "provider": {
+    "name": "capiscio",
+    "url": "https://github.com/capiscio"
+  },
+  "repository": "https://github.com/capiscio/capiscio-core",
+  "category": "infrastructure",
+  "tags": [
+    "agent-to-agent",
+    "ai-security",
+    "autonomous-agents",
+    "infrastructure"
+  ],
+  "framework": "custom",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://capisc.io",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2026-02-20",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

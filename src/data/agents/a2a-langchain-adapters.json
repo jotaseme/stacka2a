@@ -1,0 +1,32 @@
+{
+  "slug": "a2a-langchain-adapters",
+  "name": "A2A Langchain Adapters",
+  "description": "A production-ready Python package for integrating A2A protocol agents into LangChain/LangGraph. Enables stateful conversations, streaming, multi-turn context management, and seamless LLM tool binding with A2A agents.",
+  "provider": {
+    "name": "janrauchfuss",
+    "url": "https://github.com/janrauchfuss"
+  },
+  "repository": "https://github.com/janrauchfuss/a2a-langchain-adapters",
+  "category": "conversational",
+  "tags": [
+    "langchain",
+    "langgraph"
+  ],
+  "framework": "langgraph",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

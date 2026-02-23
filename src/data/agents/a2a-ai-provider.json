@@ -1,0 +1,35 @@
+{
+  "slug": "a2a-ai-provider",
+  "name": "A2A Ai Provider",
+  "description": "Community A2A provider for the ai-sdk from vercel",
+  "provider": {
+    "name": "DracoBlue",
+    "url": "https://github.com/DracoBlue"
+  },
+  "repository": "https://github.com/DracoBlue/a2a-ai-provider",
+  "category": "general",
+  "tags": [
+    "a2a-client",
+    "ai",
+    "ai-sdk",
+    "vercel-ai-sdk"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://npmjs.com/package/a2a-ai-provider",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 24,
+  "lastUpdated": "2025-10-14",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "a2a4j",
+  "name": "A2a4j",
+  "description": "A2A4J is a comprehensive Java implementation of the Agent2Agent Protocol, including server, client, examples, and starters.",
+  "provider": {
+    "name": "a2ap",
+    "url": "https://github.com/a2ap"
+  },
+  "repository": "https://github.com/a2ap/a2a4j",
+  "category": "general",
+  "tags": [
+    "a2a-client",
+    "a2a-server",
+    "ai",
+    "java",
+    "llm",
+    "mcp",
+    "spring",
+    "springboot",
+    "a2a4j",
+    "agent2agent",
+    "langchain",
+    "langchain4j",
+    "agents",
+    "a2a-protocol"
+  ],
+  "framework": "spring-boot",
+  "language": "java",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "java"
+  ],
+  "githubStars": 55,
+  "lastUpdated": "2025-11-24",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

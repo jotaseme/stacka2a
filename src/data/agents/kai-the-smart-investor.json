@@ -1,0 +1,36 @@
+{
+  "slug": "kai-the-smart-investor",
+  "name": "Kai The Smart Investor",
+  "description": "Kai is an AI-powered investment analysis system that uses a multi-agent debate architecture to provide explainable, trustworthy, and data-driven investment insights. ",
+  "provider": {
+    "name": "Shubham0D4",
+    "url": "https://github.com/Shubham0D4"
+  },
+  "repository": "https://github.com/Shubham0D4/Kai-The-Smart-Investor",
+  "category": "data-analytics",
+  "tags": [
+    "ap2",
+    "artificial-intelligence",
+    "flask",
+    "mcp-server",
+    "python",
+    "reactjs"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-01-16",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

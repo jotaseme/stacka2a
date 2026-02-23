@@ -1,0 +1,41 @@
+{
+  "slug": "a2a-agent-orchestration-system",
+  "name": "A2A Agent Orchestration System",
+  "description": "A distributed multi-agent system that orchestrates complex tasks across specialized AI agents using A2A (Agent-to-Agent) protocol, MCP (Model Context Protocol) and LangGraph.",
+  "provider": {
+    "name": "Khaledayman9",
+    "url": "https://github.com/Khaledayman9"
+  },
+  "repository": "https://github.com/Khaledayman9/A2A-Agent-Orchestration-System",
+  "category": "enterprise",
+  "tags": [
+    "a2a-mcp",
+    "agent",
+    "agent2agent",
+    "agentic-ai",
+    "agentic-workflow",
+    "gemini",
+    "generative-ai",
+    "langgraph",
+    "mcp",
+    "model-context-protocol",
+    "a2a-protocol"
+  ],
+  "framework": "langgraph",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-01-24",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

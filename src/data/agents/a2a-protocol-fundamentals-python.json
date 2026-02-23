@@ -1,0 +1,37 @@
+{
+  "slug": "a2a-protocol-fundamentals-python",
+  "name": "A2A Protocol Fundamentals Python",
+  "description": "A comprehensive travel planning system built with Agent2Agent (A2A) protocol, featuring specialized AI agents for hotel booking, car rentals, currency conversion, and travel coordination.",
+  "provider": {
+    "name": "extrawest",
+    "url": "https://github.com/extrawest"
+  },
+  "repository": "https://github.com/extrawest/a2a_protocol_fundamentals_python",
+  "category": "travel",
+  "tags": [
+    "ai",
+    "crewai",
+    "langchain",
+    "langgraph",
+    "multiagent-systems",
+    "python",
+    "streamlit"
+  ],
+  "framework": "langgraph",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-08-15",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

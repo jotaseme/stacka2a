@@ -1,0 +1,38 @@
+{
+  "slug": "agent-gateway",
+  "name": "Agent Gateway",
+  "description": "APIPOOL — Intelligent API marketplace for AI agents. 4-pillar scoring: self-learning, predictive, anomaly detection, contextual understanding.",
+  "provider": {
+    "name": "exhuman777",
+    "url": "https://github.com/exhuman777"
+  },
+  "repository": "https://github.com/exhuman777/agent-gateway",
+  "category": "general",
+  "tags": [
+    "ai-agents",
+    "api-marketplace",
+    "erc-8004",
+    "intelligent-routing",
+    "mcp",
+    "polymarket",
+    "x402"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://agent-gateway-zeta.vercel.app",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-15",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "elkar-a2a",
+  "name": "Elkar A2A",
+  "description": "Elkar - Task management for AI Agents, ready for Agent2Agent (A2A) protocol",
+  "provider": {
+    "name": "elkar-ai",
+    "url": "https://github.com/elkar-ai"
+  },
+  "repository": "https://github.com/elkar-ai/elkar-a2a",
+  "category": "general",
+  "tags": [
+    "agent2agent",
+    "ai-agent",
+    "ai-agents",
+    "llm",
+    "task-management",
+    "a2a-protocol"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://www.elkar.co",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 147,
+  "lastUpdated": "2025-05-21",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

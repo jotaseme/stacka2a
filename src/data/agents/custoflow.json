@@ -1,0 +1,38 @@
+{
+  "slug": "custoflow",
+  "name": "CustoFlow",
+  "description": "Multi-agent customer support system with Google ADK & Gemini 2.5 Flash Lite. Kaggle capstone demonstrating 11+ concepts. Automates 80%+ queries, <10s response time.",
+  "provider": {
+    "name": "Rayyan-Oumlil",
+    "url": "https://github.com/Rayyan-Oumlil"
+  },
+  "repository": "https://github.com/Rayyan-Oumlil/CustoFlow",
+  "category": "orchestration",
+  "tags": [
+    "agent-evaluation",
+    "google-adk",
+    "multi-agent-system",
+    "observability",
+    "openapi-tools",
+    "production-ready",
+    "supabase"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://custo-flow.vercel.app",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2026-01-05",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

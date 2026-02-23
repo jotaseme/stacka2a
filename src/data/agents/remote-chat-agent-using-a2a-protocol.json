@@ -1,0 +1,37 @@
+{
+  "slug": "remote-chat-agent-using-a2a-protocol",
+  "name": "Remote Chat Agent Using A2A Protocol",
+  "description": "Create remote chat agent using agent2agent protocol",
+  "provider": {
+    "name": "satendrakumar",
+    "url": "https://github.com/satendrakumar"
+  },
+  "repository": "https://github.com/satendrakumar/remote-chat-agent-using-a2a-protocol",
+  "category": "conversational",
+  "tags": [
+    "adk-python",
+    "agent2agent",
+    "agentic-framework",
+    "chatbot",
+    "llm",
+    "ollama",
+    "a2a-protocol"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-07-30",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

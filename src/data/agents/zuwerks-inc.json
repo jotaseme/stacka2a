@@ -1,0 +1,51 @@
+{
+  "slug": "zuwerks-inc",
+  "name": "ZuWerks, Inc.",
+  "description": "ZuWerks is a one-stop business center that offers various professional services to small businesses, including web design, graphics design, website maintenance, and printing, among others.",
+  "provider": {
+    "name": "Lifie.ai Hub",
+    "url": "https://hub.lifie.ai"
+  },
+  "repository": "",
+  "category": "general",
+  "tags": [
+    "business",
+    "commerce"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [
+    {
+      "id": "interact",
+      "name": "Interact with ZuWerks, Inc.",
+      "description": "ZuWerks is a one-stop business center that offers various professional services to small businesses, including web design, graphics design, website maintenance, and printing, among others.",
+      "tags": [
+        "business",
+        "commerce"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain"
+      ]
+    }
+  ],
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": false,
+    "multiTurn": true
+  },
+  "authType": "none",
+  "agentCardUrl": "https://api.lifie.ai/a2a/cmg81ooek0005n21qucw1n1l2/agent-card.json",
+  "endpointUrl": "https://hub.lifie.ai/agent/cmg81ooek0005n21qucw1n1l2/zuwerks-inc",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

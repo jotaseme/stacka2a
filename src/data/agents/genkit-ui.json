@@ -1,0 +1,39 @@
+{
+  "slug": "genkit-ui",
+  "name": "Genkit UI",
+  "description": "A production-oriented, TypeScript multi-agent AI platform built on Google Genkit. The system composes Genkit flows, reusable tools, and independent A2A agents to support complex tasks such as research orchestration, code generation, and content editing.",
+  "provider": {
+    "name": "ssdeanx",
+    "url": "https://github.com/ssdeanx"
+  },
+  "repository": "https://github.com/ssdeanx/Genkit-UI",
+  "category": "code-generation",
+  "tags": [
+    "a2a-cli",
+    "a2a-mcp",
+    "a2a-server",
+    "agents",
+    "genkit",
+    "genkit-ai",
+    "genkit-plugin",
+    "multi-agent",
+    "orchestration"
+  ],
+  "framework": "genkit",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 3,
+  "lastUpdated": "2025-10-02",
+  "official": false,
+  "selfHosted": true,
+  "license": "ISC"
+}

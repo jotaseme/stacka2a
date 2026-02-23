@@ -1,0 +1,40 @@
+{
+  "slug": "xrpl-escrow-mcp",
+  "name": "Xrpl Escrow MCP",
+  "description": "Non-custodial MCP server for trustless escrow on the XRP Ledger. Enables AI agents to create, manage, and settle escrows with crypto-conditions.",
+  "provider": {
+    "name": "9RESE",
+    "url": "https://github.com/9RESE"
+  },
+  "repository": "https://github.com/9RESE/xrpl-escrow-mcp",
+  "category": "general",
+  "tags": [
+    "a2a-mcp",
+    "acp",
+    "agent-commerce-protocol",
+    "ai-agents",
+    "blockchain",
+    "crypto-conditions",
+    "escrow",
+    "escrow-contract",
+    "mcp",
+    "model-context-protocol"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-01-29",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

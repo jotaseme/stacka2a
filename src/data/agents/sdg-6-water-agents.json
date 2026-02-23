@@ -1,0 +1,32 @@
+{
+  "slug": "sdg-6-water-agents",
+  "name": "Sdg 6 Water Agents",
+  "description": "Aqua Forecaster",
+  "provider": {
+    "name": "808vita",
+    "url": "https://github.com/808vita"
+  },
+  "repository": "https://github.com/808vita/sdg-6-water-agents",
+  "category": "general",
+  "tags": [
+    "mcp"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-04-09",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

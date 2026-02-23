@@ -1,0 +1,42 @@
+{
+  "slug": "control-pc-terminal",
+  "name": "Control PC Terminal",
+  "description": "Control Your Desktop AI Agents From Any Device 🚀",
+  "provider": {
+    "name": "kumar045",
+    "url": "https://github.com/kumar045"
+  },
+  "repository": "https://github.com/kumar045/Control-PC-Terminal",
+  "category": "code-generation",
+  "tags": [
+    "aiagents",
+    "claude-code",
+    "clawdbot",
+    "clawdbot-alternative",
+    "codex",
+    "control-ai-agents-from-mobile",
+    "control-ai-agents-from-telegram",
+    "github",
+    "huggingface",
+    "llm"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://v0-control-terminal-docs.vercel.app",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-02-18",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "a2a-retail-demo",
+  "name": "A2A Retail Demo",
+  "description": "A2A protocol demo: Orchestrated AI agents for retail using Google ADK, LangGraph, and Vertex AI Search",
+  "provider": {
+    "name": "abdulzedan",
+    "url": "https://github.com/abdulzedan"
+  },
+  "repository": "https://github.com/abdulzedan/a2a-retail-demo",
+  "category": "search",
+  "tags": [
+    "ai",
+    "ai-agents",
+    "asyncio",
+    "google-adk",
+    "langgraph",
+    "multi-agent-systems",
+    "python",
+    "vertex-ai"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 7,
+  "lastUpdated": "2025-06-09",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

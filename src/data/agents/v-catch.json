@@ -1,0 +1,51 @@
+{
+  "slug": "v-catch",
+  "name": "V CATCH",
+  "description": "A BPO (Business Process Outsourcing) company providing call center services, lead generation, and debt recovery solutions to various industries such as e-commerce, FMCG, real estate, and more.",
+  "provider": {
+    "name": "Lifie.ai Hub",
+    "url": "https://hub.lifie.ai"
+  },
+  "repository": "",
+  "category": "general",
+  "tags": [
+    "business",
+    "commerce"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [
+    {
+      "id": "interact",
+      "name": "Interact with V CATCH",
+      "description": "A BPO (Business Process Outsourcing) company providing call center services, lead generation, and debt recovery solutions to various industries such as e-commerce, FMCG, real estate, and more.",
+      "tags": [
+        "business",
+        "commerce"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain"
+      ]
+    }
+  ],
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": false,
+    "multiTurn": true
+  },
+  "authType": "none",
+  "agentCardUrl": "https://api.lifie.ai/a2a/cmg834vg101rhuat8g0jy9kke/agent-card.json",
+  "endpointUrl": "https://hub.lifie.ai/agent/cmg834vg101rhuat8g0jy9kke/v-catch",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

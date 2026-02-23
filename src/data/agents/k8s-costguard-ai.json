@@ -1,0 +1,40 @@
+{
+  "slug": "k8s-costguard-ai",
+  "name": "K8s CostGuard AI",
+  "description": "Multi-Agent Kubernetes Cost Optimization System",
+  "provider": {
+    "name": "TridipDam",
+    "url": "https://github.com/TridipDam"
+  },
+  "repository": "https://github.com/TridipDam/K8s-CostGuard-AI",
+  "category": "infrastructure",
+  "tags": [
+    "adk-google",
+    "agent-architecture",
+    "agentic-ai",
+    "ai",
+    "ai-agents",
+    "aws",
+    "cost-optimization",
+    "kubernetes",
+    "mcp",
+    "monitoring"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2025-11-28",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "geo-ai-agent",
+  "name": "Geo Ai Agent",
+  "description": "🌍 Automate webpage content audits with GEO Agent Crew, extracting insights and optimization suggestions using cutting-edge AI tools for better online performance.",
+  "provider": {
+    "name": "pauloeduardo1991",
+    "url": "https://github.com/pauloeduardo1991"
+  },
+  "repository": "https://github.com/pauloeduardo1991/geo-ai-agent",
+  "category": "code-generation",
+  "tags": [
+    "agent",
+    "agents",
+    "chatgpt",
+    "claude-code",
+    "crewai",
+    "gemma",
+    "geo",
+    "hackathon",
+    "mcp",
+    "mongodb"
+  ],
+  "framework": "crewai",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

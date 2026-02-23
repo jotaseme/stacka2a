@@ -1,0 +1,60 @@
+{
+  "slug": "planning-agent",
+  "name": "Planning Agent",
+  "description": "An AI agent specialized in project planning, task management, strategic planning, and workflow optimization",
+  "provider": {
+    "name": "Prassanna Ravishankar",
+    "url": "https://github.com/prassanna-ravishankar/a2a-agent-bootstrapping"
+  },
+  "repository": "https://github.com/prassanna-ravishankar/a2a-agent-bootstrapping",
+  "category": "enterprise",
+  "tags": [
+    "planning",
+    "management",
+    "strategy",
+    "ai",
+    "pydantic-ai",
+    "modal"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [
+    {
+      "id": "project-planning",
+      "name": "Project & Strategic Planning",
+      "description": "Creates project plans, manages tasks, develops strategies, and optimizes workflows for better productivity",
+      "tags": [
+        "planning",
+        "project-management",
+        "strategy",
+        "workflow",
+        "productivity"
+      ],
+      "inputModes": [
+        "text/plain",
+        "application/json"
+      ],
+      "outputModes": [
+        "text/plain",
+        "application/json"
+      ]
+    }
+  ],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "agentCardUrl": "https://prassanna-ravishankar--planning-agent-planning-agent-app.modal.run/.well-known/agent.json",
+  "endpointUrl": "https://prassanna-ravishankar--planning-agent-planning-agent-app.modal.run",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

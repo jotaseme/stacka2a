@@ -1,0 +1,33 @@
+{
+  "slug": "a2a-docs-zh",
+  "name": "A2A Docs Zh",
+  "description": "Agent2Agent Protocol (A2A) 中文文档 ",
+  "provider": {
+    "name": "sxhxliang",
+    "url": "https://github.com/sxhxliang"
+  },
+  "repository": "https://github.com/sxhxliang/A2A-docs-zh",
+  "category": "general",
+  "tags": [
+    "ai-agent"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "http://a2a.lsh.pub",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 7,
+  "lastUpdated": "2025-04-28",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

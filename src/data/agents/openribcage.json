@@ -1,0 +1,34 @@
+{
+  "slug": "openribcage",
+  "name": "Openribcage",
+  "description": "A2A Protocol Client/Server Utility For Avatar Interfaces",
+  "provider": {
+    "name": "craine-io",
+    "url": "https://github.com/craine-io"
+  },
+  "repository": "https://github.com/craine-io/openribcage",
+  "category": "utility",
+  "tags": [
+    "ai",
+    "aiagents",
+    "aiagentsframework"
+  ],
+  "framework": "custom",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://www.craine.io/openribcage",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 4,
+  "lastUpdated": "2025-06-25",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

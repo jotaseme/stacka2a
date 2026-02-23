@@ -1,0 +1,40 @@
+{
+  "slug": "ziran",
+  "name": "Ziran",
+  "description": "Ziran uses advanced attack methodologies including multi-phase  trust exploitation and knowledge graph analysis to uncover vulnerabilities in AI agents before attackers do.",
+  "provider": {
+    "name": "taoq-ai",
+    "url": "https://github.com/taoq-ai"
+  },
+  "repository": "https://github.com/taoq-ai/ziran",
+  "category": "security",
+  "tags": [
+    "agent-security",
+    "ai-security",
+    "crewai",
+    "langchain",
+    "llm-security",
+    "mcp",
+    "owasp",
+    "penetration-testing",
+    "red-teaming"
+  ],
+  "framework": "crewai",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://taoq-ai.github.io/ziran/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2026-02-14",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

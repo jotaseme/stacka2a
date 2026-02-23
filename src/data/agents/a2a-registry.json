@@ -1,0 +1,32 @@
+{
+  "slug": "a2a-registry",
+  "name": "A2A Registry",
+  "description": "A community-driven, open-source directory of live, hosted AI agents using the A2A Protocol",
+  "provider": {
+    "name": "prassanna-ravishankar",
+    "url": "https://github.com/prassanna-ravishankar"
+  },
+  "repository": "https://github.com/prassanna-ravishankar/a2a-registry",
+  "category": "orchestration",
+  "tags": [
+    "multi-agent-systems"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://a2aregistry.org/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 10,
+  "lastUpdated": "2025-12-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

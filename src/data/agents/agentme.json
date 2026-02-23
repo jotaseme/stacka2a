@@ -1,0 +1,41 @@
+{
+  "slug": "agentme",
+  "name": "Agentme",
+  "description": "\"Machines must run.\" — Open-source protocol & trust layer for AI agent commerce. Discovery, reputation, micropayments on Base L2.",
+  "provider": {
+    "name": "agentmecz",
+    "url": "https://github.com/agentmecz"
+  },
+  "repository": "https://github.com/agentmecz/agentme",
+  "category": "finance",
+  "tags": [
+    "agent-commerce",
+    "ai",
+    "ai-agents",
+    "base-l2",
+    "blockchain",
+    "decentralized",
+    "micropayments",
+    "open-source",
+    "rust",
+    "solidity"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://agentme.cz",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2026-02-18",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

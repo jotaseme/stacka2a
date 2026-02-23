@@ -1,0 +1,41 @@
+{
+  "slug": "ai-job-hunting-agent",
+  "name": "Ai Job Hunting Agent",
+  "description": "Checks for jobs continuously (24×7) on a schedule you control  Parses job descriptions, extracts skills & keywords, and scores matches to your preferences  Sends notifications (Email + Telegram bot supported in MVP)  Generates tailored, job‑specific CVs (Markdown → optional PDF via Pandoc)",
+  "provider": {
+    "name": "vivek7557",
+    "url": "https://github.com/vivek7557"
+  },
+  "repository": "https://github.com/vivek7557/Ai-Job-hunting-Agent",
+  "category": "search",
+  "tags": [
+    "agent",
+    "ai",
+    "chatgpt",
+    "claude",
+    "evaluation-metrics",
+    "googlesearchapi",
+    "jobhunter",
+    "langchain",
+    "llms",
+    "longtermmemoryai"
+  ],
+  "framework": "langchain",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://ai-job-hunting-agent-nmxtpj8qrmkavxpcqhkqc8.streamlit.app/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2025-12-13",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

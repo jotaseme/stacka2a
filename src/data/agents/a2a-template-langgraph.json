@@ -1,0 +1,34 @@
+{
+  "slug": "a2a-template-langgraph",
+  "name": "A2A Template Langgraph",
+  "description": "A production-ready agent server built with LangGraph that implements the Agent-to-Agent (A2A) protocol",
+  "provider": {
+    "name": "llmx-tech",
+    "url": "https://github.com/llmx-tech"
+  },
+  "repository": "https://github.com/llmx-tech/a2a-template-langgraph",
+  "category": "general",
+  "tags": [
+    "agent",
+    "langgraph",
+    "python"
+  ],
+  "framework": "langgraph",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://llmx.de",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 7,
+  "lastUpdated": "2025-05-12",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

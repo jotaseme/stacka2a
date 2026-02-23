@@ -1,0 +1,16 @@
+{
+  "slug": "enterprise-workflow",
+  "name": "Enterprise Workflow",
+  "description": "Automate business processes with A2A agents for expense management, travel booking, and calendar coordination.",
+  "icon": "factory",
+  "category": "use-case",
+  "agents": [
+    "a2a-sample-adk-expense-reimbursement",
+    "a2a-sample-travel-planner-agent",
+    "google-calendar-agent",
+    "a2a-sample-birthday-planner-adk",
+    "varna-enterprise"
+  ],
+  "difficulty": "intermediate",
+  "blogPost": "best-a2a-agents-enterprise"
+}

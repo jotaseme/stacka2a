@@ -1,0 +1,41 @@
+{
+  "slug": "genai-projects",
+  "name": "GenAI Projects",
+  "description": "Collection of some interesting Generative AI usecases implementation.",
+  "provider": {
+    "name": "Ruthvik-1411",
+    "url": "https://github.com/Ruthvik-1411"
+  },
+  "repository": "https://github.com/Ruthvik-1411/GenAI-Projects",
+  "category": "media-content",
+  "tags": [
+    "chatbot",
+    "gemini-api",
+    "gemini-live",
+    "generative-ai",
+    "google-adk",
+    "image-generation",
+    "langchain",
+    "langgraph",
+    "mesop",
+    "multimodal"
+  ],
+  "framework": "google-adk",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2025-09-29",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

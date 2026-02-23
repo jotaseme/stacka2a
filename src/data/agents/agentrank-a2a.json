@@ -1,0 +1,33 @@
+{
+  "slug": "agentrank-a2a",
+  "name": "AgentRank A2A",
+  "description": "AgentRanking system for A2A (Agent to Agent) ecosystem",
+  "provider": {
+    "name": "zohidjon-m",
+    "url": "https://github.com/zohidjon-m"
+  },
+  "repository": "https://github.com/zohidjon-m/AgentRank-A2A",
+  "category": "general",
+  "tags": [
+    "ai-agents",
+    "ranking-algorithm",
+    "ranking-system"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2026-01-12",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

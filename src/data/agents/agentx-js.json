@@ -1,0 +1,36 @@
+{
+  "slug": "agentx-js",
+  "name": "Agentx Js",
+  "description": "AgentX Javascript/Typescript SDK. Build multi-agent AI workforce. ",
+  "provider": {
+    "name": "AgentX-ai",
+    "url": "https://github.com/AgentX-ai"
+  },
+  "repository": "https://github.com/AgentX-ai/agentx-js",
+  "category": "orchestration",
+  "tags": [
+    "agent",
+    "llm",
+    "mcp",
+    "multiagent",
+    "orchestration"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://www.npmjs.com/package/@agentx-ai/agentx-js",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 7,
+  "lastUpdated": "2025-07-09",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "ca2a",
+  "name": "Ca2a",
+  "description": "A command-line utility for interacting with A2A agents.",
+  "provider": {
+    "name": "RussellLuo",
+    "url": "https://github.com/RussellLuo"
+  },
+  "repository": "https://github.com/RussellLuo/ca2a",
+  "category": "utility",
+  "tags": [
+    "agents"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-07-19",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

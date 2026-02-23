@@ -1,0 +1,32 @@
+{
+  "slug": "a2a-storylab",
+  "name": "A2A StoryLab",
+  "description": "An educational demonstration of Google's Agent-to-Agent (A2A) protocol v1 through a multi-agent storytelling system. Three AI agents collaborate iteratively to adapt and enhance stories, showcasing real-world A2A communication patterns.",
+  "provider": {
+    "name": "dondetir",
+    "url": "https://github.com/dondetir"
+  },
+  "repository": "https://github.com/dondetir/A2A-StoryLab",
+  "category": "orchestration",
+  "tags": [
+    "agents",
+    "ai"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-12-07",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "a2a-java-sdk-spring",
+  "name": "A2A Java SDK Spring",
+  "description": "A2A Java SDK for Spring Framework. Including server, Spring Boot auto configuration, Spring AI tools, and Spring AI examples.",
+  "provider": {
+    "name": "goodfriend2ks",
+    "url": "https://github.com/goodfriend2ks"
+  },
+  "repository": "https://github.com/goodfriend2ks/a2a-java-sdk-spring",
+  "category": "utility",
+  "tags": [
+    "a2a-agent",
+    "a2a-server",
+    "ai",
+    "ai-agent",
+    "java",
+    "spring",
+    "spring-ai",
+    "springboot3",
+    "springframework"
+  ],
+  "framework": "spring-boot",
+  "language": "java",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "java"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-13",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

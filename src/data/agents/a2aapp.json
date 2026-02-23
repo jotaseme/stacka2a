@@ -1,0 +1,38 @@
+{
+  "slug": "a2aapp",
+  "name": "A2AApp",
+  "description": "This is a library for implementing an Agent2Agent (A2A) server using Google Apps Script. This enables AI agent communication and secure service access for AI-powered workflows.",
+  "provider": {
+    "name": "tanaikech",
+    "url": "https://github.com/tanaikech"
+  },
+  "repository": "https://github.com/tanaikech/A2AApp",
+  "category": "enterprise",
+  "tags": [
+    "agent2agent",
+    "gas-library",
+    "gemini",
+    "gemini-api",
+    "google-apps-script",
+    "google-apps-script-library",
+    "a2a-protocol"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://medium.com/google-cloud/enabling-collaborative-agent-systems-through-google-apps-script-based-agent2agent-a2a-network-19e3d0472eaa",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 18,
+  "lastUpdated": "2025-12-19",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

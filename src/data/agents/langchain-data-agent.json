@@ -1,0 +1,40 @@
+{
+  "slug": "langchain-data-agent",
+  "name": "Langchain Data Agent",
+  "description": "NL2SQL - Ask questions in plain English, get SQL queries and results. Powered by LangGraph.",
+  "provider": {
+    "name": "eosho",
+    "url": "https://github.com/eosho"
+  },
+  "repository": "https://github.com/eosho/langchain_data_agent",
+  "category": "data-analytics",
+  "tags": [
+    "ai-agents",
+    "azure",
+    "data-agent",
+    "database",
+    "langchain",
+    "langchain-python",
+    "langgraph",
+    "mcp",
+    "nl2sql",
+    "postgres"
+  ],
+  "framework": "langgraph",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 214,
+  "lastUpdated": "2026-01-14",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

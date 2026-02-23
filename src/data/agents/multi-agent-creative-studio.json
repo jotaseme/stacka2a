@@ -1,0 +1,35 @@
+{
+  "slug": "multi-agent-creative-studio",
+  "name": "Multi Agent Creative Studio",
+  "description": "AI-powered multi-agent system for creative content generation and studio workflow automation",
+  "provider": {
+    "name": "mayankgautam-dev",
+    "url": "https://github.com/mayankgautam-dev"
+  },
+  "repository": "https://github.com/mayankgautam-dev/multi-agent-creative-studio",
+  "category": "media-content",
+  "tags": [
+    "adk",
+    "adk-google",
+    "ai",
+    "multiagent",
+    "python"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-12-21",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

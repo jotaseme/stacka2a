@@ -1,0 +1,41 @@
+{
+  "slug": "yomo",
+  "name": "Yomo",
+  "description": "🦖 Serverless AI Agent Framework with Geo-distributed Edge AI Infra.",
+  "provider": {
+    "name": "yomorun",
+    "url": "https://github.com/yomorun"
+  },
+  "repository": "https://github.com/yomorun/yomo",
+  "category": "code-generation",
+  "tags": [
+    "chatgpt",
+    "claude-code",
+    "cursor",
+    "distributed-cloud",
+    "function-calling",
+    "geodistributedsystems",
+    "low-latency",
+    "mcp",
+    "openai",
+    "quic"
+  ],
+  "framework": "custom",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://yomo.run",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 1882,
+  "lastUpdated": "2026-02-16",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

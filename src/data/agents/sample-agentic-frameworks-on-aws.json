@@ -1,0 +1,39 @@
+{
+  "slug": "sample-agentic-frameworks-on-aws",
+  "name": "Sample Agentic Frameworks On Aws",
+  "description": "Build Agentic AI solutions on AWS, using latest OSS Agentic Frameworks.",
+  "provider": {
+    "name": "aws-samples",
+    "url": "https://github.com/aws-samples"
+  },
+  "repository": "https://github.com/aws-samples/sample-agentic-frameworks-on-aws",
+  "category": "general",
+  "tags": [
+    "agentic-ai",
+    "arize-phoenix",
+    "crewai",
+    "langgraph",
+    "llamaindex",
+    "mem0",
+    "pipecat",
+    "strands-agents"
+  ],
+  "framework": "langgraph",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 234,
+  "lastUpdated": "2026-02-21",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT-0"
+}

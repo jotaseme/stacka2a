@@ -1,0 +1,39 @@
+{
+  "slug": "agentic-ai-projects",
+  "name": "Agentic AI Projects",
+  "description": "This repository features a collection of agentic AI projects across various domains, showcasing practical applications of AI agents with different frameworks, techniques, and tools.",
+  "provider": {
+    "name": "gautamgc17",
+    "url": "https://github.com/gautamgc17"
+  },
+  "repository": "https://github.com/gautamgc17/Agentic-AI-Projects",
+  "category": "enterprise",
+  "tags": [
+    "agent-orchestration",
+    "agentic-ai",
+    "agentic-workflows",
+    "crewai",
+    "function-calling",
+    "langflow",
+    "langgraph",
+    "mcp-server"
+  ],
+  "framework": "langgraph",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2025-11-27",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

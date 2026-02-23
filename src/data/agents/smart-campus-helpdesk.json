@@ -1,0 +1,38 @@
+{
+  "slug": "smart-campus-helpdesk",
+  "name": "Smart Campus Helpdesk",
+  "description": "A multi-agent AI helpdesk system for smart campuses using locally-hosted LLMs (Ollama/LM Studio). Features specialized agents for academics, finance, and events with MCP-style communication, FastAPI backend, and React chat interface. Runs completely offline with modular, extensible architecture.",
+  "provider": {
+    "name": "Rajat25022005",
+    "url": "https://github.com/Rajat25022005"
+  },
+  "repository": "https://github.com/Rajat25022005/Smart_Campus_Helpdesk",
+  "category": "conversational",
+  "tags": [
+    "agentic-ai",
+    "ai",
+    "ai-agents",
+    "api",
+    "llm",
+    "mcp-server",
+    "ollama"
+  ],
+  "framework": "fastapi",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-08-02",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

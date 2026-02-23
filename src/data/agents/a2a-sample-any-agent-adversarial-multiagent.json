@@ -1,0 +1,32 @@
+{
+  "slug": "a2a-sample-any-agent-adversarial-multiagent",
+  "name": "Any Agent Adversarial Multiagent (Official Sample)",
+  "description": "Official A2A python sample agent: Any Agent Adversarial Multiagent",
+  "provider": {
+    "name": "A2A Project",
+    "url": "https://github.com/a2aproject"
+  },
+  "repository": "https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/any_agent_adversarial_multiagent",
+  "category": "orchestration",
+  "tags": [
+    "official-sample",
+    "python"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1329,
+  "lastUpdated": "2026-02-22",
+  "official": true,
+  "selfHosted": true,
+  "license": "apache-2.0"
+}

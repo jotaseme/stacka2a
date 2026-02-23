@@ -1,0 +1,32 @@
+{
+  "slug": "multi-agent-adk",
+  "name": "Multi Agent ADK",
+  "description": "A multi-agent e-commerce system built with Google ADK and MCP. Features microservice architecture with A2A protocol communication, enabling customer consultation, real-time inventory lookup, and automated order processing.",
+  "provider": {
+    "name": "TrongNV2003",
+    "url": "https://github.com/TrongNV2003"
+  },
+  "repository": "https://github.com/TrongNV2003/Multi-Agent-ADK",
+  "category": "orchestration",
+  "tags": [
+    "mcp-server",
+    "multi-agent-systems"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2025-12-15",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

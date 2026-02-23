@@ -1,0 +1,41 @@
+{
+  "slug": "ai-youtubevideo-summarizer-updated",
+  "name": "AI YoutubeVideo Summarizer Updated ",
+  "description": "🎥 Summarize YouTube videos into clear, actionable insights with AI, allowing you to grasp key points quickly and easily.",
+  "provider": {
+    "name": "ink-sans106",
+    "url": "https://github.com/ink-sans106"
+  },
+  "repository": "https://github.com/ink-sans106/AI_YoutubeVideo_Summarizer-Updated-",
+  "category": "media-content",
+  "tags": [
+    "a2a-mcp",
+    "artemis",
+    "c",
+    "deep-learning",
+    "edit",
+    "editor",
+    "generative-ai",
+    "jms",
+    "llm",
+    "machine-learning"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://ink-sans106.github.io",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

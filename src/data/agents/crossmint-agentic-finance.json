@@ -1,0 +1,34 @@
+{
+  "slug": "crossmint-agentic-finance",
+  "name": "Crossmint Agentic Finance",
+  "description": "Demos and starter code for building agentic finance apps with Crossmint",
+  "provider": {
+    "name": "Crossmint",
+    "url": "https://github.com/Crossmint"
+  },
+  "repository": "https://github.com/Crossmint/crossmint-agentic-finance",
+  "category": "code-generation",
+  "tags": [
+    "a2p",
+    "cloudflare-workers",
+    "crossmint",
+    "x402"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 19,
+  "lastUpdated": "2025-12-19",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

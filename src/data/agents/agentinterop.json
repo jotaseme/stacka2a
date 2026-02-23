@@ -1,0 +1,35 @@
+{
+  "slug": "agentinterop",
+  "name": "AgentInterOp",
+  "description": "Agentic Workflows",
+  "provider": {
+    "name": "aks129",
+    "url": "https://github.com/aks129"
+  },
+  "repository": "https://github.com/aks129/AgentInterOp",
+  "category": "enterprise",
+  "tags": [
+    "agents",
+    "fhir",
+    "llms",
+    "mcp"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://agent-inter-25ecx43x2-aks129s-projects.vercel.app/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 3,
+  "lastUpdated": "2026-01-13",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

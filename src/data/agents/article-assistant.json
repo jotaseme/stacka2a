@@ -1,0 +1,36 @@
+{
+  "slug": "article-assistant",
+  "name": "Article Assistant",
+  "description": "Agent-to-Agent (A2A) communication protocol for inter-agent coordination and a Model Context Protocol (MCP)-inspired architecture for interacting with external tool servers. ",
+  "provider": {
+    "name": "ogulcanakca",
+    "url": "https://github.com/ogulcanakca"
+  },
+  "repository": "https://github.com/ogulcanakca/article-assistant",
+  "category": "conversational",
+  "tags": [
+    "agent",
+    "claude",
+    "claude-3-7-sonnet",
+    "langchain",
+    "mcp",
+    "mcp-server"
+  ],
+  "framework": "langchain",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-05-07",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

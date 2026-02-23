@@ -1,0 +1,51 @@
+{
+  "slug": "white-money",
+  "name": "White Money",
+  "description": "A law firm or intellectual property services provider that offers trademark, copyright, and patent document drafting services.",
+  "provider": {
+    "name": "Lifie.ai Hub",
+    "url": "https://hub.lifie.ai"
+  },
+  "repository": "",
+  "category": "general",
+  "tags": [
+    "business",
+    "commerce"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [
+    {
+      "id": "interact",
+      "name": "Interact with White Money",
+      "description": "A law firm or intellectual property services provider that offers trademark, copyright, and patent document drafting services.",
+      "tags": [
+        "business",
+        "commerce"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain"
+      ]
+    }
+  ],
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": false,
+    "multiTurn": true
+  },
+  "authType": "none",
+  "agentCardUrl": "https://api.lifie.ai/a2a/cmg824s9q004v72icapnxixuf/agent-card.json",
+  "endpointUrl": "https://hub.lifie.ai/agent/cmg824s9q004v72icapnxixuf/white-money",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

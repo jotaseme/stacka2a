@@ -1,0 +1,14 @@
+{
+  "slug": "spring-boot-stack",
+  "name": "Spring Boot Agents",
+  "description": "A2A agents built with Java Spring Boot for enterprise-grade reliability, observability, and scalability.",
+  "icon": "server",
+  "category": "framework",
+  "agents": [
+    "a2a-java-sdk-spring",
+    "google-a2a",
+    "a2a4j"
+  ],
+  "difficulty": "advanced",
+  "blogPost": "build-a2a-agent-spring-boot"
+}

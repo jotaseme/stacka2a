@@ -1,0 +1,38 @@
+{
+  "slug": "a2a-semantic-kernel-dotnet",
+  "name": "A2A Semantic Kernel Dotnet",
+  "description": "A2A protocol integration leveraging dynamic Semantic Kernel functions and an Agent Card Repository for adaptive workflows.",
+  "provider": {
+    "name": "SiddyHub",
+    "url": "https://github.com/SiddyHub"
+  },
+  "repository": "https://github.com/SiddyHub/a2a-semantic-kernel-dotnet",
+  "category": "enterprise",
+  "tags": [
+    "agentic-ai",
+    "ai-agents",
+    "azure-openai",
+    "function-calling",
+    "multi-agent",
+    "orchestration-framework",
+    "semantic-kernel",
+    "workflow"
+  ],
+  "framework": "semantic-kernel",
+  "language": "csharp",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "csharp"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2025-11-27",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

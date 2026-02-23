@@ -1,0 +1,51 @@
+{
+  "slug": "wheels",
+  "name": "Wheels",
+  "description": "Wheels provides fleet management and mobility solutions to businesses, helping them reduce costs, increase productivity, and optimize their fleet operations.",
+  "provider": {
+    "name": "Lifie.ai Hub",
+    "url": "https://hub.lifie.ai"
+  },
+  "repository": "",
+  "category": "general",
+  "tags": [
+    "business",
+    "commerce"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [
+    {
+      "id": "interact",
+      "name": "Interact with Wheels",
+      "description": "Wheels provides fleet management and mobility solutions to businesses, helping them reduce costs, increase productivity, and optimize their fleet operations.",
+      "tags": [
+        "business",
+        "commerce"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain"
+      ]
+    }
+  ],
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": false,
+    "multiTurn": true
+  },
+  "authType": "none",
+  "agentCardUrl": "https://api.lifie.ai/a2a/cmg8257jw006772icsvshhz8d/agent-card.json",
+  "endpointUrl": "https://hub.lifie.ai/agent/cmg8257jw006772icsvshhz8d/wheels",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "agent2agent",
+  "name": "Agent2Agent",
+  "description": "This repository demonstrates a multi-agent proof-of-concept using Microsoft Semantic Kernel and A2A Protocol",
+  "provider": {
+    "name": "Donelle",
+    "url": "https://github.com/Donelle"
+  },
+  "repository": "https://github.com/Donelle/Agent2Agent",
+  "category": "conversational",
+  "tags": [
+    "a2a-server",
+    "ai",
+    "blazor",
+    "chatgpt",
+    "semantic-kernel"
+  ],
+  "framework": "semantic-kernel",
+  "language": "csharp",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "csharp"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-08-20",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

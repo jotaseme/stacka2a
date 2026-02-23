@@ -1,0 +1,37 @@
+{
+  "slug": "ai-agents-stock-prediction-system",
+  "name": "AI Agents Stock Prediction System",
+  "description": "Production-grade multi-agent system that analyzes stocks using 6 specialized AI agents communicating via the Agent-to-Agent (A2A) protocol.",
+  "provider": {
+    "name": "svgbogdnn",
+    "url": "https://github.com/svgbogdnn"
+  },
+  "repository": "https://github.com/svgbogdnn/AI-agents-Stock-prediction-System",
+  "category": "orchestration",
+  "tags": [
+    "adk-google",
+    "ai-agents",
+    "gemini-api",
+    "google",
+    "llm",
+    "multi-agent-systems",
+    "polygon"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-01-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

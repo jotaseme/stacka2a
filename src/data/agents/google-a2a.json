@@ -1,0 +1,36 @@
+{
+  "slug": "google-a2a",
+  "name": "Google A2A",
+  "description": "About Pure java implementation of Google A2A protocol. This project demonstrates how to build an A2A-compliant multi-agent system using Spring Boot, Ollama, and the Agent-to-Agent (A2A) protocol. The architecture is based on a Parent Agent that orchestrates multiple Child Agents (e.g., Order Agent, Seller Agent). ",
+  "provider": {
+    "name": "kuldeepsingh99",
+    "url": "https://github.com/kuldeepsingh99"
+  },
+  "repository": "https://github.com/kuldeepsingh99/google-a2a",
+  "category": "orchestration",
+  "tags": [
+    "a2a-mcp",
+    "mcp-server",
+    "ollama",
+    "spring",
+    "spring-boot",
+    "springai"
+  ],
+  "framework": "spring-boot",
+  "language": "java",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "java"
+  ],
+  "githubStars": 3,
+  "lastUpdated": "2025-09-04",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

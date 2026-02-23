@@ -1,0 +1,34 @@
+{
+  "slug": "forex-crypto-news-a2a-protocol",
+  "name": "Forex Crypto News A2A Protocol",
+  "description": "AI-powered market intelligence agent for crypto and forex analysis with comprehensive market summaries",
+  "provider": {
+    "name": "lexmanthefirst",
+    "url": "https://github.com/lexmanthefirst"
+  },
+  "repository": "https://github.com/lexmanthefirst/forex-crypto-news-a2a-protocol",
+  "category": "infrastructure",
+  "tags": [
+    "docker",
+    "fastapi",
+    "redis-cache"
+  ],
+  "framework": "fastapi",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://forex-crypto-news-a2a-protocol-production.up.railway.app/a2a/agent/market",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-11-09",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

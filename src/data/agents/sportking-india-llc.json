@@ -1,0 +1,51 @@
+{
+  "slug": "sportking-india-llc",
+  "name": "Sportking India LLC",
+  "description": "A digital marketing agency providing website design, development, and promotion services to clients worldwide.",
+  "provider": {
+    "name": "Lifie.ai Hub",
+    "url": "https://hub.lifie.ai"
+  },
+  "repository": "",
+  "category": "general",
+  "tags": [
+    "business",
+    "commerce"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [
+    {
+      "id": "interact",
+      "name": "Interact with Sportking India LLC",
+      "description": "A digital marketing agency providing website design, development, and promotion services to clients worldwide.",
+      "tags": [
+        "business",
+        "commerce"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain"
+      ]
+    }
+  ],
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": false,
+    "multiTurn": true
+  },
+  "authType": "none",
+  "agentCardUrl": "https://api.lifie.ai/a2a/cmg859oy00893uat8gyqni97e/agent-card.json",
+  "endpointUrl": "https://hub.lifie.ai/agent/cmg859oy00893uat8gyqni97e/sportking-india-llc",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

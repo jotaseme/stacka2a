@@ -1,0 +1,32 @@
+{
+  "slug": "grafana-agent",
+  "name": "Grafana Agent",
+  "description": "A2A agent server for grafana dashboards automation tasks",
+  "provider": {
+    "name": "inference-gateway",
+    "url": "https://github.com/inference-gateway"
+  },
+  "repository": "https://github.com/inference-gateway/grafana-agent",
+  "category": "general",
+  "tags": [
+    "a2a-server"
+  ],
+  "framework": "custom",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://registry.inference-gateway.com/",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-11-18",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

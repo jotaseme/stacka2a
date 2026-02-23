@@ -1,0 +1,51 @@
+{
+  "slug": "upcounsel",
+  "name": "UpCounsel",
+  "description": "UpCounsel connects businesses with experienced attorneys for on-demand legal services, offering free legal documents and resources. They provide access to vetted lawyers for various business needs, including agreements, patents, trademarks, immigration, and more.",
+  "provider": {
+    "name": "Lifie.ai Hub",
+    "url": "https://hub.lifie.ai"
+  },
+  "repository": "",
+  "category": "general",
+  "tags": [
+    "business",
+    "commerce"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [
+    {
+      "id": "interact",
+      "name": "Interact with UpCounsel",
+      "description": "UpCounsel connects businesses with experienced attorneys for on-demand legal services, offering free legal documents and resources. They provide access to vetted lawyers for various business needs, including agreements, patents, trademarks, immigration, and more.",
+      "tags": [
+        "business",
+        "commerce"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain"
+      ]
+    }
+  ],
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": false,
+    "multiTurn": true
+  },
+  "authType": "none",
+  "agentCardUrl": "https://api.lifie.ai/a2a/cmg83cbh202evuat8v02w9z6s/agent-card.json",
+  "endpointUrl": "https://hub.lifie.ai/agent/cmg83cbh202evuat8v02w9z6s/upcounsel",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "zeph",
+  "name": "Zeph",
+  "description": " Lightweight AI agent runtime in Rust — hybrid inference (Ollama, Claude, OpenAI, HuggingFace), multi-model orchestration, skill-based tool use with self-learning, semantic memory via Qdrant, code RAG with   tree-sitter, MCP client, A2A protocol. CLI + Telegram + TUI",
+  "provider": {
+    "name": "bug-ops",
+    "url": "https://github.com/bug-ops"
+  },
+  "repository": "https://github.com/bug-ops/zeph",
+  "category": "code-generation",
+  "tags": [
+    "ai-agent",
+    "autonomous-agents",
+    "claude",
+    "cli",
+    "code-rag",
+    "huggingface",
+    "llm",
+    "mcp",
+    "multi-model",
+    "ollama"
+  ],
+  "framework": "custom",
+  "language": "rust",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://bug-ops.github.io/zeph/",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 3,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

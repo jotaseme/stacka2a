@@ -1,0 +1,41 @@
+{
+  "slug": "homeguard-an-efficient-multi-sensor-safety-system",
+  "name": "HOMEGUARD AN EFFICIENT MULTI SENSOR SAFETY SYSTEM",
+  "description": "🏠 Monitor home safety by detecting hazards with multi-sensor alerts via LCD and LEDs for real-time security and environment tracking.",
+  "provider": {
+    "name": "abqser",
+    "url": "https://github.com/abqser"
+  },
+  "repository": "https://github.com/abqser/HOMEGUARD-AN-EFFICIENT-MULTI-SENSOR-SAFETY-SYSTEM",
+  "category": "infrastructure",
+  "tags": [
+    "a",
+    "a2a-mcp",
+    "activemq",
+    "agents",
+    "android",
+    "artemis",
+    "bifpn",
+    "editor",
+    "feature-extraction",
+    "java"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

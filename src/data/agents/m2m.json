@@ -1,0 +1,34 @@
+{
+  "slug": "m2m",
+  "name": "M2m",
+  "description": "Machine 2 Machine Protocol, x402 + A2A + MCP",
+  "provider": {
+    "name": "AndreaRettaroli",
+    "url": "https://github.com/AndreaRettaroli"
+  },
+  "repository": "https://github.com/AndreaRettaroli/m2m",
+  "category": "general",
+  "tags": [
+    "agents",
+    "mcp-client",
+    "mcp-server",
+    "x402"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2025-06-25",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

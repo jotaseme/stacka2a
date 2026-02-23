@@ -1,0 +1,39 @@
+{
+  "slug": "a2a-agent-registry-on-aws",
+  "name": "A2A Agent Registry On Aws",
+  "description": "Scalable agent registry for AI agents using A2A protocol AgentCard with semantic search. AWS serverless (Lambda, S3 Vectors, Bedrock). Python SDK & React Web UI.",
+  "provider": {
+    "name": "awslabs",
+    "url": "https://github.com/awslabs"
+  },
+  "repository": "https://github.com/awslabs/a2a-agent-registry-on-aws",
+  "category": "search",
+  "tags": [
+    "agent-registry",
+    "ai-agents",
+    "aws-bedrock",
+    "aws-cdk",
+    "aws-serverless",
+    "multi-agent-systems",
+    "python",
+    "react",
+    "sementic-search"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 14,
+  "lastUpdated": "2026-02-21",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

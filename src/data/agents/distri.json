@@ -1,0 +1,35 @@
+{
+  "slug": "distri",
+  "name": "Distri",
+  "description": "Distri is A2A compatible agent framework built in Rust. Build agents with simply a markdown definition and much more. ",
+  "provider": {
+    "name": "distrihub",
+    "url": "https://github.com/distrihub"
+  },
+  "repository": "https://github.com/distrihub/distri",
+  "category": "general",
+  "tags": [
+    "agents-sdk",
+    "langchain",
+    "rust-lang"
+  ],
+  "framework": "langchain",
+  "language": "rust",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://distri.dev",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 3,
+  "lastUpdated": "2026-02-19",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

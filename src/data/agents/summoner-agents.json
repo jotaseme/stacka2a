@@ -1,0 +1,41 @@
+{
+  "slug": "summoner-agents",
+  "name": "Summoner Agents",
+  "description": "A collection of Summoner clients and agents featuring example implementations and reusable templates",
+  "provider": {
+    "name": "Summoner-Network",
+    "url": "https://github.com/Summoner-Network"
+  },
+  "repository": "https://github.com/Summoner-Network/summoner-agents",
+  "category": "enterprise",
+  "tags": [
+    "agent-to-agent",
+    "agentic",
+    "agentic-ai",
+    "agentic-framework",
+    "agentic-workflow",
+    "agents",
+    "ai-agent",
+    "ai-agent-marketplace",
+    "ai-agents",
+    "ai-agents-framework"
+  ],
+  "framework": "langchain",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://summoner.org/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 22,
+  "lastUpdated": "2026-02-19",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "visual-commerce-gemini-3-alloydb",
+  "name": "Visual Commerce Gemini 3 Alloydb",
+  "description": "Build an autonomous supply chain with Gemini 3 Flash Code Execution & AlloyDB AI ScaNN. Deterministic vision + semantic search + A2A protocol.",
+  "provider": {
+    "name": "MohitBhimrajka",
+    "url": "https://github.com/MohitBhimrajka"
+  },
+  "repository": "https://github.com/MohitBhimrajka/visual-commerce-gemini-3-alloydb",
+  "category": "code-generation",
+  "tags": [
+    "alloydb",
+    "gemini-3-flash",
+    "generative-ai",
+    "google-cloud"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-18",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

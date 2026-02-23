@@ -1,0 +1,39 @@
+{
+  "slug": "agentic-economy-boilerplate",
+  "name": "Agentic Economy Boilerplate",
+  "description": "🚀 The Rosetta Stone for Agentic Payments - One vending machine, 5+ protocol implementations. Get from zero to working agentic payments in 5 minutes.",
+  "provider": {
+    "name": "xpaysh",
+    "url": "https://github.com/xpaysh"
+  },
+  "repository": "https://github.com/xpaysh/agentic-economy-boilerplate",
+  "category": "enterprise",
+  "tags": [
+    "agent-to-agent",
+    "agentic-ai",
+    "agentic-ai-development",
+    "ai-payments",
+    "docker-boilerplate",
+    "micropayments",
+    "x402",
+    "x402-agent",
+    "x402-payment"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 7,
+  "lastUpdated": "2026-01-05",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

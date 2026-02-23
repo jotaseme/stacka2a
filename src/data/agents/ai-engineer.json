@@ -1,0 +1,34 @@
+{
+  "slug": "ai-engineer",
+  "name": "AI Engineer",
+  "description": "Notes on gen AI concepts and tools. POC on agentic AI with MCP, A2A, langGraph, langchain, openAI LLM, crewAI",
+  "provider": {
+    "name": "lekhrajdinkar",
+    "url": "https://github.com/lekhrajdinkar"
+  },
+  "repository": "https://github.com/lekhrajdinkar/AI-Engineer",
+  "category": "utility",
+  "tags": [
+    "agentic-ai",
+    "langchain-python",
+    "mcp",
+    "openai"
+  ],
+  "framework": "langgraph",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-01-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

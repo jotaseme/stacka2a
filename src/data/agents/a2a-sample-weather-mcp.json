@@ -1,0 +1,32 @@
+{
+  "slug": "a2a-sample-weather-mcp",
+  "name": "Weather MCP (Official Sample)",
+  "description": "Official A2A java sample agent: Weather MCP",
+  "provider": {
+    "name": "A2A Project",
+    "url": "https://github.com/a2aproject"
+  },
+  "repository": "https://github.com/a2aproject/a2a-samples/tree/main/samples/java/agents/weather_mcp",
+  "category": "utility",
+  "tags": [
+    "official-sample",
+    "java"
+  ],
+  "framework": "custom",
+  "language": "java",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "java"
+  ],
+  "githubStars": 1329,
+  "lastUpdated": "2026-02-22",
+  "official": true,
+  "selfHosted": true,
+  "license": "apache-2.0"
+}

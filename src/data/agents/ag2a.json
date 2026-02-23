@@ -1,0 +1,34 @@
+{
+  "slug": "ag2a",
+  "name": "Ag2a",
+  "description": "AG2A: AutoGen Agent-to-Agent - A library for AutoGen (AG2) agents with MCP capabilities exposed as A2A agents",
+  "provider": {
+    "name": "niechen",
+    "url": "https://github.com/niechen"
+  },
+  "repository": "https://github.com/niechen/ag2a",
+  "category": "general",
+  "tags": [
+    "a2a-mcp",
+    "ag2",
+    "autogen",
+    "mcp"
+  ],
+  "framework": "autogen",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2025-05-02",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

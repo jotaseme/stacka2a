@@ -1,0 +1,41 @@
+{
+  "slug": "editorial-ai-template",
+  "name": "Editorial AI   Template",
+  "description": "📝 Enhance your writing with Editorial AI, a focused assistant that analyzes tone and style to humanize AI-generated text for clearer, more engaging content.",
+  "provider": {
+    "name": "jk834434",
+    "url": "https://github.com/jk834434"
+  },
+  "repository": "https://github.com/jk834434/Editorial-AI---Template",
+  "category": "conversational",
+  "tags": [
+    "a2a-mcp",
+    "acme",
+    "activemq",
+    "amqp",
+    "blogging",
+    "cut",
+    "editing",
+    "editorial",
+    "film-editing",
+    "ghost"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://jk834434.github.io",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

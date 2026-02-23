@@ -1,0 +1,41 @@
+{
+  "slug": "iam-bobs-brain",
+  "name": "Iam Bobs Brain",
+  "description": "General-purpose enterprise orchestrator on Google ADK + Vertex AI Agent Engine. Multi-agent system with risk tiers (R0-R4), policy gates, evidence bundles, and Mission Spec v1 workflows.",
+  "provider": {
+    "name": "intent-solutions-io",
+    "url": "https://github.com/intent-solutions-io"
+  },
+  "repository": "https://github.com/intent-solutions-io/iam-bobs-brain",
+  "category": "enterprise",
+  "tags": [
+    "agent-engine",
+    "ai-agents",
+    "enterprise",
+    "google-adk",
+    "multi-agent",
+    "orchestration",
+    "policy-gates",
+    "python",
+    "risk-management",
+    "vertex-ai"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://intent-solutions-io.github.io/bobs-brain/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 15,
+  "lastUpdated": "2026-02-20",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "traylinx-auth-client-py",
+  "name": "Traylinx Auth Client Py",
+  "description": "Enterprise-grade Python authentication client for Traylinx Sentinel API with full A2A Protocol support",
+  "provider": {
+    "name": "traylinx",
+    "url": "https://github.com/traylinx"
+  },
+  "repository": "https://github.com/traylinx/traylinx-auth-client-py",
+  "category": "enterprise",
+  "tags": [
+    "agent-communication",
+    "authentication",
+    "fastapi",
+    "jwt",
+    "microservices",
+    "oauth2",
+    "python",
+    "sdk",
+    "sentinel",
+    "traylinx"
+  ],
+  "framework": "fastapi",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-12-20",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

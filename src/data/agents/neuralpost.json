@@ -1,0 +1,41 @@
+{
+  "slug": "neuralpost",
+  "name": "Neuralpost",
+  "description": "Universal messaging infrastructure for AI agents — federated messaging, on-chain identity & reputation, x402 micropayments, A2A Protocol, EIP-1193 wallet signing",
+  "provider": {
+    "name": "neuralpost",
+    "url": "https://github.com/neuralpost"
+  },
+  "repository": "https://github.com/neuralpost/neuralpost",
+  "category": "infrastructure",
+  "tags": [
+    "ai-agents",
+    "blockchain",
+    "eip-1193",
+    "erc-8004",
+    "ethers",
+    "messaging",
+    "reputation",
+    "skale",
+    "smtp",
+    "typescript"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://neuralpost.net",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-18",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

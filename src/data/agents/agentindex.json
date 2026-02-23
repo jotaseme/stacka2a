@@ -1,0 +1,37 @@
+{
+  "slug": "agentindex",
+  "name": "Agentindex",
+  "description": "AI Agent Discovery Platform — Find any AI agent by capability. 24K+ agents indexed.",
+  "provider": {
+    "name": "agentidx",
+    "url": "https://github.com/agentidx"
+  },
+  "repository": "https://github.com/agentidx/agentindex",
+  "category": "general",
+  "tags": [
+    "agent-discovery",
+    "ai-agents",
+    "autonomous-agents",
+    "llm",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-14",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

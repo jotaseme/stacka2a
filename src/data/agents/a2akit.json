@@ -1,0 +1,35 @@
+{
+  "slug": "a2akit",
+  "name": "A2akit",
+  "description": "A TypeScript library for creating A2A (Agent-to-Agent) protocol servers with decorators — \"NestJS for AI   agents\". Build AI agent APIs with zero runtime dependencies.",
+  "provider": {
+    "name": "v-checha",
+    "url": "https://github.com/v-checha"
+  },
+  "repository": "https://github.com/v-checha/a2akit",
+  "category": "general",
+  "tags": [
+    "agent-framework",
+    "ai",
+    "decorators",
+    "json-rpc",
+    "typescript"
+  ],
+  "framework": "nestjs",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-01-13",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "mcpa2aserver-gas-library",
+  "name": "MCPA2Aserver GAS Library",
+  "description": "MCPA2Aserver is a Google Apps Script library designed to consolidate Generative AI protocols into a single server solution. It enables developers to easily build and deploy servers that support both the **Model Context Protocol (MCP)** and the **Agent-to-Agent (A2A)** protocol.",
+  "provider": {
+    "name": "tanaikech",
+    "url": "https://github.com/tanaikech"
+  },
+  "repository": "https://github.com/tanaikech/MCPA2Aserver-GAS-Library",
+  "category": "code-generation",
+  "tags": [
+    "gas-library",
+    "google-apps-script",
+    "google-apps-script-library",
+    "google-workspace"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://medium.com/google-cloud/overcoming-tool-space-interference-bridging-google-adk-and-a2a-sdk-via-google-apps-script-44e9f161e235",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-01-02",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

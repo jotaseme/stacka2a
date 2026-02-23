@@ -1,0 +1,32 @@
+{
+  "slug": "a2a-go",
+  "name": "A2A Go",
+  "description": "a2a‑go is a reference Go implementation of the Agent‑to‑Agent (A2A) protocol by Google, including the proposed interoperability with the Model Context Protocol (MCP) from Anthropic.",
+  "provider": {
+    "name": "TheApeMachine",
+    "url": "https://github.com/TheApeMachine"
+  },
+  "repository": "https://github.com/TheApeMachine/a2a-go",
+  "category": "general",
+  "tags": [
+    "mcp",
+    "modelcontextprotocol"
+  ],
+  "framework": "custom",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 3,
+  "lastUpdated": "2025-08-18",
+  "official": false,
+  "selfHosted": true,
+  "license": "Unlicense"
+}

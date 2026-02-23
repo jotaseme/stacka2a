@@ -1,0 +1,34 @@
+{
+  "slug": "fasta2a",
+  "name": "Fasta2a",
+  "description": "a Python framework for building and consuming Agent‑to‑Agent (A2A) servers. It draws inspiration from the popular FastMCP project but targets the A2A protocol directly.",
+  "provider": {
+    "name": "rebeccacamejo",
+    "url": "https://github.com/rebeccacamejo"
+  },
+  "repository": "https://github.com/rebeccacamejo/fasta2a",
+  "category": "general",
+  "tags": [
+    "a2a-client",
+    "a2a-mcp",
+    "a2a-server",
+    "agentic-ai"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-08-24",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

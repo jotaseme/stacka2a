@@ -1,0 +1,40 @@
+{
+  "slug": "agentbus",
+  "name": "Agentbus",
+  "description": "The open-source event bus for AI agents. Webhooks in. Agent actions out.",
+  "provider": {
+    "name": "Kanevry",
+    "url": "https://github.com/Kanevry"
+  },
+  "repository": "https://github.com/Kanevry/agentbus",
+  "category": "orchestration",
+  "tags": [
+    "agent-orchestration",
+    "ai-agents",
+    "crewai",
+    "event-bus",
+    "langgraph",
+    "mcp",
+    "self-hosted",
+    "typescript",
+    "webhooks"
+  ],
+  "framework": "langgraph",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://agentbus.dev",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-09",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

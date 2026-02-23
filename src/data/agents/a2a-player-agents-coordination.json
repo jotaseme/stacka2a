@@ -1,0 +1,36 @@
+{
+  "slug": "a2a-player-agents-coordination",
+  "name": "A2A Player Agents Coordination",
+  "description": "Google A2A protocol demo where a CLI client works with a scheduling agent, which in turn coordinates three specialized player agents to arrange a Table Tennis game.",
+  "provider": {
+    "name": "mjunaidca",
+    "url": "https://github.com/mjunaidca"
+  },
+  "repository": "https://github.com/mjunaidca/a2a-player-agents-coordination",
+  "category": "orchestration",
+  "tags": [
+    "a2a-cli",
+    "a2a-client",
+    "a2a-server",
+    "multi-agent-systems",
+    "openai-agent-sdk",
+    "openai-agents"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2025-08-13",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

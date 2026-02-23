@@ -1,0 +1,41 @@
+{
+  "slug": "handler",
+  "name": "Handler",
+  "description": "A2A Protocol client and developer toolkit.",
+  "provider": {
+    "name": "alDuncanson",
+    "url": "https://github.com/alDuncanson"
+  },
+  "repository": "https://github.com/alDuncanson/Handler",
+  "category": "code-generation",
+  "tags": [
+    "a2a-cli",
+    "a2a-client",
+    "a2a-server",
+    "adk",
+    "agent",
+    "ai",
+    "ai-agents",
+    "cli",
+    "litellm",
+    "mcp"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://alduncanson.github.io/Handler/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 36,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "GPL-3.0"
+}

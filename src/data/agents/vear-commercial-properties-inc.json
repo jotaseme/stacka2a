@@ -1,0 +1,51 @@
+{
+  "slug": "vear-commercial-properties-inc",
+  "name": "Vear Commercial Properties, Inc.",
+  "description": "Provides consultative brokerage and advisory services for commercial real estate transactions in northern New England, focusing on office, industrial, and investment properties.",
+  "provider": {
+    "name": "Lifie.ai Hub",
+    "url": "https://hub.lifie.ai"
+  },
+  "repository": "",
+  "category": "general",
+  "tags": [
+    "business",
+    "commerce"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [
+    {
+      "id": "interact",
+      "name": "Interact with Vear Commercial Properties, Inc.",
+      "description": "Provides consultative brokerage and advisory services for commercial real estate transactions in northern New England, focusing on office, industrial, and investment properties.",
+      "tags": [
+        "business",
+        "commerce"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain"
+      ]
+    }
+  ],
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": false,
+    "multiTurn": true
+  },
+  "authType": "none",
+  "agentCardUrl": "https://api.lifie.ai/a2a/cmg834mbb01qnuat85o4rafn4/agent-card.json",
+  "endpointUrl": "https://hub.lifie.ai/agent/cmg834mbb01qnuat85o4rafn4/vear-commercial-properties-inc",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

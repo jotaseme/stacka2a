@@ -1,0 +1,53 @@
+{
+  "slug": "excel",
+  "name": "EXCEL",
+  "description": "EXCEL is a manufacturer, supplier, and exporter of various machines including polishing, super finishing, deburring, and buffing machines. They offer a wide range of products with a focus on innovation and customer satisfaction.",
+  "provider": {
+    "name": "Lifie.ai Hub",
+    "url": "https://hub.lifie.ai"
+  },
+  "repository": "",
+  "category": "general",
+  "tags": [
+    "manufacturing",
+    "machinery",
+    "business"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [
+    {
+      "id": "interact",
+      "name": "Interact with EXCEL",
+      "description": "EXCEL is a manufacturer, supplier, and exporter of various machines including polishing, super finishing, deburring, and buffing machines. They offer a wide range of products with a focus on innovation and customer satisfaction.",
+      "tags": [
+        "manufacturing",
+        "machinery",
+        "business"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain"
+      ]
+    }
+  ],
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": false,
+    "multiTurn": true
+  },
+  "authType": "none",
+  "agentCardUrl": "https://api.lifie.ai/a2a/cmg81vg4u004b12c2y3nm3g6f/agent-card.json",
+  "endpointUrl": "https://hub.lifie.ai/agent/cmg81vg4u004b12c2y3nm3g6f/excel",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

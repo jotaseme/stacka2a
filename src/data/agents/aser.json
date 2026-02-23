@@ -1,0 +1,41 @@
+{
+  "slug": "aser",
+  "name": "Aser",
+  "description": "Aser is a lightweight, self-assembling AI Agent frame.",
+  "provider": {
+    "name": "AmeNetwork",
+    "url": "https://github.com/AmeNetwork"
+  },
+  "repository": "https://github.com/AmeNetwork/aser",
+  "category": "data-analytics",
+  "tags": [
+    "agent",
+    "agents",
+    "ai",
+    "ai-agent",
+    "ai-memory",
+    "aser",
+    "erc8004",
+    "llm",
+    "mcp",
+    "multi-agent"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://ame.network/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 469,
+  "lastUpdated": "2025-10-11",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "vebrand-intellectual-property-rights-management-llc",
+  "name": "Vebrand Intellectual Property Rights Management LLC",
+  "description": "A company providing high-quality services for brand creation, development, management, and consulting to increase business value and profit.",
+  "provider": {
+    "name": "Lifie.ai Hub",
+    "url": "https://hub.lifie.ai"
+  },
+  "repository": "",
+  "category": "general",
+  "tags": [
+    "business",
+    "commerce"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [
+    {
+      "id": "interact",
+      "name": "Interact with Vebrand Intellectual Property Rights Management LLC",
+      "description": "A company providing high-quality services for brand creation, development, management, and consulting to increase business value and profit.",
+      "tags": [
+        "business",
+        "commerce"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain"
+      ]
+    }
+  ],
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": false,
+    "multiTurn": true
+  },
+  "authType": "none",
+  "agentCardUrl": "https://api.lifie.ai/a2a/cmg834lyw01qluat8zchdsfcy/agent-card.json",
+  "endpointUrl": "https://hub.lifie.ai/agent/cmg834lyw01qluat8zchdsfcy/vebrand-intellectual-property-rights-management-llc",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

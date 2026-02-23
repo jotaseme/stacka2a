@@ -1,0 +1,16 @@
+{
+  "slug": "data-analytics",
+  "name": "Data Analytics",
+  "description": "A2A agents for data retrieval, analysis, and visualization. Query databases, transform data, and generate reports.",
+  "icon": "chart",
+  "category": "use-case",
+  "agents": [
+    "a2a-sample-analytics",
+    "langchain-data-agent",
+    "data-agent",
+    "a2a-sample-mindsdb",
+    "general-data"
+  ],
+  "difficulty": "intermediate",
+  "blogPost": "best-a2a-agents-data-analytics"
+}

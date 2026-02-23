@@ -1,0 +1,40 @@
+{
+  "slug": "sae",
+  "name": "Sae",
+  "description": "A lawyer for the agent economy. AI agents can request contract review, risk analysis, and legal guidance via A2A protocol.",
+  "provider": {
+    "name": "egorvert",
+    "url": "https://github.com/egorvert"
+  },
+  "repository": "https://github.com/egorvert/Sae",
+  "category": "general",
+  "tags": [
+    "agent-to-agent",
+    "ai",
+    "ai-agents",
+    "contract-analysis",
+    "fastapi",
+    "langchain",
+    "langgraph",
+    "legal-ai",
+    "legal-tech",
+    "llm"
+  ],
+  "framework": "langgraph",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-12-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

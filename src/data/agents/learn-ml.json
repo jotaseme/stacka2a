@@ -1,0 +1,35 @@
+{
+  "slug": "learn-ml",
+  "name": "Learn Ml",
+  "description": "Development with Agentic tools like ADK, MCP, A2A for creating agentic workflows.",
+  "provider": {
+    "name": "ayushsingh-ayushsingh",
+    "url": "https://github.com/ayushsingh-ayushsingh"
+  },
+  "repository": "https://github.com/ayushsingh-ayushsingh/learn-ml",
+  "category": "enterprise",
+  "tags": [
+    "http",
+    "http-server",
+    "mcp-client",
+    "mcp-server"
+  ],
+  "framework": "google-adk",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-19",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

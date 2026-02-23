@@ -1,0 +1,51 @@
+{
+  "slug": "varner-s-greenhouse-nursery",
+  "name": "Varner's Greenhouse & Nursery",
+  "description": "A retail business selling flowers, bedding plants, potted flowers, shrubs, trees, and nursery products in a greenhouse setting.",
+  "provider": {
+    "name": "Lifie.ai Hub",
+    "url": "https://hub.lifie.ai"
+  },
+  "repository": "",
+  "category": "general",
+  "tags": [
+    "business",
+    "commerce"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [
+    {
+      "id": "interact",
+      "name": "Interact with Varner's Greenhouse & Nursery",
+      "description": "A retail business selling flowers, bedding plants, potted flowers, shrubs, trees, and nursery products in a greenhouse setting.",
+      "tags": [
+        "business",
+        "commerce"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain"
+      ]
+    }
+  ],
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": false,
+    "multiTurn": true
+  },
+  "authType": "none",
+  "agentCardUrl": "https://api.lifie.ai/a2a/cmg83669h01vbuat8yuybegnp/agent-card.json",
+  "endpointUrl": "https://hub.lifie.ai/agent/cmg83669h01vbuat8yuybegnp/varner-s-greenhouse-nursery",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

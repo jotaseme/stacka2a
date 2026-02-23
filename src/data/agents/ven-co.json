@@ -1,0 +1,51 @@
+{
+  "slug": "ven-co",
+  "name": "Ven&Co",
+  "description": "A business that connects companies for success, implying a networking or partnership facilitation service.",
+  "provider": {
+    "name": "Lifie.ai Hub",
+    "url": "https://hub.lifie.ai"
+  },
+  "repository": "",
+  "category": "general",
+  "tags": [
+    "business",
+    "commerce"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [
+    {
+      "id": "interact",
+      "name": "Interact with Ven&Co",
+      "description": "A business that connects companies for success, implying a networking or partnership facilitation service.",
+      "tags": [
+        "business",
+        "commerce"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain"
+      ]
+    }
+  ],
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": false,
+    "multiTurn": true
+  },
+  "authType": "none",
+  "agentCardUrl": "https://api.lifie.ai/a2a/cmg833i0m01n3uat8arsz0z37/agent-card.json",
+  "endpointUrl": "https://hub.lifie.ai/agent/cmg833i0m01n3uat8arsz0z37/ven-co",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

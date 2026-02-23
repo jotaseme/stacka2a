@@ -1,0 +1,41 @@
+{
+  "slug": "perception-with-intent",
+  "name": "Perception With Intent",
+  "description": "AI-powered news intelligence with 8 Vertex AI agents monitoring 50+ sources. Real-time executive dashboard, daily briefs, and smart alerts. Built on Firebase + A2A protocol.",
+  "provider": {
+    "name": "intent-solutions-io",
+    "url": "https://github.com/intent-solutions-io"
+  },
+  "repository": "https://github.com/intent-solutions-io/perception-with-intent",
+  "category": "infrastructure",
+  "tags": [
+    "ai",
+    "ai-agents",
+    "bigquery",
+    "cicd",
+    "firebase",
+    "firestore",
+    "gemini",
+    "google-adk",
+    "news-aggregator",
+    "news-intelligence"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://perception-with-intent.web.app",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 3,
+  "lastUpdated": "2026-02-20",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "content-creation",
+  "name": "Content Creation",
+  "description": "A2A agents for writing, editing, and generating media content. From blog posts to video generation.",
+  "icon": "pen",
+  "category": "use-case",
+  "agents": [
+    "a2a-sample-content-writer",
+    "a2a-sample-content-planner",
+    "a2a-sample-content-editor",
+    "a2a-sample-veo-video-gen",
+    "a2a-storylab"
+  ],
+  "difficulty": "beginner"
+}

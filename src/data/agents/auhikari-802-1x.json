@@ -1,0 +1,42 @@
+{
+  "slug": "auhikari-802-1x",
+  "name": "AUhikari 802.1x",
+  "description": "🌐 Analyze au Hikari's 802.1x authentication to gain a global IP address independently from the provided HGW for personal research and assessment.",
+  "provider": {
+    "name": "zeeldabhi24",
+    "url": "https://github.com/zeeldabhi24"
+  },
+  "repository": "https://github.com/zeeldabhi24/AUhikari-802.1x",
+  "category": "search",
+  "tags": [
+    "a2a-mcp",
+    "a2a-server",
+    "agents",
+    "chat-ui",
+    "edit",
+    "ide",
+    "kotlin",
+    "linux-foundation",
+    "network",
+    "newlife"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://zeeldabhi24.github.io",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

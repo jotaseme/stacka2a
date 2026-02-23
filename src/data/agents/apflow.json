@@ -1,0 +1,41 @@
+{
+  "slug": "apflow",
+  "name": "Apflow",
+  "description": "The core of `aipflow` is **task orchestration and execution specifications**. It provides a unified task orchestration framework that supports execution of multiple task types. The core is **pure orchestration** with no LLM dependencies - CrewAI support is optional.",
+  "provider": {
+    "name": "aipartnerup",
+    "url": "https://github.com/aipartnerup"
+  },
+  "repository": "https://github.com/aipartnerup/apflow",
+  "category": "enterprise",
+  "tags": [
+    "agent-framework",
+    "ai-agents",
+    "automation-task-scheduler",
+    "crewai",
+    "distributed-systems",
+    "litellm",
+    "mcp",
+    "scheudler",
+    "standalone",
+    "task"
+  ],
+  "framework": "crewai",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://aipartnerup.com/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 7,
+  "lastUpdated": "2026-02-18",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

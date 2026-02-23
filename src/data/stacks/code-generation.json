@@ -1,0 +1,16 @@
+{
+  "slug": "code-generation",
+  "name": "Code Generation",
+  "description": "A2A agents that help write, review, and refactor code. Connect them to your IDE or CI pipeline.",
+  "icon": "code",
+  "category": "use-case",
+  "agents": [
+    "a2a-sample-github-agent",
+    "code-agent",
+    "a2a-sample-a2a-mcp",
+    "a2a-sample-content-editor",
+    "langgraph-research-agent"
+  ],
+  "difficulty": "intermediate",
+  "blogPost": "best-a2a-agents-code-generation"
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "velostream",
+  "name": "Velostream",
+  "description": "Velostream is a high-performance streaming SQL engine built in Rust, designed for real-time analytics on financial and time-series data. It supports pluggable formats (JSON, Avro, Protobuf) and emphasizes low-latency processing, precision, and seamless integration with modern data pipelines",
+  "provider": {
+    "name": "velostreamai",
+    "url": "https://github.com/velostreamai"
+  },
+  "repository": "https://github.com/velostreamai/velostream",
+  "category": "data-analytics",
+  "tags": [
+    "automomous-agents",
+    "data-streaming",
+    "data-streaming-pipeline",
+    "financial-analytics",
+    "low-latency",
+    "ml",
+    "mlops",
+    "real-time-analytics",
+    "stream-processing",
+    "stream-processing-engine"
+  ],
+  "framework": "custom",
+  "language": "rust",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 10,
+  "lastUpdated": "2026-02-19",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

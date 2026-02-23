@@ -1,0 +1,40 @@
+{
+  "slug": "hustle",
+  "name": "Hustle",
+  "description": "Youth sports analytics platform with verified statistics and team-validated metrics. Built on Firebase + Vertex AI for ECNL, MLS Next, and 56 youth soccer leagues.",
+  "provider": {
+    "name": "intent-solutions-io",
+    "url": "https://github.com/intent-solutions-io"
+  },
+  "repository": "https://github.com/intent-solutions-io/hustle",
+  "category": "data-analytics",
+  "tags": [
+    "firebase",
+    "firestore",
+    "google-cloud",
+    "nextjs",
+    "sports-analytics",
+    "statistics-tracking",
+    "typescript",
+    "vertex-ai",
+    "youth-soccer"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://hustlestats.io",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-20",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

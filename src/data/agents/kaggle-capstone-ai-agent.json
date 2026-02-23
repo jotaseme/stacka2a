@@ -1,0 +1,40 @@
+{
+  "slug": "kaggle-capstone-ai-agent",
+  "name": "Kaggle Capstone Ai Agent",
+  "description": "A safety-first multi-agent mental health companion with real-time distress tracking, triple-layer guardrails, and evidence-based grounding techniques. Built for Kaggle × Google Agents Intensive 2025 Capstone (Agents for Good Track)",
+  "provider": {
+    "name": "ajmaluk",
+    "url": "https://github.com/ajmaluk"
+  },
+  "repository": "https://github.com/ajmaluk/kaggle-capstone-ai-agent",
+  "category": "orchestration",
+  "tags": [
+    "agent-evaluation",
+    "agents-for-good",
+    "ai-agents",
+    "crisis-support",
+    "gemini",
+    "gradio",
+    "grounding-techniques",
+    "huggingface-spaces",
+    "llm-safety",
+    "mental-health"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2025-11-26",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

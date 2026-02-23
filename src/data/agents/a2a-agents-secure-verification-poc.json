@@ -1,0 +1,36 @@
+{
+  "slug": "a2a-agents-secure-verification-poc",
+  "name": "A2A Agents Secure Verification Poc",
+  "description": "a Python proof-of-concept (PoC) application for security formal verification of LLM Agents using Google A2A (Agent-to-Agent) protocol.",
+  "provider": {
+    "name": "guerilla7",
+    "url": "https://github.com/guerilla7"
+  },
+  "repository": "https://github.com/guerilla7/a2a-agents-secure-verification-poc",
+  "category": "security",
+  "tags": [
+    "agentic-ai",
+    "agents",
+    "formal-verification",
+    "large-language-models",
+    "llm",
+    "machine-learning"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-05-16",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

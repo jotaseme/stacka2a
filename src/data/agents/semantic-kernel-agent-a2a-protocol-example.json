@@ -1,0 +1,35 @@
+{
+  "slug": "semantic-kernel-agent-a2a-protocol-example",
+  "name": "Semantic Kernel Agent A2A Protocol Example",
+  "description": "Semantic Kernel A2A protocol and A2A Discovery Service Example",
+  "provider": {
+    "name": "Jordiag",
+    "url": "https://github.com/Jordiag"
+  },
+  "repository": "https://github.com/Jordiag/semantic-kernel-agent-a2a-protocol-example",
+  "category": "general",
+  "tags": [
+    "a2a-discovery",
+    "agentic-ai",
+    "ai",
+    "dotnet",
+    "semantic-kernel"
+  ],
+  "framework": "semantic-kernel",
+  "language": "csharp",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "csharp"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2025-09-08",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

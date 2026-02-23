@@ -1,0 +1,41 @@
+{
+  "slug": "a2a-server",
+  "name": "A2A Server",
+  "description": "Production-ready A2A Protocol Server with dual protocol support (HTTP REST + JSON-RPC 2.0). Built on SceneGraphManager v2.0.0 for JSON-driven AI workflow orchestration with LangGraph.",
+  "provider": {
+    "name": "akudo7",
+    "url": "https://github.com/akudo7"
+  },
+  "repository": "https://github.com/akudo7/a2a-server",
+  "category": "enterprise",
+  "tags": [
+    "agent-to-agent",
+    "ai-agents",
+    "ai-automation",
+    "anthropic",
+    "express",
+    "json-rpc",
+    "langchain",
+    "langgraph",
+    "mcp-servers",
+    "multi-agent-system"
+  ],
+  "framework": "langgraph",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://github.com/akudo7/a2a-server",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-01-12",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

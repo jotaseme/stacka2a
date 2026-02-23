@@ -1,0 +1,36 @@
+{
+  "slug": "unified-mcp-tool-graph",
+  "name": "Unified MCP Tool Graph",
+  "description": "Instead of dumping 1000+ tools into a model’s prompt and expecting it to choose wisely, the Unified MCP Tool Graph equips your LLM with structure, clarity, and relevance.  It fixes tool confusion, prevents infinite loops, and enables modular, intelligent agent workflows.",
+  "provider": {
+    "name": "pratikjadhav2726",
+    "url": "https://github.com/pratikjadhav2726"
+  },
+  "repository": "https://github.com/pratikjadhav2726/Unified-MCP-Tool-Graph",
+  "category": "enterprise",
+  "tags": [
+    "a2a-mcp",
+    "agentic-ai",
+    "ai",
+    "automation",
+    "llm",
+    "mcp-server"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 27,
+  "lastUpdated": "2025-12-02",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

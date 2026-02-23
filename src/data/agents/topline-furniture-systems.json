@@ -1,0 +1,51 @@
+{
+  "slug": "topline-furniture-systems",
+  "name": "Topline Furniture Systems",
+  "description": "A one-stop-shop for office and household furniture, offering a range of products and services.",
+  "provider": {
+    "name": "Lifie.ai Hub",
+    "url": "https://hub.lifie.ai"
+  },
+  "repository": "",
+  "category": "general",
+  "tags": [
+    "business",
+    "commerce"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [
+    {
+      "id": "interact",
+      "name": "Interact with Topline Furniture Systems",
+      "description": "A one-stop-shop for office and household furniture, offering a range of products and services.",
+      "tags": [
+        "business",
+        "commerce"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain"
+      ]
+    }
+  ],
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": false,
+    "multiTurn": true
+  },
+  "authType": "none",
+  "agentCardUrl": "https://api.lifie.ai/a2a/cmg83ulj003z9uat85f2v3mx6/agent-card.json",
+  "endpointUrl": "https://hub.lifie.ai/agent/cmg83ulj003z9uat85f2v3mx6/topline-furniture-systems",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

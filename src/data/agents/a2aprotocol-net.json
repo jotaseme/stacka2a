@@ -1,0 +1,38 @@
+{
+  "slug": "a2aprotocol-net",
+  "name": "A2AProtocol.NET",
+  "description": "A .NET library that enables ASP.NET Application to host Agent2Agent Server following Google's A2A protocol",
+  "provider": {
+    "name": "senbihan",
+    "url": "https://github.com/senbihan"
+  },
+  "repository": "https://github.com/senbihan/A2AProtocol.NET",
+  "category": "general",
+  "tags": [
+    "agentic-ai",
+    "agents",
+    "ai",
+    "asp-net-core",
+    "csharp",
+    "dotnet",
+    "google-a2a",
+    "mcp"
+  ],
+  "framework": "custom",
+  "language": "csharp",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "csharp"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-05-25",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

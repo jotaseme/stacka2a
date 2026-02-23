@@ -1,0 +1,32 @@
+{
+  "slug": "google-ai-sprint",
+  "name": "Google Ai Sprint",
+  "description": "Multi-agent-driven GenerativeUI",
+  "provider": {
+    "name": "stigsfoot",
+    "url": "https://github.com/stigsfoot"
+  },
+  "repository": "https://github.com/stigsfoot/google-ai-sprint",
+  "category": "orchestration",
+  "tags": [
+    "adk-python",
+    "generative-ui"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2025-07-05",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

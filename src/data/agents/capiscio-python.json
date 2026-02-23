@@ -1,0 +1,44 @@
+{
+  "slug": "capiscio-python",
+  "name": "Capiscio Python",
+  "description": "The official CapiscIO CLI tool for validating A2A agents. A lightweight Python wrapper that automatically manages the capiscio-core binary.",
+  "provider": {
+    "name": "capiscio",
+    "url": "https://github.com/capiscio"
+  },
+  "repository": "https://github.com/capiscio/capiscio-python",
+  "category": "infrastructure",
+  "tags": [
+    "agent-to-agent",
+    "automation",
+    "capiscio",
+    "cli",
+    "devops",
+    "python",
+    "security",
+    "validation",
+    "wrapper",
+    "ai-agents",
+    "middleware",
+    "protocol",
+    "rate-limiting"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://capisc.io",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "genai-bug-fixing-assistant-project",
+  "name": "GENAI Bug Fixing Assistant  Project ",
+  "description": "🤖 Streamline your debugging process with GENAI, an AI-driven assistant that helps identify and fix code issues efficiently.",
+  "provider": {
+    "name": "r3lo343",
+    "url": "https://github.com/r3lo343"
+  },
+  "repository": "https://github.com/r3lo343/GENAI_bug_fixing_assistant--project-",
+  "category": "code-generation",
+  "tags": [
+    "activemq",
+    "agents",
+    "bugbounty",
+    "bugbountytips",
+    "document-parser",
+    "generator",
+    "go",
+    "home-assistant",
+    "linux-foundation",
+    "project"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://r3lo343.github.io",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

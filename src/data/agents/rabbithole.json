@@ -1,0 +1,41 @@
+{
+  "slug": "rabbithole",
+  "name": "RabbitHole",
+  "description": "🐇 The 'RabbitHole' framework provides the tools for asynchronous A2A communication and task management. 📡🐇 ✨ Build powerful AI agents that communicate and collaborate.",
+  "provider": {
+    "name": "VinsmokeSomya",
+    "url": "https://github.com/VinsmokeSomya"
+  },
+  "repository": "https://github.com/VinsmokeSomya/RabbitHole",
+  "category": "orchestration",
+  "tags": [
+    "agent-communication",
+    "agent-framework",
+    "agent-orchestration",
+    "ai",
+    "ai-agents",
+    "ai-toolkit",
+    "autonomous-agents",
+    "decentralized-ai",
+    "llm",
+    "multi-agent-systems"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://vinsmokesomya.github.io/RabbitHole/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 9,
+  "lastUpdated": "2025-11-09",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

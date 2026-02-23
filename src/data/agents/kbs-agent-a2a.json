@@ -1,0 +1,34 @@
+{
+  "slug": "kbs-agent-a2a",
+  "name": "Kbs Agent A2A",
+  "description": "kbs_agent_a2a 智能体协议适配中间件",
+  "provider": {
+    "name": "tsingturingcom",
+    "url": "https://github.com/tsingturingcom"
+  },
+  "repository": "https://github.com/tsingturingcom/kbs_agent_a2a",
+  "category": "general",
+  "tags": [
+    "agent-to-agent",
+    "agents",
+    "dify",
+    "ragflow"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 11,
+  "lastUpdated": "2025-05-08",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

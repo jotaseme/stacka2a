@@ -1,0 +1,38 @@
+{
+  "slug": "consensus-ai",
+  "name": "Consensus.Ai",
+  "description": "Where AI disagrees before users suffer",
+  "provider": {
+    "name": "Adidem23",
+    "url": "https://github.com/Adidem23"
+  },
+  "repository": "https://github.com/Adidem23/Consensus.ai",
+  "category": "general",
+  "tags": [
+    "adk-python",
+    "fastapi",
+    "langchain",
+    "mongo",
+    "opik",
+    "reactjs",
+    "typescript"
+  ],
+  "framework": "google-adk",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://consensus-ai-lake.vercel.app",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-02-08",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "langgraph-research-agent",
+  "name": "LangGraph Research Agent",
+  "description": "Multi-agent research system in a node-based architecture represented in a cyclic graph, made with LangGraph, Gemini, FastAPI & React Vite.",
+  "provider": {
+    "name": "AlisterBaroi",
+    "url": "https://github.com/AlisterBaroi"
+  },
+  "repository": "https://github.com/AlisterBaroi/LangGraph-Research-Agent",
+  "category": "search",
+  "tags": [
+    "agent",
+    "gemini",
+    "gemini-api",
+    "gemini-flash",
+    "gemini-pro",
+    "langgraph",
+    "langgraph-agents",
+    "langgraph-python",
+    "react",
+    "vite-react"
+  ],
+  "framework": "langgraph",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://ai.google.dev/gemini-api/docs/google-search",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2026-02-20",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

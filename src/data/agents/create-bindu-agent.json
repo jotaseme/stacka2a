@@ -1,0 +1,33 @@
+{
+  "slug": "create-bindu-agent",
+  "name": "Create Bindu Agent",
+  "description": "A cookiecutter template for Python agent projects that use uv for dependency management",
+  "provider": {
+    "name": "GetBindu",
+    "url": "https://github.com/GetBindu"
+  },
+  "repository": "https://github.com/GetBindu/create-bindu-agent",
+  "category": "general",
+  "tags": [
+    "agent",
+    "llm"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "http://docs.getbindu.com",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 31,
+  "lastUpdated": "2026-02-19",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

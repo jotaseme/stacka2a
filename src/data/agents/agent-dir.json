@@ -1,0 +1,32 @@
+{
+  "slug": "agent-dir",
+  "name": "Agent Dir",
+  "description": "push A2A agent cards to Git, get a lightweight agent catalog",
+  "provider": {
+    "name": "aymenfurter",
+    "url": "https://github.com/aymenfurter"
+  },
+  "repository": "https://github.com/aymenfurter/agent-dir",
+  "category": "code-generation",
+  "tags": [
+    "hugo"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 4,
+  "lastUpdated": "2025-07-20",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

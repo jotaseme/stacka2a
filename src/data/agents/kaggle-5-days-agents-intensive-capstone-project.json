@@ -1,0 +1,36 @@
+{
+  "slug": "kaggle-5-days-agents-intensive-capstone-project",
+  "name": "Kaggle 5 Days Agents Intensive  Capstone Project",
+  "description": "🤖 Curiosity Squad – Autonomous Multi-Agent Mars Exploration - Capstone Project",
+  "provider": {
+    "name": "Dani-Luk",
+    "url": "https://github.com/Dani-Luk"
+  },
+  "repository": "https://github.com/Dani-Luk/kaggle-5-Days-Agents-Intensive--Capstone-Project",
+  "category": "orchestration",
+  "tags": [
+    "adk",
+    "adk-google",
+    "ai",
+    "ai-agents",
+    "kaggle"
+  ],
+  "framework": "google-adk",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-12-09",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

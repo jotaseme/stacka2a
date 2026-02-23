@@ -1,0 +1,33 @@
+{
+  "slug": "multiagent-a2a-app",
+  "name": "MultiAgent A2A App",
+  "description": "Multi-agent system built on the A2A (Agent-to-Agent) protocol that demonstrates distributed agent coordination for scheduling football games.",
+  "provider": {
+    "name": "Abs-Futy7",
+    "url": "https://github.com/Abs-Futy7"
+  },
+  "repository": "https://github.com/Abs-Futy7/MultiAgent_A2A_App",
+  "category": "orchestration",
+  "tags": [
+    "crewai",
+    "google-adk",
+    "langchain"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-08",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

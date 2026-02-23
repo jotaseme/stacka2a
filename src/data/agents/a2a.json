@@ -1,0 +1,44 @@
+{
+  "slug": "a2a",
+  "name": "A2A",
+  "description": "Azure-native A2A Technology Demonstrator",
+  "provider": {
+    "name": "aymenfurter",
+    "url": "https://github.com/aymenfurter"
+  },
+  "repository": "https://github.com/aymenfurter/a2a",
+  "category": "general",
+  "tags": [
+    "a2a-mcp",
+    "a2a-server",
+    "mcp",
+    "schema",
+    "agent-server",
+    "agent-to-agent",
+    "agentic-ai",
+    "ai",
+    "ai-agents",
+    "dapr",
+    "dapr-workflow",
+    "go",
+    "kafka",
+    "linux-foundation"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 11,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "veritas",
+  "name": "Veritas",
+  "description": "Automated daily news generator using LLMs and vendor search, with date-organized, source-backed articles.",
+  "provider": {
+    "name": "arnabpal2022",
+    "url": "https://github.com/arnabpal2022"
+  },
+  "repository": "https://github.com/arnabpal2022/Veritas",
+  "category": "search",
+  "tags": [
+    "agentic-ai",
+    "groq",
+    "langchain",
+    "langgraph",
+    "python",
+    "streamlit",
+    "tavily"
+  ],
+  "framework": "langgraph",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://veritus.streamlit.app/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2025-09-05",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

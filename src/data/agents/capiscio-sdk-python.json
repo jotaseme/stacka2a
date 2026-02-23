@@ -1,0 +1,41 @@
+{
+  "slug": "capiscio-sdk-python",
+  "name": "Capiscio SDK Python",
+  "description": "Runtime security middleware for A2A (Agent-to-Agent) protocol agents. Provides always-on validation, signature verification, and rate limiting for AI agent interactions.",
+  "provider": {
+    "name": "capiscio",
+    "url": "https://github.com/capiscio"
+  },
+  "repository": "https://github.com/capiscio/capiscio-sdk-python",
+  "category": "security",
+  "tags": [
+    "agent-to-agent",
+    "ai-agents",
+    "middleware",
+    "protocol",
+    "python",
+    "rate-limiting",
+    "sdk",
+    "security",
+    "trust",
+    "validation"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://capisc.io",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-02-20",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

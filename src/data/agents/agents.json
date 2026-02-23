@@ -1,0 +1,41 @@
+{
+  "slug": "agents",
+  "name": "Agents",
+  "description": "Innovative AI agent implementations using LangGraph—featuring ReAct, RAG (Corrective, Self, Agentic), chatbots, microagents, and more, with multi-AI agent systems on the horizon! 🤖🚀",
+  "provider": {
+    "name": "sky787770",
+    "url": "https://github.com/sky787770"
+  },
+  "repository": "https://github.com/sky787770/Agents",
+  "category": "conversational",
+  "tags": [
+    "agentic-ai",
+    "agents",
+    "ai",
+    "chatbot",
+    "conversational-agents",
+    "conversational-ai",
+    "langchain-python",
+    "langgraph",
+    "langgraph-chabot",
+    "langgraph-python"
+  ],
+  "framework": "langgraph",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 4,
+  "lastUpdated": "2025-06-08",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

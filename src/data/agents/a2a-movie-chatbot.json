@@ -1,0 +1,35 @@
+{
+  "slug": "a2a-movie-chatbot",
+  "name": "A2A Movie Chatbot",
+  "description": "A smart movie chatbot built with the Agent-to-Agent (A2A) protocol and Google’s Genkit AI. It features real-time movie data, quote generation, and interactive chat via API and CLI.          Ask ChatGPT",
+  "provider": {
+    "name": "extrawest",
+    "url": "https://github.com/extrawest"
+  },
+  "repository": "https://github.com/extrawest/a2a-movie-chatbot",
+  "category": "data-analytics",
+  "tags": [
+    "a2a-client",
+    "a2a-server",
+    "gemini",
+    "nodejs",
+    "streaming-data"
+  ],
+  "framework": "genkit",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-07-30",
+  "official": false,
+  "selfHosted": true,
+  "license": "BSD-3-Clause"
+}

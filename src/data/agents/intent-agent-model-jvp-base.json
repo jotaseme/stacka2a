@@ -1,0 +1,39 @@
+{
+  "slug": "intent-agent-model-jvp-base",
+  "name": "Intent Agent Model Jvp Base",
+  "description": "Vertex AI Agent Engine command template using Google ADK + A2A protocol. Zero-legacy scaffold with Terraform modules, strategic orchestration tool, and CI/CD pipeline.",
+  "provider": {
+    "name": "jeremylongshore",
+    "url": "https://github.com/jeremylongshore"
+  },
+  "repository": "https://github.com/jeremylongshore/intent-agent-model-jvp-base",
+  "category": "orchestration",
+  "tags": [
+    "agent-orchestration",
+    "ai-agent",
+    "google-adk",
+    "iam1",
+    "multi-agent-system",
+    "regional-manager",
+    "vertex-ai"
+  ],
+  "framework": "google-adk",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://jeremylongshore.github.io/iam1-intent-agent-model-vertex-ai/",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2025-12-20",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

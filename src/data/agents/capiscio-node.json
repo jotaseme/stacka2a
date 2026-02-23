@@ -1,0 +1,40 @@
+{
+  "slug": "capiscio-node",
+  "name": "Capiscio Node",
+  "description": "The definitive CLI for validating A2A (Agent-to-Agent) protocol agent cards. Validates cryptographic trust, schema compliance, and live endpoint functionality.",
+  "provider": {
+    "name": "capiscio",
+    "url": "https://github.com/capiscio"
+  },
+  "repository": "https://github.com/capiscio/capiscio-node",
+  "category": "utility",
+  "tags": [
+    "agent-to-agent",
+    "ai-agents",
+    "cli",
+    "grpc",
+    "json-rpc",
+    "llm-agents",
+    "protocol-compliance",
+    "trust-verification",
+    "validation-tool"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://capisc.io",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 4,
+  "lastUpdated": "2026-02-05",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

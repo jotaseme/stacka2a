@@ -1,0 +1,39 @@
+{
+  "slug": "solarys-fraud-detection-demo",
+  "name": "Solarys Fraud Detection Demo",
+  "description": "Multi-agent fraud detection demo using Claude + Gemini over MCP and A2A protocols",
+  "provider": {
+    "name": "SolarysGroup",
+    "url": "https://github.com/SolarysGroup"
+  },
+  "repository": "https://github.com/SolarysGroup/solarys-fraud-detection-demo",
+  "category": "search",
+  "tags": [
+    "claude",
+    "claude-desktop",
+    "fraud-detection",
+    "gemini",
+    "mcp",
+    "mcp-server",
+    "vector-embeddings",
+    "vector-search"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://labs.solarys.ai/mcp-a2a",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-01-14",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "agentup",
+  "name": "AgentUp",
+  "description": "Portable , scalable , secure AI Agents",
+  "provider": {
+    "name": "always-further",
+    "url": "https://github.com/always-further"
+  },
+  "repository": "https://github.com/always-further/AgentUp",
+  "category": "security",
+  "tags": [
+    "a2a-agent",
+    "a2a-agent-example",
+    "a2a-ai",
+    "a2a-auth",
+    "agent-fastapi",
+    "ai-agents",
+    "mcp",
+    "mcp-server",
+    "python"
+  ],
+  "framework": "fastapi",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://always-further.github.io/AgentUp ",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 92,
+  "lastUpdated": "2026-01-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

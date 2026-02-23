@@ -1,0 +1,32 @@
+{
+  "slug": "songgenerationa2a",
+  "name": "Songgenerationa2a",
+  "description": "An A2A wrapper for tencent/SongGeneration on HuggingFace Space",
+  "provider": {
+    "name": "Shiv33ndu",
+    "url": "https://github.com/Shiv33ndu"
+  },
+  "repository": "https://github.com/Shiv33ndu/songgenerationa2a",
+  "category": "general",
+  "tags": [
+    "a2a-agent",
+    "a2a-server"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-11-20",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

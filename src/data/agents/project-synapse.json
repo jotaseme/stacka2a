@@ -1,0 +1,45 @@
+{
+  "slug": "project-synapse",
+  "name": "Project Synapse",
+  "description": "A production-ready multi-agent system showcasing Agent Communication Protocol (ACP) and Model Context Protocol (MCP) capabilities through a collaborative research workflow.",
+  "provider": {
+    "name": "YanCotta",
+    "url": "https://github.com/YanCotta"
+  },
+  "repository": "https://github.com/YanCotta/project-synapse",
+  "category": "search",
+  "tags": [
+    "acp",
+    "agent-collaboration",
+    "agent-communication",
+    "agentic-ai",
+    "ai-agents",
+    "data-engineering",
+    "mcp",
+    "mcp-server",
+    "multi-agent-systems",
+    "azure",
+    "azure-synapse-analytics",
+    "continual-learning",
+    "cybersecurity",
+    "etl",
+    "launcher"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 3,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

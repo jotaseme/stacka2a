@@ -1,0 +1,40 @@
+{
+  "slug": "x402",
+  "name": "X402",
+  "description": "💸 Simplify payments with x402, an open protocol for fast, fee-free digital dollar transactions. Experience seamless integration and instant settlements.",
+  "provider": {
+    "name": "nguyenleduydev",
+    "url": "https://github.com/nguyenleduydev"
+  },
+  "repository": "https://github.com/nguyenleduydev/x402",
+  "category": "finance",
+  "tags": [
+    "agentic-ai",
+    "agents",
+    "ai",
+    "ai-agents",
+    "api",
+    "blockchain",
+    "blockchain-technology",
+    "cdp",
+    "gen-ai",
+    "generative-ai"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "a2a-php",
+  "name": "A2A Php",
+  "description": "A2A PHP SDK - PHP implementation of the AI A2A (Agent-to-Agent) Protocol (v0.2.5-0.3.0) [Unofficial]",
+  "provider": {
+    "name": "andreibesleaga",
+    "url": "https://github.com/andreibesleaga"
+  },
+  "repository": "https://github.com/andreibesleaga/a2a-php",
+  "category": "general",
+  "tags": [
+    "agent-to-agent",
+    "ai",
+    "php",
+    "php-sdk",
+    "protocol",
+    "sdk",
+    "sdk-php"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-02-12",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

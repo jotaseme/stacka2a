@@ -1,0 +1,34 @@
+{
+  "slug": "a2aregistry",
+  "name": "A2ARegistry",
+  "description": "A2A Registry ",
+  "provider": {
+    "name": "A2ABaseAI",
+    "url": "https://github.com/A2ABaseAI"
+  },
+  "repository": "https://github.com/A2ABaseAI/A2ARegistry",
+  "category": "general",
+  "tags": [
+    "a2a-client",
+    "a2a-re",
+    "a2a-server"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://a2areg.dev",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 14,
+  "lastUpdated": "2025-12-15",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

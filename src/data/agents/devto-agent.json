@@ -1,0 +1,40 @@
+{
+  "slug": "devto-agent",
+  "name": "Devto Agent",
+  "description": "Build and deploy an autonomous Devto Agent capable of interacting with the Dev.to platform, powered by A2A (Agent-to-Agent) and MCP (Model Context Protocol)",
+  "provider": {
+    "name": "HeetVekariya",
+    "url": "https://github.com/HeetVekariya"
+  },
+  "repository": "https://github.com/HeetVekariya/devto-agent",
+  "category": "infrastructure",
+  "tags": [
+    "a2a-mcp",
+    "a2a-server",
+    "agent",
+    "agent2agent",
+    "ai",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "multiagent-systems",
+    "a2a-protocol"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 7,
+  "lastUpdated": "2025-05-31",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

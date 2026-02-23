@@ -1,0 +1,39 @@
+{
+  "slug": "multi-agent-aca",
+  "name": "Multi Agent Aca",
+  "description": "Multi-agent solution on Azure Container Apps with Google Agent2Agent",
+  "provider": {
+    "name": "gbaeke",
+    "url": "https://github.com/gbaeke"
+  },
+  "repository": "https://github.com/gbaeke/multi_agent_aca",
+  "category": "orchestration",
+  "tags": [
+    "ai",
+    "azure",
+    "azureaifou",
+    "chainlit",
+    "foundry",
+    "google",
+    "microsoft",
+    "openai"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://blog.baeke.info",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 9,
+  "lastUpdated": "2025-07-18",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

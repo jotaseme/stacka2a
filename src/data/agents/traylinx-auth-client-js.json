@@ -1,0 +1,42 @@
+{
+  "slug": "traylinx-auth-client-js",
+  "name": "Traylinx Auth Client Js",
+  "description": "🔐 Streamline A2A authentication with Traylinx Auth Client for Node.js; enjoy secure token management and seamless integration for enterprise-level security.",
+  "provider": {
+    "name": "edchino",
+    "url": "https://github.com/edchino"
+  },
+  "repository": "https://github.com/edchino/traylinx-auth-client-js",
+  "category": "enterprise",
+  "tags": [
+    "agent-communication",
+    "authentication",
+    "express",
+    "javascript",
+    "jwt",
+    "nodejs",
+    "oauth2",
+    "sdk",
+    "sentinel",
+    "traylinx",
+    "microservices"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

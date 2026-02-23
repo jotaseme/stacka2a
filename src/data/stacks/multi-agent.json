@@ -1,0 +1,15 @@
+{
+  "slug": "multi-agent",
+  "name": "Multi-Agent Orchestration",
+  "description": "Build complex systems where multiple A2A agents collaborate, delegate tasks, and coordinate responses.",
+  "icon": "users",
+  "category": "use-case",
+  "agents": [
+    "a2a-agent-orchestration-system",
+    "multi-agent-adk",
+    "multi-agent-system-google-adk",
+    "swarm-factory",
+    "a2a-sample-airbnb-planner-multiagent"
+  ],
+  "difficulty": "advanced"
+}

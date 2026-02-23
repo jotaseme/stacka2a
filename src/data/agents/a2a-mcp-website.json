@@ -1,0 +1,33 @@
+{
+  "slug": "a2a-mcp-website",
+  "name": "A2A MCP Website",
+  "description": "A2A-MCP official website with modern UI and dark mode support",
+  "provider": {
+    "name": "wjl110",
+    "url": "https://github.com/wjl110"
+  },
+  "repository": "https://github.com/wjl110/A2A-MCP-website",
+  "category": "general",
+  "tags": [
+    "mcp",
+    "mcp-server"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://a2a-mcp.netlify.app/",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2025-10-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

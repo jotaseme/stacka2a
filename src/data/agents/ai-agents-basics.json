@@ -1,0 +1,37 @@
+{
+  "slug": "ai-agents-basics",
+  "name": "Ai Agents Basics",
+  "description": "OpenAGI Codes AI Agents Basics",
+  "provider": {
+    "name": "amitpuri",
+    "url": "https://github.com/amitpuri"
+  },
+  "repository": "https://github.com/amitpuri/ai-agents-basics",
+  "category": "code-generation",
+  "tags": [
+    "ai-agents",
+    "basics",
+    "get-started",
+    "json-rpc",
+    "json-rpc2",
+    "model-context-protocol"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://openagi.news",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-09-05",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

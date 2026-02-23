@@ -1,0 +1,38 @@
+{
+  "slug": "a2a-directory",
+  "name": "A2A Directory",
+  "description": "Agent2Agent (A2A) – AgentCards, Servers, Clients, Docs",
+  "provider": {
+    "name": "sing1ee",
+    "url": "https://github.com/sing1ee"
+  },
+  "repository": "https://github.com/sing1ee/a2a-directory",
+  "category": "general",
+  "tags": [
+    "a2a-client",
+    "a2a-server",
+    "agent",
+    "agent2agent",
+    "mcp",
+    "a2a-protocol"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://a2aprotocol.ai/blog",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 340,
+  "lastUpdated": "2025-12-20",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

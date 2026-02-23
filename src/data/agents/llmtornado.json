@@ -1,0 +1,41 @@
+{
+  "slug": "llmtornado",
+  "name": "LLMTornado",
+  "description": "The .NET library to build AI agents with 30+ built-in connectors.",
+  "provider": {
+    "name": "lofcz",
+    "url": "https://github.com/lofcz"
+  },
+  "repository": "https://github.com/lofcz/LLMTornado",
+  "category": "enterprise",
+  "tags": [
+    "agent",
+    "agent-framework",
+    "agent-orchestration",
+    "agentic-ai",
+    "agentic-rag",
+    "agentic-workflow",
+    "agents",
+    "agents-sdk",
+    "ai",
+    "artificial-intelligence"
+  ],
+  "framework": "custom",
+  "language": "csharp",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://llmtornado.ai",
+  "sdks": [
+    "csharp"
+  ],
+  "githubStars": 558,
+  "lastUpdated": "2026-02-20",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

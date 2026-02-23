@@ -1,0 +1,38 @@
+{
+  "slug": "a2a-ruby",
+  "name": "A2A Ruby",
+  "description": "Ruby SDK for Google's Agent2Agent (A2A) Protocol - enabling seamless agent-to-agent communication via JSON-RPC 2.0, gRPC, and HTTP+JSON transports",
+  "provider": {
+    "name": "traylinx",
+    "url": "https://github.com/traylinx"
+  },
+  "repository": "https://github.com/traylinx/a2a-ruby",
+  "category": "general",
+  "tags": [
+    "a2a-client",
+    "a2a-server",
+    "agent2agent",
+    "ruby",
+    "ruby-gem",
+    "rubygem",
+    "a2a-protocol"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 3,
+  "lastUpdated": "2025-09-18",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

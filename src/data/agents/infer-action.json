@@ -1,0 +1,35 @@
+{
+  "slug": "infer-action",
+  "name": "Infer Action",
+  "description": "Github action for the Infer CLI",
+  "provider": {
+    "name": "inference-gateway",
+    "url": "https://github.com/inference-gateway"
+  },
+  "repository": "https://github.com/inference-gateway/infer-action",
+  "category": "code-generation",
+  "tags": [
+    "actions",
+    "agent",
+    "coding"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://docs.inference-gateway.com/",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2025-12-01",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

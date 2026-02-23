@@ -1,0 +1,37 @@
+{
+  "slug": "refrax",
+  "name": "Refrax",
+  "description": "Command-Line Agentic Refactoring of Java Code",
+  "provider": {
+    "name": "cqfn",
+    "url": "https://github.com/cqfn"
+  },
+  "repository": "https://github.com/cqfn/refrax",
+  "category": "code-generation",
+  "tags": [
+    "agentic-ai",
+    "code-quality",
+    "deepseek",
+    "go",
+    "optimization",
+    "refactoring"
+  ],
+  "framework": "custom",
+  "language": "java",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://pkg.go.dev/github.com/cqfn/refrax",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 14,
+  "lastUpdated": "2025-12-16",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

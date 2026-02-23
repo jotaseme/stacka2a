@@ -1,0 +1,35 @@
+{
+  "slug": "typescript-adk",
+  "name": "Typescript Adk",
+  "description": "An Agent Development Kit (ADK) allowing for seamless creation of A2A-compatible agents written in TypeScript",
+  "provider": {
+    "name": "inference-gateway",
+    "url": "https://github.com/inference-gateway"
+  },
+  "repository": "https://github.com/inference-gateway/typescript-adk",
+  "category": "general",
+  "tags": [
+    "adk",
+    "inference-gateway",
+    "typescript"
+  ],
+  "framework": "google-adk",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://docs.inference-gateway.com",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-07-30",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

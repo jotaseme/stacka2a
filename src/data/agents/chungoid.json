@@ -1,0 +1,33 @@
+{
+  "slug": "chungoid",
+  "name": "Chungoid",
+  "description": "it built itself",
+  "provider": {
+    "name": "chungoid",
+    "url": "https://github.com/chungoid"
+  },
+  "repository": "https://github.com/chungoid/chungoid",
+  "category": "utility",
+  "tags": [
+    "a2a-mcp",
+    "mcp-server",
+    "mcp-tools"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2025-05-30",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

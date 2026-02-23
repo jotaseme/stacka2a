@@ -1,0 +1,33 @@
+{
+  "slug": "infrastructure-agent",
+  "name": "Infrastructure Agent",
+  "description": "AI agent examples run on AWS EKS. Shows Terraform, Vault, and Agent2Agent.",
+  "provider": {
+    "name": "joatmon08",
+    "url": "https://github.com/joatmon08"
+  },
+  "repository": "https://github.com/joatmon08/infrastructure-agent",
+  "category": "infrastructure",
+  "tags": [
+    "ai",
+    "terraform",
+    "vault"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 4,
+  "lastUpdated": "2026-02-13",
+  "official": false,
+  "selfHosted": true,
+  "license": "MPL-2.0"
+}

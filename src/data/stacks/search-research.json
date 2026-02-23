@@ -1,0 +1,15 @@
+{
+  "slug": "search-research",
+  "name": "Search & Research",
+  "description": "A2A agents for web search, RAG pipelines, deep research, and information retrieval.",
+  "icon": "globe",
+  "category": "use-case",
+  "agents": [
+    "langgraph-research-agent",
+    "research-agent",
+    "mastervolt-deep-research",
+    "agentic-rag-a2a-mcp",
+    "leaprag"
+  ],
+  "difficulty": "intermediate"
+}

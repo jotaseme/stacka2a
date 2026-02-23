@@ -1,0 +1,34 @@
+{
+  "slug": "corporate-intelligence-agent",
+  "name": "Corporate Intelligence Agent",
+  "description": "A multi-gent system that provides comprehensive financial and corporate intelligence for publicly traded companies.",
+  "provider": {
+    "name": "saroshfarhan",
+    "url": "https://github.com/saroshfarhan"
+  },
+  "repository": "https://github.com/saroshfarhan/corporate-intelligence-agent",
+  "category": "orchestration",
+  "tags": [
+    "adk-google",
+    "agentic-ai",
+    "mcmc-analysis",
+    "sec10k"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2025-11-29",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}
