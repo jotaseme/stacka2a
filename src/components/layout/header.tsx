@@ -10,6 +10,7 @@ const navItems = [
   { href: "/stacks", label: "Stacks" },
   { href: "/agents", label: "Agents" },
   { href: "/compare", label: "Compare" },
+  { href: "/tools", label: "Tools" },
   { href: "/blog", label: "Blog" },
 ];
 
