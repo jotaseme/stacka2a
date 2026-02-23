@@ -7,7 +7,7 @@
     "url": "https://github.com/distrihub"
   },
   "repository": "https://github.com/distrihub/distri",
-  "category": "utility",
+  "category": "general",
   "tags": [
     "agents-sdk",
     "langchain",

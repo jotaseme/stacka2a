@@ -7,7 +7,7 @@
     "url": "https://github.com/aymenfurter"
   },
   "repository": "https://github.com/aymenfurter/a2a",
-  "category": "infrastructure",
+  "category": "general",
   "tags": [
     "a2a-mcp",
     "a2a-server",
@@ -37,7 +37,7 @@
     "python"
   ],
   "githubStars": 11,
-  "lastUpdated": "2026-02-22",
+  "lastUpdated": "2026-02-23",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

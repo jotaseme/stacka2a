@@ -7,7 +7,7 @@
     "url": "https://github.com/inference-gateway"
   },
   "repository": "https://github.com/inference-gateway/grafana-agent",
-  "category": "data-analytics",
+  "category": "general",
   "tags": [
     "a2a-server"
   ],

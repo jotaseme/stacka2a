@@ -7,7 +7,7 @@
     "url": "https://github.com/andreibesleaga"
   },
   "repository": "https://github.com/andreibesleaga/a2a-php",
-  "category": "utility",
+  "category": "general",
   "tags": [
     "agent-to-agent",
     "ai",
@@ -18,7 +18,7 @@
     "sdk-php"
   ],
   "framework": "custom",
-  "language": "php",
+  "language": "unknown",
   "skills": [],
   "capabilities": {
     "streaming": false,

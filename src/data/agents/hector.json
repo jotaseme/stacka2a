@@ -7,7 +7,7 @@
     "url": "https://github.com/verikod"
   },
   "repository": "https://github.com/verikod/hector",
-  "category": "orchestration",
+  "category": "utility",
   "tags": [
     "ai",
     "ai-agent-tools",
@@ -17,7 +17,7 @@
     "golang"
   ],
   "framework": "custom",
-  "language": "go",
+  "language": "unknown",
   "skills": [],
   "capabilities": {
     "streaming": false,

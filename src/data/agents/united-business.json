@@ -1,0 +1,50 @@
+{
+  "slug": "united-business",
+  "name": "United Business",
+  "description": "United Business is a company that offers various services including coworking spaces, interior design, and digital advertising. They provide solutions for businesses to scale up and achieve their goals.",
+  "provider": {
+    "name": "Lifie.ai Hub",
+    "url": "https://hub.lifie.ai"
+  },
+  "repository": "",
+  "category": "general",
+  "tags": [
+    "business",
+    "commerce"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [
+    {
+      "id": "interact",
+      "name": "Interact with United Business",
+      "description": "United Business is a company that offers various services including coworking spaces, interior design, and digital advertising. They provide solutions for businesses to scale up and achieve their goals.",
+      "tags": [
+        "business",
+        "commerce"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain"
+      ]
+    }
+  ],
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": false,
+    "multiTurn": true
+  },
+  "authType": "none",
+  "agentCardUrl": "https://api.lifie.ai/a2a/cmg83dri802jduat8eviznhsw/agent-card.json",
+  "endpointUrl": "https://hub.lifie.ai/agent/cmg83dri802jduat8eviznhsw/united-business",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

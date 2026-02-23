@@ -1,0 +1,51 @@
+{
+  "slug": "vb-uniline",
+  "name": "VB UNILINE",
+  "description": "VB UNILINE provides business development education, services, and consultancy in the life science sector.",
+  "provider": {
+    "name": "Lifie.ai Hub",
+    "url": "https://hub.lifie.ai"
+  },
+  "repository": "",
+  "category": "general",
+  "tags": [
+    "business",
+    "commerce"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [
+    {
+      "id": "interact",
+      "name": "Interact with VB UNILINE",
+      "description": "VB UNILINE provides business development education, services, and consultancy in the life science sector.",
+      "tags": [
+        "business",
+        "commerce"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain"
+      ]
+    }
+  ],
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": false,
+    "multiTurn": true
+  },
+  "authType": "none",
+  "agentCardUrl": "https://api.lifie.ai/a2a/cmg8351w001rzuat86cojqjf1/agent-card.json",
+  "endpointUrl": "https://hub.lifie.ai/agent/cmg8351w001rzuat86cojqjf1/vb-uniline",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

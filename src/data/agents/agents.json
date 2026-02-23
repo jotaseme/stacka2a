@@ -21,7 +21,7 @@
     "langgraph-python"
   ],
   "framework": "langgraph",
-  "language": "python",
+  "language": "unknown",
   "skills": [],
   "capabilities": {
     "streaming": false,

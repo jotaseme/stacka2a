@@ -7,7 +7,7 @@
     "url": "https://github.com/qntx"
   },
   "repository": "https://github.com/qntx/ra2a",
-  "category": "utility",
+  "category": "general",
   "tags": [
     "rust"
   ],
@@ -24,7 +24,7 @@
     "python",
     "typescript"
   ],
-  "githubStars": 94,
+  "githubStars": 96,
   "lastUpdated": "2026-02-20",
   "official": false,
   "selfHosted": true,

@@ -1,0 +1,50 @@
+{
+  "slug": "total-business-solutions-tbs",
+  "name": "Total Business Solutions (TBS)",
+  "description": "Total Business Solutions (TBS) is a technology services company that provides comprehensive IT solutions to various industries, including banking, medical, transportation, and government. They offer custom IT solutions, business process outsourcing, cost reduction remote services, recruiting services, and more.",
+  "provider": {
+    "name": "Lifie.ai Hub",
+    "url": "https://hub.lifie.ai"
+  },
+  "repository": "",
+  "category": "general",
+  "tags": [
+    "business",
+    "commerce"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [
+    {
+      "id": "interact",
+      "name": "Interact with Total Business Solutions (TBS)",
+      "description": "Total Business Solutions (TBS) is a technology services company that provides comprehensive IT solutions to various industries, including banking, medical, transportation, and government. They offer custom IT solutions, business process outsourcing, cost reduction remote services, recruiting services, and more.",
+      "tags": [
+        "business",
+        "commerce"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain"
+      ]
+    }
+  ],
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": false,
+    "multiTurn": true
+  },
+  "authType": "none",
+  "agentCardUrl": "https://api.lifie.ai/a2a/cmg84guq405yvuat8opdpy15n/agent-card.json",
+  "endpointUrl": "https://hub.lifie.ai/agent/cmg84guq405yvuat8opdpy15n/total-business-solutions-tbs",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "white-haven-farm",
+  "name": "White Haven Farm",
+  "description": "A business that specializes in equine health care, offering supplements and products for horses with various health issues such as skin problems, heaves, and insulin resistance.",
+  "provider": {
+    "name": "Lifie.ai Hub",
+    "url": "https://hub.lifie.ai"
+  },
+  "repository": "",
+  "category": "general",
+  "tags": [
+    "business",
+    "commerce"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [
+    {
+      "id": "interact",
+      "name": "Interact with White Haven Farm",
+      "description": "A business that specializes in equine health care, offering supplements and products for horses with various health issues such as skin problems, heaves, and insulin resistance.",
+      "tags": [
+        "business",
+        "commerce"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain"
+      ]
+    }
+  ],
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": false,
+    "multiTurn": true
+  },
+  "authType": "none",
+  "agentCardUrl": "https://api.lifie.ai/a2a/cmg824u4p005372ic5tpmnfq7/agent-card.json",
+  "endpointUrl": "https://hub.lifie.ai/agent/cmg824u4p005372ic5tpmnfq7/white-haven-farm",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "swaneer-group",
+  "name": "Swaneer Group",
+  "description": "Provides real estate and tour and travel services to make these processes easier for customers.",
+  "provider": {
+    "name": "Lifie.ai Hub",
+    "url": "https://hub.lifie.ai"
+  },
+  "repository": "",
+  "category": "travel",
+  "tags": [
+    "business",
+    "commerce"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [
+    {
+      "id": "interact",
+      "name": "Interact with Swaneer Group",
+      "description": "Provides real estate and tour and travel services to make these processes easier for customers.",
+      "tags": [
+        "business",
+        "commerce"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain"
+      ]
+    }
+  ],
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": false,
+    "multiTurn": true
+  },
+  "authType": "none",
+  "agentCardUrl": "https://api.lifie.ai/a2a/cmg84odye06kbuat8sgi7cvfn/agent-card.json",
+  "endpointUrl": "https://hub.lifie.ai/agent/cmg84odye06kbuat8sgi7cvfn/swaneer-group",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

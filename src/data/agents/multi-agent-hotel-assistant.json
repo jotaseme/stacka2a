@@ -20,7 +20,7 @@
     "mcp",
     "strands-agents"
   ],
-  "framework": "strands-agents",
+  "framework": "custom",
   "language": "typescript",
   "skills": [],
   "capabilities": {

@@ -1,0 +1,51 @@
+{
+  "slug": "sr-business-solutions",
+  "name": "SR Business Solutions",
+  "description": "SR Business Solutions provides customized workshops and training programs for schools, colleges, working professionals, and entrepreneurs, focusing on building confidence, academic enhancement, relationship building, communication skills, career enhancement, and cross-functional synergy.",
+  "provider": {
+    "name": "Lifie.ai Hub",
+    "url": "https://hub.lifie.ai"
+  },
+  "repository": "",
+  "category": "general",
+  "tags": [
+    "business",
+    "commerce"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [
+    {
+      "id": "interact",
+      "name": "Interact with SR Business Solutions",
+      "description": "SR Business Solutions provides customized workshops and training programs for schools, colleges, working professionals, and entrepreneurs, focusing on building confidence, academic enhancement, relationship building, communication skills, career enhancement, and cross-functional synergy.",
+      "tags": [
+        "business",
+        "commerce"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain"
+      ]
+    }
+  ],
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": false,
+    "multiTurn": true
+  },
+  "authType": "none",
+  "agentCardUrl": "https://api.lifie.ai/a2a/cmg8580g0084huat82yucg8g1/agent-card.json",
+  "endpointUrl": "https://hub.lifie.ai/agent/cmg8580g0084huat82yucg8g1/sr-business-solutions",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "kaiban-a2a-agent-starter",
+  "name": "Kaiban A2A Agent Starter",
+  "description": "Scaffold for building, publishing, and running Google A2A-protocol agents that connect to the Kaiban platform via kaiban-sdk.",
+  "provider": {
+    "name": "kaiban-ai",
+    "url": "https://github.com/kaiban-ai"
+  },
+  "repository": "https://github.com/kaiban-ai/kaiban-a2a-agent-starter",
+  "category": "general",
+  "tags": [
+    "agents",
+    "kaiban"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-10-03",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

@@ -1,13 +1,13 @@
 {
   "slug": "agent-gateway",
   "name": "Agent Gateway",
-  "description": "APIPOOL \u2014 Intelligent API marketplace for AI agents. 4-pillar scoring: self-learning, predictive, anomaly detection, contextual understanding.",
+  "description": "APIPOOL — Intelligent API marketplace for AI agents. 4-pillar scoring: self-learning, predictive, anomaly detection, contextual understanding.",
   "provider": {
     "name": "exhuman777",
     "url": "https://github.com/exhuman777"
   },
   "repository": "https://github.com/exhuman777/agent-gateway",
-  "category": "infrastructure",
+  "category": "general",
   "tags": [
     "ai-agents",
     "api-marketplace",

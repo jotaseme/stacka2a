@@ -1,0 +1,32 @@
+{
+  "slug": "a2a-simple",
+  "name": "A2A Simple",
+  "description": "this project provides a basic example of the A2A SDK. It contains a single agent and a test client that invokes it. This is a great starting point for understanding the fundamental concepts of creating and interacting with an A2A agent.",
+  "provider": {
+    "name": "mohsinsheikhani",
+    "url": "https://github.com/mohsinsheikhani"
+  },
+  "repository": "https://github.com/mohsinsheikhani/a2a_simple",
+  "category": "general",
+  "tags": [
+    "ai-agents",
+    "python"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-10-01",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

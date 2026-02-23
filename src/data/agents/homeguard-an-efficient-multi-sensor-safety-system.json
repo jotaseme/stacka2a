@@ -21,7 +21,7 @@
     "java"
   ],
   "framework": "custom",
-  "language": "java",
+  "language": "unknown",
   "skills": [],
   "capabilities": {
     "streaming": false,
@@ -34,7 +34,7 @@
     "typescript"
   ],
   "githubStars": 0,
-  "lastUpdated": "2026-02-22",
+  "lastUpdated": "2026-02-23",
   "official": false,
   "selfHosted": true,
   "license": "unknown"

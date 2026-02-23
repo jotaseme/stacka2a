@@ -1,0 +1,33 @@
+{
+  "slug": "adk-zig",
+  "name": "Adk Zig",
+  "description": "Agent Development Kit (ADK)",
+  "provider": {
+    "name": "dravenk",
+    "url": "https://github.com/dravenk"
+  },
+  "repository": "https://github.com/dravenk/adk-zig",
+  "category": "general",
+  "tags": [
+    "adk",
+    "adk-zig"
+  ],
+  "framework": "google-adk",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-04-12",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

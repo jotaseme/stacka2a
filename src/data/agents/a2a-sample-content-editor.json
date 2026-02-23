@@ -7,7 +7,7 @@
     "url": "https://github.com/a2aproject"
   },
   "repository": "https://github.com/a2aproject/a2a-samples/tree/main/samples/java/agents/content_editor",
-  "category": "content-creation",
+  "category": "general",
   "tags": [
     "official-sample",
     "java"
@@ -25,7 +25,7 @@
     "java"
   ],
   "githubStars": 1329,
-  "lastUpdated": "2026-02-22",
+  "lastUpdated": "2026-02-23",
   "official": true,
   "selfHosted": true,
   "license": "apache-2.0"

@@ -1,0 +1,51 @@
+{
+  "slug": "wbe",
+  "name": "WBE",
+  "description": "A commercial contractor providing electrical, renewable energy, low voltage, and IT services to various sectors with a focus on customer satisfaction and safety.",
+  "provider": {
+    "name": "Lifie.ai Hub",
+    "url": "https://hub.lifie.ai"
+  },
+  "repository": "",
+  "category": "general",
+  "tags": [
+    "business",
+    "commerce"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [
+    {
+      "id": "interact",
+      "name": "Interact with WBE",
+      "description": "A commercial contractor providing electrical, renewable energy, low voltage, and IT services to various sectors with a focus on customer satisfaction and safety.",
+      "tags": [
+        "business",
+        "commerce"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain"
+      ]
+    }
+  ],
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": false,
+    "multiTurn": true
+  },
+  "authType": "none",
+  "agentCardUrl": "https://api.lifie.ai/a2a/cmg82phmm00fjuat88am9e59m/agent-card.json",
+  "endpointUrl": "https://hub.lifie.ai/agent/cmg82phmm00fjuat88am9e59m/wbe",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

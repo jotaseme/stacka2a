@@ -7,7 +7,7 @@
     "url": "https://github.com/inference-gateway"
   },
   "repository": "https://github.com/inference-gateway/rust-adk",
-  "category": "utility",
+  "category": "general",
   "tags": [
     "adk",
     "inference-gateway",

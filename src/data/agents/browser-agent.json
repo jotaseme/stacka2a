@@ -7,7 +7,7 @@
     "url": "https://github.com/inference-gateway"
   },
   "repository": "https://github.com/inference-gateway/browser-agent",
-  "category": "infrastructure",
+  "category": "general",
   "tags": [
     "a2a-server",
     "browser",

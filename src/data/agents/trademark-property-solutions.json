@@ -1,0 +1,51 @@
+{
+  "slug": "trademark-property-solutions",
+  "name": "Trademark Property Solutions",
+  "description": "Provides a range of services including construction, real estate, property management, and field services. Offers solutions for single-family, multi-family, commercial, and community management.",
+  "provider": {
+    "name": "Lifie.ai Hub",
+    "url": "https://hub.lifie.ai"
+  },
+  "repository": "",
+  "category": "general",
+  "tags": [
+    "business",
+    "commerce"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [
+    {
+      "id": "interact",
+      "name": "Interact with Trademark Property Solutions",
+      "description": "Provides a range of services including construction, real estate, property management, and field services. Offers solutions for single-family, multi-family, commercial, and community management.",
+      "tags": [
+        "business",
+        "commerce"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain"
+      ]
+    }
+  ],
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": false,
+    "multiTurn": true
+  },
+  "authType": "none",
+  "agentCardUrl": "https://api.lifie.ai/a2a/cmg83rr2h03qnuat8kqx87s9b/agent-card.json",
+  "endpointUrl": "https://hub.lifie.ai/agent/cmg83rr2h03qnuat8kqx87s9b/trademark-property-solutions",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

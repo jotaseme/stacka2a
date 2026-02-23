@@ -16,7 +16,7 @@
     "openai-agent-sdk",
     "openai-agents"
   ],
-  "framework": "openai-agents",
+  "framework": "custom",
   "language": "python",
   "skills": [],
   "capabilities": {

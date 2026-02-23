@@ -1,0 +1,51 @@
+{
+  "slug": "toshiba-american-business-solutions",
+  "name": "Toshiba American Business Solutions",
+  "description": "Provides printing solutions, digital signage, and document management services to businesses.",
+  "provider": {
+    "name": "Lifie.ai Hub",
+    "url": "https://hub.lifie.ai"
+  },
+  "repository": "",
+  "category": "general",
+  "tags": [
+    "business",
+    "commerce"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [
+    {
+      "id": "interact",
+      "name": "Interact with Toshiba American Business Solutions",
+      "description": "Provides printing solutions, digital signage, and document management services to businesses.",
+      "tags": [
+        "business",
+        "commerce"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain"
+      ]
+    }
+  ],
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": false,
+    "multiTurn": true
+  },
+  "authType": "none",
+  "agentCardUrl": "https://api.lifie.ai/a2a/cmg84gsuf05yruat8lizcic2d/agent-card.json",
+  "endpointUrl": "https://hub.lifie.ai/agent/cmg84gsuf05yruat8lizcic2d/toshiba-american-business-solutions",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

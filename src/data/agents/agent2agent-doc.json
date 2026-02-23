@@ -1,0 +1,33 @@
+{
+  "slug": "agent2agent-doc",
+  "name": "Agent2agent Doc",
+  "description": "Agent2Agent (A2A) Docs – Your comprehensive guide to understanding and implementing the A2A protocol.",
+  "provider": {
+    "name": "ai-boost",
+    "url": "https://github.com/ai-boost"
+  },
+  "repository": "https://github.com/ai-boost/agent2agent_doc",
+  "category": "general",
+  "tags": [
+    "agent",
+    "reactjs"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://agent2agent.ren",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 9,
+  "lastUpdated": "2025-04-14",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "urs-productively",
+  "name": "URS Productively",
+  "description": "URS provides industrial engineering services, including productivity improvement, quality management, and IT solutions. They also offer training programs and energy efficiency projects.",
+  "provider": {
+    "name": "Lifie.ai Hub",
+    "url": "https://hub.lifie.ai"
+  },
+  "repository": "",
+  "category": "general",
+  "tags": [
+    "business",
+    "commerce"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [
+    {
+      "id": "interact",
+      "name": "Interact with URS Productively",
+      "description": "URS provides industrial engineering services, including productivity improvement, quality management, and IT solutions. They also offer training programs and energy efficiency projects.",
+      "tags": [
+        "business",
+        "commerce"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain"
+      ]
+    }
+  ],
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": false,
+    "multiTurn": true
+  },
+  "authType": "none",
+  "agentCardUrl": "https://api.lifie.ai/a2a/cmg83b54s02axuat8xdigv5jf/agent-card.json",
+  "endpointUrl": "https://hub.lifie.ai/agent/cmg83b54s02axuat8xdigv5jf/urs-productively",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

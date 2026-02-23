@@ -17,7 +17,7 @@
     "orchestrator"
   ],
   "framework": "custom",
-  "language": "elixir",
+  "language": "unknown",
   "skills": [],
   "capabilities": {
     "streaming": false,

@@ -1,0 +1,51 @@
+{
+  "slug": "the-vista-companies",
+  "name": "The Vista Companies",
+  "description": "A full-service Commercial Real Estate company that specializes in acquiring, developing, leasing, and managing retail and office properties.",
+  "provider": {
+    "name": "Lifie.ai Hub",
+    "url": "https://hub.lifie.ai"
+  },
+  "repository": "",
+  "category": "general",
+  "tags": [
+    "business",
+    "commerce"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [
+    {
+      "id": "interact",
+      "name": "Interact with The Vista Companies",
+      "description": "A full-service Commercial Real Estate company that specializes in acquiring, developing, leasing, and managing retail and office properties.",
+      "tags": [
+        "business",
+        "commerce"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain"
+      ]
+    }
+  ],
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": false,
+    "multiTurn": true
+  },
+  "authType": "none",
+  "agentCardUrl": "https://api.lifie.ai/a2a/cmg82x3bd013huat8btcytuoa/agent-card.json",
+  "endpointUrl": "https://hub.lifie.ai/agent/cmg82x3bd013huat8btcytuoa/the-vista-companies",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

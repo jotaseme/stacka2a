@@ -18,7 +18,7 @@
     "ollama"
   ],
   "framework": "fastapi",
-  "language": "python",
+  "language": "unknown",
   "skills": [],
   "capabilities": {
     "streaming": false,

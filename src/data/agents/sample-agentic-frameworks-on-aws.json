@@ -7,7 +7,7 @@
     "url": "https://github.com/aws-samples"
   },
   "repository": "https://github.com/aws-samples/sample-agentic-frameworks-on-aws",
-  "category": "infrastructure",
+  "category": "general",
   "tags": [
     "agentic-ai",
     "arize-phoenix",
@@ -19,7 +19,7 @@
     "strands-agents"
   ],
   "framework": "langgraph",
-  "language": "python",
+  "language": "unknown",
   "skills": [],
   "capabilities": {
     "streaming": false,

@@ -1,13 +1,13 @@
 {
   "slug": "kbs-agent-a2a",
   "name": "Kbs Agent A2A",
-  "description": "kbs_agent_a2a \u667a\u80fd\u4f53\u534f\u8bae\u9002\u914d\u4e2d\u95f4\u4ef6",
+  "description": "kbs_agent_a2a 智能体协议适配中间件",
   "provider": {
     "name": "tsingturingcom",
     "url": "https://github.com/tsingturingcom"
   },
   "repository": "https://github.com/tsingturingcom/kbs_agent_a2a",
-  "category": "orchestration",
+  "category": "general",
   "tags": [
     "agent-to-agent",
     "agents",

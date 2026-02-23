@@ -1,0 +1,51 @@
+{
+  "slug": "tantravani",
+  "name": "Tantravani",
+  "description": "Tantravani provides custom software solutions tailored to specific business needs, including web development, billing software, hospital management, hotel management, and portfolio websites.",
+  "provider": {
+    "name": "Lifie.ai Hub",
+    "url": "https://hub.lifie.ai"
+  },
+  "repository": "",
+  "category": "travel",
+  "tags": [
+    "business",
+    "commerce"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [
+    {
+      "id": "interact",
+      "name": "Interact with Tantravani",
+      "description": "Tantravani provides custom software solutions tailored to specific business needs, including web development, billing software, hospital management, hotel management, and portfolio websites.",
+      "tags": [
+        "business",
+        "commerce"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain"
+      ]
+    }
+  ],
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": false,
+    "multiTurn": true
+  },
+  "authType": "none",
+  "agentCardUrl": "https://api.lifie.ai/a2a/cmg84jcz00663uat8rlhe6507/agent-card.json",
+  "endpointUrl": "https://hub.lifie.ai/agent/cmg84jcz00663uat8rlhe6507/tantravani",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

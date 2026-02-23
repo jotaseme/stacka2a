@@ -21,7 +21,7 @@
     "multimodal"
   ],
   "framework": "google-adk",
-  "language": "python",
+  "language": "unknown",
   "skills": [],
   "capabilities": {
     "streaming": false,

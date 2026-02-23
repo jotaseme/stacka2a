@@ -1,0 +1,51 @@
+{
+  "slug": "tiecos-facilitation-llp",
+  "name": "TIECOS Facilitation LLP",
+  "description": "TIECOS Facilitation LLP offers a range of business services, including virtual offices, company management, human resource management, and logistics, to help businesses operate in India.",
+  "provider": {
+    "name": "Lifie.ai Hub",
+    "url": "https://hub.lifie.ai"
+  },
+  "repository": "",
+  "category": "general",
+  "tags": [
+    "business",
+    "commerce"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [
+    {
+      "id": "interact",
+      "name": "Interact with TIECOS Facilitation LLP",
+      "description": "TIECOS Facilitation LLP offers a range of business services, including virtual offices, company management, human resource management, and logistics, to help businesses operate in India.",
+      "tags": [
+        "business",
+        "commerce"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain"
+      ]
+    }
+  ],
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": false,
+    "multiTurn": true
+  },
+  "authType": "none",
+  "agentCardUrl": "https://api.lifie.ai/a2a/cmg83zck104ebuat85fh72eqd/agent-card.json",
+  "endpointUrl": "https://hub.lifie.ai/agent/cmg83zck104ebuat85fh72eqd/tiecos-facilitation-llp",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

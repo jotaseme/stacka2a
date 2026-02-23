@@ -1,0 +1,32 @@
+{
+  "slug": "flafludeagentes",
+  "name": "FlaFludeAgentes",
+  "description": "Demo para o uso do protocolo A2A por meio de 4 agentes criados com Google ADK: Supervisor, Torcedor do Flu e do Fla e um Pesquisador, onde o Supervisor recebe uma ordem do Usuário com tempo determinado, e ordena aos Agentes Torcedores que iniciem o Debate, que poderão usar o Agente Pesquisador para aprimorar seu argumento",
+  "provider": {
+    "name": "charlenopires",
+    "url": "https://github.com/charlenopires"
+  },
+  "repository": "https://github.com/charlenopires/FlaFludeAgentes",
+  "category": "general",
+  "tags": [
+    "agents",
+    "google-adk"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-08-02",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}
