@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://stacka2a.com/sitemap.xml",
+    sitemap: "https://stacka2a.dev/sitemap.xml",
   };
 }

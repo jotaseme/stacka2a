@@ -37,14 +37,14 @@ export default async function AgentPage({ params }: PageProps) {
       description: agent.description,
       applicationCategory: "DeveloperApplication",
       operatingSystem: "Cross-platform",
-      url: `https://stacka2a.com/agents/${slug}`,
+      url: `https://stacka2a.dev/agents/${slug}`,
     },
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://stacka2a.com" },
-        { "@type": "ListItem", position: 2, name: "Agents", item: "https://stacka2a.com/agents" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://stacka2a.dev" },
+        { "@type": "ListItem", position: 2, name: "Agents", item: "https://stacka2a.dev/agents" },
         { "@type": "ListItem", position: 3, name: agent.name },
       ],
     },

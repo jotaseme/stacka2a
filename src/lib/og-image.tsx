@@ -107,7 +107,7 @@ export function createOgImage({
               marginLeft: "8px",
             }}
           >
-            stacka2a.com
+            stacka2a.dev
           </div>
         </div>
       </div>

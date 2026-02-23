@@ -15,7 +15,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://stacka2a.com"),
+  metadataBase: new URL("https://stacka2a.dev"),
   title: {
     default: "StackA2A — The best A2A agents, scored & ready to connect",
     template: "%s | StackA2A",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
       "Curated directory of A2A protocol agents with quality scores and connection snippets for every SDK.",
   },
   alternates: {
-    canonical: "https://stacka2a.com",
+    canonical: "https://stacka2a.dev",
   },
 };
 
@@ -59,12 +59,12 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebSite",
               name: "StackA2A",
-              url: "https://stacka2a.com",
+              url: "https://stacka2a.dev",
               description:
                 "Curated directory of A2A protocol agents with quality scores and connection snippets.",
               potentialAction: {
                 "@type": "SearchAction",
-                target: "https://stacka2a.com/agents?q={search_term_string}",
+                target: "https://stacka2a.dev/agents?q={search_term_string}",
                 "query-input": "required name=search_term_string",
               },
             }),

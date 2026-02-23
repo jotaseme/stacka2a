@@ -36,11 +36,11 @@ export default async function BlogPostPage({ params }: PageProps) {
     headline: post.title,
     description: post.description,
     datePublished: post.date,
-    url: `https://stacka2a.com/blog/${slug}`,
+    url: `https://stacka2a.dev/blog/${slug}`,
     publisher: {
       "@type": "Organization",
       name: "StackA2A",
-      url: "https://stacka2a.com",
+      url: "https://stacka2a.dev",
     },
   };
 

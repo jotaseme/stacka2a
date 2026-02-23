@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { getAllStacks, getAllAgents } from "@/lib/data";
 import { getAllPosts } from "@/lib/blog";
 
-const BASE_URL = "https://stacka2a.com";
+const BASE_URL = "https://stacka2a.dev";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const stacks = getAllStacks();

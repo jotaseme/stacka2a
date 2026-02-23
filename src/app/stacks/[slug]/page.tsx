@@ -38,15 +38,15 @@ export default async function StackPage({ params }: PageProps) {
         "@type": "ListItem",
         position: i + 1,
         name: agent.name,
-        url: `https://stacka2a.com/agents/${agent.slug}`,
+        url: `https://stacka2a.dev/agents/${agent.slug}`,
       })),
     },
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://stacka2a.com" },
-        { "@type": "ListItem", position: 2, name: "Stacks", item: "https://stacka2a.com/stacks" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://stacka2a.dev" },
+        { "@type": "ListItem", position: 2, name: "Stacks", item: "https://stacka2a.dev/stacks" },
         { "@type": "ListItem", position: 3, name: data.stack.name },
       ],
     },
