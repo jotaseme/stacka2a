@@ -1,0 +1,40 @@
+{
+  "slug": "forge",
+  "name": "Forge",
+  "description": "Forge is a secure, portable AI Agent runtime. Run agents locally, in cloud, or enterprise environments without exposing inbound tunnels.",
+  "provider": {
+    "name": "initializ",
+    "url": "https://github.com/initializ"
+  },
+  "repository": "https://github.com/initializ/forge",
+  "category": "enterprise",
+  "tags": [
+    "agent-cli",
+    "ai-agents",
+    "ai-agents-cli",
+    "ai-workforce",
+    "claude",
+    "enterprise-ai",
+    "llm-runtime",
+    "local-ai",
+    "local-ai-agents",
+    "mcp"
+  ],
+  "framework": "custom",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2026-03-01",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

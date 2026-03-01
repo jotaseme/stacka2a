@@ -1,0 +1,32 @@
+{
+  "slug": "earth-a2a-swarm",
+  "name": "EARTH A2A Swarm",
+  "description": "A2A World | E.A.R.T.H. is a dynamic Multi-Agent System (MAS) built on the official Agent-to-Agent (A2A) Protocol. The platform is powered by Gemini 3 Pro, acting as a high-level \"Connoisseur\" that analyzes research queries and identifies required disciplinary expertise from a swarm of specialized subagents.",
+  "provider": {
+    "name": "a2aworld",
+    "url": "https://github.com/a2aworld"
+  },
+  "repository": "https://github.com/a2aworld/EARTH-A2A-Swarm",
+  "category": "search",
+  "tags": [
+    "gemini-3-hackathon",
+    "multi-agent-systems"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-27",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

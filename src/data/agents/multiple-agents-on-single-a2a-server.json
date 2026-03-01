@@ -1,7 +1,7 @@
 {
   "slug": "multiple-agents-on-single-a2a-server",
   "name": "Multiple Agents On Single A2A Server",
-  "description": "Deploy and manage multiple AI agents on a single A2A server for efficient orchestration",
+  "description": "Run multiple agents on single A2A Server",
   "provider": {
     "name": "satendrakumar",
     "url": "https://github.com/satendrakumar"

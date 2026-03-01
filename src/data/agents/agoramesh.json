@@ -1,0 +1,41 @@
+{
+  "slug": "agoramesh",
+  "name": "Agoramesh",
+  "description": "\"Machines must run.\" — Open-source protocol & trust layer for AI agent commerce. Discover, verify, transact — no middlemen.",
+  "provider": {
+    "name": "agoramesh-ai",
+    "url": "https://github.com/agoramesh-ai"
+  },
+  "repository": "https://github.com/agoramesh-ai/agoramesh",
+  "category": "finance",
+  "tags": [
+    "agent-commerce",
+    "ai",
+    "ai-agents",
+    "base-l2",
+    "blockchain",
+    "decentralized",
+    "micropayments",
+    "open-source",
+    "rust",
+    "solidity"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://agentme.cz",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2026-03-01",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

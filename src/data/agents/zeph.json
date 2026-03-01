@@ -1,7 +1,7 @@
 {
   "slug": "zeph",
   "name": "Zeph",
-  "description": "Rust AI agent runtime with hybrid inference, multi-model orchestration, and A2A protocol support",
+  "description": "Modular AI agent runtime in Rust — multi-provider LLM orchestration (Ollama, Claude, OpenAI, HuggingFace), self-evolving skills, semantic memory, code RAG, MCP   client, A2A/ACP protocols. Ships as CLI, Telegram bot, and TUI dashboard.",
   "provider": {
     "name": "bug-ops",
     "url": "https://github.com/bug-ops"
@@ -35,7 +35,7 @@
     "typescript"
   ],
   "githubStars": 3,
-  "lastUpdated": "2026-02-23",
+  "lastUpdated": "2026-03-01",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

@@ -1,7 +1,7 @@
 {
   "slug": "crossmint-agentic-finance",
   "name": "Crossmint Agentic Finance",
-  "description": "Build agentic finance apps with Crossmint: demos and starter code with A2A protocol support",
+  "description": "Demos and starter code for building agentic finance apps with Crossmint",
   "provider": {
     "name": "Crossmint",
     "url": "https://github.com/Crossmint"

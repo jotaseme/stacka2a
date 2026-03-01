@@ -1,7 +1,7 @@
 {
   "slug": "a2a-mcp-website",
   "name": "A2A MCP Website",
-  "description": "Official A2A-MCP website featuring modern UI, dark mode, and protocol documentation",
+  "description": "A2A-MCP official website with modern UI and dark mode support",
   "provider": {
     "name": "wjl110",
     "url": "https://github.com/wjl110"

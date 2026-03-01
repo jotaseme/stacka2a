@@ -1,7 +1,7 @@
 {
   "slug": "leaprag",
   "name": "LeapRAG",
-  "description": "Open-source RAG platform with A2A protocol for building context-aware, auto-compliant AI agents",
+  "description": "LeapRAG is an open-source platform that integrates advanced RAG technology with Google’s A2A protocol, enabling users to build context-aware, data-driven agents. These agents are automatically A2A-compliant and can be discovered and used by any compatible client without extra development.",
   "provider": {
     "name": "MegrezAI",
     "url": "https://github.com/MegrezAI"

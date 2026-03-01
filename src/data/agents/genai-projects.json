@@ -1,7 +1,7 @@
 {
   "slug": "genai-projects",
   "name": "GenAI Projects",
-  "description": "Collection of generative AI use cases with A2A agent implementations and practical examples",
+  "description": "Collection of some interesting Generative AI usecases implementation.",
   "provider": {
     "name": "Ruthvik-1411",
     "url": "https://github.com/Ruthvik-1411"
@@ -18,7 +18,12 @@
     "langchain",
     "langgraph",
     "mesop",
-    "multimodal"
+    "multimodal",
+    "agent-orchestration",
+    "agentic-ai",
+    "crewai",
+    "function-calling",
+    "knowledge-graphs"
   ],
   "framework": "google-adk",
   "language": "unknown",
@@ -34,7 +39,7 @@
     "typescript"
   ],
   "githubStars": 2,
-  "lastUpdated": "2025-09-29",
+  "lastUpdated": "2026-02-27",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

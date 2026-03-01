@@ -1,7 +1,7 @@
 {
   "slug": "hector",
   "name": "Hector",
-  "description": "A2A-native AI agent platform built with Go for high-performance agent orchestration",
+  "description": "A2A-Native AI Agent Platform written in Go",
   "provider": {
     "name": "verikod",
     "url": "https://github.com/verikod"

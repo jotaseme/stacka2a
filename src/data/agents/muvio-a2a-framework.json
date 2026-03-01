@@ -1,7 +1,7 @@
 {
   "slug": "muvio-a2a-framework",
   "name": "Muvio A2A Framework",
-  "description": "Build AI agents with advanced memory and inter-agent communication using the Muvius A2A framework",
+  "description": "Muvius is a powerful framework for building and managing AI agents with advanced memory systems and seamless inter-agent communication. It provides a structured approach to creating intelligent agents",
   "provider": {
     "name": "muvioai",
     "url": "https://github.com/muvioai"

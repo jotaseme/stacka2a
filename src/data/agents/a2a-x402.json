@@ -1,7 +1,7 @@
 {
   "slug": "a2a-x402",
   "name": "A2A X402",
-  "description": "A2A x402 extension enabling cryptocurrency payments for AI agents with on-chain settlement",
+  "description": "The A2A x402 Extension brings cryptocurrency payments to the Agent-to-Agent (A2A) protocol, enabling agents to monetize their services through on-chain payments. This extension revives the spirit of HTTP 402 \"Payment Required\" for the decentralized agent ecosystem.",
   "provider": {
     "name": "google-agentic-commerce",
     "url": "https://github.com/google-agentic-commerce"
@@ -27,7 +27,7 @@
   "sdks": [
     "python"
   ],
-  "githubStars": 455,
+  "githubStars": 460,
   "lastUpdated": "2026-02-02",
   "official": false,
   "selfHosted": true,

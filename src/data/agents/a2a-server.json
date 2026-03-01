@@ -1,7 +1,7 @@
 {
   "slug": "a2a-server",
   "name": "A2A Server",
-  "description": "Production A2A server with HTTP REST and JSON-RPC support for AI workflow orchestration using LangGraph",
+  "description": "Production-ready A2A Protocol Server with dual protocol support (HTTP REST + JSON-RPC 2.0). Built on SceneGraphManager v2.0.0 for JSON-driven AI workflow orchestration with LangGraph.",
   "provider": {
     "name": "akudo7",
     "url": "https://github.com/akudo7"

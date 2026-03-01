@@ -1,0 +1,39 @@
+{
+  "slug": "agentops",
+  "name": "Agentops",
+  "description": "AgentOps: Multi-agent infrastructure remediation platform. A2A protocol, agent coordination, HITL approval, auto-rollback.",
+  "provider": {
+    "name": "cwccie",
+    "url": "https://github.com/cwccie"
+  },
+  "repository": "https://github.com/cwccie/agentops",
+  "category": "media-content",
+  "tags": [
+    "ai",
+    "automation",
+    "infrastructure",
+    "llm",
+    "multi-agent",
+    "observability",
+    "python",
+    "remediation",
+    "sre"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

@@ -1,7 +1,7 @@
 {
   "slug": "consolidating-generative-ai-protocols-a-single-server-soluti",
   "name": "Consolidating Generative AI Protocols A Single Server Solution For MCP And A2A",
-  "description": "Unified Google Apps Script server deploying both MCP and A2A protocols for Google Workspace integration",
+  "description": "A new unified Google Apps Script now deploys both Model Context Protocol (MCP) and Agent2Agent (A2A) networks as a single server, streamlining AI model integration for Google Workspace users.",
   "provider": {
     "name": "tanaikech",
     "url": "https://github.com/tanaikech"

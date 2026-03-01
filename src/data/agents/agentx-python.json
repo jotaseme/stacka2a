@@ -1,7 +1,7 @@
 {
   "slug": "agentx-python",
   "name": "Agentx Python",
-  "description": "AgentX Python SDK: build multi-agent AI workforce with A2A protocol interoperability",
+  "description": "AgentX python SDK. Build multi-agent AI workforce.",
   "provider": {
     "name": "AgentX-ai",
     "url": "https://github.com/AgentX-ai"
@@ -26,7 +26,7 @@
   "sdks": [
     "python"
   ],
-  "githubStars": 45,
+  "githubStars": 46,
   "lastUpdated": "2025-06-26",
   "official": false,
   "selfHosted": true,

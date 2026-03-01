@@ -1,7 +1,7 @@
 {
   "slug": "a2aregistry",
   "name": "A2ARegistry",
-  "description": "Community-driven directory of AI agents using the A2A protocol for agent discovery",
+  "description": "A2A Registry ",
   "provider": {
     "name": "A2ABaseAI",
     "url": "https://github.com/A2ABaseAI"

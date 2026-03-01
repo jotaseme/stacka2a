@@ -1,7 +1,7 @@
 {
   "slug": "remote-chat-agent-using-a2a-protocol",
   "name": "Remote Chat Agent Using A2A Protocol",
-  "description": "Create remote chat agents using Agent2Agent protocol for distributed AI conversations",
+  "description": "Create remote chat agent using agent2agent protocol",
   "provider": {
     "name": "satendrakumar",
     "url": "https://github.com/satendrakumar"

@@ -1,7 +1,7 @@
 {
   "slug": "sdg-6-water-agents",
   "name": "Sdg 6 Water Agents",
-  "description": "AI agent for water resource forecasting using SDG-6 metrics and A2A protocol integration",
+  "description": "Aqua Forecaster",
   "provider": {
     "name": "808vita",
     "url": "https://github.com/808vita"

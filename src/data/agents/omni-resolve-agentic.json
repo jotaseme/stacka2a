@@ -1,0 +1,33 @@
+{
+  "slug": "omni-resolve-agentic",
+  "name": "Omni Resolve Agentic",
+  "description": "A state-of-the-art, multi-agent AI system designed for the telecommunications industry.",
+  "provider": {
+    "name": "q138ben",
+    "url": "https://github.com/q138ben"
+  },
+  "repository": "https://github.com/q138ben/Omni-Resolve-Agentic",
+  "category": "orchestration",
+  "tags": [
+    "mcp-server",
+    "muti-agent"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://github.com/q138ben/Omni-Resolve-Agentic",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-28",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

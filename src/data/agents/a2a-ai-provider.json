@@ -1,7 +1,7 @@
 {
   "slug": "a2a-ai-provider",
   "name": "A2A Ai Provider",
-  "description": "Community A2A protocol provider for Vercel AI SDK enabling agent-to-agent integration",
+  "description": "Community A2A provider for the ai-sdk from vercel",
   "provider": {
     "name": "DracoBlue",
     "url": "https://github.com/DracoBlue"

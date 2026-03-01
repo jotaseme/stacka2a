@@ -1,7 +1,7 @@
 {
   "slug": "songgenerationa2a",
   "name": "Songgenerationa2a",
-  "description": "A2A wrapper for Tencent SongGeneration on HuggingFace: AI music creation via A2A protocol",
+  "description": "An A2A wrapper for tencent/SongGeneration on HuggingFace Space",
   "provider": {
     "name": "Shiv33ndu",
     "url": "https://github.com/Shiv33ndu"

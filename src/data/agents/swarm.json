@@ -1,7 +1,7 @@
 {
   "slug": "swarm",
   "name": "Swarm",
-  "description": "Rust SDK for building self-correcting agent teams with MCP and A2A protocol support via Agent Factory",
+  "description": "SDK to build Agents in rust. Build and manage complex, self-correcting agent teams. Launch multi-agent systems via configuration files or using an Agent Factory. It's the robust framework for orchestrating intelligent agents using open standards (MCP, A2A).",
   "provider": {
     "name": "fcn06",
     "url": "https://github.com/fcn06"

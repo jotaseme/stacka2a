@@ -1,7 +1,7 @@
 {
   "slug": "mastervolt-deep-research",
   "name": "Mastervolt Deep Research",
-  "description": "Multi-agent research orchestration with VoltAgent, semantic memory, and web scraping for reports",
+  "description": "Mastervolt Deep Research is a sophisticated multi-agent orchestration system built on VoltAgent that automates complex research workflows. It combines specialized AI agents, semantic memory, intelligent tooling, and custom web scraping to conduct comprehensive research, verify facts, analyze data, and generate publication-ready reports.",
   "provider": {
     "name": "ssdeanx",
     "url": "https://github.com/ssdeanx"

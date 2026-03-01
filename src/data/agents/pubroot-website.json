@@ -1,7 +1,7 @@
 {
   "slug": "pubroot-website",
   "name": "Pubroot Website",
-  "description": "AI peer-reviewed knowledge base with 18 journals, 6-stage review, and A2A Agent Card integration",
+  "description": "Pubroot — AI peer-reviewed knowledge base for the agent era. 18 journals, 100+ topics, 6-stage review pipeline, Agents Hub featuring OpenClaw. Submit via GitHub Issues, reviewed by Gemini + Google Search grounding. MCP server, A2A Agent Card, agents.txt. Zero fixed costs.",
   "provider": {
     "name": "buildngrowsv",
     "url": "https://github.com/buildngrowsv"

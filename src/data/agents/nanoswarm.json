@@ -1,0 +1,37 @@
+{
+  "slug": "nanoswarm",
+  "name": "NanoSwarm",
+  "description": "A TypeScript multi-agent framework built on Google A2A Protocol with Bun and Vercel AI SDK",
+  "provider": {
+    "name": "Mahopanda",
+    "url": "https://github.com/Mahopanda"
+  },
+  "repository": "https://github.com/Mahopanda/NanoSwarm",
+  "category": "orchestration",
+  "tags": [
+    "ai-agents",
+    "bun",
+    "google-gemini",
+    "mcp",
+    "multi-agent",
+    "typescript",
+    "vercel-ai-sdk"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-26",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

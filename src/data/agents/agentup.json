@@ -1,7 +1,7 @@
 {
   "slug": "agentup",
   "name": "AgentUp",
-  "description": "Build portable, scalable, and secure AI agents with FastAPI and A2A protocol support",
+  "description": "Portable , scalable , secure AI Agents",
   "provider": {
     "name": "always-further",
     "url": "https://github.com/always-further"
@@ -32,7 +32,7 @@
   "sdks": [
     "python"
   ],
-  "githubStars": 92,
+  "githubStars": 93,
   "lastUpdated": "2026-01-22",
   "official": false,
   "selfHosted": true,

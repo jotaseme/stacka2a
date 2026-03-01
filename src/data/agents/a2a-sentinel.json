@@ -1,0 +1,38 @@
+{
+  "slug": "a2a-sentinel",
+  "name": "A2A Sentinel",
+  "description": "A lightweight, security-first A2A protocol gateway in Go. Develop with sentinel, deploy with agentgateway.",
+  "provider": {
+    "name": "vivars7",
+    "url": "https://github.com/vivars7"
+  },
+  "repository": "https://github.com/vivars7/a2a-sentinel",
+  "category": "infrastructure",
+  "tags": [
+    "agent-gateway",
+    "ai-agents",
+    "golang",
+    "llm",
+    "mcp",
+    "reverse-proxy",
+    "security",
+    "sse"
+  ],
+  "framework": "custom",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-02-27",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

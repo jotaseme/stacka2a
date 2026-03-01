@@ -1,7 +1,7 @@
 {
   "slug": "wildfly-a2a-feature-pack",
   "name": "Wildfly A2A Feature Pack",
-  "description": "WildFly feature pack implementing A2A protocol for universal AI agent interoperability across frameworks",
+  "description": "A WildFly feature pack implementing the open-standard Agent2Agent (A2A) Protocol to enable universal interoperability and seamless collaboration between AI agents across diverse frameworks and vendors.",
   "provider": {
     "name": "rhusar",
     "url": "https://github.com/rhusar"
@@ -27,7 +27,7 @@
     "java"
   ],
   "githubStars": 0,
-  "lastUpdated": "2026-02-22",
+  "lastUpdated": "2026-02-27",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

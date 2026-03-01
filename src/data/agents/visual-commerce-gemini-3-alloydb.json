@@ -15,7 +15,7 @@
     "google-cloud"
   ],
   "framework": "custom",
-  "language": "unknown",
+  "language": "python",
   "skills": [],
   "capabilities": {
     "streaming": false,
@@ -24,12 +24,11 @@
   },
   "authType": "none",
   "sdks": [
-    "python",
-    "typescript"
+    "python"
   ],
   "githubStars": 0,
-  "lastUpdated": "2026-02-18",
+  "lastUpdated": "2026-02-28",
   "official": false,
   "selfHosted": true,
-  "license": "unknown"
+  "license": "Apache-2.0"
 }

@@ -1,0 +1,35 @@
+{
+  "slug": "neshsec-poc",
+  "name": "Neshsec Poc",
+  "description": "Native English Speaker Homograph Stress Exemplar Crowdsourcer proof of concept",
+  "provider": {
+    "name": "jsalsman",
+    "url": "https://github.com/jsalsman"
+  },
+  "repository": "https://github.com/jsalsman/neshsec-poc",
+  "category": "general",
+  "tags": [
+    "crowdsourcing",
+    "prolific",
+    "pronunciation",
+    "proof-of-concept"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://neshsec-poc.talknicer.com/.well-known/agent.json",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-01",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

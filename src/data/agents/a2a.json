@@ -1,7 +1,7 @@
 {
   "slug": "a2a",
   "name": "A2A",
-  "description": "Azure-native A2A protocol demonstrator using Dapr, Kafka, and Python for agent coordination",
+  "description": "Azure-native A2A Technology Demonstrator",
   "provider": {
     "name": "aymenfurter",
     "url": "https://github.com/aymenfurter"
@@ -37,7 +37,7 @@
     "python"
   ],
   "githubStars": 11,
-  "lastUpdated": "2026-02-23",
+  "lastUpdated": "2026-03-01",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

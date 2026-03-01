@@ -1,7 +1,7 @@
 {
   "slug": "a2a-sample-content-editor",
   "name": "Content Editor (Official Sample)",
-  "description": "Official A2A Java sample: content editing agent with AI-powered writing assistance",
+  "description": "Official A2A java sample agent: Content Editor",
   "provider": {
     "name": "A2A Project",
     "url": "https://github.com/a2aproject"
@@ -25,7 +25,7 @@
     "java"
   ],
   "githubStars": 1329,
-  "lastUpdated": "2026-02-23",
+  "lastUpdated": "2026-03-01",
   "official": true,
   "selfHosted": true,
   "license": "apache-2.0"

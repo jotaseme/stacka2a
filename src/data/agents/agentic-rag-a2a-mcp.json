@@ -1,7 +1,7 @@
 {
   "slug": "agentic-rag-a2a-mcp",
   "name": "Agentic Rag A2A MCP",
-  "description": "Unified AI system with RAG, A2A protocol, and MCP for document processing and task delegation",
+  "description": "A unified AI agent system integrating Retrieval-Augmented Generation (RAG), Agent-to-Agent (A2A) communication, and Model Context Protocol (MCP) for document processing, web search, and intelligent task delegation.",
   "provider": {
     "name": "nabojyoti",
     "url": "https://github.com/nabojyoti"

@@ -1,7 +1,7 @@
 {
   "slug": "the-poet-and-the-sage",
   "name": "The Poet And The Sage",
-  "description": "AI agent reimagining Tagore's poetry with modern historical context using A2A protocol",
+  "description": "What would Tagore write, if he knew our history",
   "provider": {
     "name": "babanomania",
     "url": "https://github.com/babanomania"

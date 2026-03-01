@@ -1,7 +1,7 @@
 {
   "slug": "llmtornado",
   "name": "LLMTornado",
-  "description": ".NET library for building AI agents with 30+ connectors and A2A protocol support",
+  "description": "The .NET library to build AI agents with 30+ built-in connectors.",
   "provider": {
     "name": "lofcz",
     "url": "https://github.com/lofcz"
@@ -33,8 +33,8 @@
   "sdks": [
     "csharp"
   ],
-  "githubStars": 558,
-  "lastUpdated": "2026-02-20",
+  "githubStars": 563,
+  "lastUpdated": "2026-02-28",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

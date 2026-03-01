@@ -1,7 +1,7 @@
 {
   "slug": "a2a-scanner",
   "name": "A2A Scanner",
-  "description": "Security scanner for A2A agents: detect threats and vulnerabilities in AI agent deployments",
+  "description": "Scan A2A agents for potential threats and security issues",
   "provider": {
     "name": "cisco-ai-defense",
     "url": "https://github.com/cisco-ai-defense"

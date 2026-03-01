@@ -1,7 +1,7 @@
 {
   "slug": "secure-rag-multi-agent",
   "name": "Secure Rag Multi Agent",
-  "description": "Secure RAG with role-based access control, Mastra AI orchestration, and A2A/MCP integration",
+  "description": "Secure Retrieval-Augmented Generation (RAG) with role-based access control using Mastra AI orchestration, with JWT Secure, also Deep Research built with Cedar & Next.js. Gemini, OpenAI, Openrouter, & Gemini CLI usable.  Also exposes tools, agents as MCP Server Also A2A Agent Cards",
   "provider": {
     "name": "ssdeanx",
     "url": "https://github.com/ssdeanx"

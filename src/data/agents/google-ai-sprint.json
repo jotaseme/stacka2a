@@ -1,7 +1,7 @@
 {
   "slug": "google-ai-sprint",
   "name": "Google Ai Sprint",
-  "description": "Multi-agent GenerativeUI system built with Google AI and A2A protocol for dynamic interfaces",
+  "description": "Multi-agent-driven GenerativeUI",
   "provider": {
     "name": "stigsfoot",
     "url": "https://github.com/stigsfoot"

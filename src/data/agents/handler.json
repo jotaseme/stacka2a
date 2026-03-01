@@ -1,7 +1,7 @@
 {
   "slug": "handler",
   "name": "Handler",
-  "description": "Complete A2A protocol client and developer toolkit for building agent integrations",
+  "description": "A2A Protocol client and developer toolkit.",
   "provider": {
     "name": "alDuncanson",
     "url": "https://github.com/alDuncanson"
@@ -34,7 +34,7 @@
     "python"
   ],
   "githubStars": 36,
-  "lastUpdated": "2026-02-22",
+  "lastUpdated": "2026-02-26",
   "official": false,
   "selfHosted": true,
   "license": "GPL-3.0"

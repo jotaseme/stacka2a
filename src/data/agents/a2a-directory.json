@@ -1,7 +1,7 @@
 {
   "slug": "a2a-directory",
   "name": "A2A Directory",
-  "description": "Complete A2A directory with agent cards, servers, clients, and documentation resources",
+  "description": "Agent2Agent (A2A) – AgentCards, Servers, Clients, Docs",
   "provider": {
     "name": "sing1ee",
     "url": "https://github.com/sing1ee"
@@ -30,8 +30,8 @@
     "python",
     "typescript"
   ],
-  "githubStars": 340,
-  "lastUpdated": "2025-12-20",
+  "githubStars": 320,
+  "lastUpdated": "2026-02-26",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

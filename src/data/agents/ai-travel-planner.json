@@ -1,7 +1,7 @@
 {
   "slug": "ai-travel-planner",
   "name": "AI Travel Planner",
-  "description": "AI travel planner with MCP integration, A2A protocol, and multi-framework interoperability",
+  "description": "Our planner has context sharing,in process MCP tool integration,structured output using pydantic(md,json), Task monitoring & Logging using callback functions, A2A protocol and used interoperability - e.g. one agent defined using ADK another using CrewAI.",
   "provider": {
     "name": "AdityaTak77",
     "url": "https://github.com/AdityaTak77"

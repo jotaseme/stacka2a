@@ -1,0 +1,40 @@
+{
+  "slug": "vegamcp",
+  "name": "VegaMCP",
+  "description": "VegaMCP v6.0 - Protocol Supremacy Edition. AI Agent Swarm Platform with 60+ tools, A2A protocol, zero-trust identity, MCP gateway, async tasks, OAuth 2.1, agent graphs, multimodal embeddings.",
+  "provider": {
+    "name": "Pastarafian",
+    "url": "https://github.com/Pastarafian"
+  },
+  "repository": "https://github.com/Pastarafian/VegaMCP",
+  "category": "security",
+  "tags": [
+    "agent-swarm",
+    "agentic-rag",
+    "ai-agents",
+    "browser-automation",
+    "graphrag",
+    "knowledge-graph",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "multi-model"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 3,
+  "lastUpdated": "2026-02-28",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

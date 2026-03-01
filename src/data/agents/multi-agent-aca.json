@@ -1,7 +1,7 @@
 {
   "slug": "multi-agent-aca",
   "name": "Multi Agent Aca",
-  "description": "Multi-agent solution on Azure Container Apps using Google A2A protocol for cloud orchestration",
+  "description": "Multi-agent solution on Azure Container Apps with Google Agent2Agent",
   "provider": {
     "name": "gbaeke",
     "url": "https://github.com/gbaeke"
@@ -31,7 +31,7 @@
   "sdks": [
     "python"
   ],
-  "githubStars": 9,
+  "githubStars": 10,
   "lastUpdated": "2025-07-18",
   "official": false,
   "selfHosted": true,

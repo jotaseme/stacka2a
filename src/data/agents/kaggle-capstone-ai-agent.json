@@ -1,7 +1,7 @@
 {
   "slug": "kaggle-capstone-ai-agent",
   "name": "Kaggle Capstone Ai Agent",
-  "description": "Safety-first mental health AI agent with distress tracking and evidence-based techniques using A2A",
+  "description": "A safety-first multi-agent mental health companion with real-time distress tracking, triple-layer guardrails, and evidence-based grounding techniques. Built for Kaggle × Google Agents Intensive 2025 Capstone (Agents for Good Track)",
   "provider": {
     "name": "ajmaluk",
     "url": "https://github.com/ajmaluk"

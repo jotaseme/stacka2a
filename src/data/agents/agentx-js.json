@@ -1,7 +1,7 @@
 {
   "slug": "agentx-js",
   "name": "Agentx Js",
-  "description": "AgentX JavaScript/TypeScript SDK for building multi-agent AI workforce with A2A protocol",
+  "description": "AgentX Javascript/Typescript SDK. Build multi-agent AI workforce. ",
   "provider": {
     "name": "AgentX-ai",
     "url": "https://github.com/AgentX-ai"

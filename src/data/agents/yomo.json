@@ -1,7 +1,7 @@
 {
   "slug": "yomo",
   "name": "Yomo",
-  "description": "Serverless AI agent framework with geo-distributed edge infrastructure using Go and QUIC",
+  "description": "🦖 Serverless AI Agent Framework with Geo-distributed Edge AI Infra.",
   "provider": {
     "name": "yomorun",
     "url": "https://github.com/yomorun"
@@ -33,8 +33,8 @@
   "sdks": [
     "go"
   ],
-  "githubStars": 1882,
-  "lastUpdated": "2026-02-16",
+  "githubStars": 1885,
+  "lastUpdated": "2026-02-28",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

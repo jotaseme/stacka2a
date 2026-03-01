@@ -1,7 +1,7 @@
 {
   "slug": "openribcage",
   "name": "Openribcage",
-  "description": "A2A protocol client and server utility for avatar interfaces and immersive AI agents",
+  "description": "A2A Protocol Client/Server Utility For Avatar Interfaces",
   "provider": {
     "name": "craine-io",
     "url": "https://github.com/craine-io"

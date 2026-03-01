@@ -1,7 +1,7 @@
 {
   "slug": "multi-agent-hotel-assistant",
   "name": "Multi Agent Hotel Assistant",
-  "description": "AWS hotel booking assistant with Strands Agents, Bedrock, A2A, and MCP for search and reservations",
+  "description": "AWS-powered hotel booking multi-agent assistant built with Strands Agents, Amazon Bedrock AgentCore, A2A protocol, MCP, Bedrock Knowledge Base, serverless Lambda integrations, and AWS CDK. Provides natural-language hotel search, price discovery, booking, and policy advisory.",
   "provider": {
     "name": "mohsinsheikhani",
     "url": "https://github.com/mohsinsheikhani"

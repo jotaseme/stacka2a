@@ -1,7 +1,7 @@
 {
   "slug": "a2a-python-currency",
   "name": "A2A Python Currency",
-  "description": "Build a currency conversion agent with A2A Python SDK for real-time exchange rates",
+  "description": "Implementing CurrencyAgent with A2A Python SDK",
   "provider": {
     "name": "sing1ee",
     "url": "https://github.com/sing1ee"

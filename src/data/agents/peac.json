@@ -1,7 +1,7 @@
 {
   "slug": "peac",
   "name": "Peac",
-  "description": "PEAC Protocol: portable evidence system for AI agent coordination with A2A integration",
+  "description": "PEAC Protocol: Portable Evidence for Agent Coordination",
   "provider": {
     "name": "peacprotocol",
     "url": "https://github.com/peacprotocol"
@@ -11,14 +11,14 @@
   "tags": [
     "402",
     "agent-commerce",
+    "ai-agents",
     "aipolicy",
     "aipref",
-    "aiproof",
+    "cryptography",
     "evidence",
-    "evidence-based",
     "http-402",
-    "originary",
-    "peacprotocol"
+    "mcp",
+    "mcp-server"
   ],
   "framework": "custom",
   "language": "typescript",
@@ -34,7 +34,7 @@
     "typescript"
   ],
   "githubStars": 10,
-  "lastUpdated": "2026-02-23",
+  "lastUpdated": "2026-03-01",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

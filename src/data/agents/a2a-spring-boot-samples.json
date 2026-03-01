@@ -1,0 +1,31 @@
+{
+  "slug": "a2a-spring-boot-samples",
+  "name": "A2A Spring Boot Samples",
+  "description": "Spring Boot examples using the Agent2Agent (A2A) Protocol",
+  "provider": {
+    "name": "CokeLee777",
+    "url": "https://github.com/CokeLee777"
+  },
+  "repository": "https://github.com/CokeLee777/a2a-spring-boot-samples",
+  "category": "general",
+  "tags": [
+    "spring-boot"
+  ],
+  "framework": "spring-boot",
+  "language": "java",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "java"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-01",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

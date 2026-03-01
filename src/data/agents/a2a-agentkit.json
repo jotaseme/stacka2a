@@ -1,7 +1,7 @@
 {
   "slug": "a2a-agentkit",
   "name": "A2A Agentkit",
-  "description": "Sample A2A agents with Genkit and Google Gemini showcasing interoperable AI system implementations",
+  "description": "The A2A AgentKit provides a collection of sample AI agents that implement the Agent-to-Agent (A2A) protocol. These agents showcase interoperable AI systems built with the A2A SDK, integrated with the Genkit framework and powered by Google Gemini AI models.",
   "provider": {
     "name": "ssdeanx",
     "url": "https://github.com/ssdeanx"

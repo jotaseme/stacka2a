@@ -1,7 +1,7 @@
 {
   "slug": "a2a-sample-content-planner",
   "name": "Content Planner (Official Sample)",
-  "description": "Official A2A Python sample: content planning agent for editorial workflow automation",
+  "description": "Official A2A python sample agent: Content Planner",
   "provider": {
     "name": "A2A Project",
     "url": "https://github.com/a2aproject"
@@ -25,7 +25,7 @@
     "python"
   ],
   "githubStars": 1329,
-  "lastUpdated": "2026-02-23",
+  "lastUpdated": "2026-03-01",
   "official": true,
   "selfHosted": true,
   "license": "apache-2.0"

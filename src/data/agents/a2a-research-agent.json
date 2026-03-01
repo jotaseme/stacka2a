@@ -1,0 +1,38 @@
+{
+  "slug": "a2a-research-agent",
+  "name": "A2A Research Agent",
+  "description": "This project demonstrates multi-agent AI architecture using Google's A2A protocol. ResearchAgent searches arXiv papers & delegates summarization to SummarizerAgent via Agent Cards & Tasks, showcasing distributed agent collaboration beyond monolithic LLM calls.",
+  "provider": {
+    "name": "inv-fourier-transform",
+    "url": "https://github.com/inv-fourier-transform"
+  },
+  "repository": "https://github.com/inv-fourier-transform/a2a-research-agent",
+  "category": "search",
+  "tags": [
+    "agentic-ai",
+    "ai-agents",
+    "arxiv-papers",
+    "autonomous-agents",
+    "fastapi",
+    "google-a2a",
+    "multi-agent-systems",
+    "research-automation"
+  ],
+  "framework": "fastapi",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-02-28",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}
