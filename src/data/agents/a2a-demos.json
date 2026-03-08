@@ -1,0 +1,40 @@
+{
+  "slug": "a2a-demos",
+  "name": "A2A Demos",
+  "description": "Demo agents showcasing CapiscIO Agent Guard and MCP Guard — trust badges, identity verification, and tool-level authorization for A2A and MCP protocols",
+  "provider": {
+    "name": "capiscio",
+    "url": "https://github.com/capiscio"
+  },
+  "repository": "https://github.com/capiscio/a2a-demos",
+  "category": "security",
+  "tags": [
+    "agent-to-agent",
+    "ai-agents",
+    "ai-governance",
+    "ai-security",
+    "demos",
+    "mcp",
+    "model-context-protocol",
+    "security",
+    "trust-badges"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://capisc.io",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-03-05",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

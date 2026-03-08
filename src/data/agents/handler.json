@@ -29,12 +29,12 @@
     "multiTurn": false
   },
   "authType": "none",
-  "endpointUrl": "https://alduncanson.github.io/Handler/",
+  "endpointUrl": "https://alduncanson-handler.mintlify.app/introduction",
   "sdks": [
     "python"
   ],
-  "githubStars": 36,
-  "lastUpdated": "2026-02-26",
+  "githubStars": 38,
+  "lastUpdated": "2026-03-08",
   "official": false,
   "selfHosted": true,
   "license": "GPL-3.0"

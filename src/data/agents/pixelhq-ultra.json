@@ -1,0 +1,38 @@
+{
+  "slug": "pixelhq-ultra",
+  "name": "Pixelhq Ultra",
+  "description": "🎮 PixelHQ ULTRA — Multi-agent pixel office with A2A protocol, terminal correlation, and evolution engine",
+  "provider": {
+    "name": "RemyLoveLogicAI",
+    "url": "https://github.com/RemyLoveLogicAI"
+  },
+  "repository": "https://github.com/RemyLoveLogicAI/pixelhq-ultra",
+  "category": "orchestration",
+  "tags": [
+    "ai-agents",
+    "game-ui",
+    "lovelogicai",
+    "multi-agent",
+    "pixel-art",
+    "react",
+    "websocket"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://pixelhq-ultra.vercel.app",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-03-07",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

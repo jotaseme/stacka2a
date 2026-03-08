@@ -1,0 +1,41 @@
+{
+  "slug": "firm-ecosystem",
+  "name": "Firm Ecosystem",
+  "description": "Architecture documentation for the Firm AI Agent ecosystem — setup-vs-agent-firm + mcp-openclaw-extensions + Memory-os-ai",
+  "provider": {
+    "name": "romainsantoli-web",
+    "url": "https://github.com/romainsantoli-web"
+  },
+  "repository": "https://github.com/romainsantoli-web/firm-ecosystem",
+  "category": "general",
+  "tags": [
+    "agent-framework",
+    "ai-agents",
+    "ai-memory",
+    "crewai",
+    "firm-ecosystem",
+    "hebbian-memory",
+    "inter-session-memory",
+    "langchain",
+    "llamaindex",
+    "llm"
+  ],
+  "framework": "crewai",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-03",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

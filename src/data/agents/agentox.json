@@ -1,0 +1,38 @@
+{
+  "slug": "agentox",
+  "name": "AgentOx",
+  "description": "AgentOx - Agentic Tool Security Platform (MCP + A2A + OpenAI tool_use)",
+  "provider": {
+    "name": "CarlosLadd",
+    "url": "https://github.com/CarlosLadd"
+  },
+  "repository": "https://github.com/CarlosLadd/AgentOx",
+  "category": "security",
+  "tags": [
+    "auditor",
+    "cli",
+    "conformance",
+    "mcp-server",
+    "openai",
+    "rust",
+    "security"
+  ],
+  "framework": "custom",
+  "language": "rust",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 3,
+  "lastUpdated": "2026-03-03",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

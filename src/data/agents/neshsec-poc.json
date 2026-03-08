@@ -23,12 +23,12 @@
     "multiTurn": false
   },
   "authType": "none",
-  "endpointUrl": "https://neshsec-poc.talknicer.com/.well-known/agent.json",
+  "endpointUrl": "https://neshsec-poc.talknicer.com/status",
   "sdks": [
     "typescript"
   ],
-  "githubStars": 0,
-  "lastUpdated": "2026-03-01",
+  "githubStars": 1,
+  "lastUpdated": "2026-03-02",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

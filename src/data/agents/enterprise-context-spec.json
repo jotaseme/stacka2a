@@ -1,0 +1,40 @@
+{
+  "slug": "enterprise-context-spec",
+  "name": "Enterprise Context Spec",
+  "description": "An open standard for defining organizational context that AI agents can consume",
+  "provider": {
+    "name": "manuzafar",
+    "url": "https://github.com/manuzafar"
+  },
+  "repository": "https://github.com/manuzafar/enterprise-context-spec",
+  "category": "enterprise",
+  "tags": [
+    "agentic-ai",
+    "ai-agents",
+    "context",
+    "domain-driven-design",
+    "enterprise",
+    "json-schema",
+    "langchain",
+    "llm",
+    "mcp",
+    "specification"
+  ],
+  "framework": "langchain",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-03",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "openclaw-a2a-plugins",
+  "name": "Openclaw A2A Plugins",
+  "description": "OpenClaw plugins that let agents hand work to other A2A agents and track or cancel those delegated tasks.",
+  "provider": {
+    "name": "aramisfacchinetti",
+    "url": "https://github.com/aramisfacchinetti"
+  },
+  "repository": "https://github.com/aramisfacchinetti/openclaw-a2a-plugins",
+  "category": "general",
+  "tags": [
+    "a2a-client",
+    "agent-to-agent",
+    "ai-agents",
+    "json-rpc",
+    "nodejs",
+    "openclaw",
+    "plugin",
+    "typescript"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://github.com/openclaw/openclaw-a2a-plugins#getting-started",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-07",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

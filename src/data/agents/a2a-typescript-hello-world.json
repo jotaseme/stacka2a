@@ -1,0 +1,32 @@
+{
+  "slug": "a2a-typescript-hello-world",
+  "name": "A2A Typescript Hello World",
+  "description": "Hello World for a Typescript-based A2A agent",
+  "provider": {
+    "name": "jsalsman",
+    "url": "https://github.com/jsalsman"
+  },
+  "repository": "https://github.com/jsalsman/a2a-typescript-hello-world",
+  "category": "conversational",
+  "tags": [
+    "hello-world",
+    "typescript"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-02",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

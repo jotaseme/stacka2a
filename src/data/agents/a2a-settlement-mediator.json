@@ -1,0 +1,35 @@
+{
+  "slug": "a2a-settlement-mediator",
+  "name": "A2A Settlement Mediator",
+  "description": "AI-powered dispute resolution for the A2A Settlement Exchange",
+  "provider": {
+    "name": "a2a-settlement",
+    "url": "https://github.com/a2a-settlement"
+  },
+  "repository": "https://github.com/a2a-settlement/a2a-settlement-mediator",
+  "category": "media-content",
+  "tags": [
+    "mediator",
+    "multi-agent",
+    "orchestration",
+    "settlement",
+    "workflow"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-04",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

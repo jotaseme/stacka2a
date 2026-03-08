@@ -1,0 +1,38 @@
+{
+  "slug": "a2a-elixir",
+  "name": "A2A Elixir",
+  "description": "Elixir implementation of the Agent-to-Agent (A2A) protocol (https://a2a-protocol.org).",
+  "provider": {
+    "name": "actioncard",
+    "url": "https://github.com/actioncard"
+  },
+  "repository": "https://github.com/actioncard/a2a-elixir",
+  "category": "general",
+  "tags": [
+    "a2a-client",
+    "a2a-server",
+    "agent-to-agent",
+    "elixr",
+    "hex-package",
+    "protocol"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://hex.pm/packages/a2a",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 9,
+  "lastUpdated": "2026-03-06",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

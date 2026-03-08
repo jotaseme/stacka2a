@@ -1,0 +1,41 @@
+{
+  "slug": "gas-and-energy-mechanics-copilot",
+  "name": "Gas And Energy Mechanics Copilot",
+  "description": "RAG-powered AI chatbot for gas & energy engineering documentation. Built on Strands Agent SDK, Amazon Bedrock Nova Lite, and FAISS vector search.",
+  "provider": {
+    "name": "ashish-code",
+    "url": "https://github.com/ashish-code"
+  },
+  "repository": "https://github.com/ashish-code/gas-and-energy-mechanics-copilot",
+  "category": "search",
+  "tags": [
+    "aws-bedrock",
+    "chatbot",
+    "faiss",
+    "fastapi",
+    "generative-ai",
+    "llm",
+    "python",
+    "rag",
+    "strands-agents",
+    "streamlit"
+  ],
+  "framework": "fastapi",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://www.linkedin.com/in/ashishagupta",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-07",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

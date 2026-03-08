@@ -1,0 +1,35 @@
+{
+  "slug": "a2a-settlement-dashboard",
+  "name": "A2A Settlement Dashboard",
+  "description": "Dashboard scaffold for A2A settlement",
+  "provider": {
+    "name": "a2a-settlement",
+    "url": "https://github.com/a2a-settlement"
+  },
+  "repository": "https://github.com/a2a-settlement/a2a-settlement-dashboard",
+  "category": "data-analytics",
+  "tags": [
+    "analytics",
+    "dashboard",
+    "plotly",
+    "settlement",
+    "streamlit"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-04",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "agent-semantic-protocol",
+  "name": "Agent Semantic Protocol",
+  "description": "Connect AI agents using semantic intent vectors for dynamic discovery, negotiation, and collaboration in decentralized multi-agent systems.",
+  "provider": {
+    "name": "danicyber1",
+    "url": "https://github.com/danicyber1"
+  },
+  "repository": "https://github.com/danicyber1/agent-semantic-protocol",
+  "category": "code-generation",
+  "tags": [
+    "ai",
+    "ai-agent",
+    "business-intelligence",
+    "claude-code",
+    "data-lake",
+    "embeddings",
+    "hacktoberfest",
+    "llm",
+    "mcp-server",
+    "operation-authorizations"
+  ],
+  "framework": "spring-boot",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-08",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

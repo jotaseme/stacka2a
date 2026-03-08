@@ -1,0 +1,41 @@
+{
+  "slug": "modelmux",
+  "name": "Modelmux",
+  "description": "Model multiplexer — dispatch, broadcast, and orchestrate tasks across Codex, Gemini, Claude, Ollama, and A2A agents via unified MCP interface.",
+  "provider": {
+    "name": "pure-maple",
+    "url": "https://github.com/pure-maple"
+  },
+  "repository": "https://github.com/pure-maple/modelmux",
+  "category": "code-generation",
+  "tags": [
+    "agent-skill",
+    "ai-collaboration",
+    "claude-code",
+    "codex-cli",
+    "cost-tracking",
+    "gemini-cli",
+    "mcp",
+    "multi-model",
+    "ollama",
+    "smart-routing"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://pypi.org/project/modelmux/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-07",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

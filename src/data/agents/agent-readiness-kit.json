@@ -1,0 +1,42 @@
+{
+  "slug": "agent-readiness-kit",
+  "name": "Agent Readiness Kit",
+  "description": "Make your SaaS product discoverable by AI agents. Templates for llms.txt, A2A agent-card.json, AGENTS.md, robots.txt, and JSON-LD structured data.",
+  "provider": {
+    "name": "trssantos",
+    "url": "https://github.com/trssantos"
+  },
+  "repository": "https://github.com/trssantos/agent-readiness-kit",
+  "category": "data-analytics",
+  "tags": [
+    "agent-card",
+    "agent-card-json",
+    "agent-discovery",
+    "agent-readiness",
+    "agent2agent",
+    "ai-agents",
+    "json-ld",
+    "llms-txt",
+    "mcp",
+    "seo",
+    "a2a-protocol"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-02",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

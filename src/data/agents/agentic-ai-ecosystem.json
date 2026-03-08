@@ -1,0 +1,41 @@
+{
+  "slug": "agentic-ai-ecosystem",
+  "name": "Agentic Ai Ecosystem",
+  "description": "Curated list of Agentic AI frameworks, multi-agent systems, and agent protocols",
+  "provider": {
+    "name": "vivy-yi",
+    "url": "https://github.com/vivy-yi"
+  },
+  "repository": "https://github.com/vivy-yi/agentic-ai-ecosystem",
+  "category": "orchestration",
+  "tags": [
+    "agent-framework",
+    "agent-orchestration",
+    "agentic-ai",
+    "ai-agents",
+    "autogen",
+    "autonomous-agents",
+    "crewai",
+    "langchain",
+    "langgraph",
+    "llm-agents"
+  ],
+  "framework": "langgraph",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-05",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

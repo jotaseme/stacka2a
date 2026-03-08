@@ -1,0 +1,37 @@
+{
+  "slug": "a2a-adapter",
+  "name": "A2A Adapter",
+  "description": "Open Source A2A Protocol Adapter SDK for Different Agent Frameworks",
+  "provider": {
+    "name": "hybroai",
+    "url": "https://github.com/hybroai"
+  },
+  "repository": "https://github.com/hybroai/a2a-adapter",
+  "category": "general",
+  "tags": [
+    "a2a-agent",
+    "a2a-client",
+    "a2a-server",
+    "agent",
+    "ai",
+    "python"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://pypi.org/project/a2a-adapter/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 25,
+  "lastUpdated": "2026-03-06",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

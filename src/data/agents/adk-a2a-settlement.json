@@ -1,0 +1,34 @@
+{
+  "slug": "adk-a2a-settlement",
+  "name": "Adk A2A Settlement",
+  "description": "ADK-based A2A settlement project",
+  "provider": {
+    "name": "a2a-settlement",
+    "url": "https://github.com/a2a-settlement"
+  },
+  "repository": "https://github.com/a2a-settlement/adk-a2a-settlement",
+  "category": "orchestration",
+  "tags": [
+    "adk",
+    "ai-agents",
+    "orchestration",
+    "settlement"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-04",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

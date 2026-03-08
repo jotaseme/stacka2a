@@ -1,0 +1,35 @@
+{
+  "slug": "a2a-settlement-mcp",
+  "name": "A2A Settlement MCP",
+  "description": "MCP scaffold for A2A settlement",
+  "provider": {
+    "name": "a2a-settlement",
+    "url": "https://github.com/a2a-settlement"
+  },
+  "repository": "https://github.com/a2a-settlement/a2a-settlement-mcp",
+  "category": "utility",
+  "tags": [
+    "integration",
+    "mcp",
+    "model-context-protocol",
+    "settlement",
+    "tools"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-04",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

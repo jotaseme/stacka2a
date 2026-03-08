@@ -1,0 +1,39 @@
+{
+  "slug": "apcore-a2a",
+  "name": "Apcore A2A",
+  "description": "apcore-a2a acts as a thin, protocol-specific layer on top of `apcore-python`. It maps A2A concepts to apcore primitives",
+  "provider": {
+    "name": "aipartnerup",
+    "url": "https://github.com/aipartnerup"
+  },
+  "repository": "https://github.com/aipartnerup/apcore-a2a",
+  "category": "general",
+  "tags": [
+    "a2a-client",
+    "a2a-server",
+    "agent-card",
+    "agent-protocol",
+    "agent-to-agent",
+    "agent2agent",
+    "apcore",
+    "a2a-protocol"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-07",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

@@ -14,7 +14,7 @@
     "vault"
   ],
   "framework": "custom",
-  "language": "python",
+  "language": "unknown",
   "skills": [],
   "capabilities": {
     "streaming": false,
@@ -23,10 +23,11 @@
   },
   "authType": "none",
   "sdks": [
-    "python"
+    "python",
+    "typescript"
   ],
   "githubStars": 4,
-  "lastUpdated": "2026-02-27",
+  "lastUpdated": "2026-03-05",
   "official": false,
   "selfHosted": true,
   "license": "MPL-2.0"
