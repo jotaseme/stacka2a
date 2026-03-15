@@ -1,0 +1,33 @@
+{
+  "slug": "opencode-a2a-server",
+  "name": "Opencode A2A Server",
+  "description": "An adapter layer that exposes OpenCode as an A2A service.",
+  "provider": {
+    "name": "Intelligent-Internet",
+    "url": "https://github.com/Intelligent-Internet"
+  },
+  "repository": "https://github.com/Intelligent-Internet/opencode-a2a-server",
+  "category": "code-generation",
+  "tags": [
+    "a2a-agent",
+    "a2a-server",
+    "opencode"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-03-15",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

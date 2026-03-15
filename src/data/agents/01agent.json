@@ -1,0 +1,39 @@
+{
+  "slug": "01agent",
+  "name": "01agent",
+  "description": "Kubernetes Alert Remediation System An intelligent Kubernetes alert remediation platform powered by LLM agents and LangGraph. Features a modern React web interface (L0) and specialized remediation agent (L1) that analyzes monitoring alerts, retrieves live cluster context via MCP, and generates executable remediation scripts.",
+  "provider": {
+    "name": "BerryBytes",
+    "url": "https://github.com/BerryBytes"
+  },
+  "repository": "https://github.com/BerryBytes/01agent",
+  "category": "media-content",
+  "tags": [
+    "agentic-ai-development",
+    "agentic-workflow",
+    "deepagents-langgraph",
+    "k8s",
+    "kubernetes",
+    "lanchain",
+    "langraph",
+    "mcp-server",
+    "sre-agent-tools"
+  ],
+  "framework": "langgraph",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-10",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

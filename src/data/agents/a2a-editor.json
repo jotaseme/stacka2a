@@ -1,0 +1,36 @@
+{
+  "slug": "a2a-editor",
+  "name": "A2A Editor",
+  "description": "UI components for editing, viewing, and testing agents that implement the Agent2Agent (A2A) protocol.",
+  "provider": {
+    "name": "open-resource-discovery",
+    "url": "https://github.com/open-resource-discovery"
+  },
+  "repository": "https://github.com/open-resource-discovery/a2a-editor",
+  "category": "utility",
+  "tags": [
+    "agent",
+    "agentic-ai",
+    "ai",
+    "ai-agents",
+    "ai-tools"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://open-resource-discovery.github.io/a2a-editor/playground",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 15,
+  "lastUpdated": "2026-03-14",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

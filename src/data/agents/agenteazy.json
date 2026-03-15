@@ -1,0 +1,41 @@
+{
+  "slug": "agenteazy",
+  "name": "Agenteazy",
+  "description": "Turn any GitHub repo into an AI agent in one command",
+  "provider": {
+    "name": "SimonSliman",
+    "url": "https://github.com/SimonSliman"
+  },
+  "repository": "https://github.com/SimonSliman/agenteazy",
+  "category": "code-generation",
+  "tags": [
+    "agent",
+    "agent-protocol",
+    "agentic-ai",
+    "agentic-framework",
+    "ai-agents",
+    "cli",
+    "developer-tools",
+    "fastapi",
+    "micro-payment",
+    "open-source"
+  ],
+  "framework": "fastapi",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://agenteazy.com/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-03-15",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

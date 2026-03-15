@@ -1,0 +1,35 @@
+{
+  "slug": "catalyst928-prototype",
+  "name": "Catalyst928.Prototype",
+  "description": "Demonstrate A2A communication inside BSS ODA Components for  CC/CRM/Billing",
+  "provider": {
+    "name": "catalyst928",
+    "url": "https://github.com/catalyst928"
+  },
+  "repository": "https://github.com/catalyst928/catalyst928.prototype",
+  "category": "enterprise",
+  "tags": [
+    "catalyst",
+    "oda",
+    "tmforum"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://www.tmforum.org/catalysts/projects/C26.0.928/genai-proactive-customer-experience-ai-realm-agentic-driven-architecture-phase-ii",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-14",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

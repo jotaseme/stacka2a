@@ -1,0 +1,40 @@
+{
+  "slug": "fastapi-a2a",
+  "name": "Fastapi A2A",
+  "description": "A zero-friction FastAPI plugin that turns any existing app into a fully compliant Agent-to-Agent (A2A) node — expose your routes as discoverable skills and delegate tasks to remote agents with a single decorator.",
+  "provider": {
+    "name": "saikumargudelly",
+    "url": "https://github.com/saikumargudelly"
+  },
+  "repository": "https://github.com/saikumargudelly/fastapi-a2a",
+  "category": "orchestration",
+  "tags": [
+    "agent-to-agent",
+    "ai-agents",
+    "asyncio",
+    "fastapi",
+    "httpx",
+    "json-rpc",
+    "llm",
+    "multi-agent",
+    "multiagent",
+    "plugin"
+  ],
+  "framework": "fastapi",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-12",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

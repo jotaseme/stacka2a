@@ -1,0 +1,30 @@
+{
+  "slug": "a2a-compose",
+  "name": "A2A Compose",
+  "description": "Agent2Agentを試す",
+  "provider": {
+    "name": "ymd65536",
+    "url": "https://github.com/ymd65536"
+  },
+  "repository": "https://github.com/ymd65536/a2a_compose",
+  "category": "general",
+  "tags": [],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-12-18",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

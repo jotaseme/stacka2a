@@ -1,0 +1,38 @@
+{
+  "slug": "blindoracle-synthesis",
+  "name": "Blindoracle Synthesis",
+  "description": "BlindOracle - Synthesis.md Hackathon Submission | Private Intelligence, Verified Trust | Production autonomous prediction market with 25 AI agents on Base L2",
+  "provider": {
+    "name": "craigmbrown",
+    "url": "https://github.com/craigmbrown"
+  },
+  "repository": "https://github.com/craigmbrown/blindoracle-synthesis",
+  "category": "general",
+  "tags": [
+    "agent-onboarding",
+    "ai-agents",
+    "blindoracle",
+    "erc-8004",
+    "mcp",
+    "nostr",
+    "prediction-markets"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-14",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

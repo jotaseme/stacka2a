@@ -1,7 +1,7 @@
 {
   "slug": "project-synapse",
   "name": "Project Synapse",
-  "description": "A production-ready multi-agent system showcasing Agent Communication Protocol (ACP) and Model Context Protocol (MCP) capabilities through a collaborative research workflow.",
+  "description": "A production-grade demo of a multi-agent system showcasing Agent Communication Protocol (ACP) and Model Context Protocol (MCP) capabilities through a collaborative research workflow.",
   "provider": {
     "name": "YanCotta",
     "url": "https://github.com/YanCotta"
@@ -38,7 +38,7 @@
     "python"
   ],
   "githubStars": 3,
-  "lastUpdated": "2026-03-08",
+  "lastUpdated": "2026-03-15",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

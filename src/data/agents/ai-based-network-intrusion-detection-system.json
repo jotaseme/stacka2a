@@ -1,0 +1,40 @@
+{
+  "slug": "ai-based-network-intrusion-detection-system",
+  "name": "AI Based Network Intrusion Detection System",
+  "description": "Detect network threats using AI to analyze traffic and identify intrusions with high accuracy in real time.",
+  "provider": {
+    "name": "abdazeez12",
+    "url": "https://github.com/abdazeez12"
+  },
+  "repository": "https://github.com/abdazeez12/AI-Based-Network-Intrusion-Detection-System",
+  "category": "security",
+  "tags": [
+    "a",
+    "acme",
+    "artemis",
+    "audio-analysis",
+    "beginner-project",
+    "cpp",
+    "editor",
+    "generative-ai",
+    "ids",
+    "powershell"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-15",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

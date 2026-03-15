@@ -1,0 +1,40 @@
+{
+  "slug": "blindoracle-marketplace-client",
+  "name": "Blindoracle Marketplace Client",
+  "description": "Python client SDK for the BlindOracle Agent-to-Agent Economy. Discover capabilities, bid on jobs, settle payments.",
+  "provider": {
+    "name": "craigmbrown",
+    "url": "https://github.com/craigmbrown"
+  },
+  "repository": "https://github.com/craigmbrown/blindoracle-marketplace-client",
+  "category": "finance",
+  "tags": [
+    "agent-onboarding",
+    "ai-agents",
+    "blindoracle",
+    "defi",
+    "erc-8004",
+    "marketplace",
+    "mcp",
+    "nostr",
+    "prediction-markets",
+    "web3"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2026-03-14",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

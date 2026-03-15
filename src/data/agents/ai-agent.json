@@ -1,0 +1,38 @@
+{
+  "slug": "ai-agent",
+  "name": "Ai Agent",
+  "description": "Simple AI agent with MCP/A2A client",
+  "provider": {
+    "name": "aleostudio",
+    "url": "https://github.com/aleostudio"
+  },
+  "repository": "https://github.com/aleostudio/ai-agent",
+  "category": "general",
+  "tags": [
+    "a2a-client",
+    "agentic-ai",
+    "ai",
+    "ai-agent",
+    "ai-agents",
+    "llm",
+    "mcp",
+    "mcp-client"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-03-13",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

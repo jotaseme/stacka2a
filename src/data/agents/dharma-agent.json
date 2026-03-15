@@ -1,0 +1,38 @@
+{
+  "slug": "dharma-agent",
+  "name": "Dharma Agent",
+  "description": "An A2A agent rooted in the Five Mindfulness Trainings — offering teachings, reflections, and mindful guidance to humans and AI agents alike.",
+  "provider": {
+    "name": "rogercollell",
+    "url": "https://github.com/rogercollell"
+  },
+  "repository": "https://github.com/rogercollell/dharma-agent",
+  "category": "general",
+  "tags": [
+    "agent-to-agent",
+    "ai-agent",
+    "buddhism",
+    "compassion",
+    "five-mindfulness-trainings",
+    "mindfulness",
+    "python",
+    "thich-nhat-hanh"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-14",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

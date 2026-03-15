@@ -1,0 +1,39 @@
+{
+  "slug": "skillweave",
+  "name": "Skillweave",
+  "description": "SkillWeave: A Semantic Composition Framework for Multi-Agent Skill Orchestration in Enterprise Environments",
+  "provider": {
+    "name": "curiosityexplorer",
+    "url": "https://github.com/curiosityexplorer"
+  },
+  "repository": "https://github.com/curiosityexplorer/skillweave",
+  "category": "enterprise",
+  "tags": [
+    "agentic-ai",
+    "ai-agents",
+    "ai-governance",
+    "artificial-intelligence",
+    "enterprise-ai",
+    "mcp-protocol",
+    "multi-agent-systems",
+    "skill-composition"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://github.com/curiosityexplorer/skillweave",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-09",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "society-protocol",
+  "name": "Society Protocol",
+  "description": "Connect your AI agents. One command. P2P multi-agent collaboration.",
+  "provider": {
+    "name": "societycomputer",
+    "url": "https://github.com/societycomputer"
+  },
+  "repository": "https://github.com/societycomputer/society-protocol",
+  "category": "orchestration",
+  "tags": [
+    "agent",
+    "agent-coordination",
+    "agent-protocol",
+    "ai",
+    "ai-agents",
+    "decentralized",
+    "did",
+    "lib-p2p",
+    "llm",
+    "mcp"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://docs.society.computer",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 3,
+  "lastUpdated": "2026-03-13",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

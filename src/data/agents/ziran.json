@@ -1,7 +1,7 @@
 {
   "slug": "ziran",
   "name": "Ziran",
-  "description": "Ziran uses advanced attack methodologies including multi-phase  trust exploitation and knowledge graph analysis to uncover vulnerabilities in AI agents before attackers do.",
+  "description": "ZIRAN is an open-source security testing framework for AI agents. It discovers dangerous tool chain compositions via knowledge graph analysis, detects execution-level side effects (not just text output), and runs multi-phase trust exploitation campaigns that model real attacker behaviour.",
   "provider": {
     "name": "taoq-ai",
     "url": "https://github.com/taoq-ai"
@@ -33,7 +33,7 @@
     "python"
   ],
   "githubStars": 2,
-  "lastUpdated": "2026-03-07",
+  "lastUpdated": "2026-03-14",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

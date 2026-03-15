@@ -1,0 +1,40 @@
+{
+  "slug": "agent-accountability-receipt",
+  "name": "Agent Accountability Receipt",
+  "description": "Provide tamper-proof, CMMC-compliant execution receipts that document AI agent actions in regulated environments for clear accountability.",
+  "provider": {
+    "name": "Starbusop",
+    "url": "https://github.com/Starbusop"
+  },
+  "repository": "https://github.com/Starbusop/agent-accountability-receipt",
+  "category": "security",
+  "tags": [
+    "agentic-ai",
+    "ai-governance",
+    "counterfactual",
+    "cybersecurity",
+    "governance",
+    "json-schema",
+    "llm-agents",
+    "mitre-atlas",
+    "prompt-injection",
+    "python"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-03-15",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "agent-a2a-entra-id-auth",
+  "name": "Agent A2A Entra Id Auth",
+  "description": "Agent-to-Agent (A2A) OAuth Identity Passthrough using Entra Id",
+  "provider": {
+    "name": "kimtth",
+    "url": "https://github.com/kimtth"
+  },
+  "repository": "https://github.com/kimtth/agent-a2a-entra-id-auth",
+  "category": "security",
+  "tags": [
+    "agent-auth",
+    "entra-id"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-03-06",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

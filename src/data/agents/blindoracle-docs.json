@@ -1,0 +1,42 @@
+{
+  "slug": "blindoracle-docs",
+  "name": "Blindoracle Docs",
+  "description": "The private settlement layer for autonomous AI agents. First 1,000 settlements free.",
+  "provider": {
+    "name": "craigmbrown",
+    "url": "https://github.com/craigmbrown"
+  },
+  "repository": "https://github.com/craigmbrown/blindoracle-docs",
+  "category": "general",
+  "tags": [
+    "agent-onboarding",
+    "ai-agents",
+    "blindoracle",
+    "chainlink",
+    "documentation",
+    "erc-8004",
+    "mcp",
+    "nostr",
+    "prediction-markets",
+    "privacy"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://craigmbrown.com/blindoracle/",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-14",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

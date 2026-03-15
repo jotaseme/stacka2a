@@ -1,0 +1,41 @@
+{
+  "slug": "tanai-llm-lite",
+  "name": "TanAI LLM Lite",
+  "description": "Deliver an open-source, simplified GPT model with advanced vector projections for improved semantic, emotional, and temporal context understanding.",
+  "provider": {
+    "name": "aman497",
+    "url": "https://github.com/aman497"
+  },
+  "repository": "https://github.com/aman497/TanAI-LLM-Lite",
+  "category": "code-generation",
+  "tags": [
+    "a2a-mcp",
+    "a2a-server",
+    "card",
+    "constraints",
+    "generative-ai",
+    "layoutsubviews",
+    "linux",
+    "llm",
+    "modular-ui-solution",
+    "native-page"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-15",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}
