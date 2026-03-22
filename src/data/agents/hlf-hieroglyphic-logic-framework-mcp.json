@@ -1,0 +1,35 @@
+{
+  "slug": "hlf-hieroglyphic-logic-framework-mcp",
+  "name": "HLF Hieroglyphic Logic Framework MCP",
+  "description": "HLF is not just another DSL; it is a deterministic orchestration protocol designed to eliminate natural language ambiguity between agents. By replacing prose with a strictly-typed Hieroglyphic AST, HLF enables zero-trust execution, cryptographic validation, and ultra-dense token efficiency.",
+  "provider": {
+    "name": "Grumpified-OGGVCT",
+    "url": "https://github.com/Grumpified-OGGVCT"
+  },
+  "repository": "https://github.com/Grumpified-OGGVCT/HLF-Hieroglyphic-Logic-Framework-MCP",
+  "category": "orchestration",
+  "tags": [
+    "compression",
+    "hlf",
+    "hlf-hieroglyphic-logic-framework",
+    "m2m-protocol"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://grumpified-oggvct.github.io/HLF-Hieroglyphic-Logic-Framework-MCP/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-21",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

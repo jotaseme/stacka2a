@@ -1,0 +1,35 @@
+{
+  "slug": "it-helpdesk-assistant",
+  "name": "It Helpdesk Assistant",
+  "description": "🤖 AI-powered IT Helpdesk Assistant with A2A orchestration layer, MCP integration, and Streamlit chat interface for intelligent ticket querying and support",
+  "provider": {
+    "name": "grave021999",
+    "url": "https://github.com/grave021999"
+  },
+  "repository": "https://github.com/grave021999/it-helpdesk-assistant",
+  "category": "conversational",
+  "tags": [
+    "ai-agents",
+    "chatbot",
+    "mcp",
+    "python",
+    "streamlit"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-19",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

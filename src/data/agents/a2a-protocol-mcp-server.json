@@ -1,0 +1,36 @@
+{
+  "slug": "a2a-protocol-mcp-server",
+  "name": "A2A Protocol MCP Server",
+  "description": "Bridge MCP with Google Agent2Agent Protocol — agent discovery, task delegation, A2A communication",
+  "provider": {
+    "name": "AiAgentKarl",
+    "url": "https://github.com/AiAgentKarl"
+  },
+  "repository": "https://github.com/AiAgentKarl/a2a-protocol-mcp-server",
+  "category": "general",
+  "tags": [
+    "ai",
+    "ai-agent",
+    "google",
+    "mcp",
+    "mcp-server",
+    "protocol"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-20",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "it-ticket-intelligent-agent",
+  "name": "It Ticket Intelligent Agent",
+  "description": "🎫 A multi-agent AI system for intelligent IT ticket management with NLP-powered trend analysis, A2A protocol communication, and MCP tools — built with Python and Streamlit",
+  "provider": {
+    "name": "grave021999",
+    "url": "https://github.com/grave021999"
+  },
+  "repository": "https://github.com/grave021999/it_ticket_intelligent_agent",
+  "category": "orchestration",
+  "tags": [
+    "ai-agents",
+    "mcp",
+    "multi-agent-systems",
+    "nlp",
+    "python",
+    "streamlit"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-19",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

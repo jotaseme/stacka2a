@@ -1,0 +1,40 @@
+{
+  "slug": "agentanycast-python",
+  "name": "Agentanycast Python",
+  "description": "Python SDK for AgentAnycast — connect AI agents across any network",
+  "provider": {
+    "name": "AgentAnycast",
+    "url": "https://github.com/AgentAnycast"
+  },
+  "repository": "https://github.com/AgentAnycast/agentanycast-python",
+  "category": "security",
+  "tags": [
+    "agent-communication",
+    "claude-agent-sdk",
+    "crewai",
+    "end-to-end-encryption",
+    "grpc",
+    "langgraph",
+    "libp2p",
+    "mcp",
+    "openai-agents",
+    "p2p"
+  ],
+  "framework": "langgraph",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

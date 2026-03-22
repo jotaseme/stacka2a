@@ -1,0 +1,40 @@
+{
+  "slug": "agentic-agile-planner",
+  "name": "Agentic Agile Planner",
+  "description": "Agentic AI project for Spring Boot",
+  "provider": {
+    "name": "nagachary",
+    "url": "https://github.com/nagachary"
+  },
+  "repository": "https://github.com/nagachary/agentic-agile-planner",
+  "category": "general",
+  "tags": [
+    "a2a-agent",
+    "a2a-client",
+    "a2a-server",
+    "agentic-ai",
+    "agents",
+    "jira-integration",
+    "jira-rest-api",
+    "json-rpc",
+    "ollama",
+    "spring-ai"
+  ],
+  "framework": "spring-boot",
+  "language": "java",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "java"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-03-20",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

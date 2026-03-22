@@ -9,16 +9,16 @@
   "repository": "https://github.com/pure-maple/vyane",
   "category": "code-generation",
   "tags": [
-    "agent-skill",
     "ai-collaboration",
+    "ai-orchestration",
     "claude-code",
     "codex-cli",
     "cost-tracking",
+    "dashscope",
     "gemini-cli",
     "mcp",
     "multi-model",
-    "ollama",
-    "smart-routing"
+    "ollama"
   ],
   "framework": "custom",
   "language": "python",
@@ -34,7 +34,7 @@
     "python"
   ],
   "githubStars": 0,
-  "lastUpdated": "2026-03-15",
+  "lastUpdated": "2026-03-19",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

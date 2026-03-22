@@ -1,0 +1,41 @@
+{
+  "slug": "sdap",
+  "name": "SDAP",
+  "description": "Secure Digital Agent Protocol — HTTPS for AI agent communication. Cryptographic identity, mutual authentication, encrypted payloads, trust delegation, and audit trails for multi-provider agent ecosystems. Works with A2A, MCP, and any agent-to-agent protocol.",
+  "provider": {
+    "name": "ben4mn",
+    "url": "https://github.com/ben4mn"
+  },
+  "repository": "https://github.com/ben4mn/SDAP",
+  "category": "security",
+  "tags": [
+    "aes-256-gcm",
+    "agent-to-agent",
+    "ai-agents",
+    "audit-trail",
+    "cryptography",
+    "decentralized-identity",
+    "delegation",
+    "did",
+    "ed25519",
+    "hipaa"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://github.com/ben4mn/SDAP/blob/main/whitepaper/sdap-whitepaper.md",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-03-17",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

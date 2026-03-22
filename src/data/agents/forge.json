@@ -33,8 +33,8 @@
   "sdks": [
     "go"
   ],
-  "githubStars": 10,
-  "lastUpdated": "2026-03-12",
+  "githubStars": 12,
+  "lastUpdated": "2026-03-20",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

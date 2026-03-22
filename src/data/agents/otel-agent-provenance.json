@@ -1,0 +1,37 @@
+{
+  "slug": "otel-agent-provenance",
+  "name": "Otel Agent Provenance",
+  "description": "OpenTelemetry semantic conventions and instrumentation for agent provenance, derivation lineage, and acceptance criteria evaluation. Fills the Microsoft AI stack observability gap.",
+  "provider": {
+    "name": "a2a-settlement",
+    "url": "https://github.com/a2a-settlement"
+  },
+  "repository": "https://github.com/a2a-settlement/otel-agent-provenance",
+  "category": "general",
+  "tags": [
+    "agentic-ai",
+    "ai-agents",
+    "observability",
+    "opentelemetry",
+    "provenance",
+    "semantic-conventions",
+    "settlement"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-17",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

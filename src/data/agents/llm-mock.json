@@ -1,0 +1,41 @@
+{
+  "slug": "llm-mock",
+  "name": "Llm Mock",
+  "description": "Provide a mock LLM interface for C++ to simplify testing and development within the llm-cpp toolkit environment.",
+  "provider": {
+    "name": "youssefbassou",
+    "url": "https://github.com/youssefbassou"
+  },
+  "repository": "https://github.com/youssefbassou/llm-mock",
+  "category": "conversational",
+  "tags": [
+    "ai",
+    "api-mocking",
+    "chatbot-development",
+    "gemini",
+    "kotlin",
+    "local-development-environment",
+    "mock",
+    "mocking",
+    "openai-api",
+    "sdk"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

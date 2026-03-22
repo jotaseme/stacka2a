@@ -1,0 +1,37 @@
+{
+  "slug": "settlebridge-ai",
+  "name": "Settlebridge Ai",
+  "description": "SettleBridge Gateway — trust and policy enforcement for agent-to-agent settlement",
+  "provider": {
+    "name": "a2a-settlement",
+    "url": "https://github.com/a2a-settlement"
+  },
+  "repository": "https://github.com/a2a-settlement/settlebridge-ai",
+  "category": "general",
+  "tags": [
+    "agentic-ai",
+    "ai-agents",
+    "escrow",
+    "gateway",
+    "policy-enforcement",
+    "settlement",
+    "trust"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-17",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

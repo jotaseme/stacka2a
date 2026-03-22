@@ -1,0 +1,38 @@
+{
+  "slug": "bridgey",
+  "name": "Bridgey",
+  "description": "Inter-agent communication for Claude Code via A2A protocol",
+  "provider": {
+    "name": "kickinrad",
+    "url": "https://github.com/kickinrad"
+  },
+  "repository": "https://github.com/kickinrad/bridgey",
+  "category": "code-generation",
+  "tags": [
+    "agent-communication",
+    "ai-agents",
+    "claude-code",
+    "fastify",
+    "inter-agent",
+    "llm-tools",
+    "mcp",
+    "typescript"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-21",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

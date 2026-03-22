@@ -1,0 +1,41 @@
+{
+  "slug": "agentanycast",
+  "name": "Agentanycast",
+  "description": "Connect AI agents across any network — zero config, encrypted, skill-based routing",
+  "provider": {
+    "name": "AgentAnycast",
+    "url": "https://github.com/AgentAnycast"
+  },
+  "repository": "https://github.com/AgentAnycast/agentanycast",
+  "category": "security",
+  "tags": [
+    "agent-communication",
+    "agent-to-agent",
+    "ai-agent",
+    "crewai",
+    "decentralized",
+    "did",
+    "e2e-encryption",
+    "end-to-end-encryption",
+    "langgraph",
+    "libp2p"
+  ],
+  "framework": "langgraph",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 5,
+  "lastUpdated": "2026-03-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "openclaw-for-enterprise",
+  "name": "Openclaw For Enterprise",
+  "description": "Deploy enterprise AI agents in Feishu with secure, containerized bots that manage tasks, calendars, and documents without user setup.",
+  "provider": {
+    "name": "romanhypertensive327",
+    "url": "https://github.com/romanhypertensive327"
+  },
+  "repository": "https://github.com/romanhypertensive327/openclaw-for-enterprise",
+  "category": "code-generation",
+  "tags": [
+    "agent-cli",
+    "agents",
+    "ai-agents",
+    "ai-bot",
+    "ai-workforce",
+    "claude",
+    "claude-code",
+    "compliance",
+    "deep-learning",
+    "enterprise-wechat"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

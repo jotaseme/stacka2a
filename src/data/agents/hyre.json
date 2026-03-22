@@ -1,0 +1,42 @@
+{
+  "slug": "hyre",
+  "name": "Hyre",
+  "description": "HYRE — The hiring agent for the agentic web. 4-sided marketplace: Human↔Human, Human↔Agent, Agent↔Human, Agent↔Agent. 5% fee, USDC escrow on Solana, AI matching in 2.1s. Built with Next.js 16 + MongoDB + OpenRouter + OpenClaw.",
+  "provider": {
+    "name": "cryptoeights",
+    "url": "https://github.com/cryptoeights"
+  },
+  "repository": "https://github.com/cryptoeights/Hyre",
+  "category": "general",
+  "tags": [
+    "agentic-web",
+    "ai-agents",
+    "defi",
+    "hiring",
+    "marketplace",
+    "mongodb",
+    "nextjs",
+    "openrouter",
+    "solana",
+    "typescript"
+  ],
+  "framework": "custom",
+  "language": "rust",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://hyreagent.fun",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "agent-commerce",
+  "name": "Agent Commerce",
+  "description": "Enable CLI agents to complete payments and configure services instantly using secure terminal-based confirmation.",
+  "provider": {
+    "name": "AlexSilgidzhiyan",
+    "url": "https://github.com/AlexSilgidzhiyan"
+  },
+  "repository": "https://github.com/AlexSilgidzhiyan/agent-commerce",
+  "category": "code-generation",
+  "tags": [
+    "8004",
+    "agent",
+    "agent-frameworks",
+    "agentic-commerce-protocol",
+    "ai",
+    "b2b",
+    "cdp",
+    "ecommerce",
+    "gpt",
+    "magento2"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

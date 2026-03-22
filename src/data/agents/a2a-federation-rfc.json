@@ -1,0 +1,40 @@
+{
+  "slug": "a2a-federation-rfc",
+  "name": "A2A Federation Rfc",
+  "description": "A2A Settlement Exchange Federation Protocol — open specification for interoperable, trust-discounted agent reputation and settlement across federated exchanges",
+  "provider": {
+    "name": "a2a-settlement",
+    "url": "https://github.com/a2a-settlement"
+  },
+  "repository": "https://github.com/a2a-settlement/a2a-federation-rfc",
+  "category": "general",
+  "tags": [
+    "agentic-ai",
+    "ai-agents",
+    "decentralized-identity",
+    "federation",
+    "rfc",
+    "settlement",
+    "specification",
+    "trust",
+    "verifiable-credentials"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-17",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

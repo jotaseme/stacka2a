@@ -1,0 +1,41 @@
+{
+  "slug": "swe-squad",
+  "name": "SWE Squad",
+  "description": "Autonomous Software Engineering Agents — self-healing, self-diagnosing development team powered by Claude Code and A2A protocol",
+  "provider": {
+    "name": "ArtemisAI",
+    "url": "https://github.com/ArtemisAI"
+  },
+  "repository": "https://github.com/ArtemisAI/SWE-Squad",
+  "category": "code-generation",
+  "tags": [
+    "agentic-ai",
+    "ai-agents",
+    "automation",
+    "autonomous-agents",
+    "bug-fixing",
+    "claude",
+    "claude-code",
+    "devops",
+    "llm",
+    "multi-agent"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://github.com/ArtemisAI/SWE-Squad",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 10,
+  "lastUpdated": "2026-03-20",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

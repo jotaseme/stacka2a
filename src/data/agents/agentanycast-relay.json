@@ -1,0 +1,39 @@
+{
+  "slug": "agentanycast-relay",
+  "name": "Agentanycast Relay",
+  "description": "Relay server for AgentAnycast — Circuit Relay v2, skill registry, federation",
+  "provider": {
+    "name": "AgentAnycast",
+    "url": "https://github.com/AgentAnycast"
+  },
+  "repository": "https://github.com/AgentAnycast/agentanycast-relay",
+  "category": "infrastructure",
+  "tags": [
+    "circuit-relay",
+    "docker",
+    "federation",
+    "golang",
+    "libp2p",
+    "nat-traversal",
+    "p2p",
+    "relay",
+    "skill-registry"
+  ],
+  "framework": "custom",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

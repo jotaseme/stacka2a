@@ -1,0 +1,41 @@
+{
+  "slug": "a2a-ssh-skill",
+  "name": "A2A Ssh Skill",
+  "description": "A2A SSH Skill — Agent2Agent delegation over SSH. No HTTP server. No Agent Cards. Just SSH. Works with Claude Code, Codex, and any CLI AI.",
+  "provider": {
+    "name": "YonganZhang",
+    "url": "https://github.com/YonganZhang"
+  },
+  "repository": "https://github.com/YonganZhang/a2a-ssh-skill",
+  "category": "code-generation",
+  "tags": [
+    "agent-to-agent",
+    "agent2agent",
+    "ai-agents",
+    "claude-code",
+    "cross-platform",
+    "delegation",
+    "devops",
+    "multi-agent",
+    "python",
+    "remote-execution",
+    "a2a-protocol"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-18",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

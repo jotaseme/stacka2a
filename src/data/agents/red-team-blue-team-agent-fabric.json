@@ -1,0 +1,41 @@
+{
+  "slug": "red-team-blue-team-agent-fabric",
+  "name": "Red Team Blue Team Agent Fabric",
+  "description": "175 security tests for AI agent systems. MCP + A2A protocol testing, GTG-1002 APT simulation, OWASP Agentic Top 10, 20 enterprise platforms. NIST AI 800-2 aligned.",
+  "provider": {
+    "name": "msaleme",
+    "url": "https://github.com/msaleme"
+  },
+  "repository": "https://github.com/msaleme/red-team-blue-team-agent-fabric",
+  "category": "enterprise",
+  "tags": [
+    "agent-security",
+    "agentic-ai",
+    "ai-security",
+    "apt-simulation",
+    "blue-team",
+    "critical-infrastructure",
+    "cybersecurity",
+    "eu-ai-act",
+    "gtg-1002",
+    "langchain"
+  ],
+  "framework": "langchain",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://a2a-protocol.org",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-21",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "harness",
+  "name": "Harness",
+  "description": "Agent runtime with full system prompt control. Define agents in markdown, run them in a terminal TUI or multi-user web UI. Powered by the Claude Agent SDK.",
+  "provider": {
+    "name": "mastersof-ai",
+    "url": "https://github.com/mastersof-ai"
+  },
+  "repository": "https://github.com/mastersof-ai/harness",
+  "category": "orchestration",
+  "tags": [
+    "agent-runtime",
+    "agent-sdk",
+    "ai-agent",
+    "claude",
+    "llm",
+    "mcp",
+    "multi-agent",
+    "tui",
+    "typescript"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://github.com/mastersof-ai/harness#readme",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 29,
+  "lastUpdated": "2026-03-19",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

@@ -3,10 +3,10 @@
   "name": "A2ARegistry",
   "description": "A2A Registry ",
   "provider": {
-    "name": "A2ABaseAI",
-    "url": "https://github.com/A2ABaseAI"
+    "name": "OyadotAI",
+    "url": "https://github.com/OyadotAI"
   },
-  "repository": "https://github.com/A2ABaseAI/A2ARegistry",
+  "repository": "https://github.com/OyadotAI/A2ARegistry",
   "category": "general",
   "tags": [
     "a2a-client",
@@ -26,7 +26,7 @@
   "sdks": [
     "python"
   ],
-  "githubStars": 15,
+  "githubStars": 16,
   "lastUpdated": "2026-03-09",
   "official": false,
   "selfHosted": true,

@@ -1,0 +1,38 @@
+{
+  "slug": "hybro-hub",
+  "name": "Hybro Hub",
+  "description": "HYBRO Hub: local & remote AI agents — private, powerful, unified.",
+  "provider": {
+    "name": "hybroai",
+    "url": "https://github.com/hybroai"
+  },
+  "repository": "https://github.com/hybroai/hybro-hub",
+  "category": "orchestration",
+  "tags": [
+    "a2a-client",
+    "a2a-server",
+    "agents",
+    "ai",
+    "ai-agents",
+    "multi-agent",
+    "multi-agent-systems"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://hybro.ai",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-03-21",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

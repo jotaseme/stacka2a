@@ -1,7 +1,7 @@
 {
   "slug": "peac",
   "name": "Peac",
-  "description": "PEAC Protocol:Verifiable interaction records for AI agents, APIs, and automated systems",
+  "description": "Portable signed proof for agent, API, and MCP interactions",
   "provider": {
     "name": "peacprotocol",
     "url": "https://github.com/peacprotocol"
@@ -9,16 +9,16 @@
   "repository": "https://github.com/peacprotocol/peac",
   "category": "general",
   "tags": [
-    "402",
     "agent-commerce",
     "ai-agents",
     "aipolicy",
-    "aipref",
     "cryptography",
+    "ed25519",
     "evidence",
-    "http-402",
+    "jws",
     "mcp",
-    "mcp-server"
+    "mcp-server",
+    "offline-verification"
   ],
   "framework": "custom",
   "language": "typescript",
@@ -33,8 +33,8 @@
   "sdks": [
     "typescript"
   ],
-  "githubStars": 10,
-  "lastUpdated": "2026-03-14",
+  "githubStars": 9,
+  "lastUpdated": "2026-03-17",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

@@ -1,0 +1,41 @@
+{
+  "slug": "p402-protocol",
+  "name": "P402 Protocol",
+  "description": "P402 Payment Protocol",
+  "provider": {
+    "name": "Z333Q",
+    "url": "https://github.com/Z333Q"
+  },
+  "repository": "https://github.com/Z333Q/p402-protocol",
+  "category": "finance",
+  "tags": [
+    "a2p",
+    "agent-payments",
+    "agent-payments-protocol",
+    "ai",
+    "ai-agents",
+    "base",
+    "blockchain",
+    "llm-router",
+    "llm-routing",
+    "mcp"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://p402.io",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-17",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

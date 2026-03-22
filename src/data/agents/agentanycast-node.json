@@ -1,0 +1,39 @@
+{
+  "slug": "agentanycast-node",
+  "name": "Agentanycast Node",
+  "description": "Go daemon for AgentAnycast — P2P networking, encryption, NAT traversal, A2A engine",
+  "provider": {
+    "name": "AgentAnycast",
+    "url": "https://github.com/AgentAnycast"
+  },
+  "repository": "https://github.com/AgentAnycast/agentanycast-node",
+  "category": "security",
+  "tags": [
+    "end-to-end-encryption",
+    "golang",
+    "grpc",
+    "libp2p",
+    "mcp",
+    "nat-traversal",
+    "noise-protocol",
+    "p2p",
+    "sidecar"
+  ],
+  "framework": "custom",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "mcp-trust-gateway",
+  "name": "MCP Trust Gateway",
+  "description": "Trust, reputation, and economic accountability layer for MCP — the missing piece above OAuth 2.1 authentication",
+  "provider": {
+    "name": "a2a-settlement",
+    "url": "https://github.com/a2a-settlement"
+  },
+  "repository": "https://github.com/a2a-settlement/mcp-trust-gateway",
+  "category": "security",
+  "tags": [
+    "agentic-ai",
+    "ai-agents",
+    "mcp",
+    "model-context-protocol",
+    "oauth",
+    "reputation",
+    "settlement",
+    "trust"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-17",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}
