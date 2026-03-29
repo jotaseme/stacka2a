@@ -1,0 +1,41 @@
+{
+  "slug": "jerome7",
+  "name": "Jerome7",
+  "description": "7-minute daily reset for builders. AI-generated breathwork, meditation, reflection, preparation. Open source. Free forever.",
+  "provider": {
+    "name": "odominguez7",
+    "url": "https://github.com/odominguez7"
+  },
+  "repository": "https://github.com/odominguez7/Jerome7",
+  "category": "code-generation",
+  "tags": [
+    "accountability",
+    "agents",
+    "ai",
+    "ai-agents",
+    "breathwork",
+    "developer-tools",
+    "fastapi",
+    "fitness",
+    "health",
+    "mcp"
+  ],
+  "framework": "fastapi",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://jerome7.com",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2026-03-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

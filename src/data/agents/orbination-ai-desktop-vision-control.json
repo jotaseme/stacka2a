@@ -1,0 +1,40 @@
+{
+  "slug": "orbination-ai-desktop-vision-control",
+  "name": "Orbination AI Desktop Vision Control",
+  "description": "Enable AI to interact with Windows apps by viewing screens, reading UI, clicking, typing, and automating tasks with OCR and window detection.",
+  "provider": {
+    "name": "Pallid-pilotballoon266",
+    "url": "https://github.com/Pallid-pilotballoon266"
+  },
+  "repository": "https://github.com/Pallid-pilotballoon266/Orbination-AI-Desktop-Vision-Control",
+  "category": "utility",
+  "tags": [
+    "a2a-server",
+    "activemq",
+    "ai-tools",
+    "artemis",
+    "claude",
+    "computer-vision",
+    "desktop-automation",
+    "go",
+    "jms",
+    "machine-learning"
+  ],
+  "framework": "custom",
+  "language": "csharp",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "csharp"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-29",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

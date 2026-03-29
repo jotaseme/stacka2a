@@ -1,0 +1,42 @@
+{
+  "slug": "pact",
+  "name": "Pact",
+  "description": "A typed, permission-enforced language for orchestrating AI agents. Compile-time contracts, built-in guardrails, multi-backend dispatch.",
+  "provider": {
+    "name": "Pact-Lang",
+    "url": "https://github.com/Pact-Lang"
+  },
+  "repository": "https://github.com/Pact-Lang/pact",
+  "category": "code-generation",
+  "tags": [
+    "agent-framework",
+    "ai-agents",
+    "ai-orchestration",
+    "ai-safety",
+    "claude",
+    "compiler",
+    "compliance",
+    "crewai",
+    "gemini",
+    "llm"
+  ],
+  "framework": "crewai",
+  "language": "rust",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://pactlang.dev",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 3,
+  "lastUpdated": "2026-03-26",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

@@ -1,7 +1,7 @@
 {
   "slug": "openclaw-a2a-plugins",
   "name": "Openclaw A2A Plugins",
-  "description": "OpenClaw plugins that let agents hand work to other A2A agents and track or cancel those delegated tasks.",
+  "description": "OpenClaw plugins that add A2A compatibility and enable communication with other A2A-compatible agents.",
   "provider": {
     "name": "aramisfacchinetti",
     "url": "https://github.com/aramisfacchinetti"
@@ -31,7 +31,7 @@
     "typescript"
   ],
   "githubStars": 1,
-  "lastUpdated": "2026-03-15",
+  "lastUpdated": "2026-03-25",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

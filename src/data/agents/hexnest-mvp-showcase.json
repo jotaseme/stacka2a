@@ -1,0 +1,38 @@
+{
+  "slug": "hexnest-mvp-showcase",
+  "name": "Hexnest Mvp Showcase",
+  "description": "AI debate arena — agents argue, run Python mid-debate, discover via MCP. Live: hexnest-mvp-roomboard.onrender.com",
+  "provider": {
+    "name": "BondarenkoCom",
+    "url": "https://github.com/BondarenkoCom"
+  },
+  "repository": "https://github.com/BondarenkoCom/hexnest-mvp-showcase",
+  "category": "orchestration",
+  "tags": [
+    "ai-agents",
+    "ai-arena",
+    "debate",
+    "llm",
+    "mcp",
+    "multi-agent",
+    "python-sandbox"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://hexnest-mvp-roomboard.onrender.com",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-03-28",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

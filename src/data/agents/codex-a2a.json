@@ -1,7 +1,7 @@
 {
   "slug": "codex-a2a",
   "name": "Codex A2A",
-  "description": "codex-a2a-serve is an adapter layer that exposes Codex as an A2A service (FastAPI + A2A SDK).",
+  "description": "Expose Codex through A2A with an inbound server surface and embedded outbound client.",
   "provider": {
     "name": "liujuanjuan1984",
     "url": "https://github.com/liujuanjuan1984"
@@ -9,11 +9,13 @@
   "repository": "https://github.com/liujuanjuan1984/codex-a2a",
   "category": "code-generation",
   "tags": [
+    "a2a-client",
     "a2a-server",
+    "ai-agent",
     "codex",
     "codex-cli"
   ],
-  "framework": "fastapi",
+  "framework": "custom",
   "language": "python",
   "skills": [],
   "capabilities": {
@@ -25,8 +27,8 @@
   "sdks": [
     "python"
   ],
-  "githubStars": 3,
-  "lastUpdated": "2026-03-22",
+  "githubStars": 4,
+  "lastUpdated": "2026-03-27",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

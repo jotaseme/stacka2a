@@ -1,0 +1,38 @@
+{
+  "slug": "opc-agents",
+  "name": "OPC Agents",
+  "description": "OPC-Agents — 一人公司的虚拟 AI 团队  为独立开发者、自由职业者和小型创业团队打造的多代理协作系统。通过 35 个专业部门、157+ 个专业 AI 代理，将企业级代理能力带给个人。  核心特性  总裁办：任务分解、进度跟踪、智能报告 三贤者决策系统：战略、执行、创新三维决策支持 代理自我优化与自动调度 A2A 协议：标准化代理间通信 HR 生命周期管理：招聘、培训、绩效评估；多模型支持（OpenAI、Anthropic、Google、Azure、GLM、本地）；Web 管理界面",
+  "provider": {
+    "name": "lulin70",
+    "url": "https://github.com/lulin70"
+  },
+  "repository": "https://github.com/lulin70/OPC-Agents",
+  "category": "orchestration",
+  "tags": [
+    "agent-framework",
+    "ai-agents",
+    "ai-automation",
+    "decision-support",
+    "multi-agent",
+    "one-person-company",
+    "opc",
+    "virtual-team"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-27",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

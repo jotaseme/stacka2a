@@ -1,0 +1,38 @@
+{
+  "slug": "ops-agent",
+  "name": "OPS Agent",
+  "description": "OPS Bot is an AI-powered operational investigation system designed for e-commerce platforms. It allows users to ask natural language questions about operational performance and automatically generates deep operational insights, root cause analysis, and recommendations.",
+  "provider": {
+    "name": "Adidem23",
+    "url": "https://github.com/Adidem23"
+  },
+  "repository": "https://github.com/Adidem23/OPS_Agent",
+  "category": "data-analytics",
+  "tags": [
+    "adk",
+    "fastapi",
+    "langchain",
+    "langgraph",
+    "mcp",
+    "postgresql",
+    "python",
+    "supabase"
+  ],
+  "framework": "google-adk",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-03-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

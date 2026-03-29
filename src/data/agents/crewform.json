@@ -1,0 +1,41 @@
+{
+  "slug": "crewform",
+  "name": "Crewform",
+  "description": "Build your AI team with Crewform. Orchestrate specialized, autonomous agents to collaborate on complex tasks and connect outputs to your stack. — AI Orchestration for Everyone",
+  "provider": {
+    "name": "CrewForm",
+    "url": "https://github.com/CrewForm"
+  },
+  "repository": "https://github.com/CrewForm/crewform",
+  "category": "orchestration",
+  "tags": [
+    "ag-ui-protocol",
+    "agents",
+    "ai",
+    "ai-agents",
+    "ai-collaboration",
+    "ai-orchestration",
+    "llms",
+    "mcp-protocol",
+    "open-source",
+    "react"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://crewform.vercel.app",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 7,
+  "lastUpdated": "2026-03-28",
+  "official": false,
+  "selfHosted": true,
+  "license": "AGPL-3.0"
+}

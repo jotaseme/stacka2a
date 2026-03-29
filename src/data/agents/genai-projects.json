@@ -1,31 +1,26 @@
 {
   "slug": "genai-projects",
   "name": "GenAI Projects",
-  "description": "This repository features a collection of Generative AI and Agentic AI projects across multiple domains, showcasing practical applications built using modern LLM frameworks, techniques and tools.",
+  "description": "Collection of some interesting Generative AI usecases implementation.",
   "provider": {
-    "name": "gautamgc17",
-    "url": "https://github.com/gautamgc17"
+    "name": "Ruthvik-1411",
+    "url": "https://github.com/Ruthvik-1411"
   },
-  "repository": "https://github.com/gautamgc17/GenAI-Projects",
-  "category": "data-analytics",
+  "repository": "https://github.com/Ruthvik-1411/GenAI-Projects",
+  "category": "media-content",
   "tags": [
-    "agent-orchestration",
-    "agentic-ai",
-    "crewai",
-    "function-calling",
-    "knowledge-graphs",
-    "langgraph",
-    "mcp-server",
-    "rag-chatbot",
-    "vector-database",
-    "vllm",
     "chatbot",
     "gemini-api",
     "gemini-live",
     "generative-ai",
-    "google-adk"
+    "google-adk",
+    "image-generation",
+    "langchain",
+    "langgraph",
+    "mesop",
+    "multimodal"
   ],
-  "framework": "langgraph",
+  "framework": "google-adk",
   "language": "unknown",
   "skills": [],
   "capabilities": {
@@ -39,7 +34,7 @@
     "typescript"
   ],
   "githubStars": 2,
-  "lastUpdated": "2026-03-03",
+  "lastUpdated": "2025-09-29",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

@@ -1,0 +1,38 @@
+{
+  "slug": "inai",
+  "name": "Inai",
+  "description": "Autonomous Agentic Coordination Framework (WIP)",
+  "provider": {
+    "name": "ch4r10t33r",
+    "url": "https://github.com/ch4r10t33r"
+  },
+  "repository": "https://github.com/ch4r10t33r/inai",
+  "category": "general",
+  "tags": [
+    "agent-discovery",
+    "agent-framework",
+    "agent-to-agent",
+    "autonomous-agents",
+    "erc-8004",
+    "open-source-agents",
+    "p2p"
+  ],
+  "framework": "custom",
+  "language": "rust",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 18,
+  "lastUpdated": "2026-03-27",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

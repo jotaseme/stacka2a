@@ -1,0 +1,42 @@
+{
+  "slug": "a2a-rust",
+  "name": "A2A Rust",
+  "description": "A Rust SDK for The Agent 2 Agent (A2A) Protocol ",
+  "provider": {
+    "name": "tomtom215",
+    "url": "https://github.com/tomtom215"
+  },
+  "repository": "https://github.com/tomtom215/a2a-rust",
+  "category": "general",
+  "tags": [
+    "a2a-sdk",
+    "a2a-server",
+    "a2a-types",
+    "agentic-ai",
+    "agentic-ai-development",
+    "agents",
+    "artificial-intelligence",
+    "protocol-specification",
+    "rust",
+    "sdk"
+  ],
+  "framework": "custom",
+  "language": "rust",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://a2a-rust.com/",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 4,
+  "lastUpdated": "2026-03-21",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

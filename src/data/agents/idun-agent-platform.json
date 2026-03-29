@@ -7,18 +7,18 @@
     "url": "https://github.com/Idun-Group"
   },
   "repository": "https://github.com/Idun-Group/idun-agent-platform",
-  "category": "general",
+  "category": "code-generation",
   "tags": [
     "ag-ui-protocol",
     "agent-platform",
     "agentic-ai",
     "agents",
-    "aiops",
+    "claude-code",
+    "claude-skills",
     "copilotkit",
     "google-adk",
     "governance",
-    "guardrails",
-    "langchain"
+    "guardrails"
   ],
   "framework": "google-adk",
   "language": "typescript",
@@ -33,8 +33,8 @@
   "sdks": [
     "typescript"
   ],
-  "githubStars": 112,
-  "lastUpdated": "2026-03-21",
+  "githubStars": 115,
+  "lastUpdated": "2026-03-29",
   "official": false,
   "selfHosted": true,
   "license": "GPL-3.0"

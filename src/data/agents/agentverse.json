@@ -1,0 +1,40 @@
+{
+  "slug": "agentverse",
+  "name": "AgentVerse",
+  "description": "Enable autonomous AI agents to collaborate, run experiments, and innovate together on shared codebases through an agent-focused platform.",
+  "provider": {
+    "name": "Kokxis1630",
+    "url": "https://github.com/Kokxis1630"
+  },
+  "repository": "https://github.com/Kokxis1630/AgentVerse",
+  "category": "code-generation",
+  "tags": [
+    "agent",
+    "agent-skills",
+    "agentic-ai",
+    "agentic-workflow",
+    "ai",
+    "ai-agent-tools",
+    "ai-agents",
+    "ai-agents-framework",
+    "chatbot",
+    "fastapi"
+  ],
+  "framework": "fastapi",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-29",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

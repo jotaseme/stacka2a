@@ -1,0 +1,40 @@
+{
+  "slug": "atlas-orchestration",
+  "name": "Atlas Orchestration",
+  "description": "Universal Multi-Agent Orchestration Platform — A2A v0.3 + LangGraph + MCP + SHA-256",
+  "provider": {
+    "name": "achrafjarrou",
+    "url": "https://github.com/achrafjarrou"
+  },
+  "repository": "https://github.com/achrafjarrou/atlas-orchestration",
+  "category": "orchestration",
+  "tags": [
+    "eu-ai-act",
+    "fastapi",
+    "langgraph",
+    "mcp",
+    "mcp-server",
+    "multi-agent",
+    "python",
+    "qdrant",
+    "sha256"
+  ],
+  "framework": "langgraph",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://atlas-orchestration-ui.vercel.app/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-03-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}
