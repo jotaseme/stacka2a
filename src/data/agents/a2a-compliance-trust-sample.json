@@ -1,0 +1,40 @@
+{
+  "slug": "a2a-compliance-trust-sample",
+  "name": "A2A Compliance Trust Sample",
+  "description": "A2A v0.3 Sample: Production compliance & trust runtime with ES256K signing, blockchain anchoring, x402 micropayments. Live Agent Cards at feedoracle.io and tooloracle.io.",
+  "provider": {
+    "name": "ToolOracle",
+    "url": "https://github.com/ToolOracle"
+  },
+  "repository": "https://github.com/ToolOracle/a2a-compliance-trust-sample",
+  "category": "finance",
+  "tags": [
+    "agent-card",
+    "agent-to-agent",
+    "blockchain",
+    "compliance",
+    "dora",
+    "es256k",
+    "mcp",
+    "mica",
+    "micropayments",
+    "trust-runtime"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-03",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

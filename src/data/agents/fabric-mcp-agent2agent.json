@@ -3,10 +3,10 @@
   "name": "Fabric MCP Agent2Agent",
   "description": "Step by step reference implementation for setting up data agents and integrating agent with Copilot Studio",
   "provider": {
-    "name": "MicrosoftCloudEssentials-LearningHub",
-    "url": "https://github.com/MicrosoftCloudEssentials-LearningHub"
+    "name": "Cloud2BR-MSFTLearningHub",
+    "url": "https://github.com/Cloud2BR-MSFTLearningHub"
   },
-  "repository": "https://github.com/MicrosoftCloudEssentials-LearningHub/Fabric-MCP-Agent2Agent",
+  "repository": "https://github.com/Cloud2BR-MSFTLearningHub/Fabric-MCP-Agent2Agent",
   "category": "data-analytics",
   "tags": [
     "agents",

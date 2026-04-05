@@ -1,0 +1,35 @@
+{
+  "slug": "hikyaku",
+  "name": "Hikyaku",
+  "description": "☎️ A2A communication, even for Coding Agent",
+  "provider": {
+    "name": "himkt",
+    "url": "https://github.com/himkt"
+  },
+  "repository": "https://github.com/himkt/hikyaku",
+  "category": "general",
+  "tags": [
+    "agent",
+    "coding-agent",
+    "mcp",
+    "mcp-server",
+    "skills"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-31",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

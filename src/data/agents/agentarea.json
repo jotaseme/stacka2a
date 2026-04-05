@@ -1,13 +1,13 @@
 {
   "slug": "agentarea",
   "name": "Agentarea",
-  "description": "Cloud-native AI agents orchestration platform. Build agent networks in no code, bring your own agents or connect one with A2A and MCP. Both self-hosted and Cloud-hosted.",
+  "description": "Cloud-native AI Agents orchestration platform for zero-human organizations",
   "provider": {
     "name": "agentarea",
     "url": "https://github.com/agentarea"
   },
   "repository": "https://github.com/agentarea/agentarea",
-  "category": "code-generation",
+  "category": "infrastructure",
   "tags": [
     "agents",
     "ai-agents",
@@ -31,8 +31,8 @@
   "sdks": [
     "python"
   ],
-  "githubStars": 25,
-  "lastUpdated": "2026-03-28",
+  "githubStars": 27,
+  "lastUpdated": "2026-04-04",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

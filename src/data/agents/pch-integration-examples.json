@@ -1,0 +1,41 @@
+{
+  "slug": "pch-integration-examples",
+  "name": "Pch Integration Examples",
+  "description": "Integration examples for PathCourse Health — LLM inference via USDC on Base. Python and Node.js clients showing the full x402 payment flow.",
+  "provider": {
+    "name": "pathcourse-health",
+    "url": "https://github.com/pathcourse-health"
+  },
+  "repository": "https://github.com/pathcourse-health/pch-integration-examples",
+  "category": "finance",
+  "tags": [
+    "agent-commerce",
+    "ai-agents",
+    "autonomous-agents",
+    "base-network",
+    "handshake-protocol",
+    "inference",
+    "langchain",
+    "llm",
+    "usdc",
+    "x402"
+  ],
+  "framework": "langchain",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://gateway.pathcoursehealth.com",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-03",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

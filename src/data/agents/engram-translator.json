@@ -1,0 +1,41 @@
+{
+  "slug": "engram-translator",
+  "name": "Engram Translator",
+  "description": "layer that lets you connect any agent, any tool, any api together.",
+  "provider": {
+    "name": "kwstx",
+    "url": "https://github.com/kwstx"
+  },
+  "repository": "https://github.com/kwstx/engram_translator",
+  "category": "enterprise",
+  "tags": [
+    "agentic-ai",
+    "ai-agent",
+    "ai-agent-tools",
+    "ai-agents-cli",
+    "api-integration",
+    "autonomous-agents",
+    "llm-agents",
+    "mutli-agent",
+    "self-healing",
+    "tool-integration"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://www.useengram.com/",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 21,
+  "lastUpdated": "2026-04-04",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

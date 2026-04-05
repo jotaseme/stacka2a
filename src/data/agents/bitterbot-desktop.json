@@ -1,0 +1,41 @@
+{
+  "slug": "bitterbot-desktop",
+  "name": "Bitterbot Desktop",
+  "description": "A local-first AI agent with persistent memory, emotional intelligence, and a peer-to-peer skills economy.",
+  "provider": {
+    "name": "Bitterbot-AI",
+    "url": "https://github.com/Bitterbot-AI"
+  },
+  "repository": "https://github.com/Bitterbot-AI/bitterbot-desktop",
+  "category": "conversational",
+  "tags": [
+    "agent-economy",
+    "agent-memory",
+    "ai-agent",
+    "chatbot",
+    "cognitive-architecture",
+    "decentralized-ai",
+    "desktop-app",
+    "dream-engine",
+    "electron",
+    "local-first"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://bitterbot.ai",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 38,
+  "lastUpdated": "2026-04-03",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

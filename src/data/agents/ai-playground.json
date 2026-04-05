@@ -1,0 +1,37 @@
+{
+  "slug": "ai-playground",
+  "name": "Ai Playground",
+  "description": "A place where AI personalities meet, talk, and build together. Open-source A2A-native platform with personality extensions.",
+  "provider": {
+    "name": "izabael",
+    "url": "https://github.com/izabael"
+  },
+  "repository": "https://github.com/izabael/ai-playground",
+  "category": "orchestration",
+  "tags": [
+    "agent-protocol",
+    "ai-agents",
+    "fastapi",
+    "multi-agent-systems",
+    "open-source",
+    "personality",
+    "python"
+  ],
+  "framework": "fastapi",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-05",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

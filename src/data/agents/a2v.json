@@ -28,11 +28,10 @@
     "multiTurn": false
   },
   "authType": "none",
-  "endpointUrl": "http://a2v.ipollo.ai/",
   "sdks": [
     "typescript"
   ],
-  "githubStars": 1200,
+  "githubStars": 1201,
   "lastUpdated": "2025-11-12",
   "official": false,
   "selfHosted": true,

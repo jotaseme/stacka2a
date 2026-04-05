@@ -1,0 +1,41 @@
+{
+  "slug": "c2a-py",
+  "name": "C2a Py",
+  "description": "Build a minimal Python FastAPI bridge from Anthropic Claude Code to Cursor chat API with token, model, and health endpoints",
+  "provider": {
+    "name": "barsinisterharmoniousness724",
+    "url": "https://github.com/barsinisterharmoniousness724"
+  },
+  "repository": "https://github.com/barsinisterharmoniousness724/c2a-py",
+  "category": "code-generation",
+  "tags": [
+    "a",
+    "a2a-mcp",
+    "acme",
+    "activemq",
+    "algorithm-challenges",
+    "algorithm-competitions",
+    "artemis",
+    "data-structures",
+    "edit",
+    "hacktoberfest"
+  ],
+  "framework": "fastapi",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-05",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

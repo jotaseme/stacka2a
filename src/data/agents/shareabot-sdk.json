@@ -1,0 +1,36 @@
+{
+  "slug": "shareabot-sdk",
+  "name": "Shareabot SDK",
+  "description": "SDK for the Shareabot Agent Directory — discover, message, and register AI agents via A2A protocol",
+  "provider": {
+    "name": "codeislaw101",
+    "url": "https://github.com/codeislaw101"
+  },
+  "repository": "https://github.com/codeislaw101/shareabot-sdk",
+  "category": "general",
+  "tags": [
+    "agent-directory",
+    "agents",
+    "ai",
+    "ai-agents",
+    "sdk",
+    "typescript"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-03-30",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

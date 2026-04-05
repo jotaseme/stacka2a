@@ -1,7 +1,7 @@
 {
   "slug": "apflow",
   "name": "Apflow",
-  "description": "The core of `apflow` is **task orchestration and execution specifications**. It provides a unified task orchestration framework that supports execution of multiple task types. The core is **pure orchestration** with no LLM dependencies - CrewAI support is optional.",
+  "description": "**AI-Perceivable Distributed Orchestration**  apflow is a distributed task orchestration engine where every capability is AI-perceivable — discoverable, understandable, and invocable by AI agents through the apcore module standard.",
   "provider": {
     "name": "aiperceivable",
     "url": "https://github.com/aiperceivable"
@@ -34,7 +34,7 @@
     "python"
   ],
   "githubStars": 8,
-  "lastUpdated": "2026-03-28",
+  "lastUpdated": "2026-04-04",
   "official": false,
   "selfHosted": true,
   "license": "NOASSERTION"

@@ -1,0 +1,34 @@
+{
+  "slug": "juntoai-a2a",
+  "name": "JuntoAI A2A",
+  "description": "Agent 2 Agent Negotiation Sandbox",
+  "provider": {
+    "name": "JuntoAI",
+    "url": "https://github.com/JuntoAI"
+  },
+  "repository": "https://github.com/JuntoAI/JuntoAI-A2A",
+  "category": "general",
+  "tags": [
+    "ai",
+    "ai-agents",
+    "sandbox-environment"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://a2a.juntoai.org",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2026-04-04",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

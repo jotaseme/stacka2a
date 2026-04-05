@@ -14,9 +14,13 @@
     "a2a-server",
     "agent",
     "ai",
-    "python"
+    "crewai",
+    "generative-ai",
+    "langchain",
+    "langgraph",
+    "ollama"
   ],
-  "framework": "custom",
+  "framework": "langgraph",
   "language": "python",
   "skills": [],
   "capabilities": {
@@ -29,7 +33,7 @@
   "sdks": [
     "python"
   ],
-  "githubStars": 30,
+  "githubStars": 32,
   "lastUpdated": "2026-03-27",
   "official": false,
   "selfHosted": true,

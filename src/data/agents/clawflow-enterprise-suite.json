@@ -1,0 +1,41 @@
+{
+  "slug": "clawflow-enterprise-suite",
+  "name": "Clawflow Enterprise Suite",
+  "description": "Top Feishu AI Agent Automation Tools 2026 🚀 | Secure, No-Setup Enterprise Bot Manager",
+  "provider": {
+    "name": "mahtabsha00",
+    "url": "https://github.com/mahtabsha00"
+  },
+  "repository": "https://github.com/mahtabsha00/clawflow-enterprise-suite",
+  "category": "code-generation",
+  "tags": [
+    "agent-cli",
+    "agents",
+    "ai-agents",
+    "ai-bot",
+    "ai-workforce",
+    "claude",
+    "claude-code",
+    "compliance",
+    "deep-learning",
+    "enterprise-wechat"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-02",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

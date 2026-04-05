@@ -13,7 +13,13 @@
     "adk",
     "enterprise",
     "inference-gateway",
-    "llm"
+    "llm",
+    "agent-deployment",
+    "agent-development-kit",
+    "agentic-ai",
+    "ai-agents",
+    "kubernetes",
+    "python"
   ],
   "framework": "google-adk",
   "language": "go",
@@ -28,7 +34,7 @@
     "go"
   ],
   "githubStars": 20,
-  "lastUpdated": "2026-01-18",
+  "lastUpdated": "2026-04-03",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

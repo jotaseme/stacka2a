@@ -1,0 +1,38 @@
+{
+  "slug": "a2a-mesh",
+  "name": "A2A Mesh",
+  "description": "TypeScript runtime for Google's Agent2Agent (A2A) Protocol",
+  "provider": {
+    "name": "oaslananka",
+    "url": "https://github.com/oaslananka"
+  },
+  "repository": "https://github.com/oaslananka/a2a-mesh",
+  "category": "orchestration",
+  "tags": [
+    "ai-agents",
+    "interoperability",
+    "llm-orchestration",
+    "multi-agent",
+    "nodejs",
+    "open-source",
+    "protocol",
+    "typescript"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-02",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "multi-agent-research-orchestrator-with-mcp-integration",
+  "name": "Multi Agent Research Orchestrator With MCP Integration",
+  "description": "Multi-Agent-Research-Orchestrator-with-MCP-Integration",
+  "provider": {
+    "name": "danhenriquex",
+    "url": "https://github.com/danhenriquex"
+  },
+  "repository": "https://github.com/danhenriquex/Multi-Agent-Research-Orchestrator-with-MCP-Integration",
+  "category": "search",
+  "tags": [
+    "agentic-ai",
+    "langchain",
+    "mcp-server",
+    "postgresql",
+    "prompt-engineering",
+    "redis"
+  ],
+  "framework": "langchain",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-01",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

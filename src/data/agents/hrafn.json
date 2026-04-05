@@ -1,0 +1,42 @@
+{
+  "slug": "hrafn",
+  "name": "Hrafn",
+  "description": "Lightweight, modular AI agent runtime — thinks (Hrafn) and remembers (MuninnDB) 🐦‍⬛",
+  "provider": {
+    "name": "5queezer",
+    "url": "https://github.com/5queezer"
+  },
+  "repository": "https://github.com/5queezer/hrafn",
+  "category": "general",
+  "tags": [
+    "agent-framework",
+    "ai-agent",
+    "autonomous-agent",
+    "llm",
+    "local-first",
+    "mcp",
+    "openclaw-alternative",
+    "rust",
+    "self-hosted",
+    "zeroclaw-alternative"
+  ],
+  "framework": "custom",
+  "language": "rust",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://github.com/5queezer/hrafn",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2026-04-04",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

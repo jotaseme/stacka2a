@@ -9,7 +9,8 @@
   "repository": "https://github.com/qntx/ra2a",
   "category": "general",
   "tags": [
-    "rust"
+    "rust",
+    "x402"
   ],
   "framework": "custom",
   "language": "rust",
@@ -24,8 +25,8 @@
     "python",
     "typescript"
   ],
-  "githubStars": 157,
-  "lastUpdated": "2026-03-28",
+  "githubStars": 160,
+  "lastUpdated": "2026-04-03",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

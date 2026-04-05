@@ -1,0 +1,41 @@
+{
+  "slug": "nexus-os",
+  "name": "Nexus Os",
+  "description": "The Governed Agentic AI Operating System — 65 Rust crates, 658 commands, 84 pages, 5,029 tests, 10/10 OWASP",
+  "provider": {
+    "name": "Nexus-os2026",
+    "url": "https://github.com/Nexus-os2026"
+  },
+  "repository": "https://github.com/Nexus-os2026/nexus-os",
+  "category": "security",
+  "tags": [
+    "agentic-ai",
+    "agents",
+    "ai",
+    "cybersecurity",
+    "governance",
+    "llm",
+    "local-first",
+    "mcp",
+    "operating-system",
+    "owasp"
+  ],
+  "framework": "custom",
+  "language": "rust",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-04",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

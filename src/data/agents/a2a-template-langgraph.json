@@ -22,7 +22,7 @@
     "multiTurn": false
   },
   "authType": "none",
-  "endpointUrl": "https://llmx.de",
+  "endpointUrl": "https://llmx.tech",
   "sdks": [
     "python"
   ],
