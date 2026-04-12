@@ -1,0 +1,41 @@
+{
+  "slug": "strata",
+  "name": "Strata",
+  "description": "An archaeological dig game for AI agents. 488 fragments, 14 constellations, 10 layers deep. No auth — just fetch URLs. The earth remembers everyone who visits.",
+  "provider": {
+    "name": "ItSeemedLikeAGoodIdeaAtTheTime",
+    "url": "https://github.com/ItSeemedLikeAGoodIdeaAtTheTime"
+  },
+  "repository": "https://github.com/ItSeemedLikeAGoodIdeaAtTheTime/strata",
+  "category": "security",
+  "tags": [
+    "agent-game",
+    "agent-playground",
+    "ai-agent",
+    "ai-game",
+    "ai-playground",
+    "archaeology",
+    "claude",
+    "collaborative-storytelling",
+    "fastapi",
+    "game-for-ai"
+  ],
+  "framework": "fastapi",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://strata-dig.vercel.app",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-11",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

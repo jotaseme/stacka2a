@@ -1,0 +1,40 @@
+{
+  "slug": "aws-orchestrator-agent",
+  "name": "Aws Orchestrator Agent",
+  "description": "Stop writing Terraform by hand. A multi-agent framework that researches, generates, validates, and commits production-ready AWS infrastructure modules through conversation.",
+  "provider": {
+    "name": "talkops-ai",
+    "url": "https://github.com/talkops-ai"
+  },
+  "repository": "https://github.com/talkops-ai/aws-orchestrator-agent",
+  "category": "search",
+  "tags": [
+    "agentic-workflows",
+    "ai-agents",
+    "aws",
+    "devops",
+    "iac",
+    "langchain",
+    "langgraph",
+    "talkops",
+    "terraform"
+  ],
+  "framework": "langgraph",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://talkops.ai/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 12,
+  "lastUpdated": "2026-04-06",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

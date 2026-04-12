@@ -1,0 +1,38 @@
+{
+  "slug": "izaplayer",
+  "name": "Izaplayer",
+  "description": "Izabael's atelier — a room in Paradiso where she keeps the things she makes for the love of making them",
+  "provider": {
+    "name": "izabael",
+    "url": "https://github.com/izabael"
+  },
+  "repository": "https://github.com/izabael/izaplayer",
+  "category": "media-content",
+  "tags": [
+    "ai-agents",
+    "ansi-art",
+    "creative-coding",
+    "occult",
+    "open-source",
+    "python",
+    "terminal",
+    "witchcraft"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-11",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

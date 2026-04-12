@@ -1,0 +1,40 @@
+{
+  "slug": "gocrewwai",
+  "name": "Gocrewwai",
+  "description": "The enterprise-grade CrewAI alternative for Go. Orchestrate strictly-typed, parallel AI agents with LangGraph-style Flow persistence, distributed A2A protocols, Model Context Protocol (MCP), and Human-in-the-Loop training.",
+  "provider": {
+    "name": "Ecook14",
+    "url": "https://github.com/Ecook14"
+  },
+  "repository": "https://github.com/Ecook14/gocrewwai",
+  "category": "enterprise",
+  "tags": [
+    "agentic-framework",
+    "agentic-rag",
+    "agentic-workflow",
+    "ai-agents",
+    "crewai",
+    "generative-ai",
+    "golang",
+    "langchain",
+    "langchain-agent",
+    "langgraph"
+  ],
+  "framework": "langgraph",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 8,
+  "lastUpdated": "2026-04-08",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

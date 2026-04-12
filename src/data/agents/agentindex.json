@@ -29,9 +29,9 @@
   "sdks": [
     "python"
   ],
-  "githubStars": 0,
-  "lastUpdated": "2026-02-14",
+  "githubStars": 1,
+  "lastUpdated": "2026-04-11",
   "official": false,
   "selfHosted": true,
-  "license": "unknown"
+  "license": "MIT"
 }

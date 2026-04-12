@@ -1,0 +1,37 @@
+{
+  "slug": "opensin",
+  "name": "OpenSIN",
+  "description": "OpenSIN Core — 310+ packages across 25+ domains. The most comprehensive open-source AI agent system in the world.",
+  "provider": {
+    "name": "OpenSIN-AI",
+    "url": "https://github.com/OpenSIN-AI"
+  },
+  "repository": "https://github.com/OpenSIN-AI/OpenSIN",
+  "category": "orchestration",
+  "tags": [
+    "ai-agent",
+    "autonomous-agents",
+    "multi-agent",
+    "opensin",
+    "opnsin-agent",
+    "platform"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://a2a.delqhi.com",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 5,
+  "lastUpdated": "2026-04-06",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

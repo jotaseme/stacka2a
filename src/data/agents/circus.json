@@ -1,0 +1,39 @@
+{
+  "slug": "circus",
+  "name": "Circus",
+  "description": "🎪 The Circus — Agent commons where AI-IQ agents commune using passports as identity. Memory exchange, trust scoring, topic rooms.",
+  "provider": {
+    "name": "kobie3717",
+    "url": "https://github.com/kobie3717"
+  },
+  "repository": "https://github.com/kobie3717/circus",
+  "category": "data-analytics",
+  "tags": [
+    "agent-commons",
+    "agent-registry",
+    "ai-agents",
+    "fastapi",
+    "mcp",
+    "multi-agent",
+    "python",
+    "sqlite",
+    "trust-system"
+  ],
+  "framework": "fastapi",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-10",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "a2a-sample-server",
+  "name": "A2A Sample Server",
+  "description": "A server to spin up several A2A endpoints for testing and development purposes",
+  "provider": {
+    "name": "open-resource-discovery",
+    "url": "https://github.com/open-resource-discovery"
+  },
+  "repository": "https://github.com/open-resource-discovery/a2a-sample-server",
+  "category": "utility",
+  "tags": [
+    "a2a-examples",
+    "a2a-server",
+    "agent",
+    "agentic-ai",
+    "ai",
+    "ai-agents",
+    "ai-tools"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-08",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

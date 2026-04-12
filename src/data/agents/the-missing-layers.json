@@ -1,0 +1,36 @@
+{
+  "slug": "the-missing-layers",
+  "name": "The Missing Layers",
+  "description": "A2A solves how agents talk. This proposal solves what happens when they act autonomously. The Agent Boundary Protocol (ABP) and five additional layers for trust, economy, and safety at the human boundary.",
+  "provider": {
+    "name": "karthago2",
+    "url": "https://github.com/karthago2"
+  },
+  "repository": "https://github.com/karthago2/the-missing-layers",
+  "category": "orchestration",
+  "tags": [
+    "agent-boundary",
+    "agent-interoperability",
+    "agent-safety",
+    "ai-safety",
+    "multi-agent-systems"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-10",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

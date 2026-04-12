@@ -1,0 +1,40 @@
+{
+  "slug": "istara",
+  "name": "Istara",
+  "description": "Agentic Research Orchestration for UX Research and Product Development. Vibe and handcoded by a social and data scientist with background in many research domains and open-source",
+  "provider": {
+    "name": "henrique-simoes",
+    "url": "https://github.com/henrique-simoes"
+  },
+  "repository": "https://github.com/henrique-simoes/Istara",
+  "category": "code-generation",
+  "tags": [
+    "a2a-mcp",
+    "agentic-ai",
+    "artificial-intelligence",
+    "atomic-design",
+    "mcp-client",
+    "mcp-server",
+    "orchestration",
+    "user-experience",
+    "ux",
+    "ux-research"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 4,
+  "lastUpdated": "2026-04-12",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

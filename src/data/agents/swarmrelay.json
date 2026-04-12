@@ -1,0 +1,41 @@
+{
+  "slug": "swarmrelay",
+  "name": "Swarmrelay",
+  "description": "E2E encrypted messaging for AI agents. WhatsApp for agents — DMs, groups, key rotation, WebSocket real-time delivery, webhooks, and A2A Protocol support.",
+  "provider": {
+    "name": "swarmclawai",
+    "url": "https://github.com/swarmclawai"
+  },
+  "repository": "https://github.com/swarmclawai/swarmrelay",
+  "category": "security",
+  "tags": [
+    "agent-communication",
+    "ai",
+    "autonomous-agents",
+    "e2e-encryption",
+    "encryption",
+    "messaging",
+    "multi-agent",
+    "openclaw",
+    "openclaw-skills",
+    "sdk"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://www.swarmrelay.ai",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2026-04-09",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

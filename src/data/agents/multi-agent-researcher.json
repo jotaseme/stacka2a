@@ -1,0 +1,39 @@
+{
+  "slug": "multi-agent-researcher",
+  "name": "Multi Agent Researcher",
+  "description": " Multi-agent research assistant built with LangGraph, A2A protocol, and a custom MCP server. Orchestrates parallel web search and   RAG agents to synthesize structured research reports using Claude.",
+  "provider": {
+    "name": "nikhilll30",
+    "url": "https://github.com/nikhilll30"
+  },
+  "repository": "https://github.com/nikhilll30/multi-agent-researcher",
+  "category": "search",
+  "tags": [
+    "agent-to-agent",
+    "anthropic",
+    "fastapi",
+    "langgraph",
+    "mcp-model-context-protocol",
+    "multi-agent",
+    "python",
+    "streamlit",
+    "tavily"
+  ],
+  "framework": "langgraph",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-04-07",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

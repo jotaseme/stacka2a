@@ -1,0 +1,42 @@
+{
+  "slug": "aaaa-nexus",
+  "name": "Aaaa Nexus",
+  "description": "Formally verified AI safety APIs — 129 endpoints across 22 product families. x402 USDC micropayments, MCP server, A2A protocol. Proof verifier included.",
+  "provider": {
+    "name": "atomadictech",
+    "url": "https://github.com/atomadictech"
+  },
+  "repository": "https://github.com/atomadictech/aaaa-nexus",
+  "category": "infrastructure",
+  "tags": [
+    "agent-infrastructure",
+    "ai-agents",
+    "ai-safety",
+    "api",
+    "autogen",
+    "autonomous-agents",
+    "crewai",
+    "formal-verification",
+    "hallucination-detection",
+    "langchain"
+  ],
+  "framework": "crewai",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://aaaa-nexus.atomadictech.workers.dev",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-10",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

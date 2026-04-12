@@ -1,0 +1,41 @@
+{
+  "slug": "ag2ag",
+  "name": "Ag2ag",
+  "description": "Run A2A-compatible agents on a single host. Node.js + systemd. No Docker. No Kubernetes.",
+  "provider": {
+    "name": "Maretto",
+    "url": "https://github.com/Maretto"
+  },
+  "repository": "https://github.com/Maretto/ag2ag",
+  "category": "infrastructure",
+  "tags": [
+    "agent",
+    "agent-to-agent",
+    "agents",
+    "ai-agent",
+    "automation",
+    "cli",
+    "localhost",
+    "nodejs",
+    "self-hosted",
+    "single-host"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://github.com/Maretto/ag2ag",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-10",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

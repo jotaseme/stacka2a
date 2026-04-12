@@ -7,18 +7,18 @@
     "url": "https://github.com/tomtom215"
   },
   "repository": "https://github.com/tomtom215/a2a-rust",
-  "category": "general",
+  "category": "orchestration",
   "tags": [
     "a2a-sdk",
     "a2a-server",
     "a2a-types",
+    "agent-orchestration",
     "agentic-ai",
     "agentic-ai-development",
     "agents",
+    "agents-sdk",
     "artificial-intelligence",
-    "protocol-specification",
-    "rust",
-    "sdk"
+    "protocol-specification"
   ],
   "framework": "custom",
   "language": "rust",
@@ -34,8 +34,8 @@
     "python",
     "typescript"
   ],
-  "githubStars": 7,
-  "lastUpdated": "2026-04-02",
+  "githubStars": 9,
+  "lastUpdated": "2026-04-06",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

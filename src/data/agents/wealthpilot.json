@@ -1,0 +1,39 @@
+{
+  "slug": "wealthpilot",
+  "name": "WealthPilot",
+  "description": "A Multi-agent system for personal finance intelligence. Built with real A2A protocol for agent communication, MCP for tool access, and LangGraph agents for autonomous reasoning.",
+  "provider": {
+    "name": "SathvikNayak123",
+    "url": "https://github.com/SathvikNayak123"
+  },
+  "repository": "https://github.com/SathvikNayak123/WealthPilot",
+  "category": "data-analytics",
+  "tags": [
+    "agentic-ai",
+    "fastapi",
+    "langchain",
+    "langfuse",
+    "langgraph",
+    "mcp",
+    "multi-agent-systems",
+    "postgres-database",
+    "redis-cache"
+  ],
+  "framework": "langgraph",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-05",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

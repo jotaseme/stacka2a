@@ -21,7 +21,7 @@
     "quic"
   ],
   "framework": "custom",
-  "language": "go",
+  "language": "rust",
   "skills": [],
   "capabilities": {
     "streaming": false,
@@ -31,11 +31,12 @@
   "authType": "none",
   "endpointUrl": "https://yomo.run",
   "sdks": [
-    "go"
+    "python",
+    "typescript"
   ],
   "githubStars": 1896,
-  "lastUpdated": "2026-04-05",
+  "lastUpdated": "2026-04-09",
   "official": false,
   "selfHosted": true,
-  "license": "Apache-2.0"
+  "license": "unknown"
 }

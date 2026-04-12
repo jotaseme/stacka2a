@@ -14,7 +14,9 @@
     "agents",
     "ai",
     "ai-agents",
+    "generative-ai",
     "multi-agent",
+    "multi-agent-system",
     "multi-agent-systems"
   ],
   "framework": "custom",
@@ -30,8 +32,8 @@
   "sdks": [
     "python"
   ],
-  "githubStars": 8,
-  "lastUpdated": "2026-03-29",
+  "githubStars": 12,
+  "lastUpdated": "2026-04-09",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

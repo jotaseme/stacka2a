@@ -1,7 +1,7 @@
 {
   "slug": "distri",
   "name": "Distri",
-  "description": "Distri is A2A compatible agent framework built in Rust. Build agents with simply a markdown definition and much more. ",
+  "description": "Distri is A2A compatible OpenClaw like agent framework built in Rust. ",
   "provider": {
     "name": "distrihub",
     "url": "https://github.com/distrihub"
@@ -28,7 +28,7 @@
     "typescript"
   ],
   "githubStars": 6,
-  "lastUpdated": "2026-04-04",
+  "lastUpdated": "2026-04-11",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

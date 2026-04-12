@@ -21,7 +21,7 @@
     "tool-integration"
   ],
   "framework": "custom",
-  "language": "typescript",
+  "language": "python",
   "skills": [],
   "capabilities": {
     "streaming": false,
@@ -31,10 +31,10 @@
   "authType": "none",
   "endpointUrl": "https://www.useengram.com/",
   "sdks": [
-    "typescript"
+    "python"
   ],
-  "githubStars": 21,
-  "lastUpdated": "2026-04-04",
+  "githubStars": 35,
+  "lastUpdated": "2026-04-11",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

@@ -29,12 +29,12 @@
     "multiTurn": false
   },
   "authType": "none",
-  "endpointUrl": "https://handler.alduncanson.com/introduction",
+  "endpointUrl": "https://handler.alduncanson.com",
   "sdks": [
     "python"
   ],
   "githubStars": 39,
-  "lastUpdated": "2026-04-04",
+  "lastUpdated": "2026-04-09",
   "official": false,
   "selfHosted": true,
   "license": "GPL-3.0"

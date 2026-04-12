@@ -1,0 +1,42 @@
+{
+  "slug": "systemprompt-core",
+  "name": "Systemprompt Core",
+  "description": "AI infrastructure built for AI agents. Production-ready Rust library with auth, MCP servers, A2A orchestration, and playbooks for deterministic execution.",
+  "provider": {
+    "name": "systempromptio",
+    "url": "https://github.com/systempromptio"
+  },
+  "repository": "https://github.com/systempromptio/systemprompt-core",
+  "category": "infrastructure",
+  "tags": [
+    "agent-orchestration",
+    "ai-agents",
+    "ai-infrastructure",
+    "api-framework",
+    "deterministic-execution",
+    "llm",
+    "mcp",
+    "multi-agent",
+    "oauth2",
+    "playbooks"
+  ],
+  "framework": "custom",
+  "language": "rust",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://systemprompt.io",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-04-09",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

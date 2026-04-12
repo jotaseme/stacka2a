@@ -1,0 +1,34 @@
+{
+  "slug": "aegis-ma",
+  "name": "Aegis Ma",
+  "description": "Simple implemenation of A2A Protocol",
+  "provider": {
+    "name": "triet4p",
+    "url": "https://github.com/triet4p"
+  },
+  "repository": "https://github.com/triet4p/aegis-ma",
+  "category": "general",
+  "tags": [
+    "agentic-ai",
+    "llms",
+    "protocol",
+    "python"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-11-26",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

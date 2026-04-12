@@ -7,18 +7,18 @@
     "url": "https://github.com/CrewForm"
   },
   "repository": "https://github.com/CrewForm/crewform",
-  "category": "orchestration",
+  "category": "enterprise",
   "tags": [
     "ag-ui-protocol",
+    "agent",
     "agents",
     "ai",
     "ai-agents",
     "ai-collaboration",
     "ai-orchestration",
+    "automation",
     "llms",
-    "mcp-protocol",
-    "open-source",
-    "react"
+    "mcp"
   ],
   "framework": "custom",
   "language": "typescript",
@@ -33,8 +33,8 @@
   "sdks": [
     "typescript"
   ],
-  "githubStars": 8,
-  "lastUpdated": "2026-04-01",
+  "githubStars": 10,
+  "lastUpdated": "2026-04-10",
   "official": false,
   "selfHosted": true,
   "license": "AGPL-3.0"

@@ -1,12 +1,12 @@
 {
   "slug": "genai-bug-fixing-assistant-project",
-  "name": "GENAI Bug Fixing Assistant  Project ",
-  "description": "🤖 Streamline your debugging process with GENAI, an AI-driven assistant that helps identify and fix code issues efficiently.",
+  "name": "GenAI Bug Fixing Assistant Project",
+  "description": "🌟 Diagnose and fix bugs effortlessly with our Generative AI Bug Fixing Assistant, designed to provide clear explanations and code solutions.",
   "provider": {
-    "name": "r3lo343",
-    "url": "https://github.com/r3lo343"
+    "name": "Khush153",
+    "url": "https://github.com/Khush153"
   },
-  "repository": "https://github.com/r3lo343/GENAI_bug_fixing_assistant--project-",
+  "repository": "https://github.com/Khush153/GenAI_Bug_Fixing_Assistant_Project",
   "category": "code-generation",
   "tags": [
     "activemq",
@@ -29,12 +29,12 @@
     "multiTurn": false
   },
   "authType": "none",
-  "endpointUrl": "https://r3lo343.github.io",
+  "endpointUrl": "https://khush153.github.io",
   "sdks": [
     "python"
   ],
   "githubStars": 0,
-  "lastUpdated": "2026-04-05",
+  "lastUpdated": "2026-04-12",
   "official": false,
   "selfHosted": true,
   "license": "unknown"

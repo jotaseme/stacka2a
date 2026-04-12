@@ -1,0 +1,38 @@
+{
+  "slug": "multi-agent-course-creator",
+  "name": "Multi Agent Course Creator",
+  "description": "Multi-agent AI system with Google ADK + A2A protocol: Researcher → Judge → Content Builder pipeline on Cloud Run. Reference implementation with full docs for LLMs and developers.",
+  "provider": {
+    "name": "raphaelbgr",
+    "url": "https://github.com/raphaelbgr"
+  },
+  "repository": "https://github.com/raphaelbgr/multi-agent-course-creator",
+  "category": "code-generation",
+  "tags": [
+    "fastapi",
+    "gemini",
+    "google-adk",
+    "google-cloud-run",
+    "llm-agents",
+    "multi-agent",
+    "python",
+    "vertex-ai"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-04-07",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

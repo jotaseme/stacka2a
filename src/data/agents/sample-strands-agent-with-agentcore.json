@@ -1,0 +1,40 @@
+{
+  "slug": "sample-strands-agent-with-agentcore",
+  "name": "Sample Strands Agent With Agentcore",
+  "description": "Reference architecture for agentic AI chatbots with Strands Agents and Amazon Bedrock AgentCore",
+  "provider": {
+    "name": "aws-samples",
+    "url": "https://github.com/aws-samples"
+  },
+  "repository": "https://github.com/aws-samples/sample-strands-agent-with-agentcore",
+  "category": "conversational",
+  "tags": [
+    "agent-to-agent",
+    "agentcore",
+    "ai-agents",
+    "amazon-bedrock",
+    "browser-automation",
+    "mcp",
+    "multi-agent",
+    "skills",
+    "strands-agents",
+    "voice-assistant"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 134,
+  "lastUpdated": "2026-04-11",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

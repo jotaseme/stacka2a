@@ -1,0 +1,41 @@
+{
+  "slug": "goldenmatch",
+  "name": "Goldenmatch",
+  "description": "Entity resolution and deduplication toolkit — outperforms Splink, dedupe, and RecordLinkage on cross-domain benchmarks. Zero-config. MST cluster auto-splitting. Quality-weighted survivorship. 30 MCP tools on Smithery. 10 A2A skills. 97.2% F1 on DBLP-ACM.",
+  "provider": {
+    "name": "benzsevern",
+    "url": "https://github.com/benzsevern"
+  },
+  "repository": "https://github.com/benzsevern/goldenmatch",
+  "category": "data-analytics",
+  "tags": [
+    "agent",
+    "ann-blocking",
+    "cluster-quality",
+    "data-engineering",
+    "data-quality",
+    "data-transforms",
+    "deduplication",
+    "entity-resolution",
+    "fuzzy-matching",
+    "goldenmatch"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://bensevern.dev/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 30,
+  "lastUpdated": "2026-04-10",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

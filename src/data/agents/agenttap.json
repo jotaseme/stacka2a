@@ -1,0 +1,37 @@
+{
+  "slug": "agenttap",
+  "name": "Agenttap",
+  "description": "Real-time debugging proxy for Agent2Agent (A2A) multi-agent systems",
+  "provider": {
+    "name": "Disna1",
+    "url": "https://github.com/Disna1"
+  },
+  "repository": "https://github.com/Disna1/agenttap",
+  "category": "code-generation",
+  "tags": [
+    "debugging",
+    "debugging-tool",
+    "developer-tools",
+    "multi-agent",
+    "observability",
+    "proxy"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 3,
+  "lastUpdated": "2026-04-05",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

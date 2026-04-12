@@ -1,0 +1,40 @@
+{
+  "slug": "a2a-lab",
+  "name": "A2A Lab",
+  "description": "A2A (Agent-to-Agent) Protocol lab with dynamic agent discovery, JSON-RPC 2.0 communication, and registry-based multi-agent orchestration using Strands Agents and FastAPI",
+  "provider": {
+    "name": "gu-dsan6725",
+    "url": "https://github.com/gu-dsan6725"
+  },
+  "repository": "https://github.com/gu-dsan6725/a2a-lab",
+  "category": "orchestration",
+  "tags": [
+    "agent-discovery",
+    "agent-to-agent",
+    "agentic-ai",
+    "ai-agents",
+    "amazon-bedrock",
+    "anthropic",
+    "applied-generative-ai",
+    "claude",
+    "fastapi",
+    "json-rpc"
+  ],
+  "framework": "fastapi",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-07",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}
