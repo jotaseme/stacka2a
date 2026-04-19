@@ -1,13 +1,13 @@
 {
-  "slug": "a2a-protocol-sample",
-  "name": "A2A Protocol Sample",
-  "description": "Multi-agents using A2A and MCP protocol ",
+  "slug": "a2a-health-assistant",
+  "name": "A2A Health Assistant",
+  "description": "Health Assistant Using Multi-agents A2A and MCP protocol ",
   "provider": {
     "name": "yuit",
     "url": "https://github.com/yuit"
   },
-  "repository": "https://github.com/yuit/A2A-Protocol-Sample",
-  "category": "orchestration",
+  "repository": "https://github.com/yuit/A2A-Health-Assistant",
+  "category": "conversational",
   "tags": [
     "adk-google",
     "agent-stack",

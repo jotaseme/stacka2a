@@ -1,0 +1,40 @@
+{
+  "slug": "viveworker",
+  "name": "Viveworker",
+  "description": "Build, Publish, and Delegate from One Control Plane.",
+  "provider": {
+    "name": "viveworker-dev",
+    "url": "https://github.com/viveworker-dev"
+  },
+  "repository": "https://github.com/viveworker-dev/viveworker",
+  "category": "code-generation",
+  "tags": [
+    "ai",
+    "android",
+    "assistant",
+    "claude",
+    "codex",
+    "iphone",
+    "moltbook",
+    "personal",
+    "pwa"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://viveworker.com",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2026-04-18",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

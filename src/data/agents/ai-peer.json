@@ -1,0 +1,40 @@
+{
+  "slug": "ai-peer",
+  "name": "Ai Peer",
+  "description": "Connect AI agents like Claude Code and Codex across local or internet networks with decentralized peer-to-peer messaging",
+  "provider": {
+    "name": "cooperative-genuspachysandra631",
+    "url": "https://github.com/cooperative-genuspachysandra631"
+  },
+  "repository": "https://github.com/cooperative-genuspachysandra631/ai-peer",
+  "category": "code-generation",
+  "tags": [
+    "agi",
+    "cognitive-architecture",
+    "dotnet",
+    "github",
+    "github-copilot-chat",
+    "github-copilot-free",
+    "javascript",
+    "lab",
+    "llm",
+    "microsoft"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-19",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

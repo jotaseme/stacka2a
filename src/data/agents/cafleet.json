@@ -1,13 +1,13 @@
 {
-  "slug": "hikyaku",
-  "name": "Hikyaku",
-  "description": "☎️ A2A communication, even for Coding Agent",
+  "slug": "cafleet",
+  "name": "Cafleet",
+  "description": "🛰️ Orchestration of Coding Agents to facilitate collaborated development environment",
   "provider": {
     "name": "himkt",
     "url": "https://github.com/himkt"
   },
-  "repository": "https://github.com/himkt/hikyaku",
-  "category": "general",
+  "repository": "https://github.com/himkt/cafleet",
+  "category": "orchestration",
   "tags": [
     "agent",
     "coding-agent",
@@ -28,7 +28,7 @@
     "python"
   ],
   "githubStars": 0,
-  "lastUpdated": "2026-04-12",
+  "lastUpdated": "2026-04-19",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

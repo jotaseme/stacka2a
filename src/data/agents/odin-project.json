@@ -1,0 +1,41 @@
+{
+  "slug": "odin-project",
+  "name": "ODIN Project",
+  "description": "Odin - Zero Trust AI Agent. Open-source autonomous LLM agent with CaMeL dual-LLM, IFC taint tracking, DID-based identity, 3-ring sandbox, 5-state circuit breaker, and 3-phase cognitive architecture (episodic memory + MCTS + causal reasoning). Built by AgentLayers. MIT licensed.",
+  "provider": {
+    "name": "kevcoutellier",
+    "url": "https://github.com/kevcoutellier"
+  },
+  "repository": "https://github.com/kevcoutellier/ODIN-project",
+  "category": "security",
+  "tags": [
+    "agentlayers",
+    "ai-agent",
+    "ai-security",
+    "autonomous-agent",
+    "camel",
+    "did",
+    "eu-ai-act",
+    "information-flow-control",
+    "llm",
+    "mcp"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://agent-layers.com",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-04-16",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

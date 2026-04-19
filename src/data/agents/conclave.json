@@ -1,0 +1,40 @@
+{
+  "slug": "conclave",
+  "name": "Conclave",
+  "description": "Multi-agent AI collaboration framework where specialized agents debate, disagree, and converge on solutions — like a real cross-functional meeting, not an assembly line.",
+  "provider": {
+    "name": "niteshdangi",
+    "url": "https://github.com/niteshdangi"
+  },
+  "repository": "https://github.com/niteshdangi/conclave",
+  "category": "orchestration",
+  "tags": [
+    "agent-framework",
+    "ai-agents",
+    "ai-collaboration",
+    "anthropic",
+    "debate-driven",
+    "discord-bot",
+    "knowledge-graph",
+    "langchain",
+    "langgraph",
+    "llm"
+  ],
+  "framework": "langgraph",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-04-12",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

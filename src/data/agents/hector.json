@@ -17,7 +17,7 @@
     "golang"
   ],
   "framework": "custom",
-  "language": "unknown",
+  "language": "go",
   "skills": [],
   "capabilities": {
     "streaming": false,
@@ -27,11 +27,10 @@
   "authType": "none",
   "endpointUrl": "https://gohector.dev",
   "sdks": [
-    "python",
-    "typescript"
+    "go"
   ],
   "githubStars": 53,
-  "lastUpdated": "2026-01-02",
+  "lastUpdated": "2026-04-19",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

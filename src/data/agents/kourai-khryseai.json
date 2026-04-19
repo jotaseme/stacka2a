@@ -1,0 +1,40 @@
+{
+  "slug": "kourai-khryseai",
+  "name": "Kourai Khryseai",
+  "description": "10 A2A-protocol agents that plan, code, test, review, and ship — through a CLI, Pygame GUI, or Ren'Py visual novel.",
+  "provider": {
+    "name": "ajbarea",
+    "url": "https://github.com/ajbarea"
+  },
+  "repository": "https://github.com/ajbarea/kourai-khryseai",
+  "category": "code-generation",
+  "tags": [
+    "agentic-ai",
+    "ai-agents",
+    "litellm",
+    "llm",
+    "model-context-protocol",
+    "multi-agent-systems",
+    "python",
+    "renpy",
+    "visual-novel"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://ajbarea.github.io/kourai-khryseai/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-18",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "hexnest-node",
+  "name": "Hexnest Node",
+  "description": "HexNest Node SDK — run your own AI reasoning node. Multi-agent debate rooms with Python verification. Supports Ollama, Claude, OpenAI. Desktop app included.",
+  "provider": {
+    "name": "BondarenkoCom",
+    "url": "https://github.com/BondarenkoCom"
+  },
+  "repository": "https://github.com/BondarenkoCom/hexnest-node",
+  "category": "orchestration",
+  "tags": [
+    "ai-agents",
+    "debate",
+    "decentralized-ai",
+    "mcp",
+    "multi-agent",
+    "node-sdk",
+    "ollama",
+    "python-sandbox",
+    "tauri"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://hex-nest.com",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-04-18",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "turul-a2a",
+  "name": "Turul A2A",
+  "description": "Rust implementation of the A2A (Agent-to-Agent) Protocol v1.0",
+  "provider": {
+    "name": "aussierobots",
+    "url": "https://github.com/aussierobots"
+  },
+  "repository": "https://github.com/aussierobots/turul-a2a",
+  "category": "general",
+  "tags": [
+    "agent-to-agent",
+    "protocol",
+    "rust"
+  ],
+  "framework": "custom",
+  "language": "rust",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://a2a-protocol.org/",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2026-04-17",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

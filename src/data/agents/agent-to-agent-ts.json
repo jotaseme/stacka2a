@@ -1,0 +1,37 @@
+{
+  "slug": "agent-to-agent-ts",
+  "name": "Agent To Agent Ts",
+  "description": "agent-to-agent-ts: TypeScript A2A implementation — gRPC, AgentCard, tasks, CLI — Node 22+",
+  "provider": {
+    "name": "peintre422535234",
+    "url": "https://github.com/peintre422535234"
+  },
+  "repository": "https://github.com/peintre422535234/agent-to-agent-ts",
+  "category": "orchestration",
+  "tags": [
+    "agent-to-agent",
+    "ai-agents",
+    "grpc",
+    "grpc-js",
+    "multi-agent",
+    "nodejs",
+    "typescript"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 20,
+  "lastUpdated": "2026-04-16",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

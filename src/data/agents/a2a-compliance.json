@@ -1,0 +1,38 @@
+{
+  "slug": "a2a-compliance",
+  "name": "A2A Compliance",
+  "description": "Automated compliance testing for the Agent2Agent (A2A) protocol — schema validation, JSON-RPC conformance, and SSRF/TLS/CORS security checks.",
+  "provider": {
+    "name": "UltraSkye",
+    "url": "https://github.com/UltraSkye"
+  },
+  "repository": "https://github.com/UltraSkye/a2a-compliance",
+  "category": "security",
+  "tags": [
+    "compliance",
+    "llm",
+    "protocol",
+    "security",
+    "tck",
+    "testing",
+    "typescript"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://github.com/UltraSkye/a2a-compliance",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-18",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

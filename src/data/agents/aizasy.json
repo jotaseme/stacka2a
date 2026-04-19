@@ -1,0 +1,41 @@
+{
+  "slug": "aizasy",
+  "name": "AIzaSy",
+  "description": "Route Gemini API traffic through a fast, private Go gateway with WARP egress, low-memory tuning, and zero-knowledge logging",
+  "provider": {
+    "name": "aswinjosek",
+    "url": "https://github.com/aswinjosek"
+  },
+  "repository": "https://github.com/aswinjosek/AIzaSy",
+  "category": "general",
+  "tags": [
+    "acme",
+    "api",
+    "apple2",
+    "audio",
+    "audio-input",
+    "editor",
+    "feature-toggles",
+    "gemini-api",
+    "generative-ai",
+    "go"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-19",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

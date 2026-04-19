@@ -1,0 +1,40 @@
+{
+  "slug": "multi-agent",
+  "name": "Multi Agent",
+  "description": "The definitive catalog of AI agent patterns. One definition, any framework. 27+ agents, 8 patterns, 6 framework adapters.",
+  "provider": {
+    "name": "Hovborg",
+    "url": "https://github.com/Hovborg"
+  },
+  "repository": "https://github.com/Hovborg/multi-agent",
+  "category": "orchestration",
+  "tags": [
+    "agent-catalog",
+    "agent-framework",
+    "agent-orchestration",
+    "agent-patterns",
+    "agentic-ai",
+    "ai-agent",
+    "ai-agents",
+    "anthropic",
+    "claude",
+    "cost-estimation"
+  ],
+  "framework": "langgraph",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-19",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

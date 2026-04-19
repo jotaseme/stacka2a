@@ -1,0 +1,41 @@
+{
+  "slug": "a2a-hospitality-simple",
+  "name": "A2A Hospitality Simple",
+  "description": "A rule-based AI hospitality concierge demo built with FastAPI & Streamlit. Features transparent logic, multi-tier member policies, and A2A protocol simulation. 100% Open Source, No LLM required. Live Demo: https://a2a-hospitality-simple.onrender.com",
+  "provider": {
+    "name": "andrechen1985",
+    "url": "https://github.com/andrechen1985"
+  },
+  "repository": "https://github.com/andrechen1985/a2a-hospitality-simple",
+  "category": "infrastructure",
+  "tags": [
+    "ai",
+    "docker",
+    "fastapi",
+    "hospitality",
+    "no-llm",
+    "open-source-project",
+    "portfolio",
+    "python",
+    "rule-engine",
+    "streamlit"
+  ],
+  "framework": "fastapi",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://a2a-hospitality-simple.onrender.com",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-13",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

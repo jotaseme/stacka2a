@@ -1,0 +1,41 @@
+{
+  "slug": "apaste",
+  "name": "APaste",
+  "description": "Manage clipboard history on macOS with a keyboard-first panel, search, pinboards, and fast paste without leaving your workflow",
+  "provider": {
+    "name": "travelingwavepolyvinylchloride287",
+    "url": "https://github.com/travelingwavepolyvinylchloride287"
+  },
+  "repository": "https://github.com/travelingwavepolyvinylchloride287/aPaste",
+  "category": "search",
+  "tags": [
+    "a",
+    "a2a-mcp",
+    "a2a-server",
+    "activemq",
+    "ai",
+    "cloudflare-workers",
+    "converter",
+    "generative-ai",
+    "jms",
+    "latex"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-19",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

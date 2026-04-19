@@ -1,0 +1,40 @@
+{
+  "slug": "asksachi-sdk",
+  "name": "Asksachi SDK",
+  "description": "Python SDK for building A2A-compatible agents that run as CLI, HTTP server, or AskSachi chat agent — from a single runtime function.",
+  "provider": {
+    "name": "skarkala-akm",
+    "url": "https://github.com/skarkala-akm"
+  },
+  "repository": "https://github.com/skarkala-akm/asksachi-sdk",
+  "category": "enterprise",
+  "tags": [
+    "agent-framework",
+    "agents",
+    "automation",
+    "cli",
+    "fastapi",
+    "llm",
+    "python",
+    "sdk",
+    "streaming",
+    "workflow"
+  ],
+  "framework": "fastapi",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-04-16",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

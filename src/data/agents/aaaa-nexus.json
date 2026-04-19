@@ -1,7 +1,7 @@
 {
   "slug": "aaaa-nexus",
   "name": "Aaaa Nexus",
-  "description": "Formally verified AI safety APIs — 129 endpoints across 22 product families. x402 USDC micropayments, MCP server, A2A protocol. Proof verifier included.",
+  "description": "Formally verified DeFi + AI safety APIs — 200+ endpoints, 30 product families. DeFi proofs, EU AI Act compliance, VRF gaming, x402 USDC micropayments, MCP, A2A.",
   "provider": {
     "name": "atomadictech",
     "url": "https://github.com/atomadictech"
@@ -29,13 +29,13 @@
     "multiTurn": false
   },
   "authType": "none",
-  "endpointUrl": "https://aaaa-nexus.atomadictech.workers.dev",
+  "endpointUrl": "https://atomadic.tech",
   "sdks": [
     "python",
     "typescript"
   ],
-  "githubStars": 0,
-  "lastUpdated": "2026-04-10",
+  "githubStars": 1,
+  "lastUpdated": "2026-04-17",
   "official": false,
   "selfHosted": true,
   "license": "NOASSERTION"

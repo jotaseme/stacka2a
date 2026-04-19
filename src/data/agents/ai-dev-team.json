@@ -1,0 +1,40 @@
+{
+  "slug": "ai-dev-team",
+  "name": "Ai Dev Team",
+  "description": "Autonomous AI engineering team powered by LangGraph. Describe what to build — agents handle requirements, architecture, coding, review, testing, security, and CI.",
+  "provider": {
+    "name": "sheikhBasit",
+    "url": "https://github.com/sheikhBasit"
+  },
+  "repository": "https://github.com/sheikhBasit/ai-dev-team",
+  "category": "security",
+  "tags": [
+    "ag-ui",
+    "agentic-ai",
+    "ai-agent",
+    "fastapi",
+    "langfuse",
+    "langgraph",
+    "llm",
+    "llmops",
+    "mcp",
+    "multi-agent"
+  ],
+  "framework": "langgraph",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-17",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

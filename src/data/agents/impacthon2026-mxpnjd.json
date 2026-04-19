@@ -1,0 +1,41 @@
+{
+  "slug": "impacthon2026-mxpnjd",
+  "name": "Impacthon2026 MXPNJD",
+  "description": "Web portal for protein structure prediction and 3D visualization — no HPC expertise required. Built on AlphaFold2 + CESGA Finis Terrae III + Google Vertex AI.",
+  "provider": {
+    "name": "miguelplanas",
+    "url": "https://github.com/miguelplanas"
+  },
+  "repository": "https://github.com/miguelplanas/impacthon2026-MXPNJD",
+  "category": "general",
+  "tags": [
+    "alphafold",
+    "bioinformatics",
+    "cesga",
+    "fastapi",
+    "gemini-api",
+    "google-cloud",
+    "hackathon-project",
+    "protein-structure",
+    "react",
+    "vertex-ai"
+  ],
+  "framework": "fastapi",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://localfold-frontend-uuyqhmvvta-uc.a.run.app/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 3,
+  "lastUpdated": "2026-04-12",
+  "official": false,
+  "selfHosted": true,
+  "license": "AGPL-3.0"
+}
