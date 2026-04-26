@@ -1,0 +1,39 @@
+{
+  "slug": "agentic-crypto-swarm-prototype",
+  "name": "Agentic Crypto Swarm Prototype",
+  "description": "Agentic Swarm Marketplace: MCP + x402 machine-paid SKUs — XRPL (T54) and Base USDC — for contract triage, audits, monitoring, and agent commerce. Streamable HTTP for Smithery/Glama/Cursor; public discovery on api host.",
+  "provider": {
+    "name": "Hobie1Kenobi",
+    "url": "https://github.com/Hobie1Kenobi"
+  },
+  "repository": "https://github.com/Hobie1Kenobi/agentic-crypto-swarm-prototype",
+  "category": "infrastructure",
+  "tags": [
+    "base",
+    "glamai",
+    "machine2machine",
+    "mcp-server",
+    "skuselect",
+    "smithery-ai",
+    "x402-agent",
+    "xrpl"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://agentic-swarm-marketplace.com",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

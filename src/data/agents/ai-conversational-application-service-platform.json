@@ -1,0 +1,40 @@
+{
+  "slug": "ai-conversational-application-service-platform",
+  "name": "AI Conversational Application Service Platform",
+  "description": "Build a Go + Vue 3 AI chat platform with email signup, JWT login, cloud and Ollama models, streaming replies, and session management",
+  "provider": {
+    "name": "Reboundmilk402",
+    "url": "https://github.com/Reboundmilk402"
+  },
+  "repository": "https://github.com/Reboundmilk402/AI-Conversational-Application-Service-Platform",
+  "category": "data-analytics",
+  "tags": [
+    "a",
+    "a2a-mcp",
+    "activemq",
+    "ai",
+    "chatbots",
+    "conversational-ai",
+    "datasets",
+    "edit",
+    "jms",
+    "linux-foundation"
+  ],
+  "framework": "custom",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-26",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

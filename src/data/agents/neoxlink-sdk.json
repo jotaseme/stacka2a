@@ -1,0 +1,36 @@
+{
+  "slug": "neoxlink-sdk",
+  "name": "NEOXLINK SDK",
+  "description": "NEOXLINK-SDK: Python library from natural language to actionable procurement—UNSPSC (code + name), Structured Preview, confirm gates, AI Resolve, and supply–demand matching. First-class agent UX via MCP tools and Skill adapters. PyPI: neoxlink. Python 3.11+. MIT.",
+  "provider": {
+    "name": "neowalter",
+    "url": "https://github.com/neowalter"
+  },
+  "repository": "https://github.com/neowalter/NEOXLINK-SDK",
+  "category": "code-generation",
+  "tags": [
+    "ai",
+    "llm",
+    "mcp",
+    "neoxlink",
+    "skills"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "http://neoxlinkai.com/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-04-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "bhil-ai-first-development-toolkit",
+  "name": "BHIL AI First Development Toolkit",
+  "description": "Build AI-first software with a sprint-based toolkit for PRDs, specs, ADRs, tasks, and review-ready delivery",
+  "provider": {
+    "name": "hesitancewaterbeetle490",
+    "url": "https://github.com/hesitancewaterbeetle490"
+  },
+  "repository": "https://github.com/hesitancewaterbeetle490/BHIL-AI-First-Development-Toolkit",
+  "category": "utility",
+  "tags": [
+    "a",
+    "biginteger",
+    "bignumber",
+    "contributions-welcome",
+    "digitalocean",
+    "generative-ai",
+    "hackathon",
+    "integer",
+    "linux-foundation",
+    "nodejs"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-26",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

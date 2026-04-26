@@ -21,7 +21,7 @@
     "opentelemetry"
   ],
   "framework": "fastapi",
-  "language": "typescript",
+  "language": "python",
   "skills": [],
   "capabilities": {
     "streaming": false,
@@ -30,10 +30,10 @@
   },
   "authType": "none",
   "sdks": [
-    "typescript"
+    "python"
   ],
   "githubStars": 2,
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-21",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

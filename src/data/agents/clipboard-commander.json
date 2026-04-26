@@ -1,0 +1,41 @@
+{
+  "slug": "clipboard-commander",
+  "name": "Clipboard Commander",
+  "description": "aPaste Pro 2026: AI Clipboard Manager for macOS 🚀 Boost Productivity",
+  "provider": {
+    "name": "Raelle-Knight",
+    "url": "https://github.com/Raelle-Knight"
+  },
+  "repository": "https://github.com/Raelle-Knight/clipboard-commander",
+  "category": "general",
+  "tags": [
+    "a",
+    "a2a-mcp",
+    "a2a-server",
+    "activemq",
+    "ai",
+    "cloudflare-workers",
+    "converter",
+    "generative-ai",
+    "jms",
+    "latex"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "prior-auth-pro",
+  "name": "Prior Auth Pro",
+  "description": "AI-powered prior authorization for healthcare. Agents Assemble Hackathon 2026.",
+  "provider": {
+    "name": "Dilip-kumar-22",
+    "url": "https://github.com/Dilip-kumar-22"
+  },
+  "repository": "https://github.com/Dilip-kumar-22/prior-auth-pro",
+  "category": "security",
+  "tags": [
+    "ai-agents",
+    "fhir",
+    "gemini",
+    "hackathon",
+    "healthcare",
+    "prior-authorization"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://github.com/Dilip-kumar-22/prior-auth-pro",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-25",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

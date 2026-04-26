@@ -1,0 +1,41 @@
+{
+  "slug": "hyperterse",
+  "name": "Hyperterse",
+  "description": "The agentic server framework.",
+  "provider": {
+    "name": "hyperterse",
+    "url": "https://github.com/hyperterse"
+  },
+  "repository": "https://github.com/hyperterse/hyperterse",
+  "category": "data-analytics",
+  "tags": [
+    "agent-to-agent",
+    "agentic-ai",
+    "agents",
+    "ai",
+    "api",
+    "database",
+    "framework",
+    "hyperterse",
+    "mcp",
+    "mcp-server"
+  ],
+  "framework": "custom",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://hyperterse.com",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 80,
+  "lastUpdated": "2026-04-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

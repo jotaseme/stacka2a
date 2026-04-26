@@ -1,0 +1,41 @@
+{
+  "slug": "pathcourse-js-sdk",
+  "name": "Pathcourse Js SDK",
+  "description": "Official JavaScript SDK for the PCH AI gateway - pay-per-inference billing in USDC on Base L2, autonomous agent key provisioning, and agent certification.",
+  "provider": {
+    "name": "pathcourse-health",
+    "url": "https://github.com/pathcourse-health"
+  },
+  "repository": "https://github.com/pathcourse-health/pathcourse-js-sdk",
+  "category": "orchestration",
+  "tags": [
+    "agent-identity",
+    "agent-payment",
+    "ai",
+    "autonomous-agent",
+    "base-l2",
+    "javascript",
+    "llm",
+    "llm-inference",
+    "multi-agent",
+    "path-score"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://pathcoursehealth.com",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-04-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

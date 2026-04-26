@@ -1,0 +1,41 @@
+{
+  "slug": "nexartis-nanda-node-sdk",
+  "name": "Nexartis Nanda Node SDK",
+  "description": "TypeScript SDK for Nexartis NANDA Node — agent discovery, registry, orchestration, A2A routing",
+  "provider": {
+    "name": "Nexartis",
+    "url": "https://github.com/Nexartis"
+  },
+  "repository": "https://github.com/Nexartis/nexartis-nanda-node-sdk",
+  "category": "orchestration",
+  "tags": [
+    "agent-discovery",
+    "agentic-ai",
+    "ai-agents",
+    "cloudflare-workers",
+    "edge-computing",
+    "llm",
+    "mcp",
+    "nanda",
+    "open-source",
+    "sdk"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://nnn-sdk.nexartis.com",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-20",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

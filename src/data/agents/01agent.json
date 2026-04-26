@@ -28,11 +28,12 @@
     "multiTurn": false
   },
   "authType": "none",
+  "endpointUrl": "https://ai.01cloud.com/",
   "sdks": [
     "python"
   ],
   "githubStars": 0,
-  "lastUpdated": "2026-04-17",
+  "lastUpdated": "2026-04-24",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

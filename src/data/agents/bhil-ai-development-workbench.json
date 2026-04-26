@@ -1,0 +1,41 @@
+{
+  "slug": "bhil-ai-development-workbench",
+  "name": "BHIL AI Development Workbench",
+  "description": "AI-First MVP Builder 2026 🚀 - Sprint Toolkit & Templates",
+  "provider": {
+    "name": "christopherouseb",
+    "url": "https://github.com/christopherouseb"
+  },
+  "repository": "https://github.com/christopherouseb/BHIL-AI-Development-Workbench",
+  "category": "utility",
+  "tags": [
+    "a",
+    "biginteger",
+    "bignumber",
+    "contributions-welcome",
+    "digitalocean",
+    "generative-ai",
+    "hackathon",
+    "integer",
+    "linux-foundation",
+    "nodejs"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

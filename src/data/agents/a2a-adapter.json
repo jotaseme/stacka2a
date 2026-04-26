@@ -7,18 +7,18 @@
     "url": "https://github.com/hybroai"
   },
   "repository": "https://github.com/hybroai/a2a-adapter",
-  "category": "general",
+  "category": "code-generation",
   "tags": [
     "a2a-agent",
     "a2a-client",
     "a2a-server",
     "agent",
     "ai",
+    "claude-code",
+    "codex-cli",
     "crewai",
     "generative-ai",
-    "langchain",
-    "langgraph",
-    "ollama"
+    "langchain"
   ],
   "framework": "langgraph",
   "language": "python",
@@ -33,8 +33,8 @@
   "sdks": [
     "python"
   ],
-  "githubStars": 35,
-  "lastUpdated": "2026-04-18",
+  "githubStars": 37,
+  "lastUpdated": "2026-04-23",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

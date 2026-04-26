@@ -1,0 +1,36 @@
+{
+  "slug": "a2a-cpp",
+  "name": "A2A Cpp",
+  "description": "C++ SDK for the Agent2Agent (A2A) Protocol",
+  "provider": {
+    "name": "MisterVVP",
+    "url": "https://github.com/MisterVVP"
+  },
+  "repository": "https://github.com/MisterVVP/a2a-cpp",
+  "category": "orchestration",
+  "tags": [
+    "agent-to-agent",
+    "agents",
+    "ai",
+    "multi-agent-systems",
+    "sdk"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-25",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

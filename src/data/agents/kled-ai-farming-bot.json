@@ -1,0 +1,40 @@
+{
+  "slug": "kled-ai-farming-bot",
+  "name": "Kled AI Farming Bot",
+  "description": "Organize Kled-style AI farming workflows, prepare files, review submissions, and build upload-ready datasets in a local Windows tool",
+  "provider": {
+    "name": "icyman1108",
+    "url": "https://github.com/icyman1108"
+  },
+  "repository": "https://github.com/icyman1108/Kled-AI-farming-bot",
+  "category": "data-analytics",
+  "tags": [
+    "a",
+    "a2a-mcp",
+    "a2a-server",
+    "bot",
+    "docx",
+    "edit",
+    "editor",
+    "generative-ai",
+    "jms",
+    "pure"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-26",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "intuno",
+  "name": "Intuno",
+  "description": "Open platform for AI agent networks — semantic discovery, a secure broker, and multidirectional agent-to-agent communication with Google A2A protocol support. Async Python (FastAPI), Postgres, Qdrant, Redis.",
+  "provider": {
+    "name": "IntunoAI",
+    "url": "https://github.com/IntunoAI"
+  },
+  "repository": "https://github.com/IntunoAI/intuno",
+  "category": "search",
+  "tags": [
+    "agent-network",
+    "agent-orchestration",
+    "agent-to-agent",
+    "ai-agents",
+    "async",
+    "fastapi",
+    "google-a2a",
+    "llm",
+    "mcp",
+    "model-context-protocol"
+  ],
+  "framework": "fastapi",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://intuno.net",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 5,
+  "lastUpdated": "2026-04-24",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

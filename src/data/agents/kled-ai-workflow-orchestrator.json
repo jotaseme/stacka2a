@@ -1,0 +1,41 @@
+{
+  "slug": "kled-ai-workflow-orchestrator",
+  "name": "Kled AI Workflow Orchestrator",
+  "description": "AI Dataset Builder 2026 🚀 - Free Windows Tool for Automated Data Prep",
+  "provider": {
+    "name": "Abbysee2131",
+    "url": "https://github.com/Abbysee2131"
+  },
+  "repository": "https://github.com/Abbysee2131/Kled-AI-Workflow-Orchestrator",
+  "category": "data-analytics",
+  "tags": [
+    "a",
+    "a2a-mcp",
+    "a2a-server",
+    "bot",
+    "docx",
+    "edit",
+    "editor",
+    "generative-ai",
+    "jms",
+    "pure"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

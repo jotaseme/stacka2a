@@ -1,0 +1,40 @@
+{
+  "slug": "cybrolog",
+  "name": "CyBroLog",
+  "description": "CyBroLog: executable compact accountability language for multi-agent coordination",
+  "provider": {
+    "name": "aquigni",
+    "url": "https://github.com/aquigni"
+  },
+  "repository": "https://github.com/aquigni/CyBroLog",
+  "category": "code-generation",
+  "tags": [
+    "agent-protocol",
+    "ai-agent",
+    "clawdbot",
+    "codex",
+    "cybrolog",
+    "hermes",
+    "hermes-agent",
+    "language",
+    "llm",
+    "moltbot"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2026-04-25",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

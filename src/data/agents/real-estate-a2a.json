@@ -1,0 +1,40 @@
+{
+  "slug": "real-estate-a2a",
+  "name": "Real Estate A2A",
+  "description": "Federated Multi-Agent Real Estate System using A2A Protocol | LangGraph Orchestration | RAG Pipeline | ChromaDB | Groq LLaMA 3.1",
+  "provider": {
+    "name": "dhanyaamanoj",
+    "url": "https://github.com/dhanyaamanoj"
+  },
+  "repository": "https://github.com/dhanyaamanoj/real-estate-a2a",
+  "category": "data-analytics",
+  "tags": [
+    "chromadb",
+    "embeddings",
+    "fastapi",
+    "groq",
+    "langchain",
+    "langgraph",
+    "llama3",
+    "multi-agent-systems",
+    "python",
+    "rag"
+  ],
+  "framework": "langgraph",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-24",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "realestate-multiagent",
+  "name": "Realestate Multiagent",
+  "description": "A fully local, open‑source demonstration of a federated multi‑agent system for a real estate platform.",
+  "provider": {
+    "name": "satyajeet-rajupali",
+    "url": "https://github.com/satyajeet-rajupali"
+  },
+  "repository": "https://github.com/satyajeet-rajupali/realestate-multiagent",
+  "category": "orchestration",
+  "tags": [
+    "a2a-server",
+    "agentic-ai",
+    "langgraph-agents",
+    "rag-pipeline"
+  ],
+  "framework": "langgraph",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-25",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

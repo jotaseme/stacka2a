@@ -31,10 +31,10 @@
   "authType": "none",
   "endpointUrl": "https://gateway.pathcoursehealth.com",
   "sdks": [
-    "typescript"
+    "python"
   ],
   "githubStars": 0,
-  "lastUpdated": "2026-04-05",
+  "lastUpdated": "2026-04-21",
   "official": false,
   "selfHosted": true,
   "license": "unknown"

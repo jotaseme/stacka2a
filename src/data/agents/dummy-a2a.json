@@ -1,0 +1,39 @@
+{
+  "slug": "dummy-a2a",
+  "name": "Dummy A2A",
+  "description": "A2A compliance test suite disguised as an agent. Portable contracts, pytest-ready.",
+  "provider": {
+    "name": "agsuy",
+    "url": "https://github.com/agsuy"
+  },
+  "repository": "https://github.com/agsuy/dummy-a2a",
+  "category": "general",
+  "tags": [
+    "a2a-client",
+    "a2a-sdk",
+    "a2a-server",
+    "agent-to-agent",
+    "compliance",
+    "pytest",
+    "python",
+    "python3",
+    "testing"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 3,
+  "lastUpdated": "2026-04-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

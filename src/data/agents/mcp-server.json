@@ -1,0 +1,37 @@
+{
+  "slug": "mcp-server",
+  "name": "MCP Server",
+  "description": "Dual-protocol gateway: 62 MCP tools + A2A Protocol agent (82/82 TCK intentional) in a single governed runtime",
+  "provider": {
+    "name": "thinkneo-ai",
+    "url": "https://github.com/thinkneo-ai"
+  },
+  "repository": "https://github.com/thinkneo-ai/mcp-server",
+  "category": "enterprise",
+  "tags": [
+    "agent-to-agent",
+    "ai-governance",
+    "enterprise",
+    "finops",
+    "guardrails",
+    "mcp",
+    "model-context-protocol"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-26",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

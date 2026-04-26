@@ -1,0 +1,40 @@
+{
+  "slug": "daily-news-dashboard",
+  "name": "Daily News Dashboard",
+  "description": "Track global, India, and Tamil Nadu news with market data, metal rates, and AI summaries in a clean daily dashboard",
+  "provider": {
+    "name": "wild-orderpolemoniales647",
+    "url": "https://github.com/wild-orderpolemoniales647"
+  },
+  "repository": "https://github.com/wild-orderpolemoniales647/daily-news-dashboard",
+  "category": "data-analytics",
+  "tags": [
+    "ai",
+    "ai-agents",
+    "ai-summary",
+    "automation",
+    "bigquery",
+    "cicd",
+    "dashboard",
+    "full-stack",
+    "gemini",
+    "huggingface"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-26",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}
