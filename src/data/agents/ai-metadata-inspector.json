@@ -1,0 +1,41 @@
+{
+  "slug": "ai-metadata-inspector",
+  "name": "AI Metadata Inspector",
+  "description": "Extract AI generation metadata and prompts from image and video files directly through the Windows context menu.",
+  "provider": {
+    "name": "ebncommonthyme293",
+    "url": "https://github.com/ebncommonthyme293"
+  },
+  "repository": "https://github.com/ebncommonthyme293/AI-Metadata-Inspector",
+  "category": "data-analytics",
+  "tags": [
+    "a",
+    "a2a-mcp",
+    "acme",
+    "activemq",
+    "artemis",
+    "data-discovery",
+    "data-observability",
+    "dataengineering",
+    "dataquality",
+    "edit"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-03",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

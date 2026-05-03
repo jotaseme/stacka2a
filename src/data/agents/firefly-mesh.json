@@ -1,0 +1,41 @@
+{
+  "slug": "firefly-mesh",
+  "name": "Firefly Mesh",
+  "description": "Open-source organizational substrate for any agent runtime. Bring your own agent. We bring the org.",
+  "provider": {
+    "name": "intellicave",
+    "url": "https://github.com/intellicave"
+  },
+  "repository": "https://github.com/intellicave/firefly-mesh",
+  "category": "orchestration",
+  "tags": [
+    "agent",
+    "agentskills",
+    "apache-2",
+    "drizzle-orm",
+    "hitl",
+    "mcp",
+    "multi-agent",
+    "nextjs",
+    "open-source",
+    "pgvector"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://cyberautonomy.io",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-29",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

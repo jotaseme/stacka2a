@@ -1,0 +1,38 @@
+{
+  "slug": "banking-intent-router",
+  "name": "Banking Intent Router",
+  "description": "A banking intent router powered by the a2a (Agent-to-Agent) framework. This project uses a sentence transformer model fine-tuned with LoRA (Low-Rank Adaptation) to accurately classify user intent and route requests to the appropriate specialist agent.",
+  "provider": {
+    "name": "Ahmedmk11",
+    "url": "https://github.com/Ahmedmk11"
+  },
+  "repository": "https://github.com/Ahmedmk11/banking-intent-router",
+  "category": "orchestration",
+  "tags": [
+    "ai-agents",
+    "anthropic",
+    "embedding-models",
+    "finetuning-llms",
+    "intent-classification",
+    "lora-fine-tuning",
+    "multi-agent"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-29",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

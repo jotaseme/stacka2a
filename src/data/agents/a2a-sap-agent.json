@@ -1,0 +1,41 @@
+{
+  "slug": "a2a-sap-agent",
+  "name": "A2A Sap Agent",
+  "description": "SAP S/4HANA Maintenance Agent for the A2A Protocol — PEOS architecture, LangGraph, 11 OData tools, token optimization",
+  "provider": {
+    "name": "naveenkumarbaskaran",
+    "url": "https://github.com/naveenkumarbaskaran"
+  },
+  "repository": "https://github.com/naveenkumarbaskaran/a2a-sap-agent",
+  "category": "data-analytics",
+  "tags": [
+    "agents",
+    "erp",
+    "langchain",
+    "langgraph",
+    "llm",
+    "multi-agent",
+    "odata",
+    "plant-maintenance",
+    "python",
+    "s4hana"
+  ],
+  "framework": "langgraph",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://a2a-protocol.org/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-03",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

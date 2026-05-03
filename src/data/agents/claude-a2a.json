@@ -1,0 +1,40 @@
+{
+  "slug": "claude-a2a",
+  "name": "Claude A2A",
+  "description": "A2A-protocol bridge for two Claude Code agents communicating via MCP (Google Agent2Agent over JSON-RPC, exposed as stdio MCP tools).",
+  "provider": {
+    "name": "oriolrius",
+    "url": "https://github.com/oriolrius"
+  },
+  "repository": "https://github.com/oriolrius/claude-a2a",
+  "category": "code-generation",
+  "tags": [
+    "agent-to-agent",
+    "anthropic",
+    "claude",
+    "claude-code",
+    "fastapi",
+    "json-rpc",
+    "mcp",
+    "model-context-protocol",
+    "multi-agent",
+    "python"
+  ],
+  "framework": "fastapi",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-28",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "agentic-protocols",
+  "name": "Agentic Protocols",
+  "description": "A systems-level evaluation framework for comparing how different agent communication protocols behave under real-world constraints: latency, failures, coordination overhead, and observability.",
+  "provider": {
+    "name": "simarbedi",
+    "url": "https://github.com/simarbedi"
+  },
+  "repository": "https://github.com/simarbedi/agentic-protocols",
+  "category": "general",
+  "tags": [
+    "agents",
+    "comparison-benchmarks",
+    "distributed-systems",
+    "mcp-protocol",
+    "python3"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-04-28",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

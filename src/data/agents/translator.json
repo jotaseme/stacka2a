@@ -1,12 +1,12 @@
 {
-  "slug": "engram-translator",
-  "name": "Engram Translator",
+  "slug": "translator",
+  "name": "Translator",
   "description": "layer that lets you connect any agent, any tool, any api together.",
   "provider": {
     "name": "kwstx",
     "url": "https://github.com/kwstx"
   },
-  "repository": "https://github.com/kwstx/engram_translator",
+  "repository": "https://github.com/kwstx/translator",
   "category": "enterprise",
   "tags": [
     "agentic-ai",

@@ -13,7 +13,10 @@
     "ai",
     "blazor",
     "chatgpt",
-    "semantic-kernel"
+    "semantic-kernel",
+    "async",
+    "falcon",
+    "ruby"
   ],
   "framework": "semantic-kernel",
   "language": "csharp",
@@ -28,8 +31,8 @@
     "csharp"
   ],
   "githubStars": 0,
-  "lastUpdated": "2025-08-20",
+  "lastUpdated": "2026-05-02",
   "official": false,
   "selfHosted": true,
-  "license": "unknown"
+  "license": "Apache-2.0"
 }

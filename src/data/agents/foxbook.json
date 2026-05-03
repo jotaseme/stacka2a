@@ -1,0 +1,41 @@
+{
+  "slug": "foxbook",
+  "name": "Foxbook",
+  "description": "Verifiable agent identity for A2A and MCP. Cryptographic claims, append-only transparency log, recovery-key revocation. Apache 2.0.",
+  "provider": {
+    "name": "cloakmaster",
+    "url": "https://github.com/cloakmaster"
+  },
+  "repository": "https://github.com/cloakmaster/foxbook",
+  "category": "security",
+  "tags": [
+    "agent-identity",
+    "agent-security",
+    "agent-verification",
+    "agentic-ai",
+    "ai-agents",
+    "cryptography",
+    "decentralized-identity",
+    "did",
+    "ed25519",
+    "json-schema"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://transparency.foxbook.dev",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-01",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

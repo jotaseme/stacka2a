@@ -1,0 +1,40 @@
+{
+  "slug": "ant-ai",
+  "name": "Ant Ai",
+  "description": "A lightweight Python framework for building multi-agent systems that communicate via A2A protocol",
+  "provider": {
+    "name": "idea-idsia",
+    "url": "https://github.com/idea-idsia"
+  },
+  "repository": "https://github.com/idea-idsia/ant-ai",
+  "category": "orchestration",
+  "tags": [
+    "agent2agent",
+    "agents",
+    "ai",
+    "ai-agents",
+    "framework",
+    "multi-agent",
+    "open-source",
+    "python",
+    "a2a-protocol"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://idea-idsia.github.io/ant-ai/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2026-05-01",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

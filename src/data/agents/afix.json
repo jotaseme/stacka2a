@@ -1,0 +1,41 @@
+{
+  "slug": "afix",
+  "name": "Afix",
+  "description": "AFIX: A protocol-agnostic Agentic Financial Interoperability eXchange. Schemas, research, and pilot design for cross-enterprise agentic governance interchange.",
+  "provider": {
+    "name": "QBall-Inc",
+    "url": "https://github.com/QBall-Inc"
+  },
+  "repository": "https://github.com/QBall-Inc/afix",
+  "category": "search",
+  "tags": [
+    "a2a-governance",
+    "a2a-mcp",
+    "afix",
+    "agent-governance",
+    "ai-governance",
+    "ai-governance-framework",
+    "ai-governance-schema",
+    "financial-services",
+    "finos",
+    "json-schema"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-29",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

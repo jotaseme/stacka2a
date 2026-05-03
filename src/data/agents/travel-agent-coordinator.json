@@ -1,0 +1,32 @@
+{
+  "slug": "travel-agent-coordinator",
+  "name": "Travel Agent Coordinator",
+  "description": "Multi-agent travel planner built on Google's A2A Protocol — LLM tool use, SSE streaming, schema   validation, user memory",
+  "provider": {
+    "name": "Pin-Han",
+    "url": "https://github.com/Pin-Han"
+  },
+  "repository": "https://github.com/Pin-Han/travel-agent-coordinator",
+  "category": "travel",
+  "tags": [
+    "multi-agent",
+    "travel"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-02",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

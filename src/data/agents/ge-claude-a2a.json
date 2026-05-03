@@ -1,0 +1,38 @@
+{
+  "slug": "ge-claude-a2a",
+  "name": "Ge Claude A2A",
+  "description": "Run Anthropic's Claude Code as a multi-surface A2A custom agent inside Gemini Enterprise App. One conversation across mobile, web chat, and Cloud Workstation terminal.",
+  "provider": {
+    "name": "yuting0624",
+    "url": "https://github.com/yuting0624"
+  },
+  "repository": "https://github.com/yuting0624/ge-claude-a2a",
+  "category": "code-generation",
+  "tags": [
+    "anthropic",
+    "claude-code",
+    "cloud-workstations",
+    "gemini-enterprise",
+    "google-cloud",
+    "terraform",
+    "vertex-ai"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://zenn.dev/google_cloud_jp/articles/2c0cab1ab0d139",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-01",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "travelnet-a2a",
+  "name": "TravelNet A2A",
+  "description": "A comprehensive Agent-to-Agent (A2A) communication system built with .NET 9.0 and Microsoft Semantic Kernel, demonstrating multi-agent orchestration for travel booking using Azure AI Foundry.",
+  "provider": {
+    "name": "karanpraja902",
+    "url": "https://github.com/karanpraja902"
+  },
+  "repository": "https://github.com/karanpraja902/TravelNet-A2A",
+  "category": "travel",
+  "tags": [
+    "ai-agents",
+    "azure-ai-foundry",
+    "azure-openai",
+    "csharp",
+    "dotnet-9",
+    "llm",
+    "microservice",
+    "multi-agent-system",
+    "semantic-kernel"
+  ],
+  "framework": "semantic-kernel",
+  "language": "csharp",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "csharp"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-04-30",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}
