@@ -1,0 +1,33 @@
+{
+  "slug": "gaiia-mcp-server",
+  "name": "Gaiia MCP Server",
+  "description": "API Interrogator to produce MCP, A2A and OpenAPI specifications, and audit/review codebases with Expert Proxies",
+  "provider": {
+    "name": "dapooleygmailcom",
+    "url": "https://github.com/dapooleygmailcom"
+  },
+  "repository": "https://github.com/dapooleygmailcom/gaiia-mcp-server",
+  "category": "code-generation",
+  "tags": [
+    "artificial-intelligence",
+    "mcp-server"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://gaiia.dev",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-08",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

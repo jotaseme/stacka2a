@@ -1,12 +1,12 @@
 {
   "slug": "agentx-python",
-  "name": "Agentx Python",
+  "name": "AgentX Python",
   "description": "AgentX python SDK. Build multi-agent AI workforce.",
   "provider": {
     "name": "AgentX-ai",
     "url": "https://github.com/AgentX-ai"
   },
-  "repository": "https://github.com/AgentX-ai/agentx-python",
+  "repository": "https://github.com/AgentX-ai/AgentX-Python",
   "category": "orchestration",
   "tags": [
     "agent",
@@ -26,8 +26,8 @@
   "sdks": [
     "python"
   ],
-  "githubStars": 46,
-  "lastUpdated": "2025-06-26",
+  "githubStars": 47,
+  "lastUpdated": "2026-05-06",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

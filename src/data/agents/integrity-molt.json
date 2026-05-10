@@ -1,0 +1,40 @@
+{
+  "slug": "integrity-molt",
+  "name": "Integrity.Molt",
+  "description": "A2A security oracle for autonomous AI agents on Solana. Verifies counterparty legitimacy before x402 transactions via reputation scoring, behavioral monitoring, and drainer pattern detection. Ed25519 signed receipts",
+  "provider": {
+    "name": "Hans1132",
+    "url": "https://github.com/Hans1132"
+  },
+  "repository": "https://github.com/Hans1132/integrity.molt",
+  "category": "enterprise",
+  "tags": [
+    "agentic-ai",
+    "ai-agents",
+    "autonomous-agents",
+    "ed25519",
+    "metaplex",
+    "security-oracle",
+    "solana",
+    "web3-security",
+    "x402"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://intmolt.org",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-05-09",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

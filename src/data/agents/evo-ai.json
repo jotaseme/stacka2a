@@ -3,10 +3,10 @@
   "name": "Evo Ai",
   "description": "Evo AI is an open-source platform for creating and managing AI agents, enabling integration with different AI models and services.",
   "provider": {
-    "name": "EvolutionAPI",
-    "url": "https://github.com/EvolutionAPI"
+    "name": "evolution-foundation",
+    "url": "https://github.com/evolution-foundation"
   },
-  "repository": "https://github.com/EvolutionAPI/evo-ai",
+  "repository": "https://github.com/evolution-foundation/evo-ai",
   "category": "enterprise",
   "tags": [
     "adk",
@@ -32,7 +32,7 @@
   "sdks": [
     "typescript"
   ],
-  "githubStars": 585,
+  "githubStars": 589,
   "lastUpdated": "2025-06-02",
   "official": false,
   "selfHosted": true,

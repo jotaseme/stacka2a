@@ -1,0 +1,37 @@
+{
+  "slug": "medilinkai",
+  "name": "MediLinkAI",
+  "description": "Repository for https://replit.com/@millionairetra2/Asset-Manager & https://app.promptopinion.ai/marketplace/mcp/019def3b-04d2-7420-8e38-1b887e75bee3",
+  "provider": {
+    "name": "MiChaelinzo",
+    "url": "https://github.com/MiChaelinzo"
+  },
+  "repository": "https://github.com/MiChaelinzo/MediLinkAI",
+  "category": "general",
+  "tags": [
+    "fhir",
+    "healthcare",
+    "healthcare-application",
+    "mcp",
+    "mcp-server",
+    "prompt-opinion"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://app.promptopinion.ai/marketplace/mcp/019def3b-04d2-7420-8e38-1b887e75bee3",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-03",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

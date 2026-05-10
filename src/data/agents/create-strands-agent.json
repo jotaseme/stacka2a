@@ -1,0 +1,39 @@
+{
+  "slug": "create-strands-agent",
+  "name": "Create Strands Agent",
+  "description": "Scaffolding CLI for Strands Agents TypeScript projects — generate production-ready agents with memory, guardrails, A2A protocol, and AgentCore deployment support.",
+  "provider": {
+    "name": "tverney",
+    "url": "https://github.com/tverney"
+  },
+  "repository": "https://github.com/tverney/create-strands-agent",
+  "category": "code-generation",
+  "tags": [
+    "ai-agents",
+    "aws-agentcore",
+    "cli",
+    "code-generator",
+    "npx",
+    "scaffolding",
+    "starter-kit",
+    "strands-agents",
+    "typescript"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2026-05-05",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

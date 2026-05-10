@@ -1,0 +1,36 @@
+{
+  "slug": "mote",
+  "name": "Mote",
+  "description": "Minimal personal AI agent. Bun + TypeScript, ~1500 LOC target.",
+  "provider": {
+    "name": "paveg",
+    "url": "https://github.com/paveg"
+  },
+  "repository": "https://github.com/paveg/mote",
+  "category": "general",
+  "tags": [
+    "agent",
+    "agentskills",
+    "bun",
+    "mcp",
+    "personal-ai",
+    "typescript"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-03",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

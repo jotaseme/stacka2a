@@ -1,0 +1,41 @@
+{
+  "slug": "hermes-super-agent",
+  "name": "Hermes Super Agent",
+  "description": "Multi-agent fleet fabric on top of Hermes — A2A protocol + NATS event bus + Temporal durable workflows + Tier 2 VPS spawning. Run a fleet of specialist agents from one Telegram bot.",
+  "provider": {
+    "name": "jbellsolutions",
+    "url": "https://github.com/jbellsolutions"
+  },
+  "repository": "https://github.com/jbellsolutions/hermes-super-agent",
+  "category": "enterprise",
+  "tags": [
+    "agent-fabric",
+    "agent-os",
+    "ai-agents",
+    "anthropic",
+    "claude",
+    "hermes",
+    "kimi-k2",
+    "multi-agent",
+    "nats",
+    "openswarm"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://github.com/jbellsolutions/hermes-super-agent#readme",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-08",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "grikard",
+  "name": "Grikard",
+  "description": "Public profile README and artifact index for Gary Rikard’s enterprise AI strategy, workflow economics, and control-plane architecture work.",
+  "provider": {
+    "name": "grikard",
+    "url": "https://github.com/grikard"
+  },
+  "repository": "https://github.com/grikard/grikard",
+  "category": "enterprise",
+  "tags": [
+    "agentforce",
+    "agentic-ai",
+    "ai-control-plane",
+    "ai-governance",
+    "anthropic-claude",
+    "capital-allocation",
+    "enterprise-ai",
+    "gemini-ai",
+    "mcp",
+    "revenue-intelligence"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-07",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

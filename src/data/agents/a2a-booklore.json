@@ -1,0 +1,38 @@
+{
+  "slug": "a2a-booklore",
+  "name": "A2A Booklore",
+  "description": "This project is a ADK + A2A Protocol demo that showcases a complete multi-agent collaboration workflow.",
+  "provider": {
+    "name": "charles-hsiao",
+    "url": "https://github.com/charles-hsiao"
+  },
+  "repository": "https://github.com/charles-hsiao/a2a-booklore",
+  "category": "enterprise",
+  "tags": [
+    "a2a-agent",
+    "a2a-client",
+    "a2a-server",
+    "adk",
+    "adk-python",
+    "ai-agents",
+    "python"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://www.charles-hsiao.com/blog/202605-a2a-agent-to-agent-part4",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-07",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

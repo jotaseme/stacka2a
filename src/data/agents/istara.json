@@ -10,6 +10,7 @@
   "category": "code-generation",
   "tags": [
     "a2a-mcp",
+    "a2ui",
     "agentic-ai",
     "artificial-intelligence",
     "atomic-design",
@@ -17,8 +18,7 @@
     "mcp-server",
     "orchestration",
     "user-experience",
-    "ux",
-    "ux-research"
+    "ux"
   ],
   "framework": "custom",
   "language": "python",
@@ -33,7 +33,7 @@
     "python"
   ],
   "githubStars": 7,
-  "lastUpdated": "2026-04-30",
+  "lastUpdated": "2026-05-09",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

@@ -1,0 +1,41 @@
+{
+  "slug": "mcp-smb-products",
+  "name": "MCP Smb Products",
+  "description": "8 MCP SMB products — standalone AI servers for SMBs: Guardrails, FinOps, Observability, Router, Trust Score, Memory, ThinkSecure, A2A Lite. 37 tools, TNC credits billing.",
+  "provider": {
+    "name": "thinkneo-ai",
+    "url": "https://github.com/thinkneo-ai"
+  },
+  "repository": "https://github.com/thinkneo-ai/mcp-smb-products",
+  "category": "utility",
+  "tags": [
+    "ai-governance",
+    "finops",
+    "guardrails",
+    "mcp",
+    "mcp-server",
+    "observability",
+    "smart-router",
+    "smb",
+    "streamable-http",
+    "thinkneo"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://thinkneo.app",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-06",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

@@ -1,19 +1,24 @@
 {
   "slug": "a2a-cpp",
   "name": "A2A Cpp",
-  "description": "C++ SDK for the Agent2Agent (A2A) Protocol",
+  "description": "C++20 SDK for the Agent2Agent (A2A) Protocol: build A2A clients and servers with REST, JSON-RPC, gRPC/protobuf, streaming, auth hooks, CMake, vcpkg.",
   "provider": {
     "name": "MisterVVP",
     "url": "https://github.com/MisterVVP"
   },
   "repository": "https://github.com/MisterVVP/a2a-cpp",
-  "category": "orchestration",
+  "category": "security",
   "tags": [
+    "a2a-agent",
+    "a2a-client",
+    "a2a-server",
     "agent-to-agent",
+    "agentic-ai",
     "agents",
     "ai",
-    "multi-agent-systems",
-    "sdk"
+    "ai-agents",
+    "cmake",
+    "cpp"
   ],
   "framework": "custom",
   "language": "unknown",
@@ -29,7 +34,7 @@
     "typescript"
   ],
   "githubStars": 0,
-  "lastUpdated": "2026-05-02",
+  "lastUpdated": "2026-05-09",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

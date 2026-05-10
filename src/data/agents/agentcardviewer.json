@@ -1,0 +1,34 @@
+{
+  "slug": "agentcardviewer",
+  "name": "AgentCardViewer",
+  "description": "Agent2Agent プロトコル（A2A）のエージェントカードを表示するアプリケーション",
+  "provider": {
+    "name": "ymd65536",
+    "url": "https://github.com/ymd65536"
+  },
+  "repository": "https://github.com/ymd65536/AgentCardViewer",
+  "category": "general",
+  "tags": [
+    "app",
+    "blazor",
+    "dotnet"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-06",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

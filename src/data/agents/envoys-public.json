@@ -1,0 +1,37 @@
+{
+  "slug": "envoys-public",
+  "name": "Envoys Public",
+  "description": "Cryptographic identity for AI agents, Ed25519 keypairs, RFC 9421 HTTP Message Signatures, self-resolving public keys. Reference implementation of envoys.me.",
+  "provider": {
+    "name": "jschoemaker",
+    "url": "https://github.com/jschoemaker"
+  },
+  "repository": "https://github.com/jschoemaker/Envoys-public",
+  "category": "general",
+  "tags": [
+    "agent-identity",
+    "agent-identity-protocol",
+    "agents",
+    "cryptography",
+    "ed25519",
+    "rfc-9421"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://envoys.me",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-09",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

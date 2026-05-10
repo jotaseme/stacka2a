@@ -1,7 +1,7 @@
 {
   "slug": "a2a-mesh",
   "name": "A2A Mesh",
-  "description": "Production-ready TypeScript runtime for Google's Agent-to-Agent (A2A) Protocol, with adapters, registry, CLI, and MCP bridge.",
+  "description": "TypeScript runtime for Google's Agent-to-Agent (A2A) Protocol, with adapters, registry, CLI, and MCP bridge.",
   "provider": {
     "name": "oaslananka",
     "url": "https://github.com/oaslananka"
@@ -33,7 +33,7 @@
     "typescript"
   ],
   "githubStars": 5,
-  "lastUpdated": "2026-04-29",
+  "lastUpdated": "2026-05-10",
   "official": false,
   "selfHosted": true,
   "license": "NOASSERTION"

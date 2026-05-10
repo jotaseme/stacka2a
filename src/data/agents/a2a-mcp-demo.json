@@ -1,0 +1,32 @@
+{
+  "slug": "a2a-mcp-demo",
+  "name": "A2A MCP Demo",
+  "description": "A Demo for A2A-MCP Multi-Agent System",
+  "provider": {
+    "name": "Yonagi04",
+    "url": "https://github.com/Yonagi04"
+  },
+  "repository": "https://github.com/Yonagi04/a2a-mcp-demo",
+  "category": "orchestration",
+  "tags": [
+    "mcp",
+    "multi-agent"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-07",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

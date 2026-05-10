@@ -1,0 +1,38 @@
+{
+  "slug": "ai-agent-engineering-build-production-ready-agentic-systems",
+  "name": "AI Agent Engineering Build Production Ready Agentic Systems",
+  "description": "AI Agent Engineering: Build Production Ready Agentic Systems with LangChain, MCP, A2A, FastAPI",
+  "provider": {
+    "name": "raj713335",
+    "url": "https://github.com/raj713335"
+  },
+  "repository": "https://github.com/raj713335/AI_Agent_Engineering_Build_Production_Ready_Agentic_Systems",
+  "category": "general",
+  "tags": [
+    "ai-agents",
+    "deepagents",
+    "fastapi",
+    "langchain",
+    "langfuse",
+    "langgraph",
+    "mcp"
+  ],
+  "framework": "langgraph",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://www.udemy.com/course/ai-agent-engineering-build-production-ready-agentic-systems/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-05-09",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

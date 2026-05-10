@@ -1,0 +1,41 @@
+{
+  "slug": "chamber",
+  "name": "Chamber",
+  "description": "Genesis Mind Interface — desktop chat UI for Genesis agents",
+  "provider": {
+    "name": "ianphil",
+    "url": "https://github.com/ianphil"
+  },
+  "repository": "https://github.com/ianphil/chamber",
+  "category": "conversational",
+  "tags": [
+    "a2a-platform",
+    "agent",
+    "agent-harness",
+    "agent-os",
+    "agentic",
+    "ai-agent",
+    "ai-agents",
+    "artificial-intelligence",
+    "chamber",
+    "electron"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://chmbr.dev/",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 6,
+  "lastUpdated": "2026-05-10",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}
