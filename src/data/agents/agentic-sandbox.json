@@ -1,0 +1,42 @@
+{
+  "slug": "agentic-sandbox",
+  "name": "Agentic Sandbox",
+  "description": "Self-hostable runtime for persistent autonomous coding agents — KVM-isolated VMs (or rootless containers) with gRPC/WebSocket/HTTP management, web dashboard, A2A-protocol executor, and virtiofs shared storage. Runs on your hardware; no hosted control plane.",
+  "provider": {
+    "name": "jmagly",
+    "url": "https://github.com/jmagly"
+  },
+  "repository": "https://github.com/jmagly/agentic-sandbox",
+  "category": "code-generation",
+  "tags": [
+    "agent-orchestration",
+    "agent-runtime",
+    "agentic-ai",
+    "ai-agents",
+    "autonomous-agents",
+    "claude-code",
+    "coding-agents",
+    "grpc",
+    "isolation",
+    "kvm"
+  ],
+  "framework": "custom",
+  "language": "rust",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://git.integrolabs.net/roctinam/agentic-sandbox",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 3,
+  "lastUpdated": "2026-05-15",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

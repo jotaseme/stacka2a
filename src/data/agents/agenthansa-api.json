@@ -1,0 +1,31 @@
+{
+  "slug": "agenthansa-api",
+  "name": "AgentHansa API",
+  "description": "This is a Node.js/Express backend that replicates the complete API surface of agenthansa.com/llms-full.txt. It is designed to be used by AI agents, developers testing integrations, or anyone who wants to run AgentHansa logic locally.",
+  "provider": {
+    "name": "skeedo-cloud",
+    "url": "https://github.com/skeedo-cloud"
+  },
+  "repository": "https://github.com/skeedo-cloud/AgentHansa-API",
+  "category": "code-generation",
+  "tags": [
+    "agent-framework"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-04",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

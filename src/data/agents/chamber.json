@@ -33,9 +33,9 @@
   "sdks": [
     "typescript"
   ],
-  "githubStars": 6,
-  "lastUpdated": "2026-05-10",
+  "githubStars": 7,
+  "lastUpdated": "2026-05-16",
   "official": false,
   "selfHosted": true,
-  "license": "unknown"
+  "license": "MIT"
 }

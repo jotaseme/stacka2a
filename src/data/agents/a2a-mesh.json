@@ -1,26 +1,26 @@
 {
   "slug": "a2a-mesh",
   "name": "A2A Mesh",
-  "description": "TypeScript runtime for Google's Agent-to-Agent (A2A) Protocol, with adapters, registry, CLI, and MCP bridge.",
+  "description": "Security-hardened TypeScript runtime and registry for Google A2A Protocol multi-agent systems, with adapters, auth, streaming, Redis discovery, observability, MCP bridge, and test tooling.",
   "provider": {
     "name": "oaslananka",
     "url": "https://github.com/oaslananka"
   },
   "repository": "https://github.com/oaslananka/a2a-mesh",
-  "category": "orchestration",
+  "category": "security",
   "tags": [
+    "agent-to-agent",
     "ai-agents",
-    "anthropic",
-    "crewai",
-    "google-adk",
+    "cli",
     "json-rpc",
-    "langchain",
-    "llamaindex",
+    "jwt",
     "mcp",
-    "multi-agent",
-    "nodejs"
+    "model-context-protocol",
+    "multi-agent-systems",
+    "nodejs",
+    "opentelemetry"
   ],
-  "framework": "google-adk",
+  "framework": "custom",
   "language": "typescript",
   "skills": [],
   "capabilities": {
@@ -33,7 +33,7 @@
     "typescript"
   ],
   "githubStars": 5,
-  "lastUpdated": "2026-05-10",
+  "lastUpdated": "2026-05-15",
   "official": false,
   "selfHosted": true,
   "license": "NOASSERTION"

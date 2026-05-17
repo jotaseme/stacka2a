@@ -1,0 +1,40 @@
+{
+  "slug": "a2a-travel-planner",
+  "name": "A2A Travel Planner",
+  "description": "A hands-on tutorial implementation of Google's Agent2Agent (A2A) protocol. Three multi-agent travel planners Flight, Hotel, and Itinerary collaborate via Agent Cards, SSE streaming, and artifact passing. Includes LangGraph and CrewAI integrations.",
+  "provider": {
+    "name": "rajeshai",
+    "url": "https://github.com/rajeshai"
+  },
+  "repository": "https://github.com/rajeshai/a2a-travel-planner",
+  "category": "travel",
+  "tags": [
+    "agent2agent",
+    "agentic-ai",
+    "ai-agents",
+    "crewai",
+    "google-a2a",
+    "langgraph",
+    "llm",
+    "multi-agent-systems",
+    "python",
+    "a2a-protocol"
+  ],
+  "framework": "langgraph",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-05-13",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

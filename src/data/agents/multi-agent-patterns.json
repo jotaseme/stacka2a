@@ -1,0 +1,37 @@
+{
+  "slug": "multi-agent-patterns",
+  "name": "Multi Agent Patterns",
+  "description": "5 multi-agent patterns using Google ADK and A2A protocol — Agent Card Discovery, Delegated Specialization, MCP Tool Bridge, Cross-Org Federation, and Ambient Event Mesh. Built while learning in public.",
+  "provider": {
+    "name": "ibmlachezar",
+    "url": "https://github.com/ibmlachezar"
+  },
+  "repository": "https://github.com/ibmlachezar/multi-agent-patterns",
+  "category": "orchestration",
+  "tags": [
+    "ai-agents",
+    "google-adk",
+    "learning-in-public",
+    "mcp",
+    "multi-agent",
+    "open-source",
+    "python"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-05-11",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

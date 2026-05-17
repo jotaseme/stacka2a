@@ -1,0 +1,41 @@
+{
+  "slug": "edgenuity-ai-helper",
+  "name": "Edgenuity AI Helper",
+  "description": "Automate and manage Edgenuity coursework with this open-source AI assistant designed to streamline your learning experience.",
+  "provider": {
+    "name": "obtuse-subordernematocera773",
+    "url": "https://github.com/obtuse-subordernematocera773"
+  },
+  "repository": "https://github.com/obtuse-subordernematocera773/Edgenuity-AI-Helper",
+  "category": "media-content",
+  "tags": [
+    "a2a-mcp",
+    "acme",
+    "activemq",
+    "contribute",
+    "contributions-welcome",
+    "edgenuity-afk",
+    "edgenuity-answers",
+    "edgenuity-assignment-bot",
+    "edgenuity-auto-answer",
+    "edgenuity-hack"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-17",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

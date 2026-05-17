@@ -1,0 +1,40 @@
+{
+  "slug": "mq9",
+  "name": "Mq9",
+  "description": "Agent registration, discovery, and reliable async messaging — in one broker.",
+  "provider": {
+    "name": "robustmq",
+    "url": "https://github.com/robustmq"
+  },
+  "repository": "https://github.com/robustmq/mq9",
+  "category": "search",
+  "tags": [
+    "a2discovery",
+    "agent",
+    "agent-communication",
+    "agent-discovery",
+    "agent-infrastructure",
+    "agent-registry",
+    "multi-agent-systems-",
+    "registry",
+    "semantic-search"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://mq9.robustmq.com/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 6,
+  "lastUpdated": "2026-05-16",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

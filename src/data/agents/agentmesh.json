@@ -1,0 +1,31 @@
+{
+  "slug": "agentmesh",
+  "name": "AgentMesh",
+  "description": "AgentMesh is a lightweight AI agent registry built on the A2A model for registering, discovering, and monitoring agents via standardized agent cards. It enables capability-based search, health tracking, and observability for building scalable multi-agent systems.",
+  "provider": {
+    "name": "cartman-156",
+    "url": "https://github.com/cartman-156"
+  },
+  "repository": "https://github.com/cartman-156/AgentMesh",
+  "category": "search",
+  "tags": [
+    "ai-registry"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-15",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

@@ -21,7 +21,7 @@
     "voice-assistant"
   ],
   "framework": "custom",
-  "language": "typescript",
+  "language": "python",
   "skills": [],
   "capabilities": {
     "streaming": false,
@@ -30,10 +30,10 @@
   },
   "authType": "none",
   "sdks": [
-    "typescript"
+    "python"
   ],
-  "githubStars": 155,
-  "lastUpdated": "2026-05-09",
+  "githubStars": 159,
+  "lastUpdated": "2026-05-13",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

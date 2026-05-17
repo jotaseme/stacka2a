@@ -1,0 +1,37 @@
+{
+  "slug": "clinicallens",
+  "name": "Clinicallens",
+  "description": "AI-powered second opinion engine challenges clinical diagnoses using FHIR patient data",
+  "provider": {
+    "name": "kashifumair125",
+    "url": "https://github.com/kashifumair125"
+  },
+  "repository": "https://github.com/kashifumair125/Clinicallens",
+  "category": "data-analytics",
+  "tags": [
+    "fhir",
+    "google-adk",
+    "groq",
+    "hackathon",
+    "healthcare-ai",
+    "multi-agent"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://app.promptopinion.ai/marketplace/agent/019e17ae-765f-7245-9dbc-891a052d73b8",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-11",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

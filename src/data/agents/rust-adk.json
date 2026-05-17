@@ -11,6 +11,8 @@
   "tags": [
     "adk",
     "inference-gateway",
+    "opensource",
+    "openstandards",
     "rust"
   ],
   "framework": "google-adk",
@@ -22,12 +24,13 @@
     "multiTurn": false
   },
   "authType": "none",
+  "endpointUrl": "https://crates.io/crates/inference-gateway-adk",
   "sdks": [
     "python",
     "typescript"
   ],
-  "githubStars": 9,
-  "lastUpdated": "2026-05-09",
+  "githubStars": 11,
+  "lastUpdated": "2026-05-16",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

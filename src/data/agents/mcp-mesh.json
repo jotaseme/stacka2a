@@ -1,0 +1,41 @@
+{
+  "slug": "mcp-mesh",
+  "name": "MCP Mesh",
+  "description": "Enterprise-grade distributed AI agent framework | Develop → Deploy → Observe | K8s-native | Dynamic DI | Auto-failover | Multi-LLM | Python + Java + TypeScript | MCP + A2A + REST",
+  "provider": {
+    "name": "dhyansraj",
+    "url": "https://github.com/dhyansraj"
+  },
+  "repository": "https://github.com/dhyansraj/mcp-mesh",
+  "category": "enterprise",
+  "tags": [
+    "agentic-ai",
+    "ai-agents",
+    "ai-agents-framework",
+    "distributed-ai",
+    "java",
+    "kubernetes",
+    "mcp",
+    "mcp-mesh",
+    "modelcontextprotocol",
+    "python"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://mcp-mesh.ai",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 34,
+  "lastUpdated": "2026-05-17",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

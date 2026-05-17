@@ -29,6 +29,7 @@
     "multiTurn": false
   },
   "authType": "none",
+  "endpointUrl": "https://nitinksingh.com/posts/building-a-multi-agent-e-commerce-platform-the-complete-guide/",
   "sdks": [
     "python"
   ],

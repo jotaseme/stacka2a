@@ -1,0 +1,34 @@
+{
+  "slug": "langgraph-a2a",
+  "name": "Langgraph A2A",
+  "description": "A2A-compliant agent template built on LangGraph's StateGraph. Define your graph topology, wire in your nodes, and get a working A2A endpoint with agent discovery, task lifecycle, and JSON-RPC out of the box. Designed to interop with its companion langchain-a2a template.",
+  "provider": {
+    "name": "ThousandFacedHero",
+    "url": "https://github.com/ThousandFacedHero"
+  },
+  "repository": "https://github.com/ThousandFacedHero/langgraph-a2a",
+  "category": "general",
+  "tags": [
+    "a2a-agent",
+    "a2a-agent-example",
+    "langchain",
+    "langgraph"
+  ],
+  "framework": "langgraph",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-12",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

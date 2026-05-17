@@ -1,0 +1,42 @@
+{
+  "slug": "anlora-arp",
+  "name": "Anlora Arp",
+  "description": "Agentic Reasoning Protocol (ARP) — open standard for cryptographically-signed brand claims, agent identity (DID Web), and verifiable trust signals in the AI agent ecosystem. Reference implementation: meetanlora.com",
+  "provider": {
+    "name": "Stanglovicc",
+    "url": "https://github.com/Stanglovicc"
+  },
+  "repository": "https://github.com/Stanglovicc/anlora-arp",
+  "category": "general",
+  "tags": [
+    "agent-identity",
+    "agentic-reasoning-protocol",
+    "anthropic",
+    "claude",
+    "cryptographic-claims",
+    "did-web",
+    "ed25519",
+    "mcp",
+    "open-standard",
+    "trust-signals"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://meetanlora.com/.well-known/ai-manifest.json",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-14",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

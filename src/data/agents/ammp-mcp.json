@@ -1,0 +1,41 @@
+{
+  "slug": "ammp-mcp",
+  "name": "Ammp MCP",
+  "description": "Reference implementation of AMMP (Agentic Mentor-Mentee Protocol, draft-arturo-ammp-01), Mentoring track, on FastMCP. Multi-mentor + multi-mentee, LLM-synthesised AskMentor with confidence-driven escalation.",
+  "provider": {
+    "name": "helmut-hoffer-von-ankershoffen",
+    "url": "https://github.com/helmut-hoffer-von-ankershoffen"
+  },
+  "repository": "https://github.com/helmut-hoffer-von-ankershoffen/ammp-mcp",
+  "category": "code-generation",
+  "tags": [
+    "agentic-ai",
+    "ai-agents",
+    "ai-safety",
+    "ammp",
+    "anthropic",
+    "claude-code",
+    "fastmcp",
+    "helmguild",
+    "human-oversight",
+    "ietf"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://www.helmguild.com/rfc/ammp/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-05-16",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

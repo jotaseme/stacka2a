@@ -1,0 +1,40 @@
+{
+  "slug": "neuradesk",
+  "name": "Neuradesk",
+  "description": "Production multi-agent IT/HR service platform — LangGraph + DSPy + RAG resolves enterprise tickets autonomously with A2A protocol support",
+  "provider": {
+    "name": "Subh24ai",
+    "url": "https://github.com/Subh24ai"
+  },
+  "repository": "https://github.com/Subh24ai/neuradesk",
+  "category": "enterprise",
+  "tags": [
+    "agentic-ai",
+    "dspy",
+    "enterprise-ai",
+    "faiss",
+    "fastapi",
+    "groq",
+    "langchain",
+    "langgraph",
+    "langsmith",
+    "llm"
+  ],
+  "framework": "langgraph",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-16",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

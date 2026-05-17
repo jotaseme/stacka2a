@@ -1,0 +1,39 @@
+{
+  "slug": "agent-to-agent",
+  "name": "Agent To Agent",
+  "description": "Watch AI agents collaborate in a retro pixel office — real delegation, real file writes, 40+ LLM providers",
+  "provider": {
+    "name": "GodrezJr2",
+    "url": "https://github.com/GodrezJr2"
+  },
+  "repository": "https://github.com/GodrezJr2/Agent-to-Agent",
+  "category": "infrastructure",
+  "tags": [
+    "agent-delegation",
+    "ai-agents",
+    "docker",
+    "llm",
+    "multi-agent",
+    "nextjs",
+    "openrouter",
+    "pixel-art",
+    "self-hosted"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-16",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

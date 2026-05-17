@@ -1,0 +1,32 @@
+{
+  "slug": "tron-a2a-nodejs-demo",
+  "name": "Tron A2A Nodejs Demo",
+  "description": "This project exposes a TRON testnet operations agent over the Agent2Agent (A2A) protocol.",
+  "provider": {
+    "name": "aziz1975",
+    "url": "https://github.com/aziz1975"
+  },
+  "repository": "https://github.com/aziz1975/tron-a2a-nodejs-demo",
+  "category": "general",
+  "tags": [
+    "nodejs",
+    "tron"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-14",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

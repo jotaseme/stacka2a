@@ -1,0 +1,39 @@
+{
+  "slug": "kitso-handshake-agents",
+  "name": "Kitso Handshake Agents",
+  "description": "Vacancy + seeker reference agents for the Kitso Handshake v0.1 protocol — consent-first agent-mediated hiring. Introductions, not auto-applications.",
+  "provider": {
+    "name": "kitsuno-ai",
+    "url": "https://github.com/kitsuno-ai"
+  },
+  "repository": "https://github.com/kitsuno-ai/kitso-handshake-agents",
+  "category": "media-content",
+  "tags": [
+    "agent-protocol",
+    "agentic-ai",
+    "apache-2-0",
+    "hiring",
+    "kitso-handshake",
+    "mcp",
+    "python",
+    "recruitment",
+    "reference-implementation"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-15",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

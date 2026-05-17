@@ -1,0 +1,32 @@
+{
+  "slug": "crewai-a2a",
+  "name": "Crewai A2A",
+  "description": "A2A-compliant multi-agent research crew built with CrewAI. Hierarchical team (Coordinator, Researcher, Writer) exposed as a JSON-RPC 2.0 service. Supports peer delegation to any A2A agent. Fork and customize for your own agents.",
+  "provider": {
+    "name": "ThousandFacedHero",
+    "url": "https://github.com/ThousandFacedHero"
+  },
+  "repository": "https://github.com/ThousandFacedHero/crewai-a2a",
+  "category": "search",
+  "tags": [
+    "a2a-agent",
+    "crewai"
+  ],
+  "framework": "crewai",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-14",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

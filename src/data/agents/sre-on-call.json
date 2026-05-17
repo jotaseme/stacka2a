@@ -1,0 +1,40 @@
+{
+  "slug": "sre-on-call",
+  "name": "Sre On Call",
+  "description": "Multi-agent SRE on-call investigator that auto-triages Slack/Discord infrastructure alerts via AWS Bedrock AgentCore, fanning out to specialized agents (CloudWatch, EKS, Slack/Discord scanners) for parallel investigation.",
+  "provider": {
+    "name": "Perun-Engineering",
+    "url": "https://github.com/Perun-Engineering"
+  },
+  "repository": "https://github.com/Perun-Engineering/sre-on-call",
+  "category": "infrastructure",
+  "tags": [
+    "anthropic",
+    "aws-bedrock",
+    "aws-lambda",
+    "bedrock-agentcore",
+    "claude",
+    "cloudwatch",
+    "devops",
+    "discord",
+    "eks",
+    "incident-response"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-05-12",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}
