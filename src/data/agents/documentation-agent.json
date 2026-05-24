@@ -14,7 +14,7 @@
     "oci-image"
   ],
   "framework": "custom",
-  "language": "unknown",
+  "language": "go",
   "skills": [],
   "capabilities": {
     "streaming": false,
@@ -24,12 +24,11 @@
   "authType": "none",
   "endpointUrl": "https://registry.inference-gateway.com/",
   "sdks": [
-    "python",
-    "typescript"
+    "go"
   ],
   "githubStars": 1,
-  "lastUpdated": "2026-05-14",
+  "lastUpdated": "2026-05-24",
   "official": false,
   "selfHosted": true,
-  "license": "unknown"
+  "license": "Apache-2.0"
 }

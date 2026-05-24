@@ -1,0 +1,35 @@
+{
+  "slug": "adk-java-agent-dev",
+  "name": "ADK Java Agent Dev",
+  "description": "𝗕𝘂𝗶𝗹𝗱 𝗔𝗜 𝗔𝗴𝗲𝗻𝘁𝘀 𝘄𝗶𝘁𝗵 𝘁𝗵𝗲 𝗔𝗴𝗲𝗻𝘁 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁 𝗞𝗶𝘁 (𝗔𝗗𝗞) 𝗳𝗼𝗿 𝗝𝗮𝘃𝗮",
+  "provider": {
+    "name": "bellgacem23",
+    "url": "https://github.com/bellgacem23"
+  },
+  "repository": "https://github.com/bellgacem23/ADK-Java-Agent-Dev",
+  "category": "utility",
+  "tags": [
+    "ai-agents",
+    "ai-tools",
+    "google-adk",
+    "java",
+    "mcp-server"
+  ],
+  "framework": "google-adk",
+  "language": "java",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "java"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-17",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

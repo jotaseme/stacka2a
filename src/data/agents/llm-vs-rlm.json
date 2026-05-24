@@ -1,0 +1,35 @@
+{
+  "slug": "llm-vs-rlm",
+  "name": "Llm Vs Rlm",
+  "description": "This research compares traditional LLM-based multi-agent systems with Recursive Language Models (RLMs) that preserve and transfer reasoning context between agents. The results show that recursive context management significantly improves reasoning depth, tool usage, and performance on complex multi-hop tasks.",
+  "provider": {
+    "name": "ShreyaVats23",
+    "url": "https://github.com/ShreyaVats23"
+  },
+  "repository": "https://github.com/ShreyaVats23/llm-vs-rlm",
+  "category": "search",
+  "tags": [
+    "ai-agents",
+    "llm",
+    "multi-agent",
+    "pthon",
+    "rlm"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-17",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

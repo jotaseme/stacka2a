@@ -28,12 +28,12 @@
     "multiTurn": false
   },
   "authType": "none",
-  "endpointUrl": "https://idea-idsia.github.io/ant-ai/",
+  "endpointUrl": "https://idea.idsia.ch/ant-ai/",
   "sdks": [
     "python"
   ],
   "githubStars": 2,
-  "lastUpdated": "2026-05-15",
+  "lastUpdated": "2026-05-22",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

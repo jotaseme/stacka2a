@@ -1,22 +1,22 @@
 {
   "slug": "a2a-protocol",
   "name": "A2A Protocol",
-  "description": "Agent-to-Agent Protocol Specification — agent:// URI scheme for AI agent identity and discovery",
+  "description": "This repository contains a series of hands-on projects designed to master A2A protocol.",
   "provider": {
-    "name": "Aganium",
-    "url": "https://github.com/Aganium"
+    "name": "aasherkamal216",
+    "url": "https://github.com/aasherkamal216"
   },
-  "repository": "https://github.com/Aganium/a2a-protocol",
-  "category": "general",
+  "repository": "https://github.com/aasherkamal216/A2A_Protocol",
+  "category": "orchestration",
   "tags": [
-    "agent-protocol",
-    "ai-agents",
-    "google-a2a",
-    "interoperability",
     "agents",
     "langgraph",
     "multi-agent-systems",
-    "openai-agents-sdk"
+    "openai-agents-sdk",
+    "agent-protocol",
+    "ai-agents",
+    "google-a2a",
+    "interoperability"
   ],
   "framework": "langgraph",
   "language": "python",
@@ -27,10 +27,8 @@
     "multiTurn": false
   },
   "authType": "none",
-  "endpointUrl": "https://agenium.net",
   "sdks": [
-    "python",
-    "typescript"
+    "python"
   ],
   "githubStars": 1,
   "lastUpdated": "2026-02-12",

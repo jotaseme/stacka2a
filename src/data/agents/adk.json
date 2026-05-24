@@ -36,8 +36,8 @@
     "go"
   ],
   "githubStars": 20,
-  "lastUpdated": "2026-05-15",
+  "lastUpdated": "2026-05-24",
   "official": false,
   "selfHosted": true,
-  "license": "MIT"
+  "license": "Apache-2.0"
 }

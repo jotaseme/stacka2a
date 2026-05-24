@@ -1,0 +1,39 @@
+{
+  "slug": "missive",
+  "name": "Missive",
+  "description": "A2A-native Rust CLI and local control plane for agent messaging, routing, and multi-agent coordination.",
+  "provider": {
+    "name": "prodmodfour",
+    "url": "https://github.com/prodmodfour"
+  },
+  "repository": "https://github.com/prodmodfour/missive",
+  "category": "data-analytics",
+  "tags": [
+    "agent-communication",
+    "ai-agents",
+    "cli",
+    "command-line",
+    "gateway",
+    "multi-agent",
+    "rust",
+    "sqlite"
+  ],
+  "framework": "custom",
+  "language": "rust",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

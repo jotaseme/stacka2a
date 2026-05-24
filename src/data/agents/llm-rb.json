@@ -1,0 +1,41 @@
+{
+  "slug": "llm-rb",
+  "name": "Llm.Rb",
+  "description": "Ruby's most capable AI runtime",
+  "provider": {
+    "name": "llmrb",
+    "url": "https://github.com/llmrb"
+  },
+  "repository": "https://github.com/llmrb/llm.rb",
+  "category": "general",
+  "tags": [
+    "a2a-client",
+    "agent",
+    "agents",
+    "ai",
+    "ai-runtime",
+    "llm",
+    "llm-agents",
+    "llm-framework",
+    "llm-frameworks",
+    "llms"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 131,
+  "lastUpdated": "2026-05-24",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

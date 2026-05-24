@@ -1,0 +1,40 @@
+{
+  "slug": "a2a-router",
+  "name": "A2A Router",
+  "description": "A2A MCP bridge router with signed Trust-Pledge metadata and planned voluntary-tip settlement for AI agents",
+  "provider": {
+    "name": "shufflethis",
+    "url": "https://github.com/shufflethis"
+  },
+  "repository": "https://github.com/shufflethis/a2a-router",
+  "category": "data-analytics",
+  "tags": [
+    "agent-economy",
+    "agent-marketplace",
+    "ai-agents",
+    "did",
+    "json-rpc",
+    "mcp",
+    "model-context-protocol",
+    "trust-pledge"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://www.a2a-router.com",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

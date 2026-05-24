@@ -1,0 +1,41 @@
+{
+  "slug": "ai-carecompanion-offline-health-by-gemma",
+  "name": "AI CareCompanion Offline Health By Gemma",
+  "description": "Manage health data with an offline-first AI assistant using Gemma 4B on React Native for symptom triage, drug lookup, and private multi-agent health insights.",
+  "provider": {
+    "name": "Tabular-corpus256",
+    "url": "https://github.com/Tabular-corpus256"
+  },
+  "repository": "https://github.com/Tabular-corpus256/AI-CareCompanion-Offline-Health-By-Gemma",
+  "category": "data-analytics",
+  "tags": [
+    "a2a-mcp",
+    "a2a-server",
+    "activemq",
+    "career",
+    "digital-public-goods",
+    "docker",
+    "editor",
+    "firebase",
+    "gemma4",
+    "hacktoberfest"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-24",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

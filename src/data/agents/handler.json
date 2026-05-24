@@ -1,13 +1,13 @@
 {
   "slug": "handler",
   "name": "Handler",
-  "description": "A2A Protocol client and developer toolkit.",
+  "description": "A2A protocol client for your terminal",
   "provider": {
     "name": "alDuncanson",
     "url": "https://github.com/alDuncanson"
   },
   "repository": "https://github.com/alDuncanson/Handler",
-  "category": "code-generation",
+  "category": "general",
   "tags": [
     "a2a-cli",
     "a2a-client",
@@ -34,7 +34,7 @@
     "python"
   ],
   "githubStars": 40,
-  "lastUpdated": "2026-05-13",
+  "lastUpdated": "2026-05-23",
   "official": false,
   "selfHosted": true,
   "license": "GPL-3.0"

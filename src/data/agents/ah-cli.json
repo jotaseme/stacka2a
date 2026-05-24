@@ -1,0 +1,42 @@
+{
+  "slug": "ah-cli",
+  "name": "Ah Cli",
+  "description": "Daemon-first local runtime for AI agents. Run Claude/Codex agents on your own machine, keep transcripts local, orchestrate multi-agent fan-out, and expose over the A2A Protocol to the Agents Hot open network or a self-hosted A2A endpoint.",
+  "provider": {
+    "name": "annals-ai",
+    "url": "https://github.com/annals-ai"
+  },
+  "repository": "https://github.com/annals-ai/ah-cli",
+  "category": "code-generation",
+  "tags": [
+    "agent-orchestration",
+    "agent-runtime",
+    "agent2agent",
+    "agentic-ai",
+    "ai-agent",
+    "ai-agents",
+    "claude",
+    "cli",
+    "codex",
+    "daemon",
+    "a2a-protocol"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://agents.hot",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-05-18",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

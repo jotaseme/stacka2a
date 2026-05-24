@@ -1,0 +1,41 @@
+{
+  "slug": "a2a-warp",
+  "name": "A2A Warp",
+  "description": "Independent TypeScript runtime and toolkit for the Agent2Agent (A2A) protocol — server, client SDK, registry, adapters, CLI, MCP bridge, and WebSocket/gRPC transports.",
+  "provider": {
+    "name": "oaslananka",
+    "url": "https://github.com/oaslananka"
+  },
+  "repository": "https://github.com/oaslananka/a2a-warp",
+  "category": "utility",
+  "tags": [
+    "agent-protocol",
+    "agent-registry",
+    "agentic-ai",
+    "crewai",
+    "google-adk",
+    "grpc",
+    "json-rpc",
+    "langchain",
+    "llama-index",
+    "mcp"
+  ],
+  "framework": "google-adk",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://oaslananka.github.io/a2a-warp/",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-24",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "llms-txt-ops",
+  "name": "Llms Txt Ops",
+  "description": "Evidence-based Claude plugin + A2A v1.0 agent for auditing, generating, deploying llms.txt files. 17 anti-patterns, 18 sectors, 13 languages. Honest empirical framing (three studies say null citation lift). Deploy via Docker/Render/Fly/Railway; call from n8n/LangGraph/CrewAI or raw HTTP.",
+  "provider": {
+    "name": "ali-saadat",
+    "url": "https://github.com/ali-saadat"
+  },
+  "repository": "https://github.com/ali-saadat/llms-txt-ops",
+  "category": "search",
+  "tags": [
+    "aeo",
+    "agent-protocol",
+    "ai-crawlers",
+    "ai-discoverability",
+    "claude-plugin",
+    "content-curation",
+    "geo",
+    "llm-tools",
+    "llms-txt",
+    "mcp"
+  ],
+  "framework": "langgraph",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

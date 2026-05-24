@@ -1,0 +1,36 @@
+{
+  "slug": "a2a-guide",
+  "name": "A2A Guide",
+  "description": "Comprehensive guide to the A2A (Agent-to-Agent) Protocol - an open standard for AI agent communication and collaboration.",
+  "provider": {
+    "name": "belarusian",
+    "url": "https://github.com/belarusian"
+  },
+  "repository": "https://github.com/belarusian/A2A-Guide",
+  "category": "orchestration",
+  "tags": [
+    "agent2agent",
+    "agents",
+    "generative-ai",
+    "multi-agent-systems",
+    "a2a-protocol"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://a2a-protocol.org",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-21",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

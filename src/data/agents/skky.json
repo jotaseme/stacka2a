@@ -1,0 +1,35 @@
+{
+  "slug": "skky",
+  "name": "Skky",
+  "description": "Traveling planning applications that leverages Multi AI system.",
+  "provider": {
+    "name": "Amanmeena0",
+    "url": "https://github.com/Amanmeena0"
+  },
+  "repository": "https://github.com/Amanmeena0/Skky",
+  "category": "travel",
+  "tags": [
+    "genai",
+    "google-adk",
+    "multi-agent-systems",
+    "vercel-deployment"
+  ],
+  "framework": "google-adk",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://next-trip-ebon.vercel.app",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

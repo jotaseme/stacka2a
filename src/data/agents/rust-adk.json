@@ -29,9 +29,9 @@
     "python",
     "typescript"
   ],
-  "githubStars": 11,
-  "lastUpdated": "2026-05-16",
+  "githubStars": 12,
+  "lastUpdated": "2026-05-23",
   "official": false,
   "selfHosted": true,
-  "license": "MIT"
+  "license": "Apache-2.0"
 }
