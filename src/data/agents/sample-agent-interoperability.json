@@ -1,0 +1,40 @@
+{
+  "slug": "sample-agent-interoperability",
+  "name": "Sample Agent Interoperability",
+  "description": "Multi-cloud AI agent interoperability sample. Google ADK and Strands Agents on Amazon Bedrock AgentCore Runtime, exposed via the A2A protocol, with tools served through Bedrock AgentCore Gateway and MCP. Consumed from a React frontend and Gemini Enterprise.",
+  "provider": {
+    "name": "aws-samples",
+    "url": "https://github.com/aws-samples"
+  },
+  "repository": "https://github.com/aws-samples/sample-agent-interoperability",
+  "category": "enterprise",
+  "tags": [
+    "agentcore",
+    "agents",
+    "aws",
+    "bedrock",
+    "claude",
+    "gcp",
+    "gemini",
+    "gemini-enterprise",
+    "google-adk",
+    "mcp"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-29",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT-0"
+}

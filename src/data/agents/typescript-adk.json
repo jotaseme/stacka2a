@@ -22,13 +22,12 @@
     "multiTurn": false
   },
   "authType": "none",
-  "endpointUrl": "https://docs.inference-gateway.com",
+  "endpointUrl": "https://docs.inference-gateway.com/typescript-adk",
   "sdks": [
-    "python",
     "typescript"
   ],
-  "githubStars": 0,
-  "lastUpdated": "2026-05-13",
+  "githubStars": 1,
+  "lastUpdated": "2026-05-30",
   "official": false,
   "selfHosted": true,
   "license": "unknown"

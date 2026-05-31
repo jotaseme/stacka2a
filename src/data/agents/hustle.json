@@ -3,10 +3,10 @@
   "name": "Hustle",
   "description": "Youth sports analytics platform with verified statistics and team-validated metrics. Built on Firebase + Vertex AI for ECNL, MLS Next, and 56 youth soccer leagues.",
   "provider": {
-    "name": "intent-solutions-io",
-    "url": "https://github.com/intent-solutions-io"
+    "name": "jeremylongshore",
+    "url": "https://github.com/jeremylongshore"
   },
-  "repository": "https://github.com/intent-solutions-io/hustle",
+  "repository": "https://github.com/jeremylongshore/hustle",
   "category": "data-analytics",
   "tags": [
     "firebase",

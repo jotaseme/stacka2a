@@ -3,10 +3,10 @@
   "name": "Perception With Intent",
   "description": "AI-powered news intelligence with 8 Vertex AI agents monitoring 50+ sources. Real-time executive dashboard, daily briefs, and smart alerts. Built on Firebase + A2A protocol.",
   "provider": {
-    "name": "intent-solutions-io",
-    "url": "https://github.com/intent-solutions-io"
+    "name": "jeremylongshore",
+    "url": "https://github.com/jeremylongshore"
   },
-  "repository": "https://github.com/intent-solutions-io/perception-with-intent",
+  "repository": "https://github.com/jeremylongshore/perception-with-intent",
   "category": "infrastructure",
   "tags": [
     "ai",
@@ -29,7 +29,7 @@
     "multiTurn": false
   },
   "authType": "none",
-  "endpointUrl": "https://perception-with-intent.web.app",
+  "endpointUrl": "http://perception-with-intent.web.app/",
   "sdks": [
     "python"
   ],

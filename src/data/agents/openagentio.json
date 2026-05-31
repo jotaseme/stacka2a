@@ -1,0 +1,38 @@
+{
+  "slug": "openagentio",
+  "name": "Openagentio",
+  "description": "OpenAgentIO is a runtime communication layer for distributed AI agents and multi-agent systems, designed for streaming, event-driven, cross-runtime collaboration.",
+  "provider": {
+    "name": "ModulationAI",
+    "url": "https://github.com/ModulationAI"
+  },
+  "repository": "https://github.com/ModulationAI/openagentio",
+  "category": "enterprise",
+  "tags": [
+    "aaas",
+    "agent",
+    "agentic-ai",
+    "ai-agent",
+    "enterprise-ai",
+    "llm",
+    "multi-agent-systems",
+    "nats"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2026-05-27",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

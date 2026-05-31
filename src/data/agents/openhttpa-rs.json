@@ -1,0 +1,42 @@
+{
+  "slug": "openhttpa-rs",
+  "name": "Openhttpa Rs",
+  "description": "A Rust implementation of OpenHTTPA, establishing a novel paradigm for high-assurance confidential computing by enforcing cryptographic termination directly within hardware-isolated environments.",
+  "provider": {
+    "name": "OpenHTTPA",
+    "url": "https://github.com/OpenHTTPA"
+  },
+  "repository": "https://github.com/OpenHTTPA/openhttpa-rs",
+  "category": "security",
+  "tags": [
+    "blockchain",
+    "confidential-computing",
+    "cryptography",
+    "distributed-computing",
+    "fips-140-3",
+    "grpc",
+    "hardware-enclaves",
+    "http",
+    "llm-agent-framework",
+    "mcp"
+  ],
+  "framework": "custom",
+  "language": "rust",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://openhttpa.org",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2026-05-30",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

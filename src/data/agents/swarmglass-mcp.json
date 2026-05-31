@@ -1,12 +1,12 @@
 {
-  "slug": "hlf-hieroglyphic-logic-framework-mcp",
-  "name": "HLF Hieroglyphic Logic Framework MCP",
-  "description": "HLF is not just another DSL; it is a deterministic orchestration protocol designed to eliminate natural language ambiguity between agents. By replacing prose with a strictly-typed Hieroglyphic AST, HLF enables zero-trust execution, cryptographic validation, and ultra-dense token efficiency.",
+  "slug": "swarmglass-mcp",
+  "name": "SwarmGlass MCP",
+  "description": "a universal AI governance layer.** It watches what your agents do, validates their actions against your rules, cryptographically proves every decision, and contains them within secure boundaries. It works with any agent framework ",
   "provider": {
     "name": "Grumpified-OGGVCT",
     "url": "https://github.com/Grumpified-OGGVCT"
   },
-  "repository": "https://github.com/Grumpified-OGGVCT/HLF-Hieroglyphic-Logic-Framework-MCP",
+  "repository": "https://github.com/Grumpified-OGGVCT/SwarmGlass-MCP",
   "category": "orchestration",
   "tags": [
     "compression",
@@ -28,7 +28,7 @@
     "python"
   ],
   "githubStars": 1,
-  "lastUpdated": "2026-05-22",
+  "lastUpdated": "2026-05-30",
   "official": false,
   "selfHosted": true,
   "license": "NOASSERTION"

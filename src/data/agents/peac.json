@@ -1,7 +1,7 @@
 {
   "slug": "peac",
   "name": "Peac",
-  "description": "Portable signed proof for agent, API, and MCP interactions",
+  "description": "Portable signed records for automated interactions.",
   "provider": {
     "name": "peacprotocol",
     "url": "https://github.com/peacprotocol"
@@ -34,7 +34,7 @@
     "typescript"
   ],
   "githubStars": 12,
-  "lastUpdated": "2026-05-23",
+  "lastUpdated": "2026-05-31",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

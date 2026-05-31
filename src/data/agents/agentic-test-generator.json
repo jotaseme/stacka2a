@@ -1,0 +1,40 @@
+{
+  "slug": "agentic-test-generator",
+  "name": "Agentic Test Generator",
+  "description": "5-agent AI system using CrewAI, MCP, and A2A Protocol to autonomously generate API test suites from OpenAPI specs — GPT-4o/Claude Sonnet via LiteLLM with LangSmith tracing",
+  "provider": {
+    "name": "Hrushitha12",
+    "url": "https://github.com/Hrushitha12"
+  },
+  "repository": "https://github.com/Hrushitha12/agentic-test-generator",
+  "category": "infrastructure",
+  "tags": [
+    "agentic-ai",
+    "anthropic",
+    "crewai",
+    "docker",
+    "fastapi",
+    "langsmith",
+    "litellm",
+    "mcp",
+    "multi-agent-systems",
+    "openai"
+  ],
+  "framework": "crewai",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-15",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

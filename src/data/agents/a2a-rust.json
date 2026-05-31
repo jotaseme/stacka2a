@@ -1,7 +1,7 @@
 {
   "slug": "a2a-rust",
   "name": "A2A Rust",
-  "description": "A Rust SDK for The Agent 2 Agent (A2A) Protocol ",
+  "description": "Type-safe, async Rust SDK for the Agent2Agent (A2A) protocol, built to the final v1.0.0 spec — JSON-RPC, REST, WebSocket & gRPC for building interoperable AI agents",
   "provider": {
     "name": "tomtom215",
     "url": "https://github.com/tomtom215"
@@ -34,8 +34,8 @@
     "python",
     "typescript"
   ],
-  "githubStars": 12,
-  "lastUpdated": "2026-04-22",
+  "githubStars": 13,
+  "lastUpdated": "2026-05-25",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

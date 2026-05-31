@@ -1,0 +1,41 @@
+{
+  "slug": "g8e",
+  "name": "G8e",
+  "description": "governance architecture for trustless execution",
+  "provider": {
+    "name": "g8e-ai",
+    "url": "https://github.com/g8e-ai"
+  },
+  "repository": "https://github.com/g8e-ai/g8e",
+  "category": "infrastructure",
+  "tags": [
+    "agentic-ai",
+    "agentic-infrastructure",
+    "ai-agents",
+    "ai-alignment",
+    "ai-governance",
+    "audit-trail",
+    "autonomous-agents",
+    "byzantine-fault-tolerance",
+    "control-plane",
+    "golang"
+  ],
+  "framework": "custom",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "http://g8e.ai",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 7,
+  "lastUpdated": "2026-05-30",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

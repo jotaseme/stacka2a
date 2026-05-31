@@ -7,18 +7,18 @@
     "url": "https://github.com/Nexartis"
   },
   "repository": "https://github.com/Nexartis/nexartis-nanda-node-sdk",
-  "category": "orchestration",
+  "category": "infrastructure",
   "tags": [
     "agent-discovery",
     "agentic-ai",
+    "ai-agent-infrastructure",
     "ai-agents",
     "cloudflare-workers",
     "edge-computing",
     "llm",
     "mcp",
     "nanda",
-    "open-source",
-    "sdk"
+    "nexartis"
   ],
   "framework": "custom",
   "language": "typescript",
