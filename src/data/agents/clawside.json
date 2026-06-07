@@ -1,0 +1,38 @@
+{
+  "slug": "clawside",
+  "name": "Clawside",
+  "description": "Local MCP sidecar and truth layer for OpenClaw handoffs, workflows, and delivery bridges.",
+  "provider": {
+    "name": "walker1211",
+    "url": "https://github.com/walker1211"
+  },
+  "repository": "https://github.com/walker1211/clawside",
+  "category": "enterprise",
+  "tags": [
+    "agent-orchestration",
+    "golang",
+    "handoff",
+    "mcp",
+    "model-context-protocol",
+    "multi-agent",
+    "openclaw",
+    "workflow-orchestration"
+  ],
+  "framework": "custom",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-06-03",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

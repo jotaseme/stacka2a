@@ -1,0 +1,32 @@
+{
+  "slug": "camel-a2a-morning-routine",
+  "name": "Camel A2A Morning Routine",
+  "description": "A2A protocol demo with Apache Camel:  7 agents showcasing async tasks, SSE streaming, push notifications, and mixed auth",
+  "provider": {
+    "name": "luigidemasi",
+    "url": "https://github.com/luigidemasi"
+  },
+  "repository": "https://github.com/luigidemasi/camel-a2a-morning-routine",
+  "category": "security",
+  "tags": [
+    "ai",
+    "ai-agents"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-06-04",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "build26-dem333-how-foundry-integrates-with-open-source-frame",
+  "name": "Build26 DEM333 How Foundry Integrates With Open Source Frameworks And Tools",
+  "description": "Demo building a practical agent using open-source tools then operationalizing in Microsoft Foundry — MCP, Playwright, OpenTelemetry, Responses API, and A2A agent communication. From Microsoft Build 2026.",
+  "provider": {
+    "name": "microsoft",
+    "url": "https://github.com/microsoft"
+  },
+  "repository": "https://github.com/microsoft/Build26-DEM333-how-foundry-integrates-with-open-source-frameworks-and-tools",
+  "category": "utility",
+  "tags": [
+    "azure-ai-foundry",
+    "build-2026",
+    "mcp",
+    "microsoft-build",
+    "open-source",
+    "opentelemetry"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://build.microsoft.com",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 3,
+  "lastUpdated": "2026-06-04",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

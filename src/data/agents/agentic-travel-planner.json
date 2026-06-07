@@ -1,0 +1,31 @@
+{
+  "slug": "agentic-travel-planner",
+  "name": "Agentic Travel Planner",
+  "description": "A multi-agent travel planner implementing A2A-protocol",
+  "provider": {
+    "name": "xaxm007",
+    "url": "https://github.com/xaxm007"
+  },
+  "repository": "https://github.com/xaxm007/agentic-travel-planner",
+  "category": "travel",
+  "tags": [
+    "google-adk"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-06-03",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

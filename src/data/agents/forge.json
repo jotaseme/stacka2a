@@ -1,7 +1,7 @@
 {
   "slug": "forge",
   "name": "Forge",
-  "description": "Forge - OpenClaw for Enterprise: Forge is a secure, portable AI Agent runtime. Run agents locally, in cloud, or enterprise environments without exposing inbound tunnels.",
+  "description": "Forge is the open-source runtime for Anthropic's Agent Skills standard — built for the agent that runs next to a service, in your environment, on infrastructure you already operate. Write a SKILL.md. Compile to a portable, hardened agent. Deploy it anywhere containers run: Kubernetes, on-prem, air-gapped, embedded in CI, or as an A2A endpoint.",
   "provider": {
     "name": "initializ",
     "url": "https://github.com/initializ"
@@ -34,7 +34,7 @@
     "go"
   ],
   "githubStars": 17,
-  "lastUpdated": "2026-05-26",
+  "lastUpdated": "2026-06-07",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

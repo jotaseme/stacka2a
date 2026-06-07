@@ -33,9 +33,9 @@
   "sdks": [
     "java"
   ],
-  "githubStars": 46,
-  "lastUpdated": "2026-05-30",
+  "githubStars": 47,
+  "lastUpdated": "2026-06-06",
   "official": false,
   "selfHosted": true,
-  "license": "MIT"
+  "license": "Apache-2.0"
 }

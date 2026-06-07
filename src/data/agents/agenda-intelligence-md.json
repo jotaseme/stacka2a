@@ -1,7 +1,7 @@
 {
   "slug": "agenda-intelligence-md",
   "name": "Agenda Intelligence Md",
-  "description": "Agenda Intelligence — product runtime + evidence-discipline layer for strategic intelligence agents. Four surfaces (MCP, HTTP, A2A, Cloudflare Worker) over one core service layer. Ships one live vertical worker: Middle Corridor Deal Risk Gate. Schema-validated I/O, evidence audit, geography routing. No live retrieval, no factual verification.",
+  "description": "Agenda Intelligence — product runtime + evidence-discipline layer for strategic-intelligence agents. One core service layer behind four surfaces (MCP, HTTP, A2A, Cloudflare Worker). Four live vertical workers: deal-risk, secondary-sanctions, agentic-trust, Gulf maritime exposure. No live retrieval, no factual verification.",
   "provider": {
     "name": "vassiliylakhonin",
     "url": "https://github.com/vassiliylakhonin"
@@ -15,10 +15,10 @@
     "ai-agents",
     "cloudflare-workers",
     "deal-risk-gate",
-    "decision-grade",
     "geopolitical-intelligence",
     "geopolitical-risk",
-    "json-schema"
+    "json-schema",
+    "maritime-sanctions"
   ],
   "framework": "custom",
   "language": "python",
@@ -29,11 +29,12 @@
     "multiTurn": false
   },
   "authType": "none",
+  "endpointUrl": "https://agenstry.com/providers/Vassiliy%20Lakhonin",
   "sdks": [
     "python"
   ],
-  "githubStars": 3,
-  "lastUpdated": "2026-05-29",
+  "githubStars": 4,
+  "lastUpdated": "2026-06-05",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

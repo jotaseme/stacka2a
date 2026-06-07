@@ -9,16 +9,16 @@
   "repository": "https://github.com/g8e-ai/g8e",
   "category": "infrastructure",
   "tags": [
-    "agentic-ai",
     "agentic-infrastructure",
-    "ai-agents",
-    "ai-alignment",
     "ai-governance",
     "audit-trail",
-    "autonomous-agents",
-    "byzantine-fault-tolerance",
-    "control-plane",
-    "golang"
+    "distributed-ai",
+    "golang",
+    "mcp",
+    "mcp-protocol",
+    "mcp-server",
+    "mcp-servers",
+    "model-context-protocol"
   ],
   "framework": "custom",
   "language": "go",
@@ -34,7 +34,7 @@
     "go"
   ],
   "githubStars": 7,
-  "lastUpdated": "2026-05-30",
+  "lastUpdated": "2026-06-06",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

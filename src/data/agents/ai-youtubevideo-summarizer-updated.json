@@ -3,10 +3,10 @@
   "name": "AI YoutubeVideo Summarizer Updated ",
   "description": "🎥 Summarize YouTube videos into clear, actionable insights with AI, allowing you to grasp key points quickly and easily.",
   "provider": {
-    "name": "ink-sans106",
-    "url": "https://github.com/ink-sans106"
+    "name": "pale-k1ng",
+    "url": "https://github.com/pale-k1ng"
   },
-  "repository": "https://github.com/ink-sans106/AI_YoutubeVideo_Summarizer-Updated-",
+  "repository": "https://github.com/pale-k1ng/AI_YoutubeVideo_Summarizer-Updated-",
   "category": "media-content",
   "tags": [
     "a2a-mcp",
@@ -34,7 +34,7 @@
     "python"
   ],
   "githubStars": 1,
-  "lastUpdated": "2026-05-31",
+  "lastUpdated": "2026-06-07",
   "official": false,
   "selfHosted": true,
   "license": "unknown"

@@ -1,0 +1,36 @@
+{
+  "slug": "arsenal-quant-project",
+  "name": "Arsenal Quant Project",
+  "description": "High-performance decision oracle for autonomous DeFi agents. Computes MEV risk, Impermanent Loss, and Slippage with a 6-filter sequential decision matrix. Native L402 Lightning monetization.",
+  "provider": {
+    "name": "Faouzi122",
+    "url": "https://github.com/Faouzi122"
+  },
+  "repository": "https://github.com/Faouzi122/Arsenal-Quant-Project",
+  "category": "general",
+  "tags": [
+    "decision-oracle",
+    "defai-agent",
+    "defi-arbitrage",
+    "l402",
+    "mcp-server"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://api.arsenal-quant.com/.well-known/mcp/server-card.json",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-06-04",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "infrapilot",
+  "name": "InfraPilot",
+  "description": "InfraPilot enables users to describe infrastructure tasks in natural language while AI agents generate execution plans, invoke tools, request approvals, and execute workflows safely.",
+  "provider": {
+    "name": "puneet-goel",
+    "url": "https://github.com/puneet-goel"
+  },
+  "repository": "https://github.com/puneet-goel/InfraPilot",
+  "category": "enterprise",
+  "tags": [
+    "agentic-workflow",
+    "docker",
+    "genai",
+    "kubernetes",
+    "mcp",
+    "microsoft-agent-framework",
+    "orchestration-systems"
+  ],
+  "framework": "custom",
+  "language": "csharp",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "csharp"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-06-01",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

@@ -18,7 +18,7 @@
     "codex-cli",
     "crewai",
     "generative-ai",
-    "langchain"
+    "hermes-agent"
   ],
   "framework": "langgraph",
   "language": "python",
@@ -33,7 +33,7 @@
   "sdks": [
     "python"
   ],
-  "githubStars": 59,
+  "githubStars": 73,
   "lastUpdated": "2026-05-28",
   "official": false,
   "selfHosted": true,

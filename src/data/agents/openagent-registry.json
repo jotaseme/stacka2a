@@ -1,0 +1,41 @@
+{
+  "slug": "openagent-registry",
+  "name": "Openagent Registry",
+  "description": "Open registry, scanner, and leaderboard for agent-ready websites. Scans the full agent-access stack — llms.txt, agents.txt, A2A, MCP, OpenAPI, robots.txt + Content Signals, OAuth, RSL, bot management — scores it, ranks by industry, and tells you how to become approved.",
+  "provider": {
+    "name": "aaronkpickrell",
+    "url": "https://github.com/aaronkpickrell"
+  },
+  "repository": "https://github.com/aaronkpickrell/openagent-registry",
+  "category": "security",
+  "tags": [
+    "agent-access",
+    "agent-readiness",
+    "agentic-commerce",
+    "agentic-web",
+    "agents",
+    "ai-agents",
+    "llms-txt",
+    "mcp",
+    "nextjs",
+    "open-source"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://openagent-registry.vercel.app",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-06-06",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

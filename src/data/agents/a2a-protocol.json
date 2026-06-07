@@ -13,12 +13,12 @@
     "langgraph",
     "multi-agent-systems",
     "openai-agents-sdk",
+    "learning-project",
+    "python",
     "agent-protocol",
     "ai-agents",
     "google-a2a",
-    "interoperability",
-    "learning-project",
-    "python"
+    "interoperability"
   ],
   "framework": "langgraph",
   "language": "python",
@@ -36,5 +36,5 @@
   "lastUpdated": "2026-05-27",
   "official": false,
   "selfHosted": true,
-  "license": "NOASSERTION"
+  "license": "MIT"
 }

@@ -25,11 +25,12 @@
     "multiTurn": false
   },
   "authType": "none",
+  "endpointUrl": "https://hyhmrright.github.io/Confer/",
   "sdks": [
     "typescript"
   ],
   "githubStars": 1,
-  "lastUpdated": "2026-05-31",
+  "lastUpdated": "2026-06-06",
   "official": false,
   "selfHosted": true,
   "license": "unknown"

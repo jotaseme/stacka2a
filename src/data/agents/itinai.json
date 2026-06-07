@@ -1,0 +1,35 @@
+{
+  "slug": "itinai",
+  "name": "Itinai",
+  "description": "A2A Agent Board: Publish · Find · Use with itinai.com",
+  "provider": {
+    "name": "aihlp",
+    "url": "https://github.com/aihlp"
+  },
+  "repository": "https://github.com/aihlp/itinai",
+  "category": "general",
+  "tags": [
+    "a2a-server",
+    "agentic-ai",
+    "claude-skills",
+    "openclaw"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://itinai.com",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 3,
+  "lastUpdated": "2026-06-06",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}
