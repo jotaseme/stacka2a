@@ -1,0 +1,41 @@
+{
+  "slug": "trpc-agent-go",
+  "name": "Trpc Agent Go",
+  "description": "A Go framework for building production agent systems with graph workflows, tools, memory, A2A, AG-UI, MCP, evaluation, and observability.",
+  "provider": {
+    "name": "trpc-group",
+    "url": "https://github.com/trpc-group"
+  },
+  "repository": "https://github.com/trpc-group/trpc-agent-go",
+  "category": "enterprise",
+  "tags": [
+    "ag-ui",
+    "agent",
+    "agent-framework",
+    "ai",
+    "ai-agents",
+    "evaluation",
+    "go",
+    "golang",
+    "graph-workflows",
+    "llm"
+  ],
+  "framework": "custom",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://trpc-group.github.io/trpc-agent-go/",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 1350,
+  "lastUpdated": "2026-06-12",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "gonka-agent-card",
+  "name": "Gonka Agent Card",
+  "description": "inferGONKA — Inference Fuel for AI Agents. Free 100K-token trial, no registration. OpenAI-compatible. A2A Protocol agent card.",
+  "provider": {
+    "name": "bystray",
+    "url": "https://github.com/bystray"
+  },
+  "repository": "https://github.com/bystray/gonka-agent-card",
+  "category": "general",
+  "tags": [
+    "cost-optimization",
+    "gonka",
+    "llm",
+    "openai-alternative"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://a2a.gogonka.com/",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-06-12",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

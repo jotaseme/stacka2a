@@ -1,7 +1,7 @@
 {
   "slug": "g8e",
   "name": "G8e",
-  "description": "governance architecture for trustless execution",
+  "description": "Governance Architecture for Autonomous Agents in Trustless Environments",
   "provider": {
     "name": "g8e-ai",
     "url": "https://github.com/g8e-ai"
@@ -12,13 +12,13 @@
     "agentic-infrastructure",
     "ai-governance",
     "audit-trail",
-    "distributed-ai",
     "golang",
+    "just-in-time-access",
     "mcp",
     "mcp-protocol",
     "mcp-server",
-    "mcp-servers",
-    "model-context-protocol"
+    "model-context-protocol",
+    "mtls"
   ],
   "framework": "custom",
   "language": "go",
@@ -34,7 +34,7 @@
     "go"
   ],
   "githubStars": 7,
-  "lastUpdated": "2026-06-06",
+  "lastUpdated": "2026-06-14",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

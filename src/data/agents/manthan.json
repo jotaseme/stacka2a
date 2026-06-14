@@ -1,0 +1,38 @@
+{
+  "slug": "manthan",
+  "name": "Manthan",
+  "description": "The autonomous multi-agent investigator for B2B billing disputes built on Google ADK · Gemini · A2A · Cloud Run",
+  "provider": {
+    "name": "Miny-Labs",
+    "url": "https://github.com/Miny-Labs"
+  },
+  "repository": "https://github.com/Miny-Labs/manthan",
+  "category": "orchestration",
+  "tags": [
+    "ai-agents",
+    "cloud-run",
+    "gemini",
+    "google-adk",
+    "mcp",
+    "multi-agent",
+    "stripe"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://manthan.quest",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-06-11",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

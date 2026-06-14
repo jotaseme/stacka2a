@@ -1,0 +1,37 @@
+{
+  "slug": "a2claude",
+  "name": "A2claude",
+  "description": "Run Claude Code as an A2A protocol agent server — tool progress, file diffs, and permission prompts mapped onto the A2A protocol.",
+  "provider": {
+    "name": "kanywst",
+    "url": "https://github.com/kanywst"
+  },
+  "repository": "https://github.com/kanywst/a2claude",
+  "category": "code-generation",
+  "tags": [
+    "agent-protocol",
+    "ai-agents",
+    "anthropic",
+    "claude",
+    "claude-code",
+    "llm-agents",
+    "python"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-06-13",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

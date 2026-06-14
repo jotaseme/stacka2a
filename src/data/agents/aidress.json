@@ -1,0 +1,37 @@
+{
+  "slug": "aidress",
+  "name": "Aidress",
+  "description": "The coordination layer for autonomous AI agents",
+  "provider": {
+    "name": "Mehulvig24",
+    "url": "https://github.com/Mehulvig24"
+  },
+  "repository": "https://github.com/Mehulvig24/Aidress",
+  "category": "general",
+  "tags": [
+    "agents",
+    "ai",
+    "ai-agents",
+    "autonomous-agents",
+    "registry",
+    "trust"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://aidress.ai/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-06-10",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

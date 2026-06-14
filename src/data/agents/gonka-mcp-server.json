@@ -1,0 +1,35 @@
+{
+  "slug": "gonka-mcp-server",
+  "name": "Gonka MCP Server",
+  "description": "MCP server for Gonka Network pricing — compare LLM inference costs, OpenAI alternative up to 6800× cheaper",
+  "provider": {
+    "name": "bystray",
+    "url": "https://github.com/bystray"
+  },
+  "repository": "https://github.com/bystray/gonka-mcp-server",
+  "category": "general",
+  "tags": [
+    "cost-optimization",
+    "gonka",
+    "llm",
+    "mcp"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://gogonka.com/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-06-09",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}
