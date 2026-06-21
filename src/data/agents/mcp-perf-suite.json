@@ -1,0 +1,40 @@
+{
+  "slug": "mcp-perf-suite",
+  "name": "MCP Perf Suite",
+  "description": "A modular MCP server suite for performance‑testing workflows: generate JMeter scripts from browser automation, manage and run load tests, ingest and correlate metrics from APM tools using temporal correlation analysis, and produce customizable performance reports—all built for seamless integration and scalability across your testing ecosystem.",
+  "provider": {
+    "name": "canyonlabz",
+    "url": "https://github.com/canyonlabz"
+  },
+  "repository": "https://github.com/canyonlabz/mcp-perf-suite",
+  "category": "data-analytics",
+  "tags": [
+    "ag2",
+    "ai-agents",
+    "apache",
+    "apache-age",
+    "blazemeter",
+    "browser-automation",
+    "confluence",
+    "copilotkit",
+    "correlation-analysis",
+    "datadog"
+  ],
+  "framework": "autogen",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 4,
+  "lastUpdated": "2026-06-21",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

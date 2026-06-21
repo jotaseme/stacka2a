@@ -1,0 +1,36 @@
+{
+  "slug": "sistema-de-agentes-con-kafka",
+  "name": "Sistema De Agentes Con Kafka",
+  "description": "Distributed multi-agent system on Apache Kafka with an A2A protocol (JSON-RPC 2.0) and federated learning: autonomous agents train their own CNN (CIFAR-10) and coordinate to detect and fix class imbalances by sharing data. Master's thesis (UPC).",
+  "provider": {
+    "name": "maciasj",
+    "url": "https://github.com/maciasj"
+  },
+  "repository": "https://github.com/maciasj/Sistema-de-Agentes-con-kafka",
+  "category": "data-analytics",
+  "tags": [
+    "apache-kafka",
+    "distributed-systems",
+    "docker",
+    "jsonrpc",
+    "multiagent-systems",
+    "python3"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-06-18",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

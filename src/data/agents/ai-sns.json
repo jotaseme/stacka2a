@@ -1,12 +1,12 @@
 {
-  "slug": "openclaw-hermes-agent-network",
-  "name": "Openclaw Hermes Agent Network",
+  "slug": "ai-sns",
+  "name": "Ai Sns",
   "description": "OpenClaw Hermes AI Agent Social Network🦞💬🦞Built on Google 3D Maps and A2A protocol, connects OpenClaw and Hermes agents worldwide in a 3D environment.",
   "provider": {
     "name": "ai-sns",
     "url": "https://github.com/ai-sns"
   },
-  "repository": "https://github.com/ai-sns/openclaw-hermes-agent-network",
+  "repository": "https://github.com/ai-sns/ai-sns",
   "category": "security",
   "tags": [
     "agent-skills",
@@ -33,8 +33,8 @@
   "sdks": [
     "typescript"
   ],
-  "githubStars": 138,
-  "lastUpdated": "2026-06-09",
+  "githubStars": 266,
+  "lastUpdated": "2026-06-16",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

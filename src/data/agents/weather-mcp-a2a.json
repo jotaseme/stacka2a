@@ -1,14 +1,15 @@
 {
   "slug": "weather-mcp-a2a",
   "name": "Weather MCP A2A",
-  "description": "🌤️ Transform weather data with the Weather MCP Agent, an advanced AI system integrating real-time intelligence and the Model Context Protocol for seamless insights.",
+  "description": "MCP-based agentic AI system enabling LLMs to fetch and reason over real-time global weather data using standardized tool invocation. Built with MCP Server/Client, Llama 3, and external APIs to deliver low-latency, hallucination-free weather intelligence through protocol-driven workflows.",
   "provider": {
-    "name": "manuelalba1021",
-    "url": "https://github.com/manuelalba1021"
+    "name": "Ratnesh-181998",
+    "url": "https://github.com/Ratnesh-181998"
   },
-  "repository": "https://github.com/manuelalba1021/weather-mcp-a2a",
+  "repository": "https://github.com/Ratnesh-181998/weather-mcp-a2a",
   "category": "data-analytics",
   "tags": [
+    "agentic-ai",
     "agents",
     "aiops",
     "docker",
@@ -17,9 +18,7 @@
     "lanchain",
     "llm-ops",
     "mcp",
-    "mcp-client",
-    "mcp-server",
-    "agentic-ai"
+    "mcp-client"
   ],
   "framework": "custom",
   "language": "python",
@@ -30,12 +29,12 @@
     "multiTurn": false
   },
   "authType": "none",
-  "endpointUrl": "https://manuelalba1021.github.io",
+  "endpointUrl": "https://weather-mcp-a2a-agent-to-agent3a95dbsjhgfhd3yussfz3e.streamlit.app/",
   "sdks": [
     "python"
   ],
   "githubStars": 1,
-  "lastUpdated": "2026-06-14",
+  "lastUpdated": "2026-02-23",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

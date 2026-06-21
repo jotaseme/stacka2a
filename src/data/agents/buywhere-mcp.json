@@ -1,7 +1,7 @@
 {
   "slug": "buywhere-mcp",
   "name": "Buywhere MCP",
-  "description": "BuyWhere MCP server — search and compare products from Singapore, SEA, and US markets via Model Context Protocol. Cross-border e-commerce product catalog for AI agents.",
+  "description": "BuyWhere MCP server — search and compare products from Singapore, SEA, and US markets via Model Context Protocol. Cross-border e-commerce product catalog for AI agents. Free API key: https://buywhere.ai/api-keys",
   "provider": {
     "name": "BuyWhere",
     "url": "https://github.com/BuyWhere"
@@ -34,7 +34,7 @@
     "typescript"
   ],
   "githubStars": 4,
-  "lastUpdated": "2026-06-13",
+  "lastUpdated": "2026-06-20",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

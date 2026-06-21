@@ -1,0 +1,31 @@
+{
+  "slug": "remoteresearch",
+  "name": "RemoteResearch",
+  "description": "local and remote agents for monitoring experiments based on A2A protocol",
+  "provider": {
+    "name": "changxizhu",
+    "url": "https://github.com/changxizhu"
+  },
+  "repository": "https://github.com/changxizhu/RemoteResearch",
+  "category": "search",
+  "tags": [
+    "research-agent"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-28",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

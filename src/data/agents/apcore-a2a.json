@@ -28,11 +28,10 @@
   },
   "authType": "none",
   "sdks": [
-    "python",
-    "typescript"
+    "python"
   ],
   "githubStars": 2,
-  "lastUpdated": "2026-06-03",
+  "lastUpdated": "2026-06-15",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

@@ -1,12 +1,12 @@
 {
   "slug": "llm-rb",
   "name": "Llm.Rb",
-  "description": "Ruby's most capable AI runtime",
+  "description": "Ruby's capable AI runtime",
   "provider": {
-    "name": "llmrb",
-    "url": "https://github.com/llmrb"
+    "name": "r-uby-dev",
+    "url": "https://github.com/r-uby-dev"
   },
-  "repository": "https://github.com/llmrb/llm.rb",
+  "repository": "https://github.com/r-uby-dev/llm.rb",
   "category": "general",
   "tags": [
     "a2a-client",
@@ -33,8 +33,8 @@
     "python",
     "typescript"
   ],
-  "githubStars": 133,
-  "lastUpdated": "2026-06-14",
+  "githubStars": 134,
+  "lastUpdated": "2026-06-21",
   "official": false,
   "selfHosted": true,
   "license": "NOASSERTION"

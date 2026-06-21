@@ -1,0 +1,34 @@
+{
+  "slug": "agentic-hub",
+  "name": "Agentic Hub",
+  "description": "A production-grade hub for exploring and implementing agentic workflows, multi-agent systems, and protocols (MCP, A2A) across JVM frameworks like Google ADK and Spring AI.",
+  "provider": {
+    "name": "svetanis",
+    "url": "https://github.com/svetanis"
+  },
+  "repository": "https://github.com/svetanis/agentic-hub",
+  "category": "enterprise",
+  "tags": [
+    "agents",
+    "google-adk",
+    "java",
+    "mcp"
+  ],
+  "framework": "google-adk",
+  "language": "java",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "java"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-06-17",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

@@ -1,12 +1,12 @@
 {
-  "slug": "pipelinepilot",
-  "name": "Pipelinepilot",
+  "slug": "intent-outreach",
+  "name": "Intent Outreach",
   "description": "ADK-based SDR orchestration on Vertex AI Agent Engine. Routes leads through Research, Enrich, and Outreach agents with BYO data provider keys (Clay, Apollo, Clearbit).",
   "provider": {
     "name": "jeremylongshore",
     "url": "https://github.com/jeremylongshore"
   },
-  "repository": "https://github.com/jeremylongshore/pipelinepilot",
+  "repository": "https://github.com/jeremylongshore/intent-outreach",
   "category": "search",
   "tags": [
     "agent-engine",
@@ -21,7 +21,7 @@
     "sales-development"
   ],
   "framework": "google-adk",
-  "language": "python",
+  "language": "typescript",
   "skills": [],
   "capabilities": {
     "streaming": false,
@@ -31,11 +31,11 @@
   "authType": "none",
   "endpointUrl": "https://pipelinepilot-prod.web.app",
   "sdks": [
-    "python"
+    "typescript"
   ],
   "githubStars": 3,
-  "lastUpdated": "2026-06-04",
+  "lastUpdated": "2026-06-21",
   "official": false,
   "selfHosted": true,
-  "license": "unknown"
+  "license": "NOASSERTION"
 }

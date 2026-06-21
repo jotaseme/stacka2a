@@ -1,0 +1,38 @@
+{
+  "slug": "airlock",
+  "name": "Airlock",
+  "description": "Governance membrane between an untrusted A2A agent swarm and your real systems. Nothing crosses ungoverned.",
+  "provider": {
+    "name": "mystiquemide",
+    "url": "https://github.com/mystiquemide"
+  },
+  "repository": "https://github.com/mystiquemide/airlock",
+  "category": "orchestration",
+  "tags": [
+    "agent-governance",
+    "band-sdk",
+    "compliance",
+    "llm-agents",
+    "nextjs",
+    "policy-engine",
+    "python"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://airlock001.vercel.app",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-06-17",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

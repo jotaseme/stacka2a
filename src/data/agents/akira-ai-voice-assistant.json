@@ -1,0 +1,40 @@
+{
+  "slug": "akira-ai-voice-assistant",
+  "name": "AKIRA AI Voice Assistant",
+  "description": "Automate laptop tasks and system controls using voice commands with this Python-based AI assistant.",
+  "provider": {
+    "name": "glum-wageearner960",
+    "url": "https://github.com/glum-wageearner960"
+  },
+  "repository": "https://github.com/glum-wageearner960/AKIRA-AI-Voice-Assistant",
+  "category": "conversational",
+  "tags": [
+    "a2a-mcp",
+    "ai",
+    "automation",
+    "devtools",
+    "documentation",
+    "gtk",
+    "hacktoberfest",
+    "home-assistant",
+    "nonebot2",
+    "ollama"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-06-17",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

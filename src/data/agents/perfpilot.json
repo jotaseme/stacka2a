@@ -1,0 +1,41 @@
+{
+  "slug": "perfpilot",
+  "name": "Perfpilot",
+  "description": "An AI agent framework for the full performance testing lifecycle: AG2 Pilot agents with MCP tools for JMeter, BlazeMeter & Datadog, orchestrated via AG-UI, with a CopilotKit web UI, persistent vector memory, and human-in-the-loop workflows.",
+  "provider": {
+    "name": "canyonlabz",
+    "url": "https://github.com/canyonlabz"
+  },
+  "repository": "https://github.com/canyonlabz/perfpilot",
+  "category": "data-analytics",
+  "tags": [
+    "ag2",
+    "ai-agents",
+    "apache-age",
+    "apache-jmeter",
+    "blazemeter",
+    "browser-automation",
+    "confluence",
+    "copilotkit",
+    "correlation-analysis",
+    "datadog"
+  ],
+  "framework": "autogen",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-06-20",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

@@ -12,17 +12,7 @@
     "a2a-mcp",
     "a2a-server",
     "mcp",
-    "schema",
-    "agent-server",
-    "agent-to-agent",
-    "agentic-ai",
-    "ai",
-    "ai-agents",
-    "dapr",
-    "dapr-workflow",
-    "go",
-    "kafka",
-    "linux-foundation"
+    "schema"
   ],
   "framework": "custom",
   "language": "python",
@@ -37,7 +27,7 @@
     "python"
   ],
   "githubStars": 11,
-  "lastUpdated": "2026-06-14",
+  "lastUpdated": "2026-04-21",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

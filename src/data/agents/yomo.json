@@ -9,16 +9,16 @@
   "repository": "https://github.com/yomorun/yomo",
   "category": "code-generation",
   "tags": [
-    "chatgpt",
+    "agent-framework",
     "claude-code",
-    "cursor",
     "distributed-cloud",
     "function-calling",
     "geodistributedsystems",
-    "low-latency",
+    "managed-skills",
     "mcp",
     "openai",
-    "quic"
+    "quic",
+    "realtime"
   ],
   "framework": "custom",
   "language": "rust",
@@ -34,8 +34,8 @@
     "python",
     "typescript"
   ],
-  "githubStars": 1907,
-  "lastUpdated": "2026-06-13",
+  "githubStars": 1908,
+  "lastUpdated": "2026-06-18",
   "official": false,
   "selfHosted": true,
   "license": "unknown"

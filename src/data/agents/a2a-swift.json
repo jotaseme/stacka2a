@@ -1,0 +1,40 @@
+{
+  "slug": "a2a-swift",
+  "name": "A2A Swift",
+  "description": "The complete Swift SDK for the Agent-to-Agent (A2A) protocol 1.0. Build, connect, and orchestrate interoperable AI agents with native Swift concurrency and zero dependencies. macOS · iOS · tvOS · watchOS · Linux.",
+  "provider": {
+    "name": "Victory-Apps",
+    "url": "https://github.com/Victory-Apps"
+  },
+  "repository": "https://github.com/Victory-Apps/a2a-swift",
+  "category": "orchestration",
+  "tags": [
+    "agent-to-agent",
+    "agentic-ai",
+    "ai-agents",
+    "sdk",
+    "swift",
+    "swift-concurrency",
+    "swift-package-manager",
+    "vapor"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://google.github.io/A2A/",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-04-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}
