@@ -1,24 +1,24 @@
 {
   "slug": "intent-outreach",
   "name": "Intent Outreach",
-  "description": "ADK-based SDR orchestration on Vertex AI Agent Engine. Routes leads through Research, Enrich, and Outreach agents with BYO data provider keys (Clay, Apollo, Clearbit).",
+  "description": "Model-agnostic, Claude-Code-native SDR orchestrator: research → enrich → outreach over your own data-provider keys — fully local, zero Google. A Claude Code plugin (orchestrator skill + phase sub-agents + bundled MCP server) and a standalone CLI.",
   "provider": {
     "name": "jeremylongshore",
     "url": "https://github.com/jeremylongshore"
   },
   "repository": "https://github.com/jeremylongshore/intent-outreach",
-  "category": "search",
+  "category": "code-generation",
   "tags": [
     "agent-engine",
     "ai-agents",
     "apollo",
+    "claude-code",
     "clay",
     "clearbit",
     "firestore",
     "google-adk",
     "intent-solutions",
-    "lead-enrichment",
-    "sales-development"
+    "lead-enrichment"
   ],
   "framework": "google-adk",
   "language": "typescript",
@@ -34,7 +34,7 @@
     "typescript"
   ],
   "githubStars": 3,
-  "lastUpdated": "2026-06-21",
+  "lastUpdated": "2026-06-23",
   "official": false,
   "selfHosted": true,
   "license": "NOASSERTION"

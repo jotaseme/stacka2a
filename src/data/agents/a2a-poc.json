@@ -1,0 +1,41 @@
+{
+  "slug": "a2a-poc",
+  "name": "A2A Poc",
+  "description": "A clean reference implementation of the Agent-to-Agent (A2A) protocol: specialized AI agents that discover each other and collaborate over JSON-RPC 2.0. Python · FastAPI · Pydantic.",
+  "provider": {
+    "name": "rrahimi-uci",
+    "url": "https://github.com/rrahimi-uci"
+  },
+  "repository": "https://github.com/rrahimi-uci/a2a-poc",
+  "category": "orchestration",
+  "tags": [
+    "agent-communication",
+    "agent-interoperability",
+    "agent-to-agent",
+    "ai-agents",
+    "autogen",
+    "fastapi",
+    "json-rpc",
+    "llm",
+    "multi-agent-systems",
+    "pydantic"
+  ],
+  "framework": "autogen",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://rrahimi-uci.github.io/a2a-poc/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-06-27",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

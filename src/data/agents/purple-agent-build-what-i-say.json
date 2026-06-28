@@ -1,0 +1,33 @@
+{
+  "slug": "purple-agent-build-what-i-say",
+  "name": "Purple Agent Build What I Say",
+  "description": "This is a gaming agent I built for the agentbeats comptetion. It is the purple agent for the green agent build-what-i-mean",
+  "provider": {
+    "name": "MehemudAzad",
+    "url": "https://github.com/MehemudAzad"
+  },
+  "repository": "https://github.com/MehemudAzad/purple-agent-build-what-i-say",
+  "category": "general",
+  "tags": [
+    "agentic-ai",
+    "langgraph",
+    "spatial-reasoning"
+  ],
+  "framework": "langgraph",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-06-25",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

@@ -1,7 +1,7 @@
 {
   "slug": "ai-orchestration-governance-infrastructure",
   "name": "Ai Orchestration Governance Infrastructure",
-  "description": "AI Orchestration Governance Infrastructure (AOGI) designed for enterprise agentic workflows. Implements a 5-pillar CAF lifecycle, automated GDPR/compliance auditing via Rego policies, and secure cryptographic handshakes for multi-agent orchestration.",
+  "description": "AI Orchestration Governance Infrastructure (AOGI) is a sandbox designed for agentic workflows. Automated GDPR/compliance auditing via Rego policies, secure cryptographic handshakes for multi-agent orchestration, and red teaming labs.",
   "provider": {
     "name": "jessburnett",
     "url": "https://github.com/jessburnett"
@@ -33,7 +33,7 @@
     "python"
   ],
   "githubStars": 3,
-  "lastUpdated": "2026-06-20",
+  "lastUpdated": "2026-06-23",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

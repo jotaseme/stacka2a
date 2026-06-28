@@ -1,7 +1,7 @@
 {
   "slug": "rust-adk",
   "name": "Rust Adk",
-  "description": "An Agent Development Kit (ADK) allowing for seamless creation of A2A-compatible agents written in Rust",
+  "description": "An Agent Development Kit (ADK) allowing for seamless creation of A2A-compatible agents written in Rust.",
   "provider": {
     "name": "inference-gateway",
     "url": "https://github.com/inference-gateway"
@@ -30,7 +30,7 @@
     "typescript"
   ],
   "githubStars": 12,
-  "lastUpdated": "2026-06-20",
+  "lastUpdated": "2026-06-24",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

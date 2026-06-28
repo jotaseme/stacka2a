@@ -1,0 +1,41 @@
+{
+  "slug": "agent-architecture",
+  "name": "Agent Architecture",
+  "description": "The 21 agentic design patterns, distilled to concepts (no code) — a design-phase reference for building AI agents. Works as a Claude Code skill.",
+  "provider": {
+    "name": "eshwarvijay",
+    "url": "https://github.com/eshwarvijay"
+  },
+  "repository": "https://github.com/eshwarvijay/agent-architecture",
+  "category": "code-generation",
+  "tags": [
+    "agentic-ai",
+    "agentic-design-patterns",
+    "agentic-workflow",
+    "ai-agent-framework",
+    "ai-agents",
+    "anthropic",
+    "claude",
+    "claude-code",
+    "design-patterns",
+    "generative-ai"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 3,
+  "lastUpdated": "2026-06-24",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

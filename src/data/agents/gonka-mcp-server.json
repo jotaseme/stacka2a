@@ -1,7 +1,7 @@
 {
   "slug": "gonka-mcp-server",
   "name": "Gonka MCP Server",
-  "description": "MCP server for Gonka Network pricing — compare LLM inference costs, OpenAI alternative up to 6800× cheaper",
+  "description": "MCP server for Gonka Network: OpenAI-compatible LLM inference at fraction of the cost",
   "provider": {
     "name": "bystray",
     "url": "https://github.com/bystray"
@@ -28,7 +28,7 @@
     "python"
   ],
   "githubStars": 0,
-  "lastUpdated": "2026-06-20",
+  "lastUpdated": "2026-06-22",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

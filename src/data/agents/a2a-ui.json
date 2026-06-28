@@ -1,0 +1,37 @@
+{
+  "slug": "a2a-ui",
+  "name": "A2A Ui",
+  "description": "Local-first developer workbench for building, testing, and debugging Agent2Agent (A2A) protocol servers.",
+  "provider": {
+    "name": "iChintanSoni",
+    "url": "https://github.com/iChintanSoni"
+  },
+  "repository": "https://github.com/iChintanSoni/a2a-ui",
+  "category": "code-generation",
+  "tags": [
+    "agents",
+    "ai",
+    "developer-tools",
+    "llm",
+    "nextjs",
+    "workbench"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://www.npmjs.com/package/a2a-ui",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-06-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "ancora",
+  "name": "Ancora",
+  "description": "Rust-core agentic framework with durable journal, exactly-once replay, Ed25519 A2A identity, and MCP tool server. Bindings for Go, Python, TypeScript, .NET, and Java via C ABI.",
+  "provider": {
+    "name": "YASSERRMD",
+    "url": "https://github.com/YASSERRMD"
+  },
+  "repository": "https://github.com/YASSERRMD/Ancora",
+  "category": "orchestration",
+  "tags": [
+    "agentic-framework",
+    "ai",
+    "ai-agents",
+    "dotnet",
+    "ffi",
+    "framework",
+    "go",
+    "java",
+    "journal",
+    "llm"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-06-28",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

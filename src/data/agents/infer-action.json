@@ -1,7 +1,7 @@
 {
   "slug": "infer-action",
   "name": "Infer Action",
-  "description": "Github action for the Infer CLI",
+  "description": "Github action for the Infer CLI.",
   "provider": {
     "name": "inference-gateway",
     "url": "https://github.com/inference-gateway"
@@ -27,7 +27,7 @@
     "typescript"
   ],
   "githubStars": 1,
-  "lastUpdated": "2026-06-20",
+  "lastUpdated": "2026-06-27",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

@@ -1,0 +1,41 @@
+{
+  "slug": "adtp",
+  "name": "Adtp",
+  "description": "Cryptographic identity and delegation for AI agents — UCAN chains, RESTRICT mode (structurally impossible escalation), provably-complete cascade revocation. Single Go binary. Apache 2.0.",
+  "provider": {
+    "name": "Zahanturel",
+    "url": "https://github.com/Zahanturel"
+  },
+  "repository": "https://github.com/Zahanturel/adtp",
+  "category": "security",
+  "tags": [
+    "ai-agents",
+    "authorization",
+    "cryptography",
+    "delegation",
+    "did",
+    "ed25519",
+    "golang",
+    "identity",
+    "mcp",
+    "open-source"
+  ],
+  "framework": "custom",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://zahanturel.github.io/adtp/",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-06-24",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

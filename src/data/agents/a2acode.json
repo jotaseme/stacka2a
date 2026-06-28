@@ -1,12 +1,12 @@
 {
-  "slug": "a2claude",
-  "name": "A2claude",
+  "slug": "a2acode",
+  "name": "A2acode",
   "description": "Run Claude Code as an A2A protocol agent server — tool progress, file diffs, and permission prompts mapped onto the A2A protocol.",
   "provider": {
     "name": "kanywst",
     "url": "https://github.com/kanywst"
   },
-  "repository": "https://github.com/kanywst/a2claude",
+  "repository": "https://github.com/kanywst/a2acode",
   "category": "code-generation",
   "tags": [
     "agent-protocol",
@@ -30,7 +30,7 @@
     "python"
   ],
   "githubStars": 0,
-  "lastUpdated": "2026-06-20",
+  "lastUpdated": "2026-06-27",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

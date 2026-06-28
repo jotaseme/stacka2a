@@ -1,12 +1,12 @@
 {
-  "slug": "llm-rb",
-  "name": "Llm.Rb",
+  "slug": "llm",
+  "name": "Llm",
   "description": "Ruby's capable AI runtime",
   "provider": {
     "name": "r-uby-dev",
     "url": "https://github.com/r-uby-dev"
   },
-  "repository": "https://github.com/r-uby-dev/llm.rb",
+  "repository": "https://github.com/r-uby-dev/llm",
   "category": "general",
   "tags": [
     "a2a-client",
@@ -34,7 +34,7 @@
     "typescript"
   ],
   "githubStars": 134,
-  "lastUpdated": "2026-06-21",
+  "lastUpdated": "2026-06-28",
   "official": false,
   "selfHosted": true,
   "license": "NOASSERTION"

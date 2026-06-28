@@ -20,7 +20,7 @@
     "permissionless"
   ],
   "framework": "custom",
-  "language": "python",
+  "language": "unknown",
   "skills": [],
   "capabilities": {
     "streaming": false,
@@ -30,10 +30,11 @@
   "authType": "none",
   "endpointUrl": "https://anp2.com",
   "sdks": [
-    "python"
+    "python",
+    "typescript"
   ],
   "githubStars": 2,
-  "lastUpdated": "2026-06-17",
+  "lastUpdated": "2026-06-25",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

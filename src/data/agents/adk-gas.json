@@ -1,7 +1,7 @@
 {
   "slug": "adk-gas",
   "name": "Adk Gas",
-  "description": "GASADK: An Agent Development Kit for Google Apps Script to build autonomous AI agents with the Gemini API, MCP, A2A, Agent Skills, and sub-agent routing.",
+  "description": "GASADK: Agent Development Kit for Google Apps Script. Build AI agents with Gemini API, MCP, A2A, Agent Skills, Human-in-the-Loop (HITL) suspension/resumption, token quota safeguards, and dynamic Google API MCP servers.",
   "provider": {
     "name": "tanaikech",
     "url": "https://github.com/tanaikech"
@@ -15,10 +15,10 @@
     "agentic-ai",
     "ai-agents",
     "gemini-api",
+    "google-api-mcp",
     "google-apps-script",
     "google-workspace",
-    "llm",
-    "mcp"
+    "hitl"
   ],
   "framework": "google-adk",
   "language": "typescript",
@@ -33,8 +33,8 @@
   "sdks": [
     "typescript"
   ],
-  "githubStars": 4,
-  "lastUpdated": "2026-06-14",
+  "githubStars": 6,
+  "lastUpdated": "2026-06-24",
   "official": false,
   "selfHosted": true,
   "license": "MIT"
