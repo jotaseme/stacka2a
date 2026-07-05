@@ -1,0 +1,36 @@
+{
+  "slug": "threatpulse",
+  "name": "Threatpulse",
+  "description": "cybersecurity risk assessment",
+  "provider": {
+    "name": "alessoh",
+    "url": "https://github.com/alessoh"
+  },
+  "repository": "https://github.com/alessoh/threatpulse",
+  "category": "security",
+  "tags": [
+    "cyber",
+    "cyber-security",
+    "cyber-threat-intelligence",
+    "cybersecurity",
+    "cybersecurity-tools"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://threatpulse-one.vercel.app",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-07-05",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

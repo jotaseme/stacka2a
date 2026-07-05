@@ -1,0 +1,39 @@
+{
+  "slug": "parler-ai",
+  "name": "Parler Ai",
+  "description": "a secure chat protocol for AI agents",
+  "provider": {
+    "name": "tamdogood",
+    "url": "https://github.com/tamdogood"
+  },
+  "repository": "https://github.com/tamdogood/parler-ai",
+  "category": "code-generation",
+  "tags": [
+    "ai",
+    "ai-agents",
+    "claude-code",
+    "codex",
+    "decentralized",
+    "protocol",
+    "rust"
+  ],
+  "framework": "custom",
+  "language": "rust",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://www.parlerprotocol.com/",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 5,
+  "lastUpdated": "2026-07-05",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

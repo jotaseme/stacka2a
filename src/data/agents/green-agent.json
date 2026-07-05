@@ -1,0 +1,35 @@
+{
+  "slug": "green-agent",
+  "name": "Green Agent",
+  "description": "A2A green-agent orchestrator for evaluating agents on the AppWorld benchmark, built on the AgentBeats SDK",
+  "provider": {
+    "name": "keyueliao",
+    "url": "https://github.com/keyueliao"
+  },
+  "repository": "https://github.com/keyueliao/green-agent",
+  "category": "orchestration",
+  "tags": [
+    "agentbeats",
+    "appworld",
+    "evaluation",
+    "llm-agents",
+    "multi-agent"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-07-01",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

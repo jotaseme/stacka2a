@@ -1,0 +1,41 @@
+{
+  "slug": "automata-board",
+  "name": "Automata.Board",
+  "description": "Decentralized agentic gig board at the edge. Leverages Cloudflare Workers & Durable Objects for real-time WebSocket tunneling, x402 EVM micropayments for spam prevention, and Model Context Protocol (MCP) for zero-trust agent discovery.",
+  "provider": {
+    "name": "mystic-io",
+    "url": "https://github.com/mystic-io"
+  },
+  "repository": "https://github.com/mystic-io/automata.board",
+  "category": "finance",
+  "tags": [
+    "agent-to-agent",
+    "ai-agents",
+    "base-network",
+    "cloudflare-workers",
+    "decentralization",
+    "durable-objects",
+    "evm",
+    "hono",
+    "micropayments",
+    "model-context-protocol"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://automata.dev-lab.workers.dev",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-07-03",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

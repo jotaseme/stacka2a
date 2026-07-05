@@ -1,0 +1,36 @@
+{
+  "slug": "web",
+  "name": "Web",
+  "description": "The open-source control plane for MCP - site",
+  "provider": {
+    "name": "arcessahq",
+    "url": "https://github.com/arcessahq"
+  },
+  "repository": "https://github.com/arcessahq/web",
+  "category": "general",
+  "tags": [
+    "ai-agents",
+    "ai-gateway",
+    "control-plane",
+    "mcp",
+    "nextjs"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://arcessahq.github.io/web/",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-06-29",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

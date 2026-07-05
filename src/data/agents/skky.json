@@ -1,7 +1,7 @@
 {
   "slug": "skky",
   "name": "Skky",
-  "description": "Traveling planning applications that leverages Multi AI system.",
+  "description": "A comprehensive travel planning application that leverages AI agents to help users create personalized itineraries, find flights, accommodations, and activities for their trips.",
   "provider": {
     "name": "Amanmeena0",
     "url": "https://github.com/Amanmeena0"

@@ -1,24 +1,24 @@
 {
   "slug": "agenda-intelligence-md",
   "name": "Agenda Intelligence Md",
-  "description": "Agenda Intelligence — product runtime + evidence-discipline layer for strategic-intelligence agents. One core service layer behind four surfaces (MCP, HTTP, A2A, Cloudflare Worker). Four live vertical workers: deal-risk, secondary-sanctions, agentic-trust, Gulf maritime exposure. No live retrieval, no factual verification.",
+  "description": "Evidence-readiness and trust-routing runtime for high-stakes AI-assisted decisions. Turns source packs, RFPs, vendor docs, and risk files into human-review packets with evidence gaps, weak claims, owner actions, and decision-readiness routing.",
   "provider": {
     "name": "vassiliylakhonin",
     "url": "https://github.com/vassiliylakhonin"
   },
   "repository": "https://github.com/vassiliylakhonin/agenda-intelligence-md",
-  "category": "search",
+  "category": "general",
   "tags": [
     "agenda-intelligence",
-    "agent-infrastructure",
-    "agentic-workflow",
     "ai-agents",
+    "ai-assurance",
+    "ai-governance",
     "cloudflare-workers",
-    "deal-risk-gate",
-    "geopolitical-intelligence",
-    "geopolitical-risk",
+    "decision-readiness",
+    "evidence-readiness",
+    "human-review",
     "json-schema",
-    "maritime-sanctions"
+    "mcp"
   ],
   "framework": "custom",
   "language": "python",
@@ -33,8 +33,8 @@
   "sdks": [
     "python"
   ],
-  "githubStars": 4,
-  "lastUpdated": "2026-06-27",
+  "githubStars": 5,
+  "lastUpdated": "2026-07-02",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

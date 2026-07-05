@@ -1,0 +1,35 @@
+{
+  "slug": "agnet",
+  "name": "Agnet",
+  "description": "A early version of Internet-of-Agents, based on the Internet Hardware. We do believe this projct won't be the end of the IoA. We are in the progressing period of the era.",
+  "provider": {
+    "name": "XXY-CH",
+    "url": "https://github.com/XXY-CH"
+  },
+  "repository": "https://github.com/XXY-CH/Agnet",
+  "category": "enterprise",
+  "tags": [
+    "agent",
+    "agent-harness",
+    "agentic-ai",
+    "agentic-workflow",
+    "internet-of-agents"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-07-04",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

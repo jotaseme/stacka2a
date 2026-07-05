@@ -1,0 +1,33 @@
+{
+  "slug": "a2a-debate",
+  "name": "A2A Debate",
+  "description": "Cross-platform agent debate system using Google's A2A protocol — opencode agents debate ADK/BeeAI/any A2A agent via Pro/Con rounds",
+  "provider": {
+    "name": "minhphu102003",
+    "url": "https://github.com/minhphu102003"
+  },
+  "repository": "https://github.com/minhphu102003/a2a-debate",
+  "category": "code-generation",
+  "tags": [
+    "claude-code",
+    "opencode"
+  ],
+  "framework": "google-adk",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-07-03",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

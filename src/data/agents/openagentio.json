@@ -28,11 +28,12 @@
     "multiTurn": false
   },
   "authType": "none",
+  "endpointUrl": "https://openagentio.dev",
   "sdks": [
     "python"
   ],
-  "githubStars": 11,
-  "lastUpdated": "2026-06-22",
+  "githubStars": 13,
+  "lastUpdated": "2026-06-28",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

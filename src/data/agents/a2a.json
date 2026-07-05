@@ -12,9 +12,10 @@
     "a2a-mcp",
     "a2a-server",
     "mcp",
-    "schema"
+    "schema",
+    "adk"
   ],
-  "framework": "custom",
+  "framework": "google-adk",
   "language": "python",
   "skills": [],
   "capabilities": {
