@@ -1,7 +1,7 @@
 {
   "slug": "agnet",
   "name": "Agnet",
-  "description": "A early version of Internet-of-Agents, based on the Internet Hardware. We do believe this projct won't be the end of the IoA. We are in the progressing period of the era.",
+  "description": "An early version of Internet-of-Agent. We need Accountability in the era of Agents",
   "provider": {
     "name": "XXY-CH",
     "url": "https://github.com/XXY-CH"
@@ -9,6 +9,9 @@
   "repository": "https://github.com/XXY-CH/Agnet",
   "category": "enterprise",
   "tags": [
+    "accountability",
+    "accountability-chain",
+    "accountability-systems",
     "agent",
     "agent-harness",
     "agentic-ai",
@@ -16,7 +19,7 @@
     "internet-of-agents"
   ],
   "framework": "custom",
-  "language": "typescript",
+  "language": "go",
   "skills": [],
   "capabilities": {
     "streaming": false,
@@ -25,10 +28,10 @@
   },
   "authType": "none",
   "sdks": [
-    "typescript"
+    "go"
   ],
-  "githubStars": 0,
-  "lastUpdated": "2026-07-04",
+  "githubStars": 2,
+  "lastUpdated": "2026-07-12",
   "official": false,
   "selfHosted": true,
   "license": "unknown"

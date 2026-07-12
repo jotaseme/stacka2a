@@ -1,0 +1,34 @@
+{
+  "slug": "cardstock",
+  "name": "Cardstock",
+  "description": "Minimal single-binary A2A agent registry: Rust + SQLite, immutable agent cards, liveness checks, full-text search",
+  "provider": {
+    "name": "ajac-zero",
+    "url": "https://github.com/ajac-zero"
+  },
+  "repository": "https://github.com/ajac-zero/cardstock",
+  "category": "search",
+  "tags": [
+    "agent-registry",
+    "ai-agents",
+    "rust"
+  ],
+  "framework": "custom",
+  "language": "rust",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-07-10",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

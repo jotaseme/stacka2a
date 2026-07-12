@@ -1,19 +1,20 @@
 {
   "slug": "a2a-sample-helloworld",
   "name": "Helloworld (Official Sample)",
-  "description": "Official A2A python sample agent: Helloworld",
+  "description": "Official A2A go sample agent: Helloworld",
   "provider": {
     "name": "A2A Project",
     "url": "https://github.com/a2aproject"
   },
-  "repository": "https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/helloworld",
+  "repository": "https://github.com/a2aproject/a2a-samples/tree/main/samples/go/agents/helloworld",
   "category": "conversational",
   "tags": [
     "official-sample",
+    "go",
     "python"
   ],
   "framework": "custom",
-  "language": "python",
+  "language": "go",
   "skills": [],
   "capabilities": {
     "streaming": false,
@@ -22,10 +23,10 @@
   },
   "authType": "none",
   "sdks": [
-    "python"
+    "go"
   ],
   "githubStars": 1329,
-  "lastUpdated": "2026-07-05",
+  "lastUpdated": "2026-07-12",
   "official": true,
   "selfHosted": true,
   "license": "apache-2.0"

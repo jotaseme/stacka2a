@@ -3,10 +3,10 @@
   "name": "Openagent Registry",
   "description": "Open registry, scanner, and leaderboard for agent-ready websites. Scans the full agent-access stack — llms.txt, agents.txt, A2A, MCP, OpenAPI, robots.txt + Content Signals, OAuth, RSL, bot management — scores it, ranks by industry, and tells you how to become approved.",
   "provider": {
-    "name": "aaronkpickrell",
-    "url": "https://github.com/aaronkpickrell"
+    "name": "Twin-Sparks-Consulting-LLC",
+    "url": "https://github.com/Twin-Sparks-Consulting-LLC"
   },
-  "repository": "https://github.com/aaronkpickrell/openagent-registry",
+  "repository": "https://github.com/Twin-Sparks-Consulting-LLC/openagent-registry",
   "category": "security",
   "tags": [
     "agent-access",
@@ -34,7 +34,7 @@
     "typescript"
   ],
   "githubStars": 0,
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-07-09",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

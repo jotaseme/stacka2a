@@ -1,0 +1,41 @@
+{
+  "slug": "nexus",
+  "name": "Nexus",
+  "description": "Educational multi-agent orchestration lab: AI agents discovering each other and communicating over A2A and MCP (Google ADK), with distributed tracing, a reviewer-critic pattern, and per-directory AGENTS.md docs",
+  "provider": {
+    "name": "jyatesdotdev",
+    "url": "https://github.com/jyatesdotdev"
+  },
+  "repository": "https://github.com/jyatesdotdev/nexus",
+  "category": "orchestration",
+  "tags": [
+    "agent2agent",
+    "ai-agents",
+    "distributed-tracing",
+    "educational-project",
+    "fastapi",
+    "gemini",
+    "google-adk",
+    "learning-lab",
+    "llm-orchestration",
+    "mcp",
+    "a2a-protocol"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-07-08",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

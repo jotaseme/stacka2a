@@ -1,0 +1,38 @@
+{
+  "slug": "evoloop",
+  "name": "Evoloop",
+  "description": "EvoLoop — Cross-platform autonomous AI agent: control computers & Android devices from a single interface, learn from demonstrations, and collaborate across agents. Desktop / web / server / embedded.",
+  "provider": {
+    "name": "wonderful-team",
+    "url": "https://github.com/wonderful-team"
+  },
+  "repository": "https://github.com/wonderful-team/evoloop",
+  "category": "orchestration",
+  "tags": [
+    "agent-to-agent",
+    "ai-agents",
+    "android-automation",
+    "computer-control",
+    "long-horizon-agents",
+    "multi-agent",
+    "skills"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://evoloop.cn",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-07-07",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

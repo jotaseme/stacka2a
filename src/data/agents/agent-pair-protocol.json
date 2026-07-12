@@ -1,0 +1,29 @@
+{
+  "slug": "agent-pair-protocol",
+  "name": "Agent Pair Protocol",
+  "description": "an open protocol for personal agent-to-agent communication: two AI agents, each acting for one human, exchange end-to-end-encrypted messages.",
+  "provider": {
+    "name": "rfxlamia",
+    "url": "https://github.com/rfxlamia"
+  },
+  "repository": "https://github.com/rfxlamia/agent-pair-protocol",
+  "category": "security",
+  "tags": [],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-07-11",
+  "official": false,
+  "selfHosted": true,
+  "license": "WTFPL"
+}

@@ -1,13 +1,13 @@
 {
-  "slug": "a2v",
-  "name": "A2V",
-  "description": "A2V: Next-Gen AI Value Compute Protocol.                                                                                 ",
+  "slug": "ipollowork",
+  "name": "IPolloWork",
+  "description": "iPolloWork — local-first AI agent workspace with Design and Video tools",
   "provider": {
     "name": "Devin-AXIS",
     "url": "https://github.com/Devin-AXIS"
   },
-  "repository": "https://github.com/Devin-AXIS/A2V",
-  "category": "general",
+  "repository": "https://github.com/Devin-AXIS/iPolloWork",
+  "category": "media-content",
   "tags": [
     "ai-agent-network",
     "bnb-chain",
@@ -32,8 +32,8 @@
     "typescript"
   ],
   "githubStars": 1201,
-  "lastUpdated": "2025-11-12",
+  "lastUpdated": "2026-07-12",
   "official": false,
   "selfHosted": true,
-  "license": "unknown"
+  "license": "MIT"
 }

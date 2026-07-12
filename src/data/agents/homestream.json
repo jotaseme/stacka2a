@@ -1,0 +1,41 @@
+{
+  "slug": "homestream",
+  "name": "Homestream",
+  "description": "🔑 HomeStream · 家园·流 — 零成本自托管多Agent协作框架，通往AI世界的那把钥匙 | Zero-cost self-hosted multi-agent framework — The key to AI world",
+  "provider": {
+    "name": "Ninefoldatwill",
+    "url": "https://github.com/Ninefoldatwill"
+  },
+  "repository": "https://github.com/Ninefoldatwill/homestream",
+  "category": "orchestration",
+  "tags": [
+    "agent-framework",
+    "ai",
+    "causal-memory",
+    "event-stream",
+    "fastapi",
+    "llm",
+    "mcp",
+    "memory-evolution",
+    "multi-agent",
+    "observability"
+  ],
+  "framework": "fastapi",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://github.com/Ninefoldatwill/homestream",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-07-11",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

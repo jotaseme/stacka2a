@@ -1,0 +1,40 @@
+{
+  "slug": "bfa-sdk",
+  "name": "Bfa SDK",
+  "description": "SDK de código abierto en Python para el patrón Backend for Agents (BFA), extendido como un servidor de enrutamiento dinámico en caliente (IRC-A) con soporte para FAISS y MCP.",
+  "provider": {
+    "name": "SandroG1977",
+    "url": "https://github.com/SandroG1977"
+  },
+  "repository": "https://github.com/SandroG1977/bfa-sdk",
+  "category": "security",
+  "tags": [
+    "a2a-agent",
+    "a2a-mcp",
+    "agent-framework",
+    "bfa-sdk",
+    "faiss",
+    "irc-a",
+    "mcp-server",
+    "mcp-tools",
+    "python-sdk",
+    "security-by-design"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-07-11",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}
