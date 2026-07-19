@@ -9,6 +9,7 @@
   "repository": "https://github.com/sing1ee/a2a-directory",
   "category": "general",
   "tags": [
+    "a2a-agents",
     "a2a-client",
     "a2a-server",
     "agent",
@@ -25,13 +26,13 @@
     "multiTurn": false
   },
   "authType": "none",
-  "endpointUrl": "https://a2aprotocol.ai/blog",
+  "endpointUrl": "https://a2aprotocol.ai/a2a-agents",
   "sdks": [
     "python",
     "typescript"
   ],
-  "githubStars": 237,
-  "lastUpdated": "2026-07-12",
+  "githubStars": 238,
+  "lastUpdated": "2026-07-17",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

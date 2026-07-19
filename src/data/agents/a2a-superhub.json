@@ -1,0 +1,42 @@
+{
+  "slug": "a2a-superhub",
+  "name": "A2A Superhub",
+  "description": "Durable A2A coordination for heterogeneous AI agents - plus a shared memory plane: markdown-as-truth, knowledge graph + timeline, Qdrant retrieval, per-agent memory inboxes. v1 hub shipped; v2 memory RFC open.",
+  "provider": {
+    "name": "phenomenoner",
+    "url": "https://github.com/phenomenoner"
+  },
+  "repository": "https://github.com/phenomenoner/a2a-superhub",
+  "category": "search",
+  "tags": [
+    "agent-memory",
+    "agent2agent",
+    "ai-agents",
+    "knowledge-graph",
+    "llm-agents",
+    "local-first",
+    "mcp",
+    "memory-layer",
+    "multi-agent-systems",
+    "qdrant",
+    "a2a-protocol"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://phenomenoner.github.io/a2a-superhub/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-07-18",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

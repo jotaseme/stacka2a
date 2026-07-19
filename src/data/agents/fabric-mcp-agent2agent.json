@@ -1,7 +1,7 @@
 {
   "slug": "fabric-mcp-agent2agent",
   "name": "Fabric MCP Agent2Agent",
-  "description": "Step by step reference implementation for setting up data agents and integrating agent with Copilot Studio",
+  "description": "/Step by step reference implementation for setting up data agents and integrating agent with Copilot Studio",
   "provider": {
     "name": "Cloud2BR-MSFTLearningHub",
     "url": "https://github.com/Cloud2BR-MSFTLearningHub"
@@ -14,11 +14,11 @@
     "consumer-goods",
     "copilot-agent",
     "copilot-studio",
+    "da-academy",
     "fabric",
     "fabric-mcp",
     "industry",
-    "manufactoring",
-    "retail"
+    "manufactoring"
   ],
   "framework": "custom",
   "language": "unknown",

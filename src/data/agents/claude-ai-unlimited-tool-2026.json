@@ -1,0 +1,41 @@
+{
+  "slug": "claude-ai-unlimited-tool-2026",
+  "name": "Claude AI Unlimited Tool 2026",
+  "description": "Automate Claude AI interactions with custom hotkeys, memory manipulation tools, and configurable settings for improved workflow performance.",
+  "provider": {
+    "name": "Untechnical-headwind100",
+    "url": "https://github.com/Untechnical-headwind100"
+  },
+  "repository": "https://github.com/Untechnical-headwind100/Claude-AI-Unlimited-Tool-2026",
+  "category": "code-generation",
+  "tags": [
+    "a2a-server",
+    "activemq",
+    "agent",
+    "agent-development",
+    "agents",
+    "anthropic",
+    "chromadb",
+    "claude-code-plugin",
+    "educational",
+    "embeddings"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://untechnical-headwind100.github.io",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-07-19",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

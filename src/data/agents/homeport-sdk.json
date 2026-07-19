@@ -1,12 +1,12 @@
 {
-  "slug": "nexartis-nanda-node-sdk",
-  "name": "Nexartis Nanda Node SDK",
+  "slug": "homeport-sdk",
+  "name": "Homeport SDK",
   "description": "TypeScript SDK for Nexartis NANDA Node — agent discovery, registry, orchestration, A2A routing",
   "provider": {
     "name": "Nexartis",
     "url": "https://github.com/Nexartis"
   },
-  "repository": "https://github.com/Nexartis/nexartis-nanda-node-sdk",
+  "repository": "https://github.com/Nexartis/homeport-sdk",
   "category": "infrastructure",
   "tags": [
     "agent-discovery",
@@ -29,12 +29,12 @@
     "multiTurn": false
   },
   "authType": "none",
-  "endpointUrl": "https://nnn-sdk.nexartis.com",
+  "endpointUrl": "https://homeport-sdk.nexartis.com",
   "sdks": [
     "typescript"
   ],
   "githubStars": 0,
-  "lastUpdated": "2026-07-09",
+  "lastUpdated": "2026-07-19",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

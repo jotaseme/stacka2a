@@ -1,7 +1,7 @@
 {
   "slug": "gonka-mcp-server",
   "name": "Gonka MCP Server",
-  "description": "MCP server for Gonka Network: OpenAI-compatible LLM inference at fraction of the cost",
+  "description": "Fuels AI agents with cheap inference in the decentralized GONKA network",
   "provider": {
     "name": "bystray",
     "url": "https://github.com/bystray"
@@ -28,7 +28,7 @@
     "python"
   ],
   "githubStars": 0,
-  "lastUpdated": "2026-06-28",
+  "lastUpdated": "2026-07-18",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

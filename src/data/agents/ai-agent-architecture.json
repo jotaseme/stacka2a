@@ -1,0 +1,41 @@
+{
+  "slug": "ai-agent-architecture",
+  "name": "Ai Agent Architecture",
+  "description": "Build LLM systems you actually control. A free, open engineering book + course — from tokenization to serving your own models. Mechanisms, trade-offs, and numbers, not prompt tips",
+  "provider": {
+    "name": "Drobiazkin",
+    "url": "https://github.com/Drobiazkin"
+  },
+  "repository": "https://github.com/Drobiazkin/ai-agent-architecture",
+  "category": "general",
+  "tags": [
+    "ai",
+    "ai-agents",
+    "context-engineering",
+    "distributed-systems",
+    "harness-engineering",
+    "llm",
+    "loop-engineering",
+    "machine-learning",
+    "mcp",
+    "opensource"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 16,
+  "lastUpdated": "2026-07-18",
+  "official": false,
+  "selfHosted": true,
+  "license": "CC-BY-SA-4.0"
+}

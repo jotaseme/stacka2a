@@ -1,29 +1,29 @@
 {
   "slug": "project-synapse",
   "name": "Project Synapse",
-  "description": "A production-grade demo of a multi-agent system showcasing Agent Communication Protocol (ACP) and Model Context Protocol (MCP) capabilities through a collaborative research workflow.",
+  "description": "🧠 Build a cutting-edge AI agent with Project Synapse that enables strategic thought and multi-turn collaborative dialogue for innovation and discovery.",
   "provider": {
-    "name": "YanCotta",
-    "url": "https://github.com/YanCotta"
+    "name": "ronalddatcher",
+    "url": "https://github.com/ronalddatcher"
   },
-  "repository": "https://github.com/YanCotta/project-synapse",
-  "category": "search",
+  "repository": "https://github.com/ronalddatcher/Project_Synapse",
+  "category": "data-analytics",
   "tags": [
-    "acp",
-    "agent-collaboration",
-    "agent-communication",
     "agentic-ai",
-    "ai-agents",
-    "data-engineering",
-    "mcp",
-    "mcp-server",
-    "multi-agent-systems",
     "azure",
     "azure-synapse-analytics",
     "continual-learning",
     "cybersecurity",
+    "data-engineering",
     "etl",
-    "launcher"
+    "launcher",
+    "llm",
+    "mcp",
+    "acp",
+    "agent-collaboration",
+    "agent-communication",
+    "ai-agents",
+    "mcp-server"
   ],
   "framework": "custom",
   "language": "python",
@@ -35,11 +35,12 @@
   },
   "authType": "none",
   "sdks": [
-    "python"
+    "python",
+    "typescript"
   ],
-  "githubStars": 3,
-  "lastUpdated": "2026-07-12",
+  "githubStars": 4,
+  "lastUpdated": "2026-07-19",
   "official": false,
   "selfHosted": true,
-  "license": "MIT"
+  "license": "NOASSERTION"
 }

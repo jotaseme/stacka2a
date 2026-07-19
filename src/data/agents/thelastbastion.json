@@ -1,0 +1,40 @@
+{
+  "slug": "thelastbastion",
+  "name": "TheLastBastion",
+  "description": "Agent security platform — cryptographic identity, 10-check trust verification, tamper-evident audit trails, and blockchain anchoring for autonomous AI agents. ",
+  "provider": {
+    "name": "xDarkzx",
+    "url": "https://github.com/xDarkzx"
+  },
+  "repository": "https://github.com/xDarkzx/TheLastBastion",
+  "category": "security",
+  "tags": [
+    "agent-security",
+    "agent-to-agent",
+    "ai-agents",
+    "audit-trail",
+    "blockchain",
+    "cryptography",
+    "ed25519",
+    "identity",
+    "multi-agent-systems",
+    "python"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-07-19",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "context-handoff-protocol",
+  "name": "Context Handoff Protocol",
+  "description": "Portable, permissioned, verifiable context handoff for AI agents and workflow systems.",
+  "provider": {
+    "name": "yufuche1",
+    "url": "https://github.com/yufuche1"
+  },
+  "repository": "https://github.com/yufuche1/Context-Handoff-Protocol",
+  "category": "enterprise",
+  "tags": [
+    "ai-agents",
+    "conformance",
+    "context-handoff",
+    "governance",
+    "protocol",
+    "provenance"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-07-17",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

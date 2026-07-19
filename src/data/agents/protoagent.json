@@ -1,0 +1,41 @@
+{
+  "slug": "protoagent",
+  "name": "ProtoAgent",
+  "description": "Template for building protoLabs A2A agents on LangGraph — fork me",
+  "provider": {
+    "name": "protoLabsAI",
+    "url": "https://github.com/protoLabsAI"
+  },
+  "repository": "https://github.com/protoLabsAI/protoAgent",
+  "category": "orchestration",
+  "tags": [
+    "agent-framework",
+    "ai-agent",
+    "ai-agents",
+    "autonomous-agents",
+    "fastapi",
+    "langgraph",
+    "llm-agent",
+    "mcp",
+    "multi-agent-systems",
+    "python"
+  ],
+  "framework": "langgraph",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://agent.protolabs.studio",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 5,
+  "lastUpdated": "2026-07-19",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

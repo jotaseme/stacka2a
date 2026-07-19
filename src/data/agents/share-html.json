@@ -1,0 +1,41 @@
+{
+  "slug": "share-html",
+  "name": "Share Html",
+  "description": "Share sandboxed HTML previews with public-unlisted or access-key private links. Includes a remote MCP server for AI agents.",
+  "provider": {
+    "name": "lifeodyssey",
+    "url": "https://github.com/lifeodyssey"
+  },
+  "repository": "https://github.com/lifeodyssey/share-html",
+  "category": "general",
+  "tags": [
+    "agent-ready",
+    "ai-agents",
+    "cloudflare-workers",
+    "html-preview",
+    "html-sharing",
+    "mcp-server",
+    "private-sharing",
+    "r2",
+    "react",
+    "supabase"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://sharehtml.zhenjia.dev",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2026-07-19",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

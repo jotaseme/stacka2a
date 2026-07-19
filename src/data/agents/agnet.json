@@ -1,7 +1,7 @@
 {
   "slug": "agnet",
   "name": "Agnet",
-  "description": "An early version of Internet-of-Agent. We need Accountability in the era of Agents",
+  "description": "Verifiable infrastructure for agent work. We need Accountability in the era of Agents",
   "provider": {
     "name": "XXY-CH",
     "url": "https://github.com/XXY-CH"
@@ -31,7 +31,7 @@
     "go"
   ],
   "githubStars": 2,
-  "lastUpdated": "2026-07-12",
+  "lastUpdated": "2026-07-14",
   "official": false,
   "selfHosted": true,
   "license": "unknown"

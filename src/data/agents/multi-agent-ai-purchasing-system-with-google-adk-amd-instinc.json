@@ -1,0 +1,41 @@
+{
+  "slug": "multi-agent-ai-purchasing-system-with-google-adk-amd-instinc",
+  "name": "Multi Agent AI Purchasing System With Google ADK AMD Instinct GPUs",
+  "description": "Cross-framework A2A purchasing: Google ADK concierge + CrewAI/vLLM burger (:10001 Basic) + LangGraph/Ollama pizza (:10000 Bearer) on AMD Instinct. Llama 3.1 local; vLLM :8088 @ 0.6 GPU mem; Gradio :8087. 16 pytest · CI 3.11/3.12 · MIT v1.0.0.",
+  "provider": {
+    "name": "ArchanaChetan07",
+    "url": "https://github.com/ArchanaChetan07"
+  },
+  "repository": "https://github.com/ArchanaChetan07/Multi-Agent-AI-Purchasing-System-with-Google-ADK-AMD-Instinct-GPUs",
+  "category": "code-generation",
+  "tags": [
+    "agentic-ai",
+    "amd",
+    "crewai",
+    "github-actions",
+    "google-adk",
+    "gradio",
+    "instinct",
+    "langgraph",
+    "litellm",
+    "llama"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://github.com/google/a2a",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-07-14",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

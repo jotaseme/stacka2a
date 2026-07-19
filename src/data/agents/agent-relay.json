@@ -1,0 +1,37 @@
+{
+  "slug": "agent-relay",
+  "name": "Agent Relay",
+  "description": "A self-hosted authenticating inference relay that fronts agent CLIs",
+  "provider": {
+    "name": "s-celles",
+    "url": "https://github.com/s-celles"
+  },
+  "repository": "https://github.com/s-celles/agent-relay",
+  "category": "security",
+  "tags": [
+    "gateway",
+    "golang",
+    "llm",
+    "mcp",
+    "ollama",
+    "self-hosted"
+  ],
+  "framework": "custom",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://s-celles.github.io/agent-relay/",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-07-18",
+  "official": false,
+  "selfHosted": true,
+  "license": "AGPL-3.0"
+}

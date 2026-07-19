@@ -1,0 +1,41 @@
+{
+  "slug": "evidence-gated-scientific-agent",
+  "name": "Evidence Gated Scientific Agent",
+  "description": "Self-hosted evidence-gated scientific AI with isolated Python/R, independent review, deterministic validation, and complete provenance.",
+  "provider": {
+    "name": "kstawiski",
+    "url": "https://github.com/kstawiski"
+  },
+  "repository": "https://github.com/kstawiski/evidence-gated-scientific-agent",
+  "category": "search",
+  "tags": [
+    "agent-development-kit",
+    "docker-compose",
+    "gemma",
+    "local-llm",
+    "mcp",
+    "pubmed",
+    "python",
+    "qwen",
+    "r",
+    "reproducible-research"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://kstawiski.github.io/evidence-gated-scientific-agent/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-07-19",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

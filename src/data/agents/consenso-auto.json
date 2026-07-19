@@ -1,0 +1,35 @@
+{
+  "slug": "consenso-auto",
+  "name": "Consenso Auto",
+  "description": "3 agentes de IA debatem via protocolo A2A qual carro comprar, com recrutamento dinâmico de um 4º especialista via registry",
+  "provider": {
+    "name": "junior10soares",
+    "url": "https://github.com/junior10soares"
+  },
+  "repository": "https://github.com/junior10soares/consenso-auto",
+  "category": "orchestration",
+  "tags": [
+    "ai-agents",
+    "groq",
+    "multi-agent-systems",
+    "nextjs",
+    "typescript"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-07-14",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

@@ -15,13 +15,7 @@
     "inference-gateway",
     "llm",
     "opensource",
-    "openstandards",
-    "agent-deployment",
-    "agent-development-kit",
-    "agentic-ai",
-    "ai-agents",
-    "kubernetes",
-    "python"
+    "openstandards"
   ],
   "framework": "google-adk",
   "language": "go",
@@ -35,8 +29,8 @@
   "sdks": [
     "go"
   ],
-  "githubStars": 22,
-  "lastUpdated": "2026-07-10",
+  "githubStars": 23,
+  "lastUpdated": "2026-07-18",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

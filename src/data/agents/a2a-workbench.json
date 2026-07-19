@@ -1,0 +1,33 @@
+{
+  "slug": "a2a-workbench",
+  "name": "A2A Workbench",
+  "description": "A protocol workbench and reusable Node.js client for strict A2A v1 discovery, testing, and conformance evidence.",
+  "provider": {
+    "name": "CognicellAI",
+    "url": "https://github.com/CognicellAI"
+  },
+  "repository": "https://github.com/CognicellAI/a2a-workbench",
+  "category": "general",
+  "tags": [
+    "a2ui",
+    "nextjs",
+    "typescript"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-07-17",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}
