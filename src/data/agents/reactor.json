@@ -1,0 +1,40 @@
+{
+  "slug": "reactor",
+  "name": "Reactor",
+  "description": "Open-source enterprise AI agent platform for centrally governing agents, tools, memory, RAG, approvals, and durable workflows with FastAPI, LangGraph, LangChain, and LangSmith.",
+  "provider": {
+    "name": "wlsdks",
+    "url": "https://github.com/wlsdks"
+  },
+  "repository": "https://github.com/wlsdks/reactor",
+  "category": "enterprise",
+  "tags": [
+    "agent-orchestration",
+    "agent-platform",
+    "agentic-ai",
+    "ai-agents",
+    "ai-governance",
+    "enterprise-ai",
+    "fastapi",
+    "human-in-the-loop",
+    "langchain",
+    "langgraph"
+  ],
+  "framework": "langgraph",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-07-24",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

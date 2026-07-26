@@ -1,0 +1,40 @@
+{
+  "slug": "acx",
+  "name": "Acx",
+  "description": "Open standard and static exchange for portable agents, workflows, loops, and agent teams",
+  "provider": {
+    "name": "lboel",
+    "url": "https://github.com/lboel"
+  },
+  "repository": "https://github.com/lboel/acx",
+  "category": "enterprise",
+  "tags": [
+    "agent-orchestration",
+    "agent-workflows",
+    "ai-agents",
+    "dsse",
+    "knowledge-graph",
+    "mcp",
+    "multi-agent",
+    "open-standard",
+    "portable-agents"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://lboel.github.io/acx/",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-07-19",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

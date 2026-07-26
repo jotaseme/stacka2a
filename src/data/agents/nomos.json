@@ -1,0 +1,31 @@
+{
+  "slug": "nomos",
+  "name": "Nomos",
+  "description": "Nomos is a decentralized social media platform that revolutionizes content monetization through AI-powered agent negotiation",
+  "provider": {
+    "name": "aaditya3301",
+    "url": "https://github.com/aaditya3301"
+  },
+  "repository": "https://github.com/aaditya3301/Nomos",
+  "category": "media-content",
+  "tags": [
+    "hedera-hashgraph"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2025-12-01",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "tether",
+  "name": "Tether",
+  "description": "Agent-native CLI that lets coding-agent harnesses talk to each other. Claude Code, Codex, Gemini CLI, Cline and more register with one daemon and message each other from the shell",
+  "provider": {
+    "name": "praneethravuri",
+    "url": "https://github.com/praneethravuri"
+  },
+  "repository": "https://github.com/praneethravuri/tether",
+  "category": "code-generation",
+  "tags": [
+    "agent-orchestration",
+    "ai",
+    "ai-agents",
+    "anthropic",
+    "claude-code",
+    "cli",
+    "codex",
+    "coding-agents",
+    "daemon",
+    "developer-tools"
+  ],
+  "framework": "custom",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-07-25",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

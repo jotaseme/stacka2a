@@ -1,0 +1,34 @@
+{
+  "slug": "forcedream-a2a-agent",
+  "name": "Forcedream A2A Agent",
+  "description": "Real, standards-compliant A2A execution runtime -- 13 real, priced capabilities, billed and cryptographically proven on every call",
+  "provider": {
+    "name": "forcedreamai",
+    "url": "https://github.com/forcedreamai"
+  },
+  "repository": "https://github.com/forcedreamai/forcedream-a2a-agent",
+  "category": "general",
+  "tags": [
+    "ai-agents",
+    "mcp"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://forcedream.ai",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-07-21",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

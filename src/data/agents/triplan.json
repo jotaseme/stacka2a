@@ -1,12 +1,12 @@
 {
-  "slug": "travel-agent-orchestrator",
-  "name": "Travel Agent Orchestrator",
-  "description": "Multi-agent travel planner built on Google's A2A Protocol — LLM tool use, SSE streaming, schema   validation, user memory",
+  "slug": "triplan",
+  "name": "Triplan",
+  "description": "Multi-agent travel planner built on Google's A2A Protocol — 3 AI agents collaborate via JSON-RPC 2.0 with structured output, budget tracking, and interactive maps.",
   "provider": {
     "name": "Pin-Han",
     "url": "https://github.com/Pin-Han"
   },
-  "repository": "https://github.com/Pin-Han/travel-agent-orchestrator",
+  "repository": "https://github.com/Pin-Han/triplan",
   "category": "travel",
   "tags": [
     "multi-agent",
@@ -21,11 +21,12 @@
     "multiTurn": false
   },
   "authType": "none",
+  "endpointUrl": "https://triplan-47vw.onrender.com",
   "sdks": [
     "typescript"
   ],
   "githubStars": 0,
-  "lastUpdated": "2026-05-14",
+  "lastUpdated": "2026-07-24",
   "official": false,
   "selfHosted": true,
   "license": "unknown"

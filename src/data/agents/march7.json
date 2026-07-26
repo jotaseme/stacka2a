@@ -1,0 +1,34 @@
+{
+  "slug": "march7",
+  "name": "March7",
+  "description": "Twin-Soul Agent architecture — two independent agents communicating via A2A protocol, with a self-healing mechanism for background agent processing.",
+  "provider": {
+    "name": "Flowerf19",
+    "url": "https://github.com/Flowerf19"
+  },
+  "repository": "https://github.com/Flowerf19/March7",
+  "category": "orchestration",
+  "tags": [
+    "agent-orchestration",
+    "llm",
+    "multi-agent",
+    "python"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-07-20",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

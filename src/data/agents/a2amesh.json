@@ -34,8 +34,8 @@
     "typescript"
   ],
   "githubStars": 2,
-  "lastUpdated": "2026-07-15",
+  "lastUpdated": "2026-07-24",
   "official": false,
   "selfHosted": true,
-  "license": "NOASSERTION"
+  "license": "Apache-2.0"
 }

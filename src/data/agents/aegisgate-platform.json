@@ -1,7 +1,7 @@
 {
   "slug": "aegisgate-platform",
   "name": "Aegisgate Platform",
-  "description": "🛡️ Secure every AI interaction — from HTTP requests to MCP sessions to A2A agent communication to LLM responses. Five security pillars, one gateway, zero compromises. Self-hosted, fail-closed, enterprise-grade. 24K+ RPS, 0 CVEs.",
+  "description": "🛡️ Secure every AI interaction — HTTP, MCP, A2A, LLM responses. Six pillars, one gateway, zero compromises. Self-hosted, fail-closed, enterprise-grade. 24K+ RPS, 87.4% coverage, 0 CVEs, red-team hardened. HA clustering, 153 detection patterns, 15+ compliance frameworks.",
   "provider": {
     "name": "aegisgatesecurity",
     "url": "https://github.com/aegisgatesecurity"
@@ -34,7 +34,7 @@
     "go"
   ],
   "githubStars": 4,
-  "lastUpdated": "2026-07-13",
+  "lastUpdated": "2026-07-24",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

@@ -1,0 +1,32 @@
+{
+  "slug": "a2a-sample-deepresearch",
+  "name": "Deepresearch (Official Sample)",
+  "description": "Official A2A go sample agent: Deepresearch",
+  "provider": {
+    "name": "A2A Project",
+    "url": "https://github.com/a2aproject"
+  },
+  "repository": "https://github.com/a2aproject/a2a-samples/tree/main/samples/go/agents/deepresearch",
+  "category": "search",
+  "tags": [
+    "official-sample",
+    "go"
+  ],
+  "framework": "custom",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 1329,
+  "lastUpdated": "2026-07-26",
+  "official": true,
+  "selfHosted": true,
+  "license": "apache-2.0"
+}

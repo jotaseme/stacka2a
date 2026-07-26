@@ -1,0 +1,41 @@
+{
+  "slug": "a4ther-script-scanner-v44",
+  "name": "A4ther Script Scanner V44",
+  "description": "Scan Android and iOS devices for modified Free Fire game environments and unauthorized scripts.",
+  "provider": {
+    "name": "luridnesschurchill902",
+    "url": "https://github.com/luridnesschurchill902"
+  },
+  "repository": "https://github.com/luridnesschurchill902/a4ther-script-scanner-v44",
+  "category": "code-generation",
+  "tags": [
+    "a2a-mcp",
+    "a2a-server",
+    "acme",
+    "activemq",
+    "amqp",
+    "android-library",
+    "barcode",
+    "bluetooth-printer",
+    "edit",
+    "editor"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-07-26",
+  "official": false,
+  "selfHosted": true,
+  "license": "GPL-3.0"
+}

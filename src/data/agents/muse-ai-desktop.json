@@ -1,0 +1,37 @@
+{
+  "slug": "muse-ai-desktop",
+  "name": "Muse AI Desktop",
+  "description": "Self-improving AI assistant with persistent memory, procedural skills, and document knowledge",
+  "provider": {
+    "name": "benjiyaya",
+    "url": "https://github.com/benjiyaya"
+  },
+  "repository": "https://github.com/benjiyaya/Muse-AI-Desktop",
+  "category": "conversational",
+  "tags": [
+    "a2a-client",
+    "ai-agent",
+    "ai-agents",
+    "mcp",
+    "mcp-tools"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://muse-ai.io/",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-07-24",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}
