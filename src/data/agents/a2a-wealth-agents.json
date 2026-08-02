@@ -1,0 +1,33 @@
+{
+  "slug": "a2a-wealth-agents",
+  "name": "A2A Wealth Agents",
+  "description": "An evolving A2A v1.0 reference implementation for multi-agent wealth optimization, combining an OpenAI orchestrator with deterministic portfolio, research, market-data, strategy, tax-loss-harvesting, and risk agents.",
+  "provider": {
+    "name": "mayurshivakumar",
+    "url": "https://github.com/mayurshivakumar"
+  },
+  "repository": "https://github.com/mayurshivakumar/a2a-wealth-agents",
+  "category": "search",
+  "tags": [
+    "agent-orchestration",
+    "langfuse",
+    "multi-agent-systems"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-08-02",
+  "official": false,
+  "selfHosted": true,
+  "license": "GPL-3.0"
+}

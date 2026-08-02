@@ -1,0 +1,40 @@
+{
+  "slug": "a2a-message-provenance",
+  "name": "A2A Message Provenance",
+  "description": "Draft A2A extension: per-message JWS provenance — ES256-signed, card-version-pinned receipts for Agent2Agent messages, verifiable live or in later audit.",
+  "provider": {
+    "name": "flocker-md",
+    "url": "https://github.com/flocker-md"
+  },
+  "repository": "https://github.com/flocker-md/a2a-message-provenance",
+  "category": "general",
+  "tags": [
+    "agent-identity",
+    "agent2agent",
+    "ai-agents",
+    "jws",
+    "jwt",
+    "message-signing",
+    "provenance",
+    "rfc8785",
+    "specification",
+    "a2a-protocol"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-07-28",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

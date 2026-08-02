@@ -1,0 +1,40 @@
+{
+  "slug": "a2a-travel-agent-reference",
+  "name": "A2A Travel Agent Reference",
+  "description": "Reference implementations of Google ADK and LangGraph travel agents using A2A v1, LiteLLM/NVIDIA NIM, MCP tool calling, streaming, sideband events, and OpenTelemetry.",
+  "provider": {
+    "name": "shashikanth-gs",
+    "url": "https://github.com/shashikanth-gs"
+  },
+  "repository": "https://github.com/shashikanth-gs/a2a-travel-agent-reference",
+  "category": "travel",
+  "tags": [
+    "a2a-sdk",
+    "agent-to-agent",
+    "google-adk",
+    "interoperability",
+    "langgraph",
+    "litellm",
+    "mcp",
+    "model-context-protocol",
+    "nvidia-nim",
+    "opentelemetry"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-08-01",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

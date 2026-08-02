@@ -1,0 +1,41 @@
+{
+  "slug": "spanplane",
+  "name": "SpanPlane",
+  "description": "Open-source agent observability and runtime visualization",
+  "provider": {
+    "name": "shashikanth-gs",
+    "url": "https://github.com/shashikanth-gs"
+  },
+  "repository": "https://github.com/shashikanth-gs/SpanPlane",
+  "category": "code-generation",
+  "tags": [
+    "a2a-agent",
+    "a2a-client",
+    "a2a-communication",
+    "a2a-platform",
+    "agent-testing",
+    "agent-testing-tools",
+    "developer-tools",
+    "generative-ai",
+    "multi-agent-systems",
+    "nextjs"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://a2a-workbench.allsrc.dev",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-08-01",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

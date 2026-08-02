@@ -1,0 +1,36 @@
+{
+  "slug": "reelforge",
+  "name": "Reelforge",
+  "description": "A2A-protocol multi-agent engine: long video → viral short-form reels → auto-publish to YouTube + Instagram. Plug-and-play provider registry, multi-tenant ready.",
+  "provider": {
+    "name": "vishwajeet-gtgstg",
+    "url": "https://github.com/vishwajeet-gtgstg"
+  },
+  "repository": "https://github.com/vishwajeet-gtgstg/reelforge",
+  "category": "media-content",
+  "tags": [
+    "automation",
+    "instagram",
+    "multi-agent",
+    "python",
+    "reels",
+    "youtube"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-07-29",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

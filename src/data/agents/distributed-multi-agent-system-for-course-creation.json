@@ -1,0 +1,39 @@
+{
+  "slug": "distributed-multi-agent-system-for-course-creation",
+  "name": "Distributed Multi Agent System For Course Creation",
+  "description": "Deployed with Google Cloud.",
+  "provider": {
+    "name": "hudatou123",
+    "url": "https://github.com/hudatou123"
+  },
+  "repository": "https://github.com/hudatou123/Distributed-Multi-Agent-System-for-Course-Creation",
+  "category": "infrastructure",
+  "tags": [
+    "agent",
+    "docker",
+    "fastapi",
+    "gcp-project",
+    "google-gemini",
+    "mcp",
+    "multi-agent",
+    "python",
+    "redis"
+  ],
+  "framework": "fastapi",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-07-30",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

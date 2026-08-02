@@ -1,0 +1,41 @@
+{
+  "slug": "atom",
+  "name": "Atom",
+  "description": "An open, user-owned shell for the agent web - An uncoupled agent UI composition layer, rendering from a trusted catalog.",
+  "provider": {
+    "name": "Qwixl",
+    "url": "https://github.com/Qwixl"
+  },
+  "repository": "https://github.com/Qwixl/Atom",
+  "category": "general",
+  "tags": [
+    "agent-connector",
+    "agent-framework",
+    "agent-web",
+    "agentic-ai",
+    "agentic-modules",
+    "agentic-web",
+    "agents",
+    "community",
+    "connectors",
+    "llm"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://atom.qwixl.com",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-08-01",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

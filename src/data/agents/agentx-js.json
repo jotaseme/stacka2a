@@ -1,12 +1,12 @@
 {
   "slug": "agentx-js",
-  "name": "Agentx Js",
+  "name": "AgentX JS",
   "description": "AgentX Javascript/Typescript SDK. Build multi-agent AI workforce. ",
   "provider": {
     "name": "AgentX-ai",
     "url": "https://github.com/AgentX-ai"
   },
-  "repository": "https://github.com/AgentX-ai/agentx-js",
+  "repository": "https://github.com/AgentX-ai/AgentX-JS",
   "category": "orchestration",
   "tags": [
     "agent",

@@ -1,0 +1,39 @@
+{
+  "slug": "citegraph-copilot",
+  "name": "Citegraph Copilot",
+  "description": "GraphRAG research assistant over the arXiv citation graph - LangGraph orchestration, A2A microservices, MCP tools, Neo4j",
+  "provider": {
+    "name": "sergiyclas",
+    "url": "https://github.com/sergiyclas"
+  },
+  "repository": "https://github.com/sergiyclas/citegraph-copilot",
+  "category": "search",
+  "tags": [
+    "fastapi",
+    "graphrag",
+    "knowledge-graph",
+    "langgraph",
+    "mcp",
+    "multi-agent",
+    "neo4j",
+    "python",
+    "rag"
+  ],
+  "framework": "langgraph",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-08-02",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

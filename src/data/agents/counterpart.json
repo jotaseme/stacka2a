@@ -1,0 +1,35 @@
+{
+  "slug": "counterpart",
+  "name": "Counterpart",
+  "description": "Test your A2A agent against mocks that check for correct answers, not just completed tasks.",
+  "provider": {
+    "name": "edrisibra",
+    "url": "https://github.com/edrisibra"
+  },
+  "repository": "https://github.com/edrisibra/counterpart",
+  "category": "enterprise",
+  "tags": [
+    "ai-agents",
+    "mocking",
+    "multi-agent",
+    "pytest",
+    "testing"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-07-28",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

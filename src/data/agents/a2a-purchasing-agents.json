@@ -1,12 +1,12 @@
 {
-  "slug": "multi-agent-ai-purchasing-system-with-google-adk-amd-instinc",
-  "name": "Multi Agent AI Purchasing System With Google ADK AMD Instinct GPUs",
-  "description": "Cross-framework A2A purchasing: Google ADK concierge + CrewAI/vLLM burger (:10001 Basic) + LangGraph/Ollama pizza (:10000 Bearer) on AMD Instinct. Llama 3.1 local; vLLM :8088 @ 0.6 GPU mem; Gradio :8087. 16 pytest · CI 3.11/3.12 · MIT v1.0.0.",
+  "slug": "a2a-purchasing-agents",
+  "name": "A2A Purchasing Agents",
+  "description": "Cross-framework A2A purchasing demo on AMD Instinct GPUs: Google ADK concierge + CrewAI agent on vLLM + LangGraph agent on Ollama (local Llama 3.1), Gradio UI, per-agent auth (Basic/Bearer); Python, Docker, GitHub Actions CI, pytest suite.",
   "provider": {
     "name": "ArchanaChetan07",
     "url": "https://github.com/ArchanaChetan07"
   },
-  "repository": "https://github.com/ArchanaChetan07/Multi-Agent-AI-Purchasing-System-with-Google-ADK-AMD-Instinct-GPUs",
+  "repository": "https://github.com/ArchanaChetan07/a2a-purchasing-agents",
   "category": "code-generation",
   "tags": [
     "agentic-ai",

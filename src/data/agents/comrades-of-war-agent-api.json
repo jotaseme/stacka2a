@@ -1,0 +1,42 @@
+{
+  "slug": "comrades-of-war-agent-api",
+  "name": "Comrades Of War Agent API",
+  "description": "Search nearly five years of Spanish Call of Duty clan and SA-MP role-play history through MCP or A2A; buy citation-ready pages with x402.",
+  "provider": {
+    "name": "qazsero",
+    "url": "https://github.com/qazsero"
+  },
+  "repository": "https://github.com/qazsero/comrades-of-war-agent-api",
+  "category": "search",
+  "tags": [
+    "agent-skills",
+    "ai-agents",
+    "base",
+    "call-of-duty",
+    "data-marketplace",
+    "digital-archive",
+    "digital-history",
+    "gaming-history",
+    "mcp",
+    "mcp-server"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://comrades-of-war.com/agents",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-08-01",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

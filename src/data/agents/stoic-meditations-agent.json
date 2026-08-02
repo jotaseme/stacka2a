@@ -1,0 +1,38 @@
+{
+  "slug": "stoic-meditations-agent",
+  "name": "Stoic Meditations Agent",
+  "description": "A web-based Stoic philosophy dialogue tool that reads from Marcus Aurelius' Meditations to help users reflect on present-moment challenges through AI-powered 'What if?' scenarios.",
+  "provider": {
+    "name": "belarusian",
+    "url": "https://github.com/belarusian"
+  },
+  "repository": "https://github.com/belarusian/stoic-meditations-agent",
+  "category": "utility",
+  "tags": [
+    "ai-agent",
+    "dialogue-tool",
+    "genkit",
+    "marcus-aurelius",
+    "meditations",
+    "philosophy",
+    "stoic",
+    "web-app"
+  ],
+  "framework": "genkit",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 3,
+  "lastUpdated": "2026-07-31",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}
