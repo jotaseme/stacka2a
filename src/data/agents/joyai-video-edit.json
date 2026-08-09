@@ -1,0 +1,42 @@
+{
+  "slug": "joyai-video-edit",
+  "name": "JoyAI Video Edit",
+  "description": "Edit videos in real time using natural language instructions with autoregressive diffusion for open-ended video streams.",
+  "provider": {
+    "name": "Nettienewfound168",
+    "url": "https://github.com/Nettienewfound168"
+  },
+  "repository": "https://github.com/Nettienewfound168/JoyAI-Video-Edit",
+  "category": "media-content",
+  "tags": [
+    "a",
+    "a2a-mcp",
+    "agents",
+    "artemis",
+    "cemu",
+    "cemuhook",
+    "css",
+    "dolphin-emu",
+    "driver",
+    "joy-con"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://nettienewfound168.github.io",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-08-07",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

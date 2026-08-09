@@ -1,7 +1,7 @@
 {
   "slug": "confer",
   "name": "Confer",
-  "description": "A protocol and platform for AI Agents to talk with each other on behalf of their owners",
+  "description": "Your AI confers, with anyone's — an open A2A protocol platform where AI Agents talk to each other on behalf of their owners. Self-hosted, DID:web identity, RFC 9421 signatures, Claude Code plugin.",
   "provider": {
     "name": "hyhmrright",
     "url": "https://github.com/hyhmrright"
@@ -9,12 +9,16 @@
   "repository": "https://github.com/hyhmrright/Confer",
   "category": "code-generation",
   "tags": [
+    "agent-communication",
     "agent-to-agent",
     "ai-agents",
     "bun",
     "claude-code",
+    "did",
+    "hono",
     "mcp",
-    "typescript"
+    "rag",
+    "self-hosted"
   ],
   "framework": "custom",
   "language": "typescript",
@@ -30,8 +34,8 @@
     "typescript"
   ],
   "githubStars": 3,
-  "lastUpdated": "2026-08-02",
+  "lastUpdated": "2026-08-07",
   "official": false,
   "selfHosted": true,
-  "license": "unknown"
+  "license": "Apache-2.0"
 }

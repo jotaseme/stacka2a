@@ -1,0 +1,37 @@
+{
+  "slug": "weft",
+  "name": "Weft",
+  "description": "Agentic Marketplace that really trades.",
+  "provider": {
+    "name": "Priyank911",
+    "url": "https://github.com/Priyank911"
+  },
+  "repository": "https://github.com/Priyank911/weft",
+  "category": "enterprise",
+  "tags": [
+    "agentic-ai",
+    "agentic-marketplace",
+    "agentic-workflow",
+    "nanda-indexing",
+    "prava",
+    "primitive-collections"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://weft-agentic-marketplace.vercel.app/",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 5,
+  "lastUpdated": "2026-08-02",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

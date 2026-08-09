@@ -1,0 +1,41 @@
+{
+  "slug": "a320-roblox-script-hub",
+  "name": "A320 Roblox Script Hub",
+  "description": "Get browser-based utility scripts for Roblox gameplay through the a320 project's HTML interface.",
+  "provider": {
+    "name": "kentuckyderbyjaponica279",
+    "url": "https://github.com/kentuckyderbyjaponica279"
+  },
+  "repository": "https://github.com/kentuckyderbyjaponica279/a320-roblox-script-hub",
+  "category": "utility",
+  "tags": [
+    "a",
+    "a2a-mcp",
+    "acme",
+    "activemq",
+    "adonis",
+    "compiler",
+    "documentation",
+    "edit",
+    "generative-ai",
+    "jms"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-08-07",
+  "official": false,
+  "selfHosted": true,
+  "license": "GPL-3.0"
+}

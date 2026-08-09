@@ -1,0 +1,35 @@
+{
+  "slug": "aiops-platform-agent",
+  "name": "Aiops Platform Agent",
+  "description": "A cross-platform .NET 8 endpoint agent that runs as a Windows Service or Linux systemd service. It implements a custom Agent-to-Agent (A2A) protocol, registering with a central orchestrator and accepting task delegation for server management and security scanning capabilities.",
+  "provider": {
+    "name": "Htunn",
+    "url": "https://github.com/Htunn"
+  },
+  "repository": "https://github.com/Htunn/aiops-platform-agent",
+  "category": "security",
+  "tags": [
+    "ai-agents",
+    "aiops",
+    "linux",
+    "llm",
+    "windows"
+  ],
+  "framework": "custom",
+  "language": "csharp",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "csharp"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-08-08",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

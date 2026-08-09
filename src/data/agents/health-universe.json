@@ -1,0 +1,41 @@
+{
+  "slug": "health-universe",
+  "name": "Health Universe",
+  "description": "Health Universe is an enterprise healthcare AI platform and compliant app cloud that lets clinical, research, and life-sciences teams build, deploy, govern, and monitor AI agents inside regulated environments.",
+  "provider": {
+    "name": "api-evangelist",
+    "url": "https://github.com/api-evangelist"
+  },
+  "repository": "https://github.com/api-evangelist/health-universe",
+  "category": "search",
+  "tags": [
+    "ai-agents",
+    "apis-json",
+    "artificial-intelligence",
+    "clinical",
+    "company",
+    "deployment",
+    "fhir",
+    "healthcare",
+    "hipaa",
+    "life-sciences"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-08-08",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

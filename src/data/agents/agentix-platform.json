@@ -1,0 +1,41 @@
+{
+  "slug": "agentix-platform",
+  "name": "Agentix Platform",
+  "description": "Production-grade agentic AI on Kubernetes — LangGraph-native agent orchestration (Synapse) on EKS + Istio Ambient Mesh + AgentGateway. Zero-credential LLM access, pluggable MongoDB Atlas Vector Search memory, A2A protocol runtime, multi-tenant by design.",
+  "provider": {
+    "name": "varadharajaan",
+    "url": "https://github.com/varadharajaan"
+  },
+  "repository": "https://github.com/varadharajaan/agentix-platform",
+  "category": "search",
+  "tags": [
+    "agentgateway",
+    "agentic-ai",
+    "ai-agents",
+    "eks",
+    "istio",
+    "kagent",
+    "kubernetes",
+    "langchain",
+    "langgraph",
+    "llm-ops"
+  ],
+  "framework": "langgraph",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-08-08",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

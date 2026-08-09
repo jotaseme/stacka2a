@@ -1,0 +1,39 @@
+{
+  "slug": "claude-a2a-comm",
+  "name": "Claude A2A Comm",
+  "description": "A2A-protocol messaging between coding agents from different vendors (Claude Code, Codex, Cursor, Grok) on different machines — zero dependencies, Python stdlib only",
+  "provider": {
+    "name": "kaiser-data",
+    "url": "https://github.com/kaiser-data"
+  },
+  "repository": "https://github.com/kaiser-data/claude-A2A-Comm",
+  "category": "code-generation",
+  "tags": [
+    "agent-communication",
+    "agent2agent",
+    "ai-agents",
+    "claude-code",
+    "jsonrpc",
+    "multi-agent",
+    "python",
+    "zero-dependency",
+    "a2a-protocol"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-08-09",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

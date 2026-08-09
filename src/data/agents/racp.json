@@ -1,0 +1,39 @@
+{
+  "slug": "racp",
+  "name": "Racp",
+  "description": "Remote Agent Communication Protocol SDK, client, bridge, CLI, OAuth examples, and golden vectors from RnBy.ai",
+  "provider": {
+    "name": "rnby-ai",
+    "url": "https://github.com/rnby-ai"
+  },
+  "repository": "https://github.com/rnby-ai/racp",
+  "category": "security",
+  "tags": [
+    "agent-communication",
+    "ai-agents",
+    "mcp",
+    "oauth2",
+    "racp",
+    "sdk",
+    "supabase",
+    "typescript"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://rnby.ai",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-08-08",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}
