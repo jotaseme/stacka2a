@@ -1,0 +1,41 @@
+{
+  "slug": "cycgraph",
+  "name": "Cycgraph",
+  "description": "Agent context compressor and memory persistent orchestration",
+  "provider": {
+    "name": "wmcmahan",
+    "url": "https://github.com/wmcmahan"
+  },
+  "repository": "https://github.com/wmcmahan/cycgraph",
+  "category": "orchestration",
+  "tags": [
+    "agent-framework",
+    "ai",
+    "ai-agents-framework",
+    "ai-tools",
+    "context-compression",
+    "llm",
+    "mcp",
+    "multi-agent",
+    "orchestration",
+    "token-optimization"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://flattop.io",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2026-08-15",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

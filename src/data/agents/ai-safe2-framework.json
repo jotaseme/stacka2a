@@ -1,0 +1,41 @@
+{
+  "slug": "ai-safe2-framework",
+  "name": "Ai Safe2 Framework",
+  "description": "The Universal Governance, Risk, Compliance (GRC) Operating System with Integrated Security for Agentic AI, Non-Human Identities, and Swarm Governance. AI SAFE² + AI Sovereignty Maturity Model (AISM), NEXUS-A2A Protocol, FORGE-Act, Marshal Plan for AI [Dual License: MIT + CC-BY-SA]",
+  "provider": {
+    "name": "CyberStrategyInstitute",
+    "url": "https://github.com/CyberStrategyInstitute"
+  },
+  "repository": "https://github.com/CyberStrategyInstitute/ai-safe2-framework",
+  "category": "security",
+  "tags": [
+    "a2a-mcp",
+    "agentic-ai",
+    "agentic-ai-swarms",
+    "ai-governance",
+    "ai-safe2",
+    "ai-safety",
+    "ai-security",
+    "compliance",
+    "devsecops",
+    "grc"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://cyberstrategyinstitute.com/AI-Safe2/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 138,
+  "lastUpdated": "2026-07-30",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

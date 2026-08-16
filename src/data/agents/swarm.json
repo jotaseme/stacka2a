@@ -17,8 +17,8 @@
     "identity-agent",
     "llm-as-a-judge",
     "model-context-protocol",
-    "openai-compatible-api",
-    "planner-agent"
+    "model-gateway",
+    "openai-compatible-api"
   ],
   "framework": "custom",
   "language": "rust",
@@ -33,8 +33,8 @@
     "python",
     "typescript"
   ],
-  "githubStars": 16,
-  "lastUpdated": "2026-04-21",
+  "githubStars": 17,
+  "lastUpdated": "2026-08-15",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

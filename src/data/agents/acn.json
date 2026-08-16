@@ -1,0 +1,35 @@
+{
+  "slug": "acn",
+  "name": "ACN",
+  "description": "Open-source infrastructure for AI agents to collaborate - registry, A2A communication, task pool, payments",
+  "provider": {
+    "name": "acnlabs",
+    "url": "https://github.com/acnlabs"
+  },
+  "repository": "https://github.com/acnlabs/ACN",
+  "category": "infrastructure",
+  "tags": [
+    "agent-collaboration",
+    "agent-framework",
+    "ai-agent",
+    "open-source",
+    "org-harness"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2026-08-15",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

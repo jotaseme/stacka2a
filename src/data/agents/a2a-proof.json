@@ -1,7 +1,7 @@
 {
   "slug": "a2a-proof",
   "name": "A2A Proof",
-  "description": "Black-box contract tests for A2A agents",
+  "description": "Black-box contract tests for A2A agents.",
   "provider": {
     "name": "aspix2k",
     "url": "https://github.com/aspix2k"
@@ -9,14 +9,13 @@
   "repository": "https://github.com/aspix2k/a2a-proof",
   "category": "code-generation",
   "tags": [
+    "a2a-protocol",
     "agent-testing",
-    "agent2agent",
     "ai-agents",
     "ap2",
     "contract-testing",
     "github-actions",
-    "testing",
-    "a2a-protocol"
+    "testing"
   ],
   "framework": "custom",
   "language": "python",
@@ -31,7 +30,7 @@
     "python"
   ],
   "githubStars": 0,
-  "lastUpdated": "2026-08-09",
+  "lastUpdated": "2026-08-16",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

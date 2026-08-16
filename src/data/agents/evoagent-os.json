@@ -1,0 +1,39 @@
+{
+  "slug": "evoagent-os",
+  "name": "Evoagent Os",
+  "description": "Local-first control plane for durable, governed agent teams: DAG orchestration, approvals, memory, signed skills, trace contracts, and realtime.",
+  "provider": {
+    "name": "Linxiushen",
+    "url": "https://github.com/Linxiushen"
+  },
+  "repository": "https://github.com/Linxiushen/evoagent-os",
+  "category": "enterprise",
+  "tags": [
+    "agentic-ai",
+    "ai-agents",
+    "fastapi",
+    "llmops",
+    "multi-agent-systems",
+    "observability",
+    "python",
+    "typescript",
+    "workflow-orchestration"
+  ],
+  "framework": "fastapi",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-08-10",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

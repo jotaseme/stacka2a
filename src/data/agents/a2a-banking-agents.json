@@ -1,0 +1,36 @@
+{
+  "slug": "a2a-banking-agents",
+  "name": "A2A Banking Agents",
+  "description": "Multi-agent banking customer service system built on the A2A protocol. A2A Net Hackathon.",
+  "provider": {
+    "name": "kautum",
+    "url": "https://github.com/kautum"
+  },
+  "repository": "https://github.com/kautum/a2a-banking-agents",
+  "category": "infrastructure",
+  "tags": [
+    "docker",
+    "llm",
+    "multi-agent-systems",
+    "python",
+    "rag",
+    "redis"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-08-12",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

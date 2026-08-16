@@ -18,7 +18,7 @@
     "multi-agent"
   ],
   "framework": "fastapi",
-  "language": "unknown",
+  "language": "typescript",
   "skills": [],
   "capabilities": {
     "streaming": false,
@@ -28,12 +28,11 @@
   "authType": "none",
   "endpointUrl": "https://www.soudushi.com",
   "sdks": [
-    "python",
     "typescript"
   ],
-  "githubStars": 0,
-  "lastUpdated": "2026-07-29",
+  "githubStars": 1,
+  "lastUpdated": "2026-08-15",
   "official": false,
   "selfHosted": true,
-  "license": "unknown"
+  "license": "NOASSERTION"
 }

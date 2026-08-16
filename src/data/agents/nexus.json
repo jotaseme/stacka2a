@@ -9,7 +9,7 @@
   "repository": "https://github.com/jyatesdotdev/nexus",
   "category": "orchestration",
   "tags": [
-    "agent2agent",
+    "a2a-protocol",
     "ai-agents",
     "distributed-tracing",
     "educational-project",
@@ -18,8 +18,7 @@
     "google-adk",
     "learning-lab",
     "llm-orchestration",
-    "mcp",
-    "a2a-protocol"
+    "mcp"
   ],
   "framework": "google-adk",
   "language": "python",

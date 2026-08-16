@@ -1,12 +1,12 @@
 {
-  "slug": "protocol-aifp-1",
-  "name": "Protocol AIFP 1",
+  "slug": "aifp-1",
+  "name": "AIFP 1",
   "description": "Open protocol for AI-native payments, paywalls, agent identity, and autonomous machine-to-machine commerce.",
   "provider": {
     "name": "AiFinPay",
     "url": "https://github.com/AiFinPay"
   },
-  "repository": "https://github.com/AiFinPay/Protocol-AIFP-1",
+  "repository": "https://github.com/AiFinPay/AIFP-1",
   "category": "finance",
   "tags": [
     "agent-commerce",
@@ -21,7 +21,7 @@
     "machine-to-machine"
   ],
   "framework": "custom",
-  "language": "unknown",
+  "language": "python",
   "skills": [],
   "capabilities": {
     "streaming": false,
@@ -31,11 +31,10 @@
   "authType": "none",
   "endpointUrl": "https://aifinpay.io",
   "sdks": [
-    "python",
-    "typescript"
+    "python"
   ],
   "githubStars": 1,
-  "lastUpdated": "2026-08-08",
+  "lastUpdated": "2026-08-15",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

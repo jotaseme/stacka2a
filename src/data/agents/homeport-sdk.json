@@ -1,7 +1,7 @@
 {
   "slug": "homeport-sdk",
   "name": "Homeport SDK",
-  "description": "TypeScript SDK for Nexartis NANDA Node — agent discovery, registry, orchestration, A2A routing",
+  "description": "Official TypeScript SDK for Homeport — the open-source, self-hostable NANDA node from Nexartis.",
   "provider": {
     "name": "Nexartis",
     "url": "https://github.com/Nexartis"
@@ -34,7 +34,7 @@
     "typescript"
   ],
   "githubStars": 0,
-  "lastUpdated": "2026-07-19",
+  "lastUpdated": "2026-08-14",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

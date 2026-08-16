@@ -1,7 +1,7 @@
 {
   "slug": "a2a-settlement-dashboard",
   "name": "A2A Settlement Dashboard",
-  "description": "Dashboard scaffold for A2A settlement",
+  "description": "Human oversight for settlement: balances, escrows, audit, revoke.",
   "provider": {
     "name": "a2a-settlement",
     "url": "https://github.com/a2a-settlement"

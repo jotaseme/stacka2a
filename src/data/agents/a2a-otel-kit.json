@@ -1,0 +1,41 @@
+{
+  "slug": "a2a-otel-kit",
+  "name": "A2A Otel Kit",
+  "description": "Vendor-neutral OpenTelemetry tracing for A2A agents and MCP services, with W3C context propagation and privacy-safe telemetry.",
+  "provider": {
+    "name": "brunovicco",
+    "url": "https://github.com/brunovicco"
+  },
+  "repository": "https://github.com/brunovicco/a2a-otel-kit",
+  "category": "general",
+  "tags": [
+    "agentic-ai",
+    "ai-agents",
+    "clean-architecture",
+    "distributed-tracing",
+    "llmops",
+    "mcp",
+    "model-context-protocol",
+    "observability",
+    "opentelemetry",
+    "otlp"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://pypi.org/project/a2a-otel-kit/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-08-11",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

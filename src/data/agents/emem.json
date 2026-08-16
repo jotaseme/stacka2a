@@ -1,0 +1,40 @@
+{
+  "slug": "emem",
+  "name": "Emem",
+  "description": "The external memory token of our physical world. It survives compaction, handoffs, and model swaps, and verifies offline.",
+  "provider": {
+    "name": "Vortx-AI",
+    "url": "https://github.com/Vortx-AI"
+  },
+  "repository": "https://github.com/Vortx-AI/emem",
+  "category": "general",
+  "tags": [
+    "ai-agents",
+    "earth-observation",
+    "long-running-agents",
+    "long-term-memory",
+    "mcp-server",
+    "model-context-protocol",
+    "rust",
+    "world-models"
+  ],
+  "framework": "custom",
+  "language": "rust",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://emem.dev/",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 52,
+  "lastUpdated": "2026-08-13",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

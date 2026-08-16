@@ -1,0 +1,35 @@
+{
+  "slug": "a2a-settlement",
+  "name": "A2A Settlement",
+  "description": "Open standard and reference exchange for Agent Settlement (A2A-SE).",
+  "provider": {
+    "name": "a2a-settlement",
+    "url": "https://github.com/a2a-settlement"
+  },
+  "repository": "https://github.com/a2a-settlement/a2a-settlement",
+  "category": "general",
+  "tags": [
+    "agentic-ai",
+    "ai-agents",
+    "escrow",
+    "settlement"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://a2a-settlement.org",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2026-08-15",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

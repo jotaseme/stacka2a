@@ -1,0 +1,38 @@
+{
+  "slug": "agentrelay",
+  "name": "AgentRelay",
+  "description": "Self-hosted MCP mailbox for secure agent-to-agent collaboration across repositories and machines.",
+  "provider": {
+    "name": "swayamg20",
+    "url": "https://github.com/swayamg20"
+  },
+  "repository": "https://github.com/swayamg20/AgentRelay",
+  "category": "code-generation",
+  "tags": [
+    "agent-to-agent",
+    "coding-agents",
+    "developer-tools",
+    "mcp",
+    "multi-agent-systems",
+    "self-hosted",
+    "typescript"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://swayamg20.github.io/AgentRelay/",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 5,
+  "lastUpdated": "2026-08-15",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

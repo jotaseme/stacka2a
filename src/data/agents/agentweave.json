@@ -1,0 +1,40 @@
+{
+  "slug": "agentweave",
+  "name": "Agentweave",
+  "description": "Knowledge-, capability-, and trust-aware framework for discovering, validating, selecting, and orchestrating heterogeneous AI agents across cloud, marketplace, enterprise, and edge environments, with A2A interoperability and outcome-driven reputation learning.",
+  "provider": {
+    "name": "sauravsingla",
+    "url": "https://github.com/sauravsingla"
+  },
+  "repository": "https://github.com/sauravsingla/agentweave",
+  "category": "enterprise",
+  "tags": [
+    "agent-discovery",
+    "agent-evaluation",
+    "agent-interoperability",
+    "agent-orchestration",
+    "agent-routing",
+    "agent-selection",
+    "agentic-ai",
+    "ai-agents",
+    "benchmarking",
+    "capability-matching"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-08-15",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

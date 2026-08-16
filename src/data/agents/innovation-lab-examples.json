@@ -1,0 +1,41 @@
+{
+  "slug": "innovation-lab-examples",
+  "name": "Innovation Lab Examples",
+  "description": "80+ production-ready AI agent examples in Python — build autonomous agents, multi-agent systems and agentic AI with uAgents, ASI:One, MCP, A2A, LangChain, CrewAI, Gemini, Claude and OpenAI.",
+  "provider": {
+    "name": "fetchai",
+    "url": "https://github.com/fetchai"
+  },
+  "repository": "https://github.com/fetchai/innovation-lab-examples",
+  "category": "orchestration",
+  "tags": [
+    "agentic-ai",
+    "agentverse",
+    "ai-agent",
+    "ai-agent-examples",
+    "ai-agent-framework",
+    "ai-agents",
+    "asi-one",
+    "autonomous-agents",
+    "crewai",
+    "examples"
+  ],
+  "framework": "crewai",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://innovationlab.fetch.ai/resources/docs/intro",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1103,
+  "lastUpdated": "2026-08-13",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

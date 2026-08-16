@@ -28,6 +28,7 @@
     "multiTurn": false
   },
   "authType": "none",
+  "endpointUrl": "https://docs.a2a-settlement.org",
   "sdks": [
     "python",
     "typescript"

@@ -1,7 +1,7 @@
 {
   "slug": "a2a-settlement-mcp",
   "name": "A2A Settlement MCP",
-  "description": "MCP scaffold for A2A settlement",
+  "description": "MCP server: escrow, release, refund, and reputation tools for any MCP client.",
   "provider": {
     "name": "a2a-settlement",
     "url": "https://github.com/a2a-settlement"

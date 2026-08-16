@@ -1,0 +1,42 @@
+{
+  "slug": "a2a-wrapper",
+  "name": "A2A Wrapper",
+  "description": "A2A protocol wrappers that turn AI backends into interoperable agents. Drop a JSON config, get a spec-compliant A2A server. Supports GitHub Copilot SDK, OpenCode, Claude, Codex and more.",
+  "provider": {
+    "name": "shashikanth-gs",
+    "url": "https://github.com/shashikanth-gs"
+  },
+  "repository": "https://github.com/shashikanth-gs/a2a-wrapper",
+  "category": "code-generation",
+  "tags": [
+    "a2a-server",
+    "agent-orchestration",
+    "agent2agent",
+    "ai-agents",
+    "antigravity",
+    "claude",
+    "claude-agent-sdk",
+    "copilot",
+    "gemini",
+    "github-copilot",
+    "a2a-protocol"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://a2a-wrapper.allsrc.dev",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 32,
+  "lastUpdated": "2026-08-15",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

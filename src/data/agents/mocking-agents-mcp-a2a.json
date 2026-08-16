@@ -1,0 +1,39 @@
+{
+  "slug": "mocking-agents-mcp-a2a",
+  "name": "Mocking Agents MCP A2A",
+  "description": "How to mock agents, MCP servers and A2A peers for production-grade agent development. Protocol surfaces verified against MCP 2026-07-28 and A2A v1.0 (August 2026).",
+  "provider": {
+    "name": "byte-ish",
+    "url": "https://github.com/byte-ish"
+  },
+  "repository": "https://github.com/byte-ish/mocking-agents-mcp-a2a",
+  "category": "general",
+  "tags": [
+    "agent-testing",
+    "ai-agents",
+    "llm",
+    "mcp",
+    "mocking",
+    "model-context-protocol",
+    "test-doubles",
+    "testing"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://byte-ish.github.io/mocking-agents-mcp-a2a/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-08-14",
+  "official": false,
+  "selfHosted": true,
+  "license": "CC-BY-4.0"
+}

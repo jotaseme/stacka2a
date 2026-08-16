@@ -26,6 +26,7 @@
     "multiTurn": false
   },
   "authType": "none",
+  "endpointUrl": "https://settlebridge.ai",
   "sdks": [
     "python"
   ],

@@ -1,25 +1,26 @@
 {
   "slug": "hybro",
   "name": "Hybro",
-  "description": "Open interoperability platform for AI agents across local and cloud environments.",
+  "description": "The open interoperability layer for AI agents. Connect your favorite agents and harnesses. Work together.",
   "provider": {
     "name": "hybroai",
     "url": "https://github.com/hybroai"
   },
   "repository": "https://github.com/hybroai/hybro",
-  "category": "orchestration",
+  "category": "code-generation",
   "tags": [
     "agent-orchestration",
     "ai",
     "ai-agents",
+    "claude-code",
+    "codex",
+    "crewai",
     "fastapi",
-    "human-in-the-loop",
-    "hybrid-agents",
-    "multi-agent",
-    "nextjs",
-    "python"
+    "generative-ai",
+    "hermes-agent",
+    "human-in-the-loop"
   ],
-  "framework": "fastapi",
+  "framework": "langgraph",
   "language": "python",
   "skills": [],
   "capabilities": {
@@ -33,7 +34,7 @@
     "python"
   ],
   "githubStars": 5,
-  "lastUpdated": "2026-08-07",
+  "lastUpdated": "2026-08-15",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

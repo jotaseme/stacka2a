@@ -1,0 +1,41 @@
+{
+  "slug": "agenor",
+  "name": "Agenor",
+  "description": "Autonomous multi-agent coordination for the JVM",
+  "provider": {
+    "name": "mauro-mura",
+    "url": "https://github.com/mauro-mura"
+  },
+  "repository": "https://github.com/mauro-mura/agenor",
+  "category": "orchestration",
+  "tags": [
+    "agent-coordination",
+    "agent-framework",
+    "autonomous-agents",
+    "distributed-systems",
+    "jade",
+    "java",
+    "jvm",
+    "llm",
+    "mcp",
+    "multi-agent-systems"
+  ],
+  "framework": "custom",
+  "language": "java",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://agenor.dev",
+  "sdks": [
+    "java"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-08-15",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}
