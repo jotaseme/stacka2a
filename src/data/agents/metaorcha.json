@@ -1,12 +1,12 @@
 {
-  "slug": "orcha",
-  "name": "Orcha",
-  "description": "Many models. One harness. Apache 2.0 runtime for multi-protocol agent orchestration: one goal in, a verified multi-agent run out across MCP, A2A, and Computer-Use.",
+  "slug": "metaorcha",
+  "name": "Metaorcha",
+  "description": "Metaorcha : many models, one harness. Apache 2.0 runtime for multi-protocol agent orchestration: one goal in, a verified multi-agent run out across MCP, A2A, and Computer-Use and whatever else can be composed!",
   "provider": {
     "name": "solvent-labs-org",
     "url": "https://github.com/solvent-labs-org"
   },
-  "repository": "https://github.com/solvent-labs-org/orcha",
+  "repository": "https://github.com/solvent-labs-org/metaorcha",
   "category": "orchestration",
   "tags": [
     "agent-framework",
@@ -34,7 +34,7 @@
     "python"
   ],
   "githubStars": 2,
-  "lastUpdated": "2026-08-15",
+  "lastUpdated": "2026-08-19",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

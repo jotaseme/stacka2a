@@ -1,0 +1,36 @@
+{
+  "slug": "dsh-a2a-server",
+  "name": "Dsh A2A Server",
+  "description": "A2A server bridge plugin for DeepSeek Harness",
+  "provider": {
+    "name": "MicroWearld",
+    "url": "https://github.com/MicroWearld"
+  },
+  "repository": "https://github.com/MicroWearld/dsh-a2a-server",
+  "category": "general",
+  "tags": [
+    "cordis",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "json-rpc",
+    "typescript"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-08-19",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

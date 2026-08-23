@@ -1,21 +1,21 @@
 {
   "slug": "emem",
   "name": "Emem",
-  "description": "The external memory token of our physical world. It survives compaction, handoffs, and model swaps, and verifies offline.",
+  "description": "The shared, verifiable world memory layer for multi-agent systems.",
   "provider": {
     "name": "Vortx-AI",
     "url": "https://github.com/Vortx-AI"
   },
   "repository": "https://github.com/Vortx-AI/emem",
-  "category": "general",
+  "category": "orchestration",
   "tags": [
-    "ai-agents",
     "earth-observation",
     "long-running-agents",
     "long-term-memory",
-    "mcp-server",
-    "model-context-protocol",
-    "rust",
+    "mcp",
+    "multi-agent",
+    "shared-memory",
+    "substrate",
     "world-models"
   ],
   "framework": "custom",
@@ -32,8 +32,8 @@
     "python",
     "typescript"
   ],
-  "githubStars": 52,
-  "lastUpdated": "2026-08-13",
+  "githubStars": 53,
+  "lastUpdated": "2026-08-23",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

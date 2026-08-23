@@ -14,8 +14,7 @@
     "agentic-framework",
     "chatbot",
     "llm",
-    "ollama",
-    "a2a-protocol"
+    "ollama"
   ],
   "framework": "google-adk",
   "language": "python",

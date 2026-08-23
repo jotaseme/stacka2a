@@ -1,0 +1,30 @@
+{
+  "slug": "a2a-overview",
+  "name": "A2A Overview",
+  "description": "A2A (Agent2Agent) Protocol Quick Reference Portal - A bilingual (Chinese/English) static website for backend/agent developers.",
+  "provider": {
+    "name": "emVisible",
+    "url": "https://github.com/emVisible"
+  },
+  "repository": "https://github.com/emVisible/a2a-overview",
+  "category": "code-generation",
+  "tags": [],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://emvisible.github.io/a2a-overview/",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-08-20",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "ariels",
+  "name": "Ariels",
+  "description": "Open-source A2A interoperability probers -- 14 independent testing engines for the Agent2Agent protocol",
+  "provider": {
+    "name": "itgoujie2",
+    "url": "https://github.com/itgoujie2"
+  },
+  "repository": "https://github.com/itgoujie2/ariels",
+  "category": "general",
+  "tags": [
+    "agent-interoperability",
+    "llm-agents",
+    "protocol-testing",
+    "testing"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-08-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

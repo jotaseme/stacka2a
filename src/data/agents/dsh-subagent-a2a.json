@@ -1,0 +1,36 @@
+{
+  "slug": "dsh-subagent-a2a",
+  "name": "Dsh Subagent A2A",
+  "description": "A2A client provider plugin for DeepSeek Harness",
+  "provider": {
+    "name": "MicroWearld",
+    "url": "https://github.com/MicroWearld"
+  },
+  "repository": "https://github.com/MicroWearld/dsh-subagent-a2a",
+  "category": "general",
+  "tags": [
+    "cordis",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "subagent",
+    "typescript"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-08-19",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

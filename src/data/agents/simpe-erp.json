@@ -1,0 +1,40 @@
+{
+  "slug": "simpe-erp",
+  "name": "Simpe Erp",
+  "description": "This project is a light open-source ERP designed for start-ups and small companies. This can be deployed on all Docker & Kubernetes compatible platforms",
+  "provider": {
+    "name": "gpbcom",
+    "url": "https://github.com/gpbcom"
+  },
+  "repository": "https://github.com/gpbcom/simpe-erp",
+  "category": "enterprise",
+  "tags": [
+    "ai",
+    "ai-agents",
+    "customizability",
+    "customizable",
+    "customization-app",
+    "customization-tool",
+    "docker",
+    "erp",
+    "erp-application",
+    "erp-sap-retail"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-08-20",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

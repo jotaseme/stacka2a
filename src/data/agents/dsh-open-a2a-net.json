@@ -1,0 +1,35 @@
+{
+  "slug": "dsh-open-a2a-net",
+  "name": "Dsh Open A2A Net",
+  "description": "Open A2A network plugin for DeepSeek Harness: signed agent cards, decentralized peer/zone discovery, direct routing model tools, and joinable session nodes in the web sidebar",
+  "provider": {
+    "name": "NelsonLongxiang",
+    "url": "https://github.com/NelsonLongxiang"
+  },
+  "repository": "https://github.com/NelsonLongxiang/dsh-open-a2a-net",
+  "category": "utility",
+  "tags": [
+    "agent-network",
+    "deepseek-harness",
+    "dsh-plugin",
+    "p2p"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://www.npmjs.com/package/@nelsonlongxiang/dsh-open-a2a-net",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2026-08-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "a2a-multiagent-travel-planner",
+  "name": "A2A Multiagent Travel Planner",
+  "description": "Autonomous Multi-Agent Travel Planning platform powered by Google's Agent-to-Agent (A2A) architecture, FastAPI, and React 19. Coordinates domain-specialist AI agents with real-world geographical APIs, live weather forecasts, and live web search for deterministic, hallucination-free itineraries.",
+  "provider": {
+    "name": "jineshkhalas",
+    "url": "https://github.com/jineshkhalas"
+  },
+  "repository": "https://github.com/jineshkhalas/A2A-Multiagent-Travel-Planner",
+  "category": "search",
+  "tags": [
+    "api",
+    "aritificial-intelligence",
+    "fastapi",
+    "firebase",
+    "firebase-auth",
+    "multi-agent",
+    "python",
+    "rag-pipeline",
+    "reactjs"
+  ],
+  "framework": "fastapi",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://multiagent-travel-planner.vercel.app",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-08-16",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

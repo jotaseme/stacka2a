@@ -1,0 +1,34 @@
+{
+  "slug": "a2a-flutter-demo",
+  "name": "A2A Flutter Demo",
+  "description": "A2A Protocol demo with Flutter chat UI + Python server + emulator screenshots",
+  "provider": {
+    "name": "alanpaul1969",
+    "url": "https://github.com/alanpaul1969"
+  },
+  "repository": "https://github.com/alanpaul1969/a2a-flutter-demo",
+  "category": "conversational",
+  "tags": [
+    "agent2agent",
+    "deepseek-harness",
+    "flutter",
+    "a2a-protocol"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-08-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

@@ -29,12 +29,12 @@
     "multiTurn": false
   },
   "authType": "none",
-  "endpointUrl": "https://pipelinepilot-prod.web.app",
+  "endpointUrl": "https://demos.intentsolutions.io/intent-outreach/",
   "sdks": [
     "typescript"
   ],
   "githubStars": 5,
-  "lastUpdated": "2026-07-28",
+  "lastUpdated": "2026-08-20",
   "official": false,
   "selfHosted": true,
   "license": "NOASSERTION"

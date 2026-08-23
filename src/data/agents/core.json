@@ -1,0 +1,41 @@
+{
+  "slug": "core",
+  "name": "Core",
+  "description": "One protocol for every AI agent. GetAIP connects agents, tools, and services through governed, durable workflows—with MCP and A2A compatibility.",
+  "provider": {
+    "name": "getaip",
+    "url": "https://github.com/getaip"
+  },
+  "repository": "https://github.com/getaip/core",
+  "category": "enterprise",
+  "tags": [
+    "agent-interoperability",
+    "agent-orchestration",
+    "agent-protocol",
+    "agentic-ai",
+    "ai-agents",
+    "aip",
+    "mcp",
+    "model-context-protocol",
+    "multi-agent-systems"
+  ],
+  "framework": "custom",
+  "language": "rust",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://getaip.org",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-08-18",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

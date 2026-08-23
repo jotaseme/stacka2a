@@ -1,0 +1,40 @@
+{
+  "slug": "agent-reliability-and-evaluation-lab",
+  "name": "Agent Reliability And Evaluation Lab",
+  "description": "Production reliability, benchmarking, and evaluation layer for MCP agent runtimes — protocol negotiation, A2A interop, circuit breakers, connection pooling, adaptive streaming, and autoscaling, with measured throughput/latency and a 109-test suite.",
+  "provider": {
+    "name": "Akgithub2028",
+    "url": "https://github.com/Akgithub2028"
+  },
+  "repository": "https://github.com/Akgithub2028/Agent-Reliability-and-Evaluation-Lab",
+  "category": "general",
+  "tags": [
+    "agent-to-agent",
+    "ai-agents",
+    "async-python",
+    "autoscaling",
+    "backpressure",
+    "benchmarking",
+    "circuit-breaker",
+    "connection-pooling",
+    "fault-injection",
+    "llm-agents"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 3,
+  "lastUpdated": "2026-08-21",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

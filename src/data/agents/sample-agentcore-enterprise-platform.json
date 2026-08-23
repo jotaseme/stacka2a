@@ -1,0 +1,40 @@
+{
+  "slug": "sample-agentcore-enterprise-platform",
+  "name": "Sample Agentcore Enterprise Platform",
+  "description": "Amazon Bedrock AgentCore enterprise platform accelerator with AWS CDK, Terraform organization guardrails, MCP/A2A agents, security, memory, and observability.",
+  "provider": {
+    "name": "aws-samples",
+    "url": "https://github.com/aws-samples"
+  },
+  "repository": "https://github.com/aws-samples/sample-agentcore-enterprise-platform",
+  "category": "enterprise",
+  "tags": [
+    "agentcore",
+    "agentcore-agent",
+    "agentcore-gateway",
+    "agentcore-identity",
+    "agentcore-runtime",
+    "agentic-ai",
+    "agentic-ai-architecture",
+    "agentic-ai-platform",
+    "ai",
+    "amazon-bedrock-agentcore"
+  ],
+  "framework": "langgraph",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 4,
+  "lastUpdated": "2026-08-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

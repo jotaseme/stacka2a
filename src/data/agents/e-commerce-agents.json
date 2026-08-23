@@ -1,7 +1,7 @@
 {
   "slug": "e-commerce-agents",
   "name": "E Commerce Agents",
-  "description": "6 specialized AI agents collaborating via A2A protocol to power e-commerce — product discovery, orders, pricing, reviews, inventory & support. Built with Microsoft Agent Framework, FastAPI, Next.js, and PostgreSQL + pgvector.",
+  "description": "6 specialized AI agents collaborating via A2A protocol to power e-commerce — product discovery, orders, pricing, reviews, inventory & support. Dual-stack (Python + .NET/C#) with generative UI. Built with Microsoft Agent Framework, FastAPI, Next.js, and PostgreSQL + pgvector.",
   "provider": {
     "name": "nitin27may",
     "url": "https://github.com/nitin27may"
@@ -12,13 +12,13 @@
     "ai-agents",
     "aspire-dashboard",
     "azure-openai",
+    "csharp",
+    "docker",
+    "dotnet",
     "e-commerce",
     "fastapi",
-    "microsoft-agent-framework",
-    "multi-agent",
-    "nextjs",
-    "openai",
-    "opentelemetry"
+    "generative-ui",
+    "microsoft-agent-framework"
   ],
   "framework": "fastapi",
   "language": "python",
@@ -29,12 +29,12 @@
     "multiTurn": false
   },
   "authType": "none",
-  "endpointUrl": "https://nitinksingh.com/posts/building-a-multi-agent-e-commerce-platform-the-complete-guide/",
+  "endpointUrl": "https://nitinksingh.com/e-commerce-agents/",
   "sdks": [
     "python"
   ],
-  "githubStars": 17,
-  "lastUpdated": "2026-08-01",
+  "githubStars": 19,
+  "lastUpdated": "2026-08-22",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

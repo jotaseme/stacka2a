@@ -1,0 +1,41 @@
+{
+  "slug": "aegisgate-platform",
+  "name": "Aegisgate Platform",
+  "description": "Open-core AI security gateway — 6 pillars, 31 compliance frameworks, 176 detection patterns. Self-hosted. Fail-closed.",
+  "provider": {
+    "name": "aegisgatesecurity",
+    "url": "https://github.com/aegisgatesecurity"
+  },
+  "repository": "https://github.com/aegisgatesecurity/aegisgate-platform",
+  "category": "infrastructure",
+  "tags": [
+    "acp-protocol",
+    "ai-security",
+    "api-gateway",
+    "compliance",
+    "cybersecurity",
+    "gateway",
+    "go",
+    "golang",
+    "kubernetes",
+    "llm-security"
+  ],
+  "framework": "custom",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://aegisgatesecurity.io",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-08-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

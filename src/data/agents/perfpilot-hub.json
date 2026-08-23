@@ -1,12 +1,12 @@
 {
-  "slug": "mcp-perf-suite",
-  "name": "MCP Perf Suite",
-  "description": "A modular MCP server suite for performance‑testing workflows: generate JMeter scripts from browser automation, manage and run load tests, ingest and correlate metrics from APM tools using temporal correlation analysis, and produce customizable performance reports—all built for seamless integration and scalability across your testing ecosystem.",
+  "slug": "perfpilot-hub",
+  "name": "Perfpilot Hub",
+  "description": "An AG2 multi-agent runtime for the performance-testing lifecycle—script generation, load tests, APM correlation, and reports—with HITL gates and A2A so other AI frameworks can request work. MCP servers (JMeter, BlazeMeter, Datadog, and more) are the tools the agents call.",
   "provider": {
     "name": "canyonlabz",
     "url": "https://github.com/canyonlabz"
   },
-  "repository": "https://github.com/canyonlabz/mcp-perf-suite",
+  "repository": "https://github.com/canyonlabz/perfpilot-hub",
   "category": "data-analytics",
   "tags": [
     "ag2",
@@ -33,7 +33,7 @@
     "python"
   ],
   "githubStars": 4,
-  "lastUpdated": "2026-08-15",
+  "lastUpdated": "2026-08-22",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

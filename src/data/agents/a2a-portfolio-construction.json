@@ -1,0 +1,33 @@
+{
+  "slug": "a2a-portfolio-construction",
+  "name": "A2A Portfolio Construction",
+  "description": "6 AI agents communicating with each other using Google's Agent2Agent (A2A) protocol for Indian equity portfolio construction — XGBoost signal generation (78% walk-forward accuracy), LSTM price forecasting, FAISS semantic stock search, and vectorbt backtesting across 6,999 stocks",
+  "provider": {
+    "name": "PradyMan4869",
+    "url": "https://github.com/PradyMan4869"
+  },
+  "repository": "https://github.com/PradyMan4869/A2A_Portfolio-Construction",
+  "category": "search",
+  "tags": [
+    "lstm",
+    "ml",
+    "python"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-10",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}
