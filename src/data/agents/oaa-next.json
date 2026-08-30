@@ -1,0 +1,40 @@
+{
+  "slug": "oaa-next",
+  "name": "Oaa Next",
+  "description": "The Open Agent Architecture (OAA), rebuilt for the age of LLMs 🧠",
+  "provider": {
+    "name": "JGalego",
+    "url": "https://github.com/JGalego"
+  },
+  "repository": "https://github.com/JGalego/oaa-next",
+  "category": "orchestration",
+  "tags": [
+    "agent-architecture",
+    "agent-interoperability",
+    "ai-agents",
+    "llm-agents",
+    "model-context-protocol",
+    "multi-agent-systems",
+    "open-agent-architecture",
+    "prolog",
+    "swi-prolog"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-08-26",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

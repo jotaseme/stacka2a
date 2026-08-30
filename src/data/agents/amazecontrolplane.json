@@ -1,12 +1,12 @@
 {
-  "slug": "amaze-ai-control-plane",
-  "name": "AMaze AI Control Plane",
+  "slug": "amazecontrolplane",
+  "name": "AMazeControlPlane",
   "description": "Open-source AI Agent Control Plane for runtime MCP security, policy enforcement, PII protection, tool governance, and audit logging. Runtime control plane for AI agents. Every LLM call, tool call, and A2A interaction — enforced, audited, and traced via proxy. ",
   "provider": {
     "name": "chernomaz",
     "url": "https://github.com/chernomaz"
   },
-  "repository": "https://github.com/chernomaz/aMaze-AI-Control-Plane",
+  "repository": "https://github.com/chernomaz/aMazeControlPlane",
   "category": "security",
   "tags": [
     "agent",
@@ -33,7 +33,7 @@
     "python"
   ],
   "githubStars": 2,
-  "lastUpdated": "2026-07-25",
+  "lastUpdated": "2026-08-29",
   "official": false,
   "selfHosted": true,
   "license": "NOASSERTION"

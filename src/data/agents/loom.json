@@ -1,0 +1,40 @@
+{
+  "slug": "loom",
+  "name": "LOOM",
+  "description": "Dynamic Agent-to-Agent (A2A) task graph generation, subtask independence verification, and parallel multi-agent orchestration",
+  "provider": {
+    "name": "Akgithub2028",
+    "url": "https://github.com/Akgithub2028"
+  },
+  "repository": "https://github.com/Akgithub2028/LOOM",
+  "category": "orchestration",
+  "tags": [
+    "agent-to-agent",
+    "agentic-ai",
+    "ai-agents",
+    "dag",
+    "deepseek-v4-flash",
+    "dynamic-orchestration",
+    "fastapi",
+    "graph-generation",
+    "llm-orchestration",
+    "multi-agent-systems"
+  ],
+  "framework": "fastapi",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 7,
+  "lastUpdated": "2026-08-29",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

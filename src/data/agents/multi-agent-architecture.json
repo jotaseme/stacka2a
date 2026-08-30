@@ -1,0 +1,34 @@
+{
+  "slug": "multi-agent-architecture",
+  "name": "Multi Agent Architecture",
+  "description": "A multi-agent system built with Google's Agent Development Kit (ADK) and Agent-to-Agent (A2A) protocol.",
+  "provider": {
+    "name": "Abhi-gits",
+    "url": "https://github.com/Abhi-gits"
+  },
+  "repository": "https://github.com/Abhi-gits/Multi-agent-Architecture",
+  "category": "orchestration",
+  "tags": [
+    "genai",
+    "google-adk",
+    "multi-agent",
+    "python"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-03-27",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

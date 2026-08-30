@@ -1,0 +1,41 @@
+{
+  "slug": "voko",
+  "name": "Voko",
+  "description": "Local-first Agent communication runtime and gateway for A2A, MCP, E2EE messaging, REST/Webhook, and multi-agent collaboration.",
+  "provider": {
+    "name": "laoyudashu",
+    "url": "https://github.com/laoyudashu"
+  },
+  "repository": "https://github.com/laoyudashu/voko",
+  "category": "code-generation",
+  "tags": [
+    "agent-communication",
+    "agent-gateway",
+    "agent-interoperability",
+    "agent-runtime",
+    "agent-to-agent",
+    "ai-agents",
+    "claude-code",
+    "codex",
+    "e2ee",
+    "human-in-the-loop"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://www.vokovoko.com",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 7,
+  "lastUpdated": "2026-08-25",
+  "official": false,
+  "selfHosted": true,
+  "license": "AGPL-3.0"
+}

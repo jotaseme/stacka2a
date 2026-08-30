@@ -1,0 +1,34 @@
+{
+  "slug": "a2a-go-fmsg",
+  "name": "A2A Go Fmsg",
+  "description": "FMSG-004 transport plugin for the official A2A Go SDK",
+  "provider": {
+    "name": "markmnl",
+    "url": "https://github.com/markmnl"
+  },
+  "repository": "https://github.com/markmnl/a2a-go-fmsg",
+  "category": "general",
+  "tags": [
+    "fmsg",
+    "golang",
+    "transport"
+  ],
+  "framework": "custom",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://fmsg.org",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-08-28",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

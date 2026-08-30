@@ -1,0 +1,36 @@
+{
+  "slug": "agentcert",
+  "name": "AgentCert",
+  "description": "✅ W3C Verifiable Credentials for AI agents — issue, verify, and grade trust certificates (basic / professional / authority).",
+  "provider": {
+    "name": "Trusgent",
+    "url": "https://github.com/Trusgent"
+  },
+  "repository": "https://github.com/Trusgent/AgentCert",
+  "category": "security",
+  "tags": [
+    "a2a-mcp",
+    "agentcert",
+    "agentic-ai",
+    "mcp",
+    "w3c-vc"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://github.com/Trusgent/AgentCert",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-08-28",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

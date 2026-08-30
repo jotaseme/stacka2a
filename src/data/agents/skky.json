@@ -3,10 +3,10 @@
   "name": "Skky",
   "description": "A comprehensive travel planning application that leverages AI agents to help users create personalized itineraries, find flights, accommodations, and activities for their trips.",
   "provider": {
-    "name": "RexxLudwig",
-    "url": "https://github.com/RexxLudwig"
+    "name": "rexxAman",
+    "url": "https://github.com/rexxAman"
   },
-  "repository": "https://github.com/RexxLudwig/Skky",
+  "repository": "https://github.com/rexxAman/Skky",
   "category": "travel",
   "tags": [
     "genai",

@@ -1,0 +1,41 @@
+{
+  "slug": "chap",
+  "name": "Chap",
+  "description": "CHAP, the Collaborative Human Agent Protocol, is a MCP/A2A-compatible runtime for auditable human-agent work: approvals, overrides, handoffs, escalation and verifiable evidence logs.",
+  "provider": {
+    "name": "BrightbeamAI",
+    "url": "https://github.com/BrightbeamAI"
+  },
+  "repository": "https://github.com/BrightbeamAI/chap",
+  "category": "orchestration",
+  "tags": [
+    "ai-agents",
+    "audit-trail",
+    "human-ai-collaboration",
+    "human-computer-interaction",
+    "human-in-the-loop",
+    "human-robot-interaction",
+    "mcp",
+    "model-context-protocol",
+    "multi-agent-systems",
+    "python"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://chap.brightbeam.works/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 80,
+  "lastUpdated": "2026-08-25",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

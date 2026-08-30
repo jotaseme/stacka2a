@@ -1,7 +1,7 @@
 {
   "slug": "pixelhq-ultra",
   "name": "Pixelhq Ultra",
-  "description": "🎮 PixelHQ ULTRA — Multi-agent pixel office with A2A protocol, terminal correlation, and evolution engine",
+  "description": "PixelHQ ULTRA — Multi-agent pixel office with A2A protocol, terminal correlation, and evolution engine. Mission control HUD for the LoveLogicAI stack.",
   "provider": {
     "name": "RemyLoveLogicAI",
     "url": "https://github.com/RemyLoveLogicAI"
@@ -26,12 +26,12 @@
     "multiTurn": false
   },
   "authType": "none",
-  "endpointUrl": "https://pixelhq-ultra.vercel.app",
+  "endpointUrl": "https://remylovelogic.grok.me",
   "sdks": [
     "typescript"
   ],
   "githubStars": 4,
-  "lastUpdated": "2026-08-02",
+  "lastUpdated": "2026-08-27",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

@@ -1,0 +1,39 @@
+{
+  "slug": "stateknot",
+  "name": "StateKnot",
+  "description": "A production-grade Rust framework for building typed, durable, and observable agent systems, with graph workflows and native MCP/A2A support.",
+  "provider": {
+    "name": "StateKnot",
+    "url": "https://github.com/StateKnot"
+  },
+  "repository": "https://github.com/StateKnot/StateKnot",
+  "category": "enterprise",
+  "tags": [
+    "agent-framework",
+    "ai-agents",
+    "durable-execution",
+    "llm",
+    "mcp",
+    "multi-agent",
+    "rust",
+    "workflow-engine"
+  ],
+  "framework": "custom",
+  "language": "rust",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-08-30",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

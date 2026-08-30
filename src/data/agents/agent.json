@@ -3,10 +3,10 @@
   "name": "Agent",
   "description": "Verifiable live-data for AI agents: hosted keyless MCP server + A2A agent (protocolVersion 1.0). Every datapoint Ed25519-signed and reliability-graded. Verifier: github.com/dynamicfeed/df-verify",
   "provider": {
-    "name": "dynamicfeed",
-    "url": "https://github.com/dynamicfeed"
+    "name": "Fluxdyne",
+    "url": "https://github.com/Fluxdyne"
   },
-  "repository": "https://github.com/dynamicfeed/agent",
+  "repository": "https://github.com/Fluxdyne/agent",
   "category": "code-generation",
   "tags": [
     "agent2agent",

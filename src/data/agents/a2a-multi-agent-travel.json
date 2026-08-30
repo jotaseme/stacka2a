@@ -1,0 +1,42 @@
+{
+  "slug": "a2a-multi-agent-travel",
+  "name": "A2A Multi Agent Travel",
+  "description": "Five AI agents on five different frameworks (LangGraph, Google ADK, CrewAI, LlamaIndex, Pydantic AI) cooperating over the A2A protocol, with one shared MCP server. A corporate travel desk that negotiates, escalates to a human, and books.",
+  "provider": {
+    "name": "fnusatvik07",
+    "url": "https://github.com/fnusatvik07"
+  },
+  "repository": "https://github.com/fnusatvik07/a2a-multi-agent-travel",
+  "category": "travel",
+  "tags": [
+    "agent2agent",
+    "ai-agents",
+    "crewai",
+    "google-adk",
+    "langgraph",
+    "llamaindex",
+    "mcp",
+    "model-context-protocol",
+    "multi-agent",
+    "pydantic-ai",
+    "a2a-protocol"
+  ],
+  "framework": "google-adk",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-08-27",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

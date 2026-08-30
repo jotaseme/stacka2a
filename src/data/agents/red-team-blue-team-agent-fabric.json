@@ -1,7 +1,7 @@
 {
   "slug": "red-team-blue-team-agent-fabric",
   "name": "Red Team Blue Team Agent Fabric",
-  "description": "AI agent security harness for adversarial testing: 606 executable tests on main, 603 in the v4.15.0 release, across MCP, A2A, x402/L402, decision governance, benchmark integrity, human-in-the-loop, skill supply chain. Commit-pinned OWASP Agentic v1.1 T1-T17 (13 direct, 4 partial), AIUC-1 2026-Q1/Q2 crosswalk 19/20, NIST AI 800-2 aligned.",
+  "description": "AI agent security harness, adversarial testing: 608 executable tests in the v4.16.0 release, across MCP, A2A, x402/L402, decision governance, benchmark integrity, human-in-the-loop, skill supply chain. Three target shapes: a verdict must be able to be wrong AND to be right. OWASP Agentic v1.1 T1-T17, AIUC-1 19/20, NIST AI 800-2.",
   "provider": {
     "name": "msaleme",
     "url": "https://github.com/msaleme"
@@ -9,15 +9,15 @@
   "repository": "https://github.com/msaleme/red-team-blue-team-agent-fabric",
   "category": "security",
   "tags": [
+    "agent-governance",
     "agent-security",
     "agentic-ai",
     "ai-agents",
     "ai-security",
     "aiuc-1",
-    "blue-team",
+    "conformance",
     "decision-governance",
     "eu-ai-act",
-    "human-in-the-loop",
     "l402"
   ],
   "framework": "custom",
@@ -33,8 +33,8 @@
   "sdks": [
     "python"
   ],
-  "githubStars": 27,
-  "lastUpdated": "2026-08-18",
+  "githubStars": 28,
+  "lastUpdated": "2026-08-30",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

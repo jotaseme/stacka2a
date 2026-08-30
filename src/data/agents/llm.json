@@ -1,7 +1,7 @@
 {
   "slug": "llm",
   "name": "Llm",
-  "description": "cruby's capable AI runtime",
+  "description": "Ruby's capable AI runtime",
   "provider": {
     "name": "r-uby-dev",
     "url": "https://github.com/r-uby-dev"
@@ -33,8 +33,8 @@
     "python",
     "typescript"
   ],
-  "githubStars": 136,
-  "lastUpdated": "2026-08-23",
+  "githubStars": 137,
+  "lastUpdated": "2026-08-27",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

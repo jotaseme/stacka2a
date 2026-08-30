@@ -1,7 +1,7 @@
 {
   "slug": "a2acode",
   "name": "A2acode",
-  "description": "Run Claude Code as an A2A protocol agent server — tool progress, file diffs, and permission prompts mapped onto the A2A protocol.",
+  "description": "Serve any ACP coding agent — Claude Code, Gemini CLI, Codex — over the A2A protocol, with tool progress, file diffs, and permission prompts preserved.",
   "provider": {
     "name": "kanywst",
     "url": "https://github.com/kanywst"
@@ -26,11 +26,12 @@
     "multiTurn": false
   },
   "authType": "none",
+  "endpointUrl": "https://pypi.org/project/a2acode/",
   "sdks": [
     "python"
   ],
   "githubStars": 2,
-  "lastUpdated": "2026-08-22",
+  "lastUpdated": "2026-08-29",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

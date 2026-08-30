@@ -9,14 +9,13 @@
   "repository": "https://github.com/aspix2k/a2a-proof",
   "category": "code-generation",
   "tags": [
+    "a2a-protocol",
     "agent-testing",
-    "agent2agent",
     "ai-agents",
     "ap2",
     "contract-testing",
     "github-actions",
-    "testing",
-    "a2a-protocol"
+    "testing"
   ],
   "framework": "custom",
   "language": "python",
