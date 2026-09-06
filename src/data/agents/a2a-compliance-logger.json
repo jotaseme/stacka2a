@@ -1,0 +1,35 @@
+{
+  "slug": "a2a-compliance-logger",
+  "name": "A2A Compliance Logger",
+  "description": "EU AI Act Article 12 compliant audit logger for A2A protocol agents",
+  "provider": {
+    "name": "azizbekde",
+    "url": "https://github.com/azizbekde"
+  },
+  "repository": "https://github.com/azizbekde/a2a-compliance-logger",
+  "category": "general",
+  "tags": [
+    "ai-agents",
+    "audit",
+    "compliance",
+    "eu-ai-act"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-09-05",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

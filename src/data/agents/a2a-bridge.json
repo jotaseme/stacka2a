@@ -1,0 +1,37 @@
+{
+  "slug": "a2a-bridge",
+  "name": "A2A Bridge",
+  "description": "Connect LibreChat, or any OpenAI-compatible chat client, to any A2A agent. No model in the path.",
+  "provider": {
+    "name": "kleinmatic",
+    "url": "https://github.com/kleinmatic"
+  },
+  "repository": "https://github.com/kleinmatic/a2a-bridge",
+  "category": "conversational",
+  "tags": [
+    "ai-agents",
+    "chat-completions",
+    "fastapi",
+    "jsonrpc",
+    "librechat",
+    "openai-compatible",
+    "python"
+  ],
+  "framework": "fastapi",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-09-04",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

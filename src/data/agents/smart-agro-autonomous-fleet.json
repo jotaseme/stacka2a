@@ -1,0 +1,35 @@
+{
+  "slug": "smart-agro-autonomous-fleet",
+  "name": "Smart Agro Autonomous Fleet",
+  "description": "Autonomous multi-agent agricultural system powered by Gemini AI and Google Cloud Run.",
+  "provider": {
+    "name": "sujanmolla09-bd",
+    "url": "https://github.com/sujanmolla09-bd"
+  },
+  "repository": "https://github.com/sujanmolla09-bd/Smart-Agro-Autonomous-Fleet",
+  "category": "orchestration",
+  "tags": [
+    "agentic-ai",
+    "gemini-api",
+    "google-cloud-run",
+    "python"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://mlpackaging.blogspot.com",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-09-01",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

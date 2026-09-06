@@ -16,8 +16,7 @@
     "llm",
     "mcp",
     "mcp-server",
-    "model-context-protocol",
-    "a2a-protocol"
+    "model-context-protocol"
   ],
   "framework": "custom",
   "language": "unknown",

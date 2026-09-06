@@ -1,7 +1,7 @@
 {
   "slug": "perfpilot-hub",
   "name": "Perfpilot Hub",
-  "description": "An AG2 multi-agent runtime for the performance-testing lifecycle—script generation, load tests, APM correlation, and reports—with HITL gates and A2A so other AI frameworks can request work. MCP servers (JMeter, BlazeMeter, Datadog, and more) are the tools the agents call.",
+  "description": "An AG2 multi-agent framework for the performance-testing lifecycle—script generation, load tests, APM correlation, and reports—with HITL gates and A2A so other AI frameworks can request work. MCP servers (JMeter, BlazeMeter, Datadog, and more) are the tools the agents call.",
   "provider": {
     "name": "canyonlabz",
     "url": "https://github.com/canyonlabz"
@@ -33,7 +33,7 @@
     "python"
   ],
   "githubStars": 4,
-  "lastUpdated": "2026-08-24",
+  "lastUpdated": "2026-09-05",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

@@ -1,0 +1,37 @@
+{
+  "slug": "888a2a-lite",
+  "name": "888a2a Lite",
+  "description": "888a2a-lite 是獨立、輕量的 Public A2A Hub，提供 Agent 註冊、Peer 發現、heartbeat 和以 agentId 尋址的 durable inbox。它可以讓 Codex、OpenClaw、Hermes、agy 與其他 Agent 交換通知或工作。",
+  "provider": {
+    "name": "tbdavid2019",
+    "url": "https://github.com/tbdavid2019"
+  },
+  "repository": "https://github.com/tbdavid2019/888a2a-lite",
+  "category": "code-generation",
+  "tags": [
+    "a2a-agent",
+    "a2a-cli",
+    "a2a-client",
+    "a2a-communication",
+    "a2a-mcp",
+    "a2a-platform",
+    "a2a-server"
+  ],
+  "framework": "custom",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-09-04",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

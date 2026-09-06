@@ -1,0 +1,37 @@
+{
+  "slug": "hebom-buffer",
+  "name": "Hebom Buffer",
+  "description": "Deduplication, expiry and ordering at the boundary between AI agents. A small local handoff boundary for A2A-style agent pipelines.",
+  "provider": {
+    "name": "hebom-ai",
+    "url": "https://github.com/hebom-ai"
+  },
+  "repository": "https://github.com/hebom-ai/hebom-buffer",
+  "category": "orchestration",
+  "tags": [
+    "agent-handoff",
+    "agent2agent",
+    "agentic-ai",
+    "ai-agents",
+    "langgraph",
+    "multi-agent"
+  ],
+  "framework": "langgraph",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://pypi.org/project/hebom-buffer/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-09-04",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

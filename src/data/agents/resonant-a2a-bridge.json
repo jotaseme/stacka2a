@@ -1,0 +1,37 @@
+{
+  "slug": "resonant-a2a-bridge",
+  "name": "Resonant A2A Bridge",
+  "description": "A2A 0.2.5 (agent2agent) server exposing the ResonantOS opencode delegation: any A2A client submits text missions and retrieves result artifacts over loopback JSON-RPC — serve-only, operator-token, external sends stay forbidden by the delegation boundary.",
+  "provider": {
+    "name": "simongonzalezdc",
+    "url": "https://github.com/simongonzalezdc"
+  },
+  "repository": "https://github.com/simongonzalezdc/resonant-a2a-bridge",
+  "category": "code-generation",
+  "tags": [
+    "agent-interop",
+    "agent-protocol",
+    "ai-agents",
+    "json-rpc",
+    "local-ai",
+    "opencode",
+    "resonantos"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-09-03",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

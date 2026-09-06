@@ -1,0 +1,36 @@
+{
+  "slug": "multi-agent-a2a-mcp",
+  "name": "Multi Agent A2A MCP",
+  "description": "🚀 Multi-Agent System with A2A protocol, MCP tool integration, and custom evaluation. Planner → Researcher → Reviewer workflow with Streamlit dashboard. Built with LangGraph, Groq, FastMCP.",
+  "provider": {
+    "name": "vaibhav07772",
+    "url": "https://github.com/vaibhav07772"
+  },
+  "repository": "https://github.com/vaibhav07772/multi-agent-a2a-mcp",
+  "category": "search",
+  "tags": [
+    "agent-orchestration",
+    "groq",
+    "langgraph",
+    "mcp",
+    "multi-agent",
+    "streamlit"
+  ],
+  "framework": "langgraph",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-08-31",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "superqode",
+  "name": "Superqode",
+  "description": "The harness interoperability layer for coding agent. Agent to Agent connect over ACP, A2A and UHP",
+  "provider": {
+    "name": "SuperagenticAI",
+    "url": "https://github.com/SuperagenticAI"
+  },
+  "repository": "https://github.com/SuperagenticAI/superqode",
+  "category": "orchestration",
+  "tags": [
+    "a2a-agent",
+    "a2a-cli",
+    "a2a-client",
+    "a2a-platform",
+    "a2a-server",
+    "agent-harness",
+    "agent-memory",
+    "agent-orchestration",
+    "agentic",
+    "agentic-ai"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://superqode.dev",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 43,
+  "lastUpdated": "2026-09-04",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

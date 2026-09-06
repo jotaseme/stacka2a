@@ -1,0 +1,41 @@
+{
+  "slug": "agentmart",
+  "name": "AgentMart",
+  "description": "Agent-2-Agent E-Commrce Platform [MVP Concept]",
+  "provider": {
+    "name": "0xarchit",
+    "url": "https://github.com/0xarchit"
+  },
+  "repository": "https://github.com/0xarchit/AgentMart",
+  "category": "general",
+  "tags": [
+    "a2a-mcp",
+    "adk",
+    "adk-go",
+    "ecommerce-platform",
+    "mcp",
+    "razorpay",
+    "razorpay-api",
+    "razorpay-buildathon",
+    "razorpay-buildathon-2026",
+    "razorpay-integration"
+  ],
+  "framework": "google-adk",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://agentmart-pearl.vercel.app",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 3,
+  "lastUpdated": "2026-09-05",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

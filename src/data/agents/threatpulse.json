@@ -16,7 +16,7 @@
     "cybersecurity-tools"
   ],
   "framework": "custom",
-  "language": "python",
+  "language": "typescript",
   "skills": [],
   "capabilities": {
     "streaming": false,
@@ -26,10 +26,10 @@
   "authType": "none",
   "endpointUrl": "https://threatpulse-one.vercel.app",
   "sdks": [
-    "python"
+    "typescript"
   ],
   "githubStars": 0,
-  "lastUpdated": "2026-07-05",
+  "lastUpdated": "2026-09-05",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

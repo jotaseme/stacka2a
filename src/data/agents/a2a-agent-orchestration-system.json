@@ -3,10 +3,10 @@
   "name": "A2A Agent Orchestration System",
   "description": "A distributed multi-agent system that orchestrates complex tasks across specialized AI agents using A2A (Agent-to-Agent) protocol, MCP (Model Context Protocol) and LangGraph.",
   "provider": {
-    "name": "Khaledayman9",
-    "url": "https://github.com/Khaledayman9"
+    "name": "khaleddeissa",
+    "url": "https://github.com/khaleddeissa"
   },
-  "repository": "https://github.com/Khaledayman9/A2A-Agent-Orchestration-System",
+  "repository": "https://github.com/khaleddeissa/A2A-Agent-Orchestration-System",
   "category": "enterprise",
   "tags": [
     "a2a-mcp",

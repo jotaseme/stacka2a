@@ -1,0 +1,33 @@
+{
+  "slug": "a2a-protocol-spotlight-2sjxo",
+  "name": "A2A Protocol Spotlight 2sjxo",
+  "description": "Auto-generated original project - parsing failed, please review",
+  "provider": {
+    "name": "ShilpShakti",
+    "url": "https://github.com/ShilpShakti"
+  },
+  "repository": "https://github.com/ShilpShakti/a2a-protocol-spotlight-2sjxo",
+  "category": "general",
+  "tags": [
+    "agent2agent",
+    "a2a-protocol"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-09-06",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}
