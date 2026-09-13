@@ -1,0 +1,37 @@
+{
+  "slug": "ai-nexus-open",
+  "name": "Ai Nexus Open",
+  "description": "The open infrastructure for interoperable AI agents — Any AI. Any Agent. Any Tool. One Open Protocol.",
+  "provider": {
+    "name": "denilsoneap-cmd",
+    "url": "https://github.com/denilsoneap-cmd"
+  },
+  "repository": "https://github.com/denilsoneap-cmd/ai-nexus-open",
+  "category": "infrastructure",
+  "tags": [
+    "agent-protocol",
+    "ai-agents",
+    "interoperability",
+    "mcp",
+    "multi-agent-systems",
+    "open-source",
+    "python"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-09-12",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "well-known",
+  "name": "Well Known",
+  "description": "Type-safe TypeScript toolkit for generating and serving /.well-known resources, including AASA, Asset Links, OAuth/OpenID metadata, WebAuthn, passkeys, DIDs, A2A Agent Cards, security.txt, MTA-STS, SBOM, and API catalogs.",
+  "provider": {
+    "name": "louchebem06",
+    "url": "https://github.com/louchebem06"
+  },
+  "repository": "https://github.com/louchebem06/well-known",
+  "category": "data-analytics",
+  "tags": [
+    "aasa",
+    "api-catalog",
+    "assetlinks",
+    "decentralized-identity",
+    "metadata",
+    "mta-sts",
+    "nodejs",
+    "oauth2",
+    "openid-connect",
+    "passkeys"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://www.npmjs.com/org/well-known-js",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-09-13",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

@@ -16,9 +16,15 @@
     "ai-agents",
     "llm",
     "mcp",
-    "mcp-client"
+    "mcp-client",
+    "fastapi",
+    "multi-agent",
+    "puppeteer",
+    "python",
+    "task",
+    "task-automation"
   ],
-  "framework": "custom",
+  "framework": "fastapi",
   "language": "python",
   "skills": [],
   "capabilities": {
@@ -31,7 +37,7 @@
     "python"
   ],
   "githubStars": 1,
-  "lastUpdated": "2026-03-13",
+  "lastUpdated": "2026-09-06",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

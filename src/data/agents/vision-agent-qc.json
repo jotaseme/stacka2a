@@ -1,0 +1,40 @@
+{
+  "slug": "vision-agent-qc",
+  "name": "Vision Agent Qc",
+  "description": "Battery cell visual quality control using multi-agent architecture with A2A protocol — CNN defect detection, cross-session memory, drift detection and Streamlit monitoring dashboard",
+  "provider": {
+    "name": "PRATdoppelEK",
+    "url": "https://github.com/PRATdoppelEK"
+  },
+  "repository": "https://github.com/PRATdoppelEK/vision-agent-qc",
+  "category": "infrastructure",
+  "tags": [
+    "anomaly-detection",
+    "battery-inspection",
+    "cnn",
+    "computer-vision",
+    "multi-agent",
+    "python",
+    "pytorch",
+    "quality-control",
+    "streamlit"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-08-31",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

@@ -17,8 +17,7 @@
     "message-signing",
     "provenance",
     "rfc8785",
-    "specification",
-    "a2a-protocol"
+    "specification"
   ],
   "framework": "custom",
   "language": "typescript",

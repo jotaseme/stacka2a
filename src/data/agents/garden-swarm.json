@@ -1,0 +1,41 @@
+{
+  "slug": "garden-swarm",
+  "name": "Garden Swarm",
+  "description": "Garden: public AGI governance and human-sovereignty architecture — AI safety, multi-agent systems, formal verification, privacy, justice and agent interoperability.",
+  "provider": {
+    "name": "ankitdcx",
+    "url": "https://github.com/ankitdcx"
+  },
+  "repository": "https://github.com/ankitdcx/garden-swarm",
+  "category": "orchestration",
+  "tags": [
+    "agentic-ai",
+    "agi",
+    "ai-agents",
+    "ai-ethics",
+    "ai-governance",
+    "ai-governance-model",
+    "ai-safety",
+    "artificial-general-intelligence",
+    "artificial-intelligence",
+    "autonomous-agents"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://ankitdcx.github.io/garden-swarm/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-09-13",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

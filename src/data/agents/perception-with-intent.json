@@ -1,13 +1,13 @@
 {
   "slug": "perception-with-intent",
   "name": "Perception With Intent",
-  "description": "AI-powered news intelligence with 8 Vertex AI agents monitoring 50+ sources. Real-time executive dashboard, daily briefs, and smart alerts. Built on Firebase + A2A protocol.",
+  "description": "Perception watches the web, ranks what matters, and delivers a finite, source-backed signal room—with Listening Post for Omarchy.",
   "provider": {
     "name": "jeremylongshore",
     "url": "https://github.com/jeremylongshore"
   },
   "repository": "https://github.com/jeremylongshore/perception-with-intent",
-  "category": "infrastructure",
+  "category": "general",
   "tags": [
     "ai",
     "ai-agents",

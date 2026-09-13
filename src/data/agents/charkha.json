@@ -1,0 +1,41 @@
+{
+  "slug": "charkha",
+  "name": "Charkha",
+  "description": "Waste-to-carbon-value chain tracker: satellite burn detection to verified, retirable carbon credit via an agent mesh.",
+  "provider": {
+    "name": "CODER7657",
+    "url": "https://github.com/CODER7657"
+  },
+  "repository": "https://github.com/CODER7657/charkha",
+  "category": "general",
+  "tags": [
+    "biochar",
+    "carbon-credits",
+    "climate-tech",
+    "did",
+    "drizzle-orm",
+    "edge-ai",
+    "fastify",
+    "hackathon",
+    "hash-chain",
+    "leaflet"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://charkha-hashhawks.centralindia.cloudapp.azure.com",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-09-12",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

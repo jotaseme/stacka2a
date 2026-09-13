@@ -1,0 +1,38 @@
+{
+  "slug": "05-mcp-a2a-solution-studio",
+  "name": "05 MCP A2A Solution Studio",
+  "description": "Solution Engineering interoperability lab with real MCP Streamable HTTP tools, A2A agent messaging, approval controls, and protocol evidence.",
+  "provider": {
+    "name": "tnair10",
+    "url": "https://github.com/tnair10"
+  },
+  "repository": "https://github.com/tnair10/05-mcp-a2a-solution-studio",
+  "category": "orchestration",
+  "tags": [
+    "agent-interoperability",
+    "ai-agents",
+    "ai-architecture",
+    "mcp",
+    "model-context-protocol",
+    "multi-agent",
+    "python",
+    "solutions-engineering"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-09-09",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

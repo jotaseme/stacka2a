@@ -1,0 +1,35 @@
+{
+  "slug": "ai-travel-planner-agent",
+  "name": "Ai Travel Planner Agent",
+  "description": "Multi-agent AI travel planner using Google ADK, A2A protocol, and MCP — agent orchestration for flights, hotels, attractions, and weather.",
+  "provider": {
+    "name": "SravyaSpandana",
+    "url": "https://github.com/SravyaSpandana"
+  },
+  "repository": "https://github.com/SravyaSpandana/ai-travel-planner-agent",
+  "category": "travel",
+  "tags": [
+    "agentic-ai",
+    "google-adk",
+    "llm",
+    "mcp",
+    "python3"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-09-12",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

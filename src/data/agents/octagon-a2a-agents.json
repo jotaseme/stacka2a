@@ -1,0 +1,39 @@
+{
+  "slug": "octagon-a2a-agents",
+  "name": "Octagon A2A Agents",
+  "description": "A2A (Agent2Agent) interface to Octagon's research agents. Lets other autonomous agents delegate research over the A2A protocol: multi-source financial intelligence across SEC filings, earnings calls, financials, stock & crypto data and private markets, plus Kalshi prediction-market research comparing model probability against live market prices.",
+  "provider": {
+    "name": "OctagonAI",
+    "url": "https://github.com/OctagonAI"
+  },
+  "repository": "https://github.com/OctagonAI/octagon-a2a-agents",
+  "category": "search",
+  "tags": [
+    "agentic-ai",
+    "ai-agents",
+    "financial-research",
+    "kalshi",
+    "market-intelligence",
+    "mcp",
+    "prediction-markets",
+    "sec-filings"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://octagonai.co/docs",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-09-06",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

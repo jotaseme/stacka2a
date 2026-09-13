@@ -1,0 +1,39 @@
+{
+  "slug": "a-forge",
+  "name": "A FORGE",
+  "description": "Governed execution engine. Mutates files, services, and git only after arifOS judges. 119 live MCP tools. Never self-authorizes.",
+  "provider": {
+    "name": "ariffazil",
+    "url": "https://github.com/ariffazil"
+  },
+  "repository": "https://github.com/ariffazil/A-FORGE",
+  "category": "code-generation",
+  "tags": [
+    "agentic-ai",
+    "deployment",
+    "fastapi",
+    "governance",
+    "infrastructure",
+    "mcp",
+    "orchestration",
+    "runtime"
+  ],
+  "framework": "fastapi",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://forge.arif-fazil.com",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-09-13",
+  "official": false,
+  "selfHosted": true,
+  "license": "AGPL-3.0"
+}

@@ -1,7 +1,7 @@
 {
   "slug": "multi-agent",
   "name": "Multi Agent",
-  "description": "The definitive catalog of AI agent patterns. One definition, any framework. 27+ agents, 8 patterns, 6 framework adapters.",
+  "description": "A framework-agnostic catalog of reusable AI agent definitions, orchestration patterns and adapters, with CLI tools, exports and visualization.",
   "provider": {
     "name": "Hovborg",
     "url": "https://github.com/Hovborg"

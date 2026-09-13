@@ -11,8 +11,7 @@
   "tags": [
     "deepseek-harness",
     "dsh",
-    "dsh-plugin",
-    "cordis"
+    "dsh-plugin"
   ],
   "framework": "custom",
   "language": "typescript",
@@ -26,8 +25,8 @@
   "sdks": [
     "typescript"
   ],
-  "githubStars": 7,
-  "lastUpdated": "2026-09-04",
+  "githubStars": 6,
+  "lastUpdated": "2026-08-26",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

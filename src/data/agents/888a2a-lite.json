@@ -26,11 +26,12 @@
     "multiTurn": false
   },
   "authType": "none",
+  "endpointUrl": "https://a2a.david888.com/llms.txt",
   "sdks": [
     "go"
   ],
   "githubStars": 0,
-  "lastUpdated": "2026-09-04",
+  "lastUpdated": "2026-09-09",
   "official": false,
   "selfHosted": true,
   "license": "NOASSERTION"
