@@ -1,0 +1,38 @@
+{
+  "slug": "catering-chain-agent",
+  "name": "Catering Chain Agent",
+  "description": "基于 A2A + MCP 协议的餐饮连锁多 Agent 协作系统：协调 Agent 调度客诉/排班/库存三个专家 Agent，做跨数据源根因分析并给出改善建议",
+  "provider": {
+    "name": "gumulin2026-prog",
+    "url": "https://github.com/gumulin2026-prog"
+  },
+  "repository": "https://github.com/gumulin2026-prog/Catering_Chain_Agent",
+  "category": "orchestration",
+  "tags": [
+    "deepseek",
+    "langchain",
+    "llamaindex",
+    "llm-agents",
+    "mcp",
+    "multi-agent-systems",
+    "python",
+    "streamlit"
+  ],
+  "framework": "langchain",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-09-14",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

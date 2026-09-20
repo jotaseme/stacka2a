@@ -26,12 +26,12 @@
     "multiTurn": false
   },
   "authType": "none",
-  "endpointUrl": "https://www.udemy.com/course/ai-agent-engineering-build-production-ready-agentic-systems/",
+  "endpointUrl": "https://www.udemy.com/course/ai-agent-engineering-build-production-ready-agentic-systems/?referralCode=9F4088C6F93BAB35AA9C",
   "sdks": [
     "python"
   ],
   "githubStars": 2,
-  "lastUpdated": "2026-05-09",
+  "lastUpdated": "2026-09-20",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

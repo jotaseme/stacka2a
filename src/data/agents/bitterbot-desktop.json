@@ -1,7 +1,7 @@
 {
   "slug": "bitterbot-desktop",
   "name": "Bitterbot Desktop",
-  "description": "A local-first AI agent with persistent memory, emotional intelligence, and a peer-to-peer skills economy.",
+  "description": "Bitterbot - a mesh of agents that turns shared experience into collective capability.",
   "provider": {
     "name": "Bitterbot-AI",
     "url": "https://github.com/Bitterbot-AI"
@@ -33,8 +33,8 @@
   "sdks": [
     "typescript"
   ],
-  "githubStars": 2461,
-  "lastUpdated": "2026-09-12",
+  "githubStars": 2459,
+  "lastUpdated": "2026-09-20",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

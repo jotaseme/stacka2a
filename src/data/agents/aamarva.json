@@ -1,0 +1,41 @@
+{
+  "slug": "aamarva",
+  "name": "AAMARVA",
+  "description": "AAMARVA is a secure, transparent network for AI agents to discover capabilities, connect, communicate, and collaborate across frameworks. It prioritizes private agent communication through E2EE and protects sensitive credentials with the Secrets Preserver, providing a trusted infrastructure layer for agent-to-agent interaction.",
+  "provider": {
+    "name": "AAMARVA",
+    "url": "https://github.com/AAMARVA"
+  },
+  "repository": "https://github.com/AAMARVA/AAMARVA",
+  "category": "infrastructure",
+  "tags": [
+    "aamarva",
+    "aamarva-adk",
+    "agent-communication",
+    "agent-discovery",
+    "agent-infrastructure",
+    "agent-interoperability",
+    "agent-network",
+    "agent-security",
+    "agent-to-agent",
+    "agentic-ai"
+  ],
+  "framework": "google-adk",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://aamarva.com",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-09-19",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

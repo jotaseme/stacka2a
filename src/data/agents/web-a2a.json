@@ -1,0 +1,34 @@
+{
+  "slug": "web-a2a",
+  "name": "WEB A2A",
+  "description": "WEB A2A — 通用式 Web Agent-to-Agent 连接桥：A2A 1.0 协议 · 本机回环 · 把任务派发给已登录网页代理并回传脱敏结果",
+  "provider": {
+    "name": "muyi123567",
+    "url": "https://github.com/muyi123567"
+  },
+  "repository": "https://github.com/muyi123567/WEB-A2A",
+  "category": "general",
+  "tags": [
+    "ai-agents",
+    "bridge",
+    "electron",
+    "web-agent"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-09-15",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "agentbridge",
+  "name": "AgentBridge",
+  "description": "AgentBridge is a Python SDK for defining an agent once and running it across multiple agent frameworks.",
+  "provider": {
+    "name": "0sparsh2",
+    "url": "https://github.com/0sparsh2"
+  },
+  "repository": "https://github.com/0sparsh2/AgentBridge",
+  "category": "enterprise",
+  "tags": [
+    "agent",
+    "agent-framework",
+    "agent-orchestration",
+    "agentic-ai",
+    "agentic-workflow",
+    "agents",
+    "ai",
+    "crewai",
+    "crewai-agents",
+    "google-adk"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 4,
+  "lastUpdated": "2026-09-15",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

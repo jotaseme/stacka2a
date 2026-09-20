@@ -18,8 +18,7 @@
     "nodejs",
     "oauth2",
     "sdk",
-    "sentinel",
-    "traylinx"
+    "sentinel"
   ],
   "framework": "custom",
   "language": "typescript",

@@ -1,0 +1,39 @@
+{
+  "slug": "agora",
+  "name": "Agora",
+  "description": "Propose/vote/veto/quorum primitives for multi-agent systems, layered on MCP and A2A without spec changes.",
+  "provider": {
+    "name": "jayblast-spec",
+    "url": "https://github.com/jayblast-spec"
+  },
+  "repository": "https://github.com/jayblast-spec/agora",
+  "category": "orchestration",
+  "tags": [
+    "agent-protocol",
+    "consensus",
+    "governance",
+    "mcp",
+    "multi-agent",
+    "multi-agent-systems",
+    "typescript",
+    "voting"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://agora-protocol.vercel.app",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-09-16",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

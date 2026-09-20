@@ -10,15 +10,15 @@
   "category": "orchestration",
   "tags": [
     "ai-agents",
+    "ai-governance-layer",
+    "ai-governance-tools",
     "audit-trail",
     "human-ai-collaboration",
     "human-computer-interaction",
     "human-in-the-loop",
     "human-robot-interaction",
     "mcp",
-    "model-context-protocol",
-    "multi-agent-systems",
-    "python"
+    "model-context-protocol"
   ],
   "framework": "custom",
   "language": "python",
@@ -33,8 +33,8 @@
   "sdks": [
     "python"
   ],
-  "githubStars": 96,
-  "lastUpdated": "2026-09-11",
+  "githubStars": 102,
+  "lastUpdated": "2026-09-17",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"
