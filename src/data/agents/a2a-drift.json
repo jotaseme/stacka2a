@@ -1,0 +1,35 @@
+{
+  "slug": "a2a-drift",
+  "name": "A2A Drift",
+  "description": "Detect A2A (Agent2Agent) protocol compliance drift — agent cards, endpoints, spec versions, JSON-RPC conformance",
+  "provider": {
+    "name": "yunaremaia",
+    "url": "https://github.com/yunaremaia"
+  },
+  "repository": "https://github.com/yunaremaia/a2a-drift",
+  "category": "general",
+  "tags": [
+    "cli",
+    "drift-detection",
+    "protocol-compliance",
+    "python"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://github.com/yunaremaia/a2a-drift",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-09-26",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "allagents",
+  "name": "Allagents",
+  "description": "The directory of the agent web — list your agent in one POST. https://allagents.app",
+  "provider": {
+    "name": "allagents-app",
+    "url": "https://github.com/allagents-app"
+  },
+  "repository": "https://github.com/allagents-app/allagents",
+  "category": "orchestration",
+  "tags": [
+    "agent-directory",
+    "agent-discovery",
+    "agent-registry",
+    "ai-agents",
+    "llms-txt",
+    "mcp",
+    "multi-agent"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://allagents.app",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-09-21",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

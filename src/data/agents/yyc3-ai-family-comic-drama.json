@@ -1,0 +1,41 @@
+{
+  "slug": "yyc3-ai-family-comic-drama",
+  "name": "YYC3 AI Family Comic Drama",
+  "description": "YYC³ AI Family·Comic Drama — 8拟人Agent×ReAct-C九步闭环驱动「小说→分镜→图像→视频→成片→运营」六阶段全链路工业化漫剧生产系统 | Mac M4 + 双DGX Spark GB10 + NAS | 90天3集样片·≤2元/集·一致性≥80%",
+  "provider": {
+    "name": "YYC-Cube",
+    "url": "https://github.com/YYC-Cube"
+  },
+  "repository": "https://github.com/YYC-Cube/YYC3-AI-Family-Comic-Drama",
+  "category": "media-content",
+  "tags": [
+    "ai-comic-drama",
+    "ai-video-generation",
+    "chinese-drama",
+    "comfyui",
+    "dgx-spark",
+    "fastapi",
+    "llm-orchestration",
+    "milvus",
+    "multi-agent",
+    "nextjs"
+  ],
+  "framework": "fastapi",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://agent.yyc3.top/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-09-27",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

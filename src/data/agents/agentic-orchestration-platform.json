@@ -1,0 +1,39 @@
+{
+  "slug": "agentic-orchestration-platform",
+  "name": "Agentic Orchestration Platform",
+  "description": "Multi-agent platform for procurement automation: 8 microservices, A2A protocol, WIMSE SVID, OPA/Rego policy enforcement, MCP integration with 1C/SAP/EIS, RAG over regulations",
+  "provider": {
+    "name": "realrvs",
+    "url": "https://github.com/realrvs"
+  },
+  "repository": "https://github.com/realrvs/agentic-orchestration-platform",
+  "category": "orchestration",
+  "tags": [
+    "camunda",
+    "fastapi",
+    "mcp",
+    "multi-agent",
+    "opa",
+    "procurement-automation",
+    "rag",
+    "rego",
+    "wimse"
+  ],
+  "framework": "fastapi",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-09-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

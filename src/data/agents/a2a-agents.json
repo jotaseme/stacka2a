@@ -1,0 +1,35 @@
+{
+  "slug": "a2a-agents",
+  "name": "A2A Agents",
+  "description": "Public A2A Agent Card directory for the ralphsanders2001-ai network. Live cards pulled verbatim from running agents. Feedback venue for the trader-v2 code.",
+  "provider": {
+    "name": "ralphsanders2001-ai",
+    "url": "https://github.com/ralphsanders2001-ai"
+  },
+  "repository": "https://github.com/ralphsanders2001-ai/a2a-agents",
+  "category": "code-generation",
+  "tags": [
+    "agent-cards",
+    "agent-registry",
+    "ai-agents",
+    "hermes"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-09-22",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

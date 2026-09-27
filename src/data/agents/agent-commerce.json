@@ -29,11 +29,12 @@
     "multiTurn": false
   },
   "authType": "none",
+  "endpointUrl": "https://acg.devlab.group/",
   "sdks": [
     "typescript"
   ],
-  "githubStars": 29,
-  "lastUpdated": "2026-09-15",
+  "githubStars": 30,
+  "lastUpdated": "2026-09-25",
   "official": false,
   "selfHosted": true,
   "license": "NOASSERTION"

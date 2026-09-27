@@ -1,0 +1,40 @@
+{
+  "slug": "flight-hotel-mcp-a2a-agents",
+  "name": "Flight Hotel MCP A2A Agents",
+  "description": "Flight & Hotel MCP Servers + A2A Agents",
+  "provider": {
+    "name": "shashikanth-gs",
+    "url": "https://github.com/shashikanth-gs"
+  },
+  "repository": "https://github.com/shashikanth-gs/flight-hotel-mcp-a2a-agents",
+  "category": "data-analytics",
+  "tags": [
+    "docker",
+    "flight-mcp",
+    "google-adk",
+    "hotel-mcp",
+    "langgraph",
+    "litellm",
+    "mcp-server",
+    "mock-data",
+    "model-context-protocol",
+    "nvidia-nim"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-09-20",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

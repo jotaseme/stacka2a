@@ -21,7 +21,7 @@
     "model-context-protocol"
   ],
   "framework": "custom",
-  "language": "python",
+  "language": "unknown",
   "skills": [],
   "capabilities": {
     "streaming": false,
@@ -31,10 +31,11 @@
   "authType": "none",
   "endpointUrl": "https://chap.brightbeam.works/",
   "sdks": [
-    "python"
+    "python",
+    "typescript"
   ],
-  "githubStars": 102,
-  "lastUpdated": "2026-09-17",
+  "githubStars": 104,
+  "lastUpdated": "2026-09-21",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

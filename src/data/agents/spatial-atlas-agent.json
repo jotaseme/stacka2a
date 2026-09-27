@@ -1,0 +1,38 @@
+{
+  "slug": "spatial-atlas-agent",
+  "name": "Spatial Atlas Agent",
+  "description": "A compute-grounded spatial reasoning agent over A2A. Operational-integrity check only; no accuracy claim.",
+  "provider": {
+    "name": "arunshar",
+    "url": "https://github.com/arunshar"
+  },
+  "repository": "https://github.com/arunshar/spatial-atlas-agent",
+  "category": "search",
+  "tags": [
+    "agent",
+    "fastapi",
+    "llm-agents",
+    "python",
+    "research",
+    "scene-graph",
+    "spatial-reasoning"
+  ],
+  "framework": "fastapi",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://arunshar.com/projects/spatial-atlas-agent/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-09-27",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

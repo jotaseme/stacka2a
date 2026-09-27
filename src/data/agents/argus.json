@@ -1,7 +1,7 @@
 {
   "slug": "argus",
   "name": "Argus",
-  "description": "ARGUS — Agentic Risk & Governance Unified Screening | Multi-agent KYC system powered by Azure AI Foundry + Foundry IQ | Microsoft Agents League Hackathon 2026 — Reasoning Agents track",
+  "description": "ARGUS — Agentic Risk & Governance Unified Screening | Hack for Good winner (1 of 3), Microsoft Agents League, AI Skills Fest 2026 | Multi-agent KYC system on Azure AI Foundry + Foundry IQ",
   "provider": {
     "name": "iarjunganesh",
     "url": "https://github.com/iarjunganesh"
@@ -32,8 +32,8 @@
     "python"
   ],
   "githubStars": 1,
-  "lastUpdated": "2026-08-16",
+  "lastUpdated": "2026-09-26",
   "official": false,
   "selfHosted": true,
-  "license": "MIT"
+  "license": "GPL-3.0"
 }

@@ -1,0 +1,37 @@
+{
+  "slug": "apcore-a2a-python",
+  "name": "Apcore A2A Python",
+  "description": "Automatic A2A Protocol Adapter for apcore Module Registry.",
+  "provider": {
+    "name": "aiperceivable",
+    "url": "https://github.com/aiperceivable"
+  },
+  "repository": "https://github.com/aiperceivable/apcore-a2a-python",
+  "category": "security",
+  "tags": [
+    "a2a-agent",
+    "a2a-client",
+    "a2a-mcp",
+    "a2a-server",
+    "ai-agent",
+    "ai-governance",
+    "ai-security"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-09-24",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

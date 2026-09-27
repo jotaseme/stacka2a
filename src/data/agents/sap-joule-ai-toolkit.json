@@ -1,0 +1,41 @@
+{
+  "slug": "sap-joule-ai-toolkit",
+  "name": "Sap Joule Ai Toolkit",
+  "description": "SAP Joule AI Toolkit brings together practical SAP Joule patterns for AI agents, A2A protocol integration, SAP BTP deployment, ABAP developer assistance, Joule Studio setup, and GUI automation, with reusable skills and reference implementations for CAP, Python, TypeScript, Terraform, and SAP AI Core.",
+  "provider": {
+    "name": "The-Joule",
+    "url": "https://github.com/The-Joule"
+  },
+  "repository": "https://github.com/The-Joule/sap-joule-ai-toolkit",
+  "category": "code-generation",
+  "tags": [
+    "abap-development",
+    "ai-agent-toolkit",
+    "cap-framework",
+    "cloud-foundry",
+    "digital-assistant",
+    "joule-ai",
+    "joule-studio",
+    "sap-ai-core",
+    "sap-btp",
+    "sap-business-ai"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-09-25",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

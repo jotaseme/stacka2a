@@ -1,12 +1,12 @@
 {
-  "slug": "aws-orchestrator-agent",
-  "name": "Aws Orchestrator Agent",
+  "slug": "opscloud",
+  "name": "Opscloud",
   "description": "Stop writing Terraform by hand. A multi-agent framework that researches, generates, validates, and commits production-ready AWS infrastructure modules through conversation.",
   "provider": {
     "name": "talkops-ai",
     "url": "https://github.com/talkops-ai"
   },
-  "repository": "https://github.com/talkops-ai/aws-orchestrator-agent",
+  "repository": "https://github.com/talkops-ai/opscloud",
   "category": "search",
   "tags": [
     "agentic-workflows",

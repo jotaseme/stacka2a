@@ -1,0 +1,34 @@
+{
+  "slug": "harley-a2a",
+  "name": "Harley A2A",
+  "description": "Harley: fitness coaching AI agent (A2A protocol), DNAi Systems",
+  "provider": {
+    "name": "EndlessRay",
+    "url": "https://github.com/EndlessRay"
+  },
+  "repository": "https://github.com/EndlessRay/harley-a2a",
+  "category": "general",
+  "tags": [
+    "agents",
+    "fitness"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://harley.dnai.systems",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-03",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

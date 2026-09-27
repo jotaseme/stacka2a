@@ -1,0 +1,40 @@
+{
+  "slug": "buildwithgemini-smart-chef-pantry-concierge",
+  "name": "Buildwithgemini Smart Chef Pantry Concierge",
+  "description": "Multi-agent culinary concierge on Google ADK — Gemini 2.5 Flash, Vertex AI Agent Runtime, A2A protocol, A2UI rich components, RAG over a recipe corpus, and Imagen 3 dish photography. Deployed to Cloud Run with Firestore inventory. Built during Google's Build with Gemini event.",
+  "provider": {
+    "name": "YangKuoshih",
+    "url": "https://github.com/YangKuoshih"
+  },
+  "repository": "https://github.com/YangKuoshih/buildwithgemini-smart-chef-pantry-concierge",
+  "category": "media-content",
+  "tags": [
+    "a2ui",
+    "agentic-ai",
+    "cloud-run",
+    "firestore",
+    "gemini",
+    "google-adk",
+    "multi-agent",
+    "python",
+    "rag",
+    "vertex-ai"
+  ],
+  "framework": "google-adk",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-09-26",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

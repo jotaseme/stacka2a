@@ -1,0 +1,36 @@
+{
+  "slug": "asha-a2a",
+  "name": "Asha A2A",
+  "description": "Asha, DNAi's neurosymbolic medical AI agent, over the A2A protocol. The LLM is the verbalization layer over KIL retrieval (144M+ vectors, ~1,071 Qdrant collections, ~314 knowledge-source), the Epistemic Arena, and META_CORRECT. Physician-founded. US Patent 12,555,008 B1, granted 2026-02-17. Evidence: github.com/EndlessRay/asha-bench-public",
+  "provider": {
+    "name": "EndlessRay",
+    "url": "https://github.com/EndlessRay"
+  },
+  "repository": "https://github.com/EndlessRay/asha-a2a",
+  "category": "code-generation",
+  "tags": [
+    "agents",
+    "healthcare",
+    "medical-ai",
+    "neurosymbolic"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://askasha.org",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-09-23",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}

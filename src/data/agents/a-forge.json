@@ -1,7 +1,7 @@
 {
   "slug": "a-forge",
   "name": "A FORGE",
-  "description": "Governed execution engine. Mutates files, services, and git only after arifOS judges. 119 live MCP tools. Never self-authorizes.",
+  "description": "Governed execution engine. Mutates files, services, and git only after arifOS judges. Live tool count: see /health. Never self-authorizes.",
   "provider": {
     "name": "ariffazil",
     "url": "https://github.com/ariffazil"
@@ -32,7 +32,7 @@
     "typescript"
   ],
   "githubStars": 0,
-  "lastUpdated": "2026-09-18",
+  "lastUpdated": "2026-09-26",
   "official": false,
   "selfHosted": true,
   "license": "AGPL-3.0"

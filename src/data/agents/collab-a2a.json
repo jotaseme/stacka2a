@@ -1,0 +1,40 @@
+{
+  "slug": "collab-a2a",
+  "name": "Collab A2A",
+  "description": "An A2A hub that lets coding agents on different machines talk, align on tasks, and discuss work in real time (a real swam).",
+  "provider": {
+    "name": "rperez93",
+    "url": "https://github.com/rperez93"
+  },
+  "repository": "https://github.com/rperez93/collab-a2a",
+  "category": "code-generation",
+  "tags": [
+    "ai",
+    "claude-code",
+    "cli",
+    "codex",
+    "coding-agents",
+    "collaboration",
+    "developer-tools",
+    "harness",
+    "multi-agent",
+    "opencode"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 9,
+  "lastUpdated": "2026-09-21",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

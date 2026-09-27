@@ -15,10 +15,18 @@
     "php-sdk",
     "protocol",
     "sdk",
-    "sdk-php"
+    "sdk-php",
+    "agent2agent",
+    "ai-agents",
+    "json-rpc",
+    "laravel",
+    "mcp",
+    "multi-agent",
+    "php-library",
+    "a2a-protocol"
   ],
   "framework": "custom",
-  "language": "unknown",
+  "language": "python",
   "skills": [],
   "capabilities": {
     "streaming": false,
@@ -31,7 +39,7 @@
     "typescript"
   ],
   "githubStars": 3,
-  "lastUpdated": "2026-09-17",
+  "lastUpdated": "2026-09-26",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

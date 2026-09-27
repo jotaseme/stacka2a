@@ -1,24 +1,24 @@
 {
   "slug": "unified-ai-system",
   "name": "Unified Ai System",
-  "description": "Public Preview: self-hosted, protocol-first AI gateway and agent control plane for OpenAI, Anthropic, Gemini, MCP and A2A — governed tools, virtual-key budgets, cache and audit; zero-key first run.",
+  "description": "Public Preview: self-hosted, protocol-first AI gateway and agent control plane for OpenAI, Anthropic, Gemini, MCP and A2A — governed tools, prompt enhancement, virtual-key budgets, cache and audit; zero-key first run.",
   "provider": {
     "name": "happy520ai",
     "url": "https://github.com/happy520ai"
   },
   "repository": "https://github.com/happy520ai/unified-ai-system",
-  "category": "infrastructure",
+  "category": "code-generation",
   "tags": [
+    "agent-governance",
     "agentic-ai",
-    "ai-agents",
     "ai-gateway",
-    "anthropic",
-    "api-gateway",
-    "docker",
-    "gemini",
-    "llm",
+    "codex-cli",
     "llm-gateway",
-    "llm-proxy"
+    "llm-observability",
+    "llm-proxy",
+    "llmops",
+    "local-first",
+    "mcp"
   ],
   "framework": "custom",
   "language": "typescript",
@@ -33,8 +33,8 @@
   "sdks": [
     "typescript"
   ],
-  "githubStars": 6,
-  "lastUpdated": "2026-09-19",
+  "githubStars": 7,
+  "lastUpdated": "2026-09-27",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

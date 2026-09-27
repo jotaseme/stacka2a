@@ -1,0 +1,33 @@
+{
+  "slug": "artha-a2a",
+  "name": "Artha A2A",
+  "description": "Artha: financial intelligence AI agent (A2A protocol), DNAi Systems",
+  "provider": {
+    "name": "EndlessRay",
+    "url": "https://github.com/EndlessRay"
+  },
+  "repository": "https://github.com/EndlessRay/artha-a2a",
+  "category": "general",
+  "tags": [
+    "agents"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://dnai.systems",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-05-03",
+  "official": false,
+  "selfHosted": true,
+  "license": "NOASSERTION"
+}
