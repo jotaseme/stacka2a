@@ -16,9 +16,7 @@
     "agent-protocol",
     "ai-agents",
     "google-a2a",
-    "interoperability",
-    "learning-project",
-    "python"
+    "interoperability"
   ],
   "framework": "langgraph",
   "language": "python",
@@ -33,7 +31,7 @@
     "python"
   ],
   "githubStars": 1,
-  "lastUpdated": "2026-05-27",
+  "lastUpdated": "2026-02-12",
   "official": false,
   "selfHosted": true,
   "license": "NOASSERTION"

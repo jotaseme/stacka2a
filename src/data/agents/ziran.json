@@ -1,7 +1,7 @@
 {
   "slug": "ziran",
   "name": "Ziran",
-  "description": "自然 ZIRAN is an open-source security testing framework for AI agents. It discovers dangerous tool chain compositions via knowledge graph analysis, detects execution-level side effects (not just text output), and runs multi-phase trust exploitation campaigns that model real attacker behaviour.",
+  "description": "ZIRAN finds the vulnerabilities in AI agents that come from tools combining, not from any single prompt. Graph-based tool chain discovery, execution-level side-effect detection, multi-phase campaigns.",
   "provider": {
     "name": "taoq-ai",
     "url": "https://github.com/taoq-ai"
@@ -34,7 +34,7 @@
     "python"
   ],
   "githubStars": 10,
-  "lastUpdated": "2026-09-22",
+  "lastUpdated": "2026-10-03",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

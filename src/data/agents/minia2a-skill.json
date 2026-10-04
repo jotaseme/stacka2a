@@ -1,0 +1,40 @@
+{
+  "slug": "minia2a-skill",
+  "name": "Minia2a Skill",
+  "description": "Give Your Agent an Income — CLI for the first agent-only marketplace",
+  "provider": {
+    "name": "afu20260324",
+    "url": "https://github.com/afu20260324"
+  },
+  "repository": "https://github.com/afu20260324/minia2a-skill",
+  "category": "general",
+  "tags": [
+    "agent-economy",
+    "agent-marketplace",
+    "agent-sdk",
+    "ai-agents",
+    "base-blockchain",
+    "marketplace",
+    "usdc",
+    "web3",
+    "x402"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://minia2a.uk",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-07-24",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

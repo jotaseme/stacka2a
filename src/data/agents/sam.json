@@ -1,0 +1,40 @@
+{
+  "slug": "sam",
+  "name": "Sam",
+  "description": "The Open-Source Agent Mesh",
+  "provider": {
+    "name": "google",
+    "url": "https://github.com/google"
+  },
+  "repository": "https://github.com/google/sam",
+  "category": "security",
+  "tags": [
+    "agent-mesh",
+    "agentic-ai",
+    "inference",
+    "mcp",
+    "mesh",
+    "mesh-network",
+    "network-security",
+    "networking-ai",
+    "p2p-network"
+  ],
+  "framework": "custom",
+  "language": "go",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://sam-mesh.dev/",
+  "sdks": [
+    "go"
+  ],
+  "githubStars": 952,
+  "lastUpdated": "2026-10-02",
+  "official": true,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

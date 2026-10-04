@@ -13,7 +13,11 @@
     "a2a-server",
     "mcp",
     "adk",
-    "schema"
+    "schema",
+    "a2a-client",
+    "agents",
+    "generative-ai",
+    "ocaml"
   ],
   "framework": "google-adk",
   "language": "python",
@@ -28,7 +32,7 @@
     "python"
   ],
   "githubStars": 11,
-  "lastUpdated": "2026-04-21",
+  "lastUpdated": "2026-10-03",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

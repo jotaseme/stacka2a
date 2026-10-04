@@ -1,0 +1,39 @@
+{
+  "slug": "mem2a",
+  "name": "Mem2a",
+  "description": "An open protocol, built on A2A, that lets any AI agent consult a company's shared memory before it acts, hear when that changes, and report back after.",
+  "provider": {
+    "name": "mem2a",
+    "url": "https://github.com/mem2a"
+  },
+  "repository": "https://github.com/mem2a/mem2a",
+  "category": "enterprise",
+  "tags": [
+    "a2a-extension",
+    "agent-memory",
+    "agents",
+    "ai-agents",
+    "enterprise-ai",
+    "memory",
+    "protocol",
+    "specification"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://mem2a.github.io/mem2a/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-10-02",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

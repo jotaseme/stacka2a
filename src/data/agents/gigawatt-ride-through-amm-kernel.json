@@ -1,0 +1,40 @@
+{
+  "slug": "gigawatt-ride-through-amm-kernel",
+  "name": "Gigawatt Ride Through Amm Kernel",
+  "description": "Gigawatt AI Datacenter Ride-Through AMM Kernel disrupting the 60x Lithium & Rare Earth over-provisioning trap via sub-millisecond Ragone knapsack, DVFS compute shedding, and verifiable A2A consensus",
+  "provider": {
+    "name": "AAH20",
+    "url": "https://github.com/AAH20"
+  },
+  "repository": "https://github.com/AAH20/gigawatt-ride-through-amm-kernel",
+  "category": "data-analytics",
+  "tags": [
+    "automated-market-maker",
+    "datacenter",
+    "dvfs",
+    "energy-storage",
+    "flywheel",
+    "high-performance-computing",
+    "hjb-control",
+    "lithium-disruption",
+    "supercapacitor",
+    "synthetic-inertia"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-10-01",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

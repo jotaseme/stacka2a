@@ -1,0 +1,40 @@
+{
+  "slug": "a2a-hub",
+  "name": "A2A Hub",
+  "description": "Centralized Agent2Agent (A2A) Discovery Hub & Registry built with Java 21, Spring Boot 3.4, LangChain4j, PostgreSQL pgvector & Vue 3",
+  "provider": {
+    "name": "oscarbol09",
+    "url": "https://github.com/oscarbol09"
+  },
+  "repository": "https://github.com/oscarbol09/a2a-hub",
+  "category": "data-analytics",
+  "tags": [
+    "agent-discovery",
+    "agent-registry",
+    "ai-agents",
+    "hacktoberfest",
+    "java-21",
+    "langchain4j",
+    "multi-agent",
+    "open-source",
+    "pgvector",
+    "spring-boot"
+  ],
+  "framework": "spring-boot",
+  "language": "java",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "java"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-10-01",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

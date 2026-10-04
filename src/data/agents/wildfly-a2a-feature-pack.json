@@ -23,12 +23,12 @@
     "multiTurn": false
   },
   "authType": "none",
-  "endpointUrl": "https://rhusar.github.io/wildfly-a2a-feature-pack/apidocs/main/",
+  "endpointUrl": "https://rhusar.github.io/wildfly-a2a-feature-pack/",
   "sdks": [
     "java"
   ],
   "githubStars": 0,
-  "lastUpdated": "2026-09-22",
+  "lastUpdated": "2026-10-02",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

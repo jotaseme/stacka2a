@@ -1,7 +1,7 @@
 {
   "slug": "a2amesh",
   "name": "A2amesh",
-  "description": "AI-native TypeScript runtime and tools for A2A agent orchestration, MCP integration, registry, protocol, and CLI.",
+  "description": "TypeScript runtime and operational toolkit for Agent2Agent (A2A) systems: registry-backed discovery, task persistence, observability, secure MCP interoperability, CLI workflows, and conformance tooling.",
   "provider": {
     "name": "oaslananka",
     "url": "https://github.com/oaslananka"
@@ -34,7 +34,7 @@
     "typescript"
   ],
   "githubStars": 2,
-  "lastUpdated": "2026-09-25",
+  "lastUpdated": "2026-10-02",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

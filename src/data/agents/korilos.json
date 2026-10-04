@@ -1,12 +1,12 @@
 {
-  "slug": "shipit",
-  "name": "SHIPIT",
+  "slug": "korilos",
+  "name": "KORILOS",
   "description": "The first zero-touch deployment platform for OKX.AI.",
   "provider": {
     "name": "Aaditya1273",
     "url": "https://github.com/Aaditya1273"
   },
-  "repository": "https://github.com/Aaditya1273/SHIPIT",
+  "repository": "https://github.com/Aaditya1273/KORILOS",
   "category": "infrastructure",
   "tags": [
     "a2a-server",
@@ -18,7 +18,7 @@
     "saas"
   ],
   "framework": "custom",
-  "language": "typescript",
+  "language": "unknown",
   "skills": [],
   "capabilities": {
     "streaming": false,
@@ -28,11 +28,12 @@
   "authType": "none",
   "endpointUrl": "https://shipit-okx.vercel.app",
   "sdks": [
+    "python",
     "typescript"
   ],
   "githubStars": 0,
-  "lastUpdated": "2026-07-16",
+  "lastUpdated": "2026-09-29",
   "official": false,
   "selfHosted": true,
-  "license": "MIT"
+  "license": "unknown"
 }

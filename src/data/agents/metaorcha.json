@@ -1,7 +1,7 @@
 {
   "slug": "metaorcha",
   "name": "Metaorcha",
-  "description": "multi model capable single harness orchestrator. Apache 2.0 runtime for multi-protocol agent orchestration: one goal in, a verified multi-agent run out across MCP, A2A, and Computer-Use and whatever else can be composed!",
+  "description": "multi model capable single harness orchestrator. Apache 2.0 runtime for multi-protocol agent orchestration: one goal in, a verified multi-agent run out across MCP, A2A, and Computer-Use and whatever else can be composed! https://gitmcp.io/solvent-labs-org/metaorcha",
   "provider": {
     "name": "solvent-labs-org",
     "url": "https://github.com/solvent-labs-org"
@@ -33,8 +33,8 @@
   "sdks": [
     "python"
   ],
-  "githubStars": 4,
-  "lastUpdated": "2026-09-21",
+  "githubStars": 5,
+  "lastUpdated": "2026-10-02",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

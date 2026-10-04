@@ -1,0 +1,38 @@
+{
+  "slug": "agentdossier",
+  "name": "AgentDossier",
+  "description": "AI Agents you can trust.",
+  "provider": {
+    "name": "Sushegaad",
+    "url": "https://github.com/Sushegaad"
+  },
+  "repository": "https://github.com/Sushegaad/AgentDossier",
+  "category": "general",
+  "tags": [
+    "agent-to-agent-protocol",
+    "agentic-resource-discovery",
+    "ai-agents",
+    "ai-agents-registry",
+    "compliance",
+    "mcp",
+    "registry"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://sushegaad.github.io/AgentDossier/",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2026-10-03",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}
