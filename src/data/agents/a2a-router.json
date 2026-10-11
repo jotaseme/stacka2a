@@ -19,7 +19,7 @@
     "trust-pledge"
   ],
   "framework": "custom",
-  "language": "unknown",
+  "language": "typescript",
   "skills": [],
   "capabilities": {
     "streaming": false,
@@ -29,11 +29,10 @@
   "authType": "none",
   "endpointUrl": "https://www.a2a-router.com",
   "sdks": [
-    "python",
     "typescript"
   ],
   "githubStars": 3,
-  "lastUpdated": "2026-05-22",
+  "lastUpdated": "2026-10-11",
   "official": false,
   "selfHosted": true,
   "license": "NOASSERTION"

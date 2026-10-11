@@ -22,8 +22,7 @@
     "laravel",
     "mcp",
     "multi-agent",
-    "php-library",
-    "a2a-protocol"
+    "php-library"
   ],
   "framework": "custom",
   "language": "python",
@@ -39,7 +38,7 @@
     "typescript"
   ],
   "githubStars": 3,
-  "lastUpdated": "2026-10-02",
+  "lastUpdated": "2026-10-08",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

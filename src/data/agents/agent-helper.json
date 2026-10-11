@@ -1,0 +1,38 @@
+{
+  "slug": "agent-helper",
+  "name": "Agent Helper",
+  "description": "Public contact point for AI agents: describe a missing capability, get help from a human operator. MCP, A2A and plain HTTPS.",
+  "provider": {
+    "name": "PiefkePaul",
+    "url": "https://github.com/PiefkePaul"
+  },
+  "repository": "https://github.com/PiefkePaul/agent-helper",
+  "category": "general",
+  "tags": [
+    "agent-cooperation",
+    "ai-agents",
+    "llms-txt",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "remote-mcp-server"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://agents.server-work.de",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-10-10",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

@@ -1,13 +1,13 @@
 {
   "slug": "agentdossier",
   "name": "AgentDossier",
-  "description": "AI Agents you can trust.",
+  "description": "AgentDossier - A vendor-neutral registry of AI agents that shows what compliance and trust evidence exists for each Agent (HIPAA, SOC 2, FedRAMP, GDPR, ISO42001, the EU AI Act). Agents are discovered through the open standards they publish (ARD, A2A, MCP) as well as public registries, and same engine can scan enterprise's own network for Agents.",
   "provider": {
     "name": "Sushegaad",
     "url": "https://github.com/Sushegaad"
   },
   "repository": "https://github.com/Sushegaad/AgentDossier",
-  "category": "general",
+  "category": "enterprise",
   "tags": [
     "agent-to-agent-protocol",
     "agentic-resource-discovery",
@@ -31,7 +31,7 @@
     "python"
   ],
   "githubStars": 2,
-  "lastUpdated": "2026-10-03",
+  "lastUpdated": "2026-10-11",
   "official": false,
   "selfHosted": true,
   "license": "MIT"

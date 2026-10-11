@@ -3,10 +3,10 @@
   "name": "Ra2a",
   "description": "Rust SDK for the Agent2Agent (A2A) Protocol.",
   "provider": {
-    "name": "qntx",
-    "url": "https://github.com/qntx"
+    "name": "qntx-labs",
+    "url": "https://github.com/qntx-labs"
   },
-  "repository": "https://github.com/qntx/ra2a",
+  "repository": "https://github.com/qntx-labs/ra2a",
   "category": "general",
   "tags": [
     "rust",
@@ -25,8 +25,8 @@
     "python",
     "typescript"
   ],
-  "githubStars": 168,
-  "lastUpdated": "2026-10-02",
+  "githubStars": 169,
+  "lastUpdated": "2026-10-08",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

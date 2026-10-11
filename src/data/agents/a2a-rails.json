@@ -1,0 +1,36 @@
+{
+  "slug": "a2a-rails",
+  "name": "A2A Rails",
+  "description": "Rails-native integration for exposing Rails applications as A2A agents.",
+  "provider": {
+    "name": "cuichangquan",
+    "url": "https://github.com/cuichangquan"
+  },
+  "repository": "https://github.com/cuichangquan/a2a-rails",
+  "category": "general",
+  "tags": [
+    "agent2agent",
+    "ai-agents",
+    "rails",
+    "ruby",
+    "a2a-protocol"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 2,
+  "lastUpdated": "2026-10-11",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

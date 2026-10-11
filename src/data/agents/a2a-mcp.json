@@ -1,0 +1,33 @@
+{
+  "slug": "a2a-mcp",
+  "name": "A2A MCP",
+  "description": "Bidirectional A2A ↔ MCP bridge with MCP Events for ChatGPT",
+  "provider": {
+    "name": "kumaxs",
+    "url": "https://github.com/kumaxs"
+  },
+  "repository": "https://github.com/kumaxs/a2a-mcp",
+  "category": "conversational",
+  "tags": [
+    "chatgpt",
+    "mcp"
+  ],
+  "framework": "custom",
+  "language": "unknown",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python",
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-10-07",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

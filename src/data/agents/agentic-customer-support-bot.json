@@ -1,0 +1,40 @@
+{
+  "slug": "agentic-customer-support-bot",
+  "name": "Agentic Customer Support Bot",
+  "description": "Agentic customer support system using .NET 10 + Microsoft Agent Framework (MAF). Features 6-agent orchestration (Planning + Specialists + Response), deterministic reasoning pipeline, HITL approval gates, compound query decomposition, and full observability via reasoning traces.",
+  "provider": {
+    "name": "ahmettugur",
+    "url": "https://github.com/ahmettugur"
+  },
+  "repository": "https://github.com/ahmettugur/agentic-customer-support-bot",
+  "category": "conversational",
+  "tags": [
+    "agent-memory",
+    "agent-orchestration",
+    "agentic-ai",
+    "ai-agents",
+    "chatbot",
+    "dotnet",
+    "hitl",
+    "human-in-the-loop",
+    "microsoft-agent-framework",
+    "multi-agent"
+  ],
+  "framework": "custom",
+  "language": "csharp",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "csharp"
+  ],
+  "githubStars": 4,
+  "lastUpdated": "2026-10-06",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

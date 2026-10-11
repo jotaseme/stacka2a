@@ -1,0 +1,39 @@
+{
+  "slug": "agentictrustfabric",
+  "name": "AgenticTrustFabric",
+  "description": "Plataforma de seguridad y confianza para sistemas agénticos. Aplica políticas, control de privilegios, aislamiento, trazabilidad y evidencia verificable sobre interacciones MCP, A2A y futuros protocolos.",
+  "provider": {
+    "name": "kapumota",
+    "url": "https://github.com/kapumota"
+  },
+  "repository": "https://github.com/kapumota/AgenticTrustFabric",
+  "category": "security",
+  "tags": [
+    "agentic-ai",
+    "ai-security",
+    "auditability",
+    "devsecops",
+    "least-privilege",
+    "model-context-protocol",
+    "policy-enforcement",
+    "python",
+    "zero-trust"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-10-03",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}

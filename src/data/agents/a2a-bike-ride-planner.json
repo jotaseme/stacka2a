@@ -1,0 +1,31 @@
+{
+  "slug": "a2a-bike-ride-planner",
+  "name": "A2A Bike Ride Planner",
+  "description": "A small demo of agent-to-agent communication over the A2A protocol. Four agents, each its own process on its own port, plan a real bike ride with real data.",
+  "provider": {
+    "name": "r-czajkowski",
+    "url": "https://github.com/r-czajkowski"
+  },
+  "repository": "https://github.com/r-czajkowski/a2a-bike-ride-planner",
+  "category": "data-analytics",
+  "tags": [
+    "artificial-intelligence"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-10-06",
+  "official": false,
+  "selfHosted": true,
+  "license": "unknown"
+}

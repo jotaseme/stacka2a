@@ -21,7 +21,7 @@
     "autonomous-agents"
   ],
   "framework": "custom",
-  "language": "python",
+  "language": "unknown",
   "skills": [],
   "capabilities": {
     "streaming": false,
@@ -31,10 +31,11 @@
   "authType": "none",
   "endpointUrl": "https://ankitdcx.github.io/garden-swarm/",
   "sdks": [
-    "python"
+    "python",
+    "typescript"
   ],
   "githubStars": 0,
-  "lastUpdated": "2026-10-03",
+  "lastUpdated": "2026-10-08",
   "official": false,
   "selfHosted": true,
   "license": "NOASSERTION"

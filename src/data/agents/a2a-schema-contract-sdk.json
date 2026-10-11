@@ -1,0 +1,41 @@
+{
+  "slug": "a2a-schema-contract-sdk",
+  "name": "A2A Schema Contract SDK",
+  "description": "TypeScript SDK for the A2A (Agent2Agent) Schema Contract extension: discover agent contracts, validate JSON/text inputs and outputs, and resolve external schemas over HTTPS. Python support planned.",
+  "provider": {
+    "name": "shashikanth-gs",
+    "url": "https://github.com/shashikanth-gs"
+  },
+  "repository": "https://github.com/shashikanth-gs/a2a-schema-contract-sdk",
+  "category": "general",
+  "tags": [
+    "a2a-extension",
+    "agent-interoperability",
+    "ai-agents",
+    "javascript",
+    "json-rpc",
+    "json-schema",
+    "nodejs",
+    "schema-contract",
+    "schema-validation",
+    "sdk"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://github.com/shashikanth-gs/a2a-schema-contract",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 1,
+  "lastUpdated": "2026-10-06",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

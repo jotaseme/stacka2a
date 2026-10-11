@@ -18,7 +18,12 @@
     "multi-agent",
     "open-source",
     "pgvector",
-    "spring-boot"
+    "spring-boot",
+    "agent-framework",
+    "agent-orchestration",
+    "llm",
+    "mcp",
+    "model-context-protocol"
   ],
   "framework": "spring-boot",
   "language": "java",
@@ -33,7 +38,7 @@
     "java"
   ],
   "githubStars": 1,
-  "lastUpdated": "2026-10-01",
+  "lastUpdated": "2026-10-10",
   "official": false,
   "selfHosted": true,
   "license": "Apache-2.0"

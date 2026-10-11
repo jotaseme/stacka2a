@@ -1,0 +1,41 @@
+{
+  "slug": "agenteng",
+  "name": "Agenteng",
+  "description": "AgentEng: Agent Engineering HQ - CLI, MCP, A2A and Agent Engineering for AgentEng HQ events",
+  "provider": {
+    "name": "SuperagenticAI",
+    "url": "https://github.com/SuperagenticAI"
+  },
+  "repository": "https://github.com/SuperagenticAI/agenteng",
+  "category": "general",
+  "tags": [
+    "a2a-agent",
+    "a2a-server",
+    "agent-harness",
+    "agent-memory",
+    "agentic",
+    "agentic-ai",
+    "ai",
+    "coding-agent",
+    "evals",
+    "harness-engineering"
+  ],
+  "framework": "custom",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://agentengineering.world",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-10-07",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

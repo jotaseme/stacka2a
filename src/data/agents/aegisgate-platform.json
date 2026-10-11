@@ -1,13 +1,13 @@
 {
   "slug": "aegisgate-platform",
   "name": "Aegisgate Platform",
-  "description": "A firewall for AI traffic. Self-hosted gateway that inspects every request and response to any AI service — catching secrets, PII, prompt injections, and compliance violations in real time. Six pillars, 176 patterns, 31 frameworks. One binary. Zero dependencies.",
+  "description": "AegisGate Platform — Enterprise AI security gateway. Inspects every request and response to any AI service, catching secrets, PII, prompt injections, and compliance violations in real time. Six pillars, 176 patterns, 31 frameworks. One binary. Zero dependencies.",
   "provider": {
     "name": "aegisgatesecurity",
     "url": "https://github.com/aegisgatesecurity"
   },
   "repository": "https://github.com/aegisgatesecurity/aegisgate-platform",
-  "category": "infrastructure",
+  "category": "enterprise",
   "tags": [
     "acp-protocol",
     "ai-security",
@@ -34,7 +34,7 @@
     "go"
   ],
   "githubStars": 0,
-  "lastUpdated": "2026-09-28",
+  "lastUpdated": "2026-10-11",
   "official": false,
   "selfHosted": true,
   "license": "NOASSERTION"

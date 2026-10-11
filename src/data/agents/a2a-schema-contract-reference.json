@@ -1,0 +1,41 @@
+{
+  "slug": "a2a-schema-contract-reference",
+  "name": "A2A Schema Contract Reference",
+  "description": "Runnable A2A (Agent2Agent) clients and agents demonstrating Schema Contract discovery, input/output validation, negotiation, and HTTP/SSE interoperability with the installed TypeScript SDK.",
+  "provider": {
+    "name": "shashikanth-gs",
+    "url": "https://github.com/shashikanth-gs"
+  },
+  "repository": "https://github.com/shashikanth-gs/a2a-schema-contract-reference",
+  "category": "general",
+  "tags": [
+    "agent-interoperability",
+    "ai-agents",
+    "examples",
+    "javascript",
+    "json-rpc",
+    "json-schema",
+    "nodejs",
+    "reference-implementation",
+    "schema-contract",
+    "server-sent-events"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://github.com/shashikanth-gs/a2a-schema-contract-reference/blob/main/docs/inline-tutorial.md",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-10-06",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

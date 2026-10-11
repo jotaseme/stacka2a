@@ -1,0 +1,35 @@
+{
+  "slug": "openpactprotocol",
+  "name": "Openpactprotocol",
+  "description": "PACT is an open protocol for personal agents to interact with businesses’ agents under explicit, verifiable user permissions.",
+  "provider": {
+    "name": "openpactprotocol",
+    "url": "https://github.com/openpactprotocol"
+  },
+  "repository": "https://github.com/openpactprotocol/openpactprotocol",
+  "category": "security",
+  "tags": [
+    "agents",
+    "ai-agents",
+    "oauth2",
+    "personal-agents"
+  ],
+  "framework": "custom",
+  "language": "typescript",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "endpointUrl": "https://openpactprotocol.org/",
+  "sdks": [
+    "typescript"
+  ],
+  "githubStars": 106,
+  "lastUpdated": "2026-10-06",
+  "official": false,
+  "selfHosted": true,
+  "license": "Apache-2.0"
+}

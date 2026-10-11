@@ -1,0 +1,40 @@
+{
+  "slug": "sample-multi-agent-a2a",
+  "name": "Sample Multi Agent A2A",
+  "description": "Multi-agent orchestrator on GreenNode AgentBase: delegates over A2A to travel-buddy and zalo-restaurant and calls MCP tools through the MCP Gateway (LangGraph, parallel delegation, streaming)",
+  "provider": {
+    "name": "greennode-samples",
+    "url": "https://github.com/greennode-samples"
+  },
+  "repository": "https://github.com/greennode-samples/sample-multi-agent-a2a",
+  "category": "travel",
+  "tags": [
+    "agentbase",
+    "ai-agent",
+    "greennode",
+    "langgraph",
+    "mcp",
+    "mcp-gateway",
+    "multi-agent",
+    "orchestration",
+    "python",
+    "vietnam"
+  ],
+  "framework": "langgraph",
+  "language": "python",
+  "skills": [],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "multiTurn": false
+  },
+  "authType": "none",
+  "sdks": [
+    "python"
+  ],
+  "githubStars": 0,
+  "lastUpdated": "2026-10-05",
+  "official": false,
+  "selfHosted": true,
+  "license": "MIT"
+}
